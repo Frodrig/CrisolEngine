@@ -1,0 +1,767 @@
+%PDF-1.2 
+%‚„œ”
+ 
+16 0 obj
+<<
+/Length 17 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (302) Tj-410.16 -37.32  TD /F1 12  Tf-0.0087  Tc 0.0327  Tw (Anexo G. Manual de uso de CPAKTool.) Tj0 -27.6  TD 0.0206  Tc 0  Tw (\315ndice.) Tj0 -26.76  TD /F2 9.96  Tf0.0214  Tc -0.0677  Tw (G.1. Introducci\363n.) Tj0 -23.04  TD -0.0166  Tc 0  Tw (G.) Tj11.64 0  TD 0.033  Tc -0.0594  Tw (2. Posibilidades de CPAKTool y conceptos generales.) Tj-11.64 -11.28  TD /F3 9  Tf0.0061  Tc -0.0541  Tw (   G.2.1. Creaci\363n del archivo \223) Tj139.92 0  TD /F4 9  Tf0  Tc 0  Tw (GameData.pak) Tj64.8 0  TD /F3 9  Tf-0.0435  Tc (\224.) Tj-204.72 -11.64  TD 0.0945  Tc -0.1425  Tw (   G.) Tj19.68 0  TD 0.0089  Tc -0.0568  Tw (2.2. A\361adir un archivo.) Tj-19.68 -10.92  TD 0.0053  Tc -0.0424  Tw (   G.2.3. A\361adir un conjunto de archivos usando la extensi\363n.) Tj0 -10.92  TD 0.0059  Tc -0.0339  Tw (   G.2.4. Borrar un archivo.) Tj0 -11.04  TD 0.0099  Tc -0.0579  Tw (   G.2.5. Borrar todos los archivos.) Tj0 -10.92  TD 0.0106  Tc -0.0586  Tw (   G.2.5. Extraer un archivo.) TjT* 0.0094  Tc -0.0574  Tw (   G.2.6. Extraer todos los archivos.) TjT* 0.0092  Tc -0.0487  Tw (   G.2.7. Generar un archivo con el listado de todos los archivos contenidos.) TjETendstream
+endobj
+17 0 obj
+1239
+endobj
+4 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F2 10 0 R 
+/F3 12 0 R 
+/F4 14 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 16 0 R
+>>
+endobj
+19 0 obj
+<<
+/Length 20 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (303) TjETendstream
+endobj
+20 0 obj
+71
+endobj
+18 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 19 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 27 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (304) Tj-410.16 -37.32  TD /F1 12  Tf0.0042  Tc 0.0198  Tw (G.1. Introducci\363n.) Tj0 -23.4  TD /F5 9.96  Tf0.0132  Tc 2.0419  Tw (Este documento sirve de soporte para la utilizaci\363n de la utilidad) Tj0  Tc -0.0089  Tw ( ) Tj310.08 0  TD /F6 9.96  Tf0.0394  Tc 0  Tw (CPAKTool) Tj43.92 0  TD /F5 9.96  Tf0.0413  Tc 1.9898  Tw (, la cual estar\341) Tj-354 -11.64  TD 0.0091  Tc 1.062  Tw (asociada a) Tj0  Tc -0.0089  Tw ( ) Tj53.28 0  TD /F6 9.96  Tf0.0283  Tc 0  Tw (Crisol) Tj24.96 0  TD /F5 9.96  Tf0.0205  Tc 1.1449  Tw ( como soporte para poder organizar el acceso a los datos con los que \351ste) Tj-78.24 -11.52  TD 0.0049  Tc 0  Tw (trabajar\341.) Tj0 -22.92  TD /F6 9.96  Tf0.0283  Tc (Crisol) Tj24.96 0  TD /F5 9.96  Tf0.0132  Tc 4.7225  Tw ( ser\341 capaz de trabajar con archivos sueltos \(\223archivos a la vista\224\) y archivos) Tj-24.96 -11.64  TD 0.0163  Tc 0.8979  Tw (empaquetados. Trabajar con archivos sueltos supone dejar a la vista de cualquier usuario los) Tj0 -11.52  TD 0.021  Tc 1.8901  Tw (datos con los que el motor funciona, con el consiguiente peligro de que sean modificados,) TjT* 0.0135  Tc 4.2677  Tw (borrados o, incluso, utilizados sin el necesario permiso. Por el contrario, los archivos) TjT* 0.0181  Tc 0.581  Tw (empaquetados tienen la facultad de poder contener a todo un conjunto de archivos, de igual ) Tj0.5822  Tc 0  Tw (o) TjT* 0.0194  Tc 1.146  Tw (diferente tipo, sin que sea posible el acceso individualizado a los mismos de forma evidente,) Tj0 -11.4  TD 0.0213  Tc 2.4898  Tw (reduciendo as\355 el riesgo de ser modificados, borrados o robados \(al menos, por usuarios) Tj0 -11.52  TD 0.0207  Tc 0  Tw (comunes\).) Tj0 -23.4  TD /F6 9.96  Tf0.0283  Tc (Crisol) Tj24.96 0  TD /F5 9.96  Tf0.0147  Tc 1.9864  Tw ( trabajar\341 con un \372nico archivo empaquetado llamado ) Tj2.0833  Tc 0  Tw (\223) Tj260.28 0  TD /F4 9.96  Tf0.024  Tc (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0249  Tc 2.0062  Tw (\224. Este archivo) Tj-357.24 -12  TD 0.0131  Tc 1.9237  Tw (siempre deber\341 de estar presente. En \351l el dise\361ador podr\341 insertar todos los datos \(otros) Tj0 -11.52  TD 0.0137  Tc 0.2094  Tw (archivos\) que quiera para que no sean visibles. La \372nica salvedad ser\341n los archivos de sonido) Tj0 -11.4  TD 0.0047  Tc 0.1064  Tw (\(archivos ) Tj48.96 0  TD /F0 9.96  Tf-0.0082  Tc 0  Tw (WAV) Tj23.88 0  TD /F5 9.96  Tf-0.18  Tc 6.1711  Tw ( y) Tj0  Tc -0.1289  Tw ( ) Tj22.08 0  TD /F0 9.96  Tf0.0303  Tc 0  Tw (MIDI) Tj22.8 0  TD /F5 9.96  Tf0.0197  Tc 5.8365  Tw (\) que necesariamente deber\341n de quedar fuera del archivo) Tj-117.72 -11.52  TD 0.0215  Tc -0.0304  Tw (empaquetado para que el motor pueda utilizarlos v\355a ) Tj236.16 0  TD /F0 9.96  Tf0.0113  Tc 0  Tw (DirectX) Tj32.16 0  TD /F5 9.96  Tf-0.0089  Tc (.) Tj-268.32 -23.52  TD 0.0175  Tc 1.0536  Tw (La herramienta) Tj0  Tc -0.0089  Tw ( ) Tj72.24 0  TD /F6 9.96  Tf0.0394  Tc 0  Tw (CPAKTool) Tj43.92 0  TD /F5 9.96  Tf0.0211  Tc 1.17  Tw ( permitir\341 gestionar el archivo ) Tj1.2433  Tc 0  Tw (\223) Tj143.28 0  TD /F4 9.96  Tf0.024  Tc (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0223  Tc 1.1988  Tw (\224 e incluso crearlo si) Tj-331.44 -12  TD 0.0235  Tc 0.8636  Tw (\351ste no existiera. De esta forma, a medida que se vayan creando recursos gr\341ficos o cuando) Tj0 -11.52  TD 0.0201  Tc 0.6996  Tw (se quiera distribuir el juego creado, se podr\341, mediante esta utilidad, ir introduciendo datos en) Tj0 -11.88  TD 0.0213  Tc -0.0302  Tw (el archivo empaquetado \224) Tj112.8 0  TD /F4 9.96  Tf0.024  Tc 0  Tw (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0172  Tc (\224.) TjETendstream
+endobj
+27 0 obj
+3747
+endobj
+21 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 14 0 R 
+/F5 22 0 R 
+/F6 24 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 26 0 R
+>>
+endobj
+29 0 obj
+<<
+/Length 30 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (305) TjETendstream
+endobj
+30 0 obj
+71
+endobj
+28 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 29 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 33 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (306) Tj-410.16 -37.32  TD /F1 12  Tf-0.0031  Tc 0.0471  Tw (G.2. Posibilidades de CPAKTool y conceptos generales.) Tj0 -23.4  TD /F5 9.96  Tf0.0101  Tc 2.441  Tw (En l\355neas generales,) Tj0  Tc -0.0089  Tw ( ) Tj101.16 0  TD /F6 9.96  Tf0.0244  Tc 0  Tw (CPAKTool) Tj43.8 0  TD /F5 9.96  Tf0.0213  Tc 2.4098  Tw ( ser\341 una herramienta muy sencilla de utilizar. No poseer\341) Tj-144.96 -11.64  TD 0.0188  Tc 2.3809  Tw (ning\372n tipo de operaci\363n compleja y su utilizaci\363n se realizar\341 siempre desde la l\355nea de) Tj0 -11.4  TD 0.0235  Tc -0.0174  Tw (comandos. Las operaciones que se podr\341n realizar con ) Tj249 0  TD /F6 9.96  Tf0.0394  Tc 0  Tw (CPAKTool) Tj43.92 0  TD /F5 9.96  Tf0.0069  Tc -0.0157  Tw ( ser\341n:) Tj-292.92 -23.52  TD /F0 9.96  Tf0.0433  Tc 0  Tw (-) Tj3.24 0  TD /F5 9.96  Tf0  Tc -0.0089  Tw ( ) Tj14.76 0  TD 0.0142  Tc -0.0231  Tw (Crear el archivo \223) Tj76.56 0  TD /F4 9.96  Tf0.024  Tc 0  Tw (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0172  Tc (\224.) Tj-166.56 -12  TD /F0 9.96  Tf0.0433  Tc (-) Tj3.24 0  TD /F5 9.96  Tf0  Tc -0.0089  Tw ( ) Tj14.76 0  TD 0.0169  Tc -0.0258  Tw (A\361adir un archivo.) Tj-18 -11.52  TD /F0 9.96  Tf0.0433  Tc 0  Tw (-) Tj3.24 0  TD /F5 9.96  Tf0  Tc -0.0089  Tw ( ) Tj14.76 0  TD 0.017  Tc -0.0059  Tw (A\361adir un conjunto de archivos por extensi\363n.) Tj-18 -11.52  TD /F0 9.96  Tf0.0433  Tc 0  Tw (-) Tj3.24 0  TD /F5 9.96  Tf0  Tc -0.0089  Tw ( ) Tj14.76 0  TD 0.0116  Tc -0.0205  Tw (Borrar un archivo.) Tj-18 -11.52  TD /F0 9.96  Tf0.0433  Tc 0  Tw (-) Tj3.24 0  TD /F5 9.96  Tf0  Tc -0.0089  Tw ( ) Tj14.76 0  TD 0.0222  Tc -0.0311  Tw (Borrar todos los archivos.) Tj-18 -11.52  TD /F0 9.96  Tf0.0433  Tc 0  Tw (-) Tj3.24 0  TD /F5 9.96  Tf0  Tc -0.0089  Tw ( ) Tj14.76 0  TD 0.0114  Tc -0.0203  Tw (Extraer un archivo.) Tj-18 -11.4  TD /F0 9.96  Tf0.0433  Tc 0  Tw (-) Tj3.24 0  TD /F5 9.96  Tf0  Tc -0.0089  Tw ( ) Tj14.76 0  TD 0.0216  Tc -0.0305  Tw (Extraer todos los archivos.) Tj-18 -12  TD /F0 9.96  Tf0.0433  Tc 0  Tw (-) Tj3.24 0  TD /F5 9.96  Tf0  Tc -0.0089  Tw ( ) Tj14.76 0  TD 0.0161  Tc 0.0078  Tw (Generar un archivo con el listado de los ficheros contenidos en \223) Tj285.12 0  TD /F4 9.96  Tf0.024  Tc 0  Tw (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0172  Tc (\224.) Tj-375.12 -23.4  TD 0.017  Tc 0.0441  Tw (Para realizar alguna de esas acciones, ser\341 necesario indicarle a la utilidad ) Tj337.44 0  TD /F6 9.96  Tf0.0544  Tc 0  Tw (CPAKTool) Tj44.04 0  TD /F5 9.96  Tf0.04  Tc 0.0711  Tw ( qu\351 es lo) Tj-381.48 -11.52  TD 0.0199  Tc 2.0482  Tw (que queremos hacer. Para ello, todas las indicaciones empezar\341n siempre con el gui\363n \221-\221) Tj0 -11.52  TD 0.0179  Tc 0.0407  Tw (seguido de una o dos letras. Algunas de estas opciones podr\341n llevar a su vez par\341metros para) TjT* 0.0176  Tc 0.4707  Tw (concretarlas. Por ejemplo, si queremos borrar un archivo adem\341s de indicar la orden de borrar) TjT* 0.012  Tc 0.0241  Tw (archivo, se deber\341 de indicar el nombre del archivo.) Tj0 -23.4  TD 0.0083  Tc 0.1328  Tw (Ser\341 posible a\361adir a \223) Tj100.8 0  TD /F4 9.96  Tf0.024  Tc 0  Tw (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0214  Tc 0.1164  Tw (\223 archivos que se hallen en subdirectorios asociados a la) Tj-172.8 -11.88  TD 0.0144  Tc 1.3207  Tw (carpeta actual en donde se ejecute) Tj0  Tc -0.0089  Tw ( ) Tj166.2 0  TD /F6 9.96  Tf0.0544  Tc 0  Tw (CPAKTool) Tj44.04 0  TD /F5 9.96  Tf0.0232  Tc 1.4079  Tw (. Para ello deberemos de tener en cuenta que) Tj-210.24 -11.64  TD 0.0153  Tc 0.4358  Tw (dichos archivos, para poder ser accedidos posteriormente, deber\341n de llevar asociados toda la) Tj0 -11.52  TD 0.0191  Tc 3.142  Tw (ruta en donde se encontraban. En otras palabras, supongamos que tenemos la carpeta) Tj0 -11.88  TD 0.0433  Tc 0  Tw (\223) Tj3.36 0  TD /F4 9.96  Tf0.024  Tc (C:\\Juego) Tj48 0  TD /F5 9.96  Tf0.0173  Tc 4.9238  Tw (\223, en donde se halla) Tj0  Tc -0.0089  Tw ( ) Tj115.32 0  TD /F6 9.96  Tf0.0394  Tc 0  Tw (CPAKTool) Tj43.92 0  TD /F5 9.96  Tf-0.0019  Tc 5.113  Tw (, el archivo ) Tj5.0833  Tc 0  Tw (\223) Tj69.6 0  TD /F4 9.96  Tf0.024  Tc (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0053  Tc 5.0659  Tw (\223 y la carpeta) Tj-352.2 -12.36  TD 0.0433  Tc 0  Tw (\223) Tj3.36 0  TD /F4 9.96  Tf0.024  Tc (C:\\Juego\\Graficos) Tj102 0  TD /F5 9.96  Tf0.0206  Tc 1.2605  Tw (\223 donde est\341n los gr\341ficos del juego. Si a\361adimos los gr\341ficos que se) Tj-105.36 -12.36  TD 0.0133  Tc 3.9678  Tw (hallan en la carpeta ) Tj4.0033  Tc 0  Tw (\223) Tj109.2 0  TD /F4 9.96  Tf0.024  Tc (C:\\Juego\\Graficos) Tj102 0  TD /F5 9.96  Tf0.0284  Tc 3.9227  Tw (\223 luego deberemos de acceder a ellos as\355:) Tj-211.2 -12.48  TD 0.0433  Tc 0  Tw (\223) Tj3.36 0  TD /F4 9.96  Tf0.024  Tc (Graficos\\Archivo.tga) Tj120 0  TD /F5 9.96  Tf0.0259  Tc 0.0852  Tw (\223 \(no habr\341 que poner \224) Tj103.32 0  TD /F4 9.96  Tf0.024  Tc 0  Tw (Juegos\\Graficos\\Archivo.tga) Tj162 0  TD /F5 9.96  Tf0.0454  Tc 0.1257  Tw (\223 ya que) Tj-388.68 -12.36  TD 0.015  Tc 0.5311  Tw (el juego se halla precisamente en la carpeta ) Tj0.6433  Tc 0  Tw (\223) Tj205.92 0  TD /F4 9.96  Tf0.024  Tc (Juego) Tj30 0  TD /F5 9.96  Tf0.0091  Tc 0.6421  Tw (\224\). Este detalle ser\341 muy importante, pues) Tj-235.92 -12  TD 0.0238  Tc 2.5335  Tw (lo normal ser\341 tener todos los archivos gr\341ficos organizados en carpetas. N\363tese que se) Tj0 -11.4  TD 0.0073  Tc 0.0318  Tw (deber\341 de ejecutar la utilidad ) Tj131.04 0  TD /F6 9.96  Tf0.0544  Tc 0  Tw (CPAKTool) Tj44.04 0  TD /F5 9.96  Tf0.0138  Tc 0.0537  Tw ( desde la carpeta ra\355z, es decir, desde el lugar en donde) Tj-175.08 -12  TD 0.0166  Tc 0.0045  Tw (se halle el ejecutable \(en el ejemplo mostrado, la carpeta ra\355z ser\355a \223) Tj303.48 0  TD /F4 9.96  Tf0.024  Tc 0  Tw (C:\\Juego) Tj48 0  TD /F5 9.96  Tf0.0259  Tc (\224\).) Tj-351.48 -23.52  TD 0.0117  Tc 1.3234  Tw (Cuando se ejecute la utilidad sin par\341metro alguno, se mostrar\341 una ayuda en l\355nea con los) Tj0 -11.4  TD 0.0229  Tc -0.0118  Tw (posibles par\341metros y su modo de uso.) Tj0 -24  TD /F1 11.04  Tf-0.0262  Tc 0.0531  Tw (G.2.1. Creaci\363n  del archivo \223) Tj152.88 0  TD -0.006  Tc 0  Tw (GameData.pak\224.) Tj-152.88 -23.64  TD /F5 9.96  Tf0.0182  Tc 0.123  Tw (La creaci\363n del archivo \223) Tj109.32 0  TD /F4 9.96  Tf0.024  Tc 0  Tw (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0202  Tc 0.1237  Tw (\223 ser\341 vital ya que en caso de no poseer dicho archivo,) Tj-181.32 -11.88  TD 0.0193  Tc 0.2376  Tw (el motor no funcionar\341 \(aunque no se haya introducido informaci\363n al mismo, el archivo deber\341) Tj0 -12  TD 0.0193  Tc -0.0064  Tw (de existir\). Para poder crear el archivo, se usar\341 la orden \221) Tj257.28 0  TD /F4 9.96  Tf0.024  Tc 0  Tw (C) Tj6 0  TD /F5 9.96  Tf0.0192  Tc -0.028  Tw (\222 \(de ) Tj22.2 0  TD /F7 9.96  Tf0.0183  Tc -0.0272  Tw (Create ) Tj32.76 0  TD /F5 9.96  Tf-0.0178  Tc 0  Tw (o) Tj5.52 0  TD /F7 9.96  Tf0.012  Tc -0.0209  Tw ( Crear) Tj27.84 0  TD /F5 9.96  Tf0.0172  Tc 0  Tw (\).) Tj-351.6 -23.4  TD 0.0176  Tc -0.0265  Tw (He aqu\355 el ejemplo de uso:) TjET0.949 0.949 0.949 rg 81.24 228.96 432.24 11.4 re fBT85.08 231.96  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (CPAKTool \226C) Tj0 -24.12  TD /F5 9.96  Tf0.0024  Tc 0.0487  Tw (Al ejecutarse, ) Tj63.36 0  TD /F6 9.96  Tf0.0244  Tc 0  Tw (CPAKTool) Tj43.8 0  TD /F5 9.96  Tf0.0248  Tc -0.0337  Tw ( generar\355a sin m\341s el archivo \223) Tj134.52 0  TD /F4 9.96  Tf0.024  Tc 0  Tw (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0172  Tc (\224.) Tj-313.68 -23.88  TD 0.0036  Tc 2.4235  Tw (A\361adir que en caso de que ya exista un archivo ) Tj2.4433  Tc 0  Tw (\223) Tj240.36 0  TD /F4 9.96  Tf0.024  Tc (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0172  Tc -0.0261  Tw (\223, ) Tj11.28 0  TD /F6 9.96  Tf0.0394  Tc 0  Tw (CPAKTool) Tj43.92 0  TD /F5 9.96  Tf0.0349  Tc 2.3562  Tw ( ignorar\341 su) Tj-367.56 -12.36  TD 0.0166  Tc 1.2245  Tw (ejecuci\363n y no realizar\341 operaci\363n alguna, es decir, s\363lo crear\341 un archivo ) Tj1.3633  Tc 0  Tw (\223) Tj349.8 0  TD /F4 9.96  Tf0.024  Tc (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0433  Tc (\224) Tj-421.8 -12  TD 0.0168  Tc 1.3155  Tw (vac\355o si no existe ninguno en la carpeta en el que es ejecutado. Esta medida evitar\341 que el) Tj0 -11.4  TD 0.001  Tc 0.0501  Tw (usuario pueda ) Tj66 0  TD 0.0202  Tc -0.0051  Tw (sobreescribir el archivo de forma accidental.) Tj-66 -24  TD /F1 11.04  Tf0.0509  Tc 0  Tw (G.) Tj11.76 0  TD -0.0424  Tc 0.1333  Tw (2.2. A\361adir un archivo.) Tj-11.76 -23.64  TD /F5 9.96  Tf0.018  Tc 0.3885  Tw (Para a\361adir un archivo de forma individual, se deber\341 de utilizar la orden \221) Tj331.44 0  TD /F4 9.96  Tf0.024  Tc 0  Tw (A) Tj6 0  TD /F5 9.96  Tf0.0192  Tc 0.152  Tw (\222 \(de ) Tj22.92 0  TD /F7 9.96  Tf-0.0263  Tc 0.0174  Tw (Add ) Tj20.76 0  TD /F5 9.96  Tf-0.0178  Tc 0  Tw (o) Tj5.52 0  TD /F7 9.96  Tf0.0426  Tc 0.4285  Tw ( A\361adir) Tj32.4 0  TD /F5 9.96  Tf0.0172  Tc 0  Tw (\).) Tj-419.04 -12.36  TD 0.0103  Tc 0.6208  Tw (En caso de que dicho archivo ya exista en ) Tj0.6433  Tc 0  Tw (\223) Tj198.72 0  TD /F4 9.96  Tf0.024  Tc (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0216  Tc 0.621  Tw (\223, se aceptar\341 la orden pero no se) Tj-270.72 -12  TD 0.0163  Tc -0.0012  Tw (ingresar\341 dos veces. Por otro lado, si el archivo no se encontrar\341 se indicar\355a por pantalla.) TjETendstream
+endobj
+33 0 obj
+9707
+endobj
+31 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font 38 0 R
+/ProcSet 2 0 R
+>>
+/Contents 32 0 R
+>>
+endobj
+38 0 obj
+<<
+/F0 6 0 R
+/F1 8 0 R
+/F4 14 0 R
+/F5 22 0 R
+/F6 24 0 R
+/F7 34 0 R
+/F8 36 0 R
+>>
+endobj
+40 0 obj
+<<
+/Length 41 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (307) Tj-410.16 -47.04  TD /F5 9.96  Tf0.0177  Tc -0.0266  Tw (En el siguiente ejemplo:) TjET0.949 0.949 0.949 rg 81.24 725.52 432.24 11.4 re fBT85.08 728.52  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (CPAKTool \226A) Tj66 0  TD /F4 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD 0.024  Tc 0  Tw (Rules.cbt) Tj-72 -23.88  TD /F5 9.96  Tf0.019  Tc -0.0279  Tw (Estaremos a\361adiendo el fichero \223) Tj146.64 0  TD /F4 9.96  Tf0.024  Tc 0  Tw (Rules.cbt) Tj54 0  TD /F5 9.96  Tf0.0279  Tc -0.0368  Tw (\224 al archivo empaquetado. Otro ejemplo ser\355a:) TjET0.949 0.949 0.949 rg 81.24 679.2 432.24 11.28 re fBT85.08 682.2  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (CPAKTool \226A) Tj66 0  TD /F4 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD 0.024  Tc 0  Tw (Graficos\\PantallaFondo.tga) Tj-72 -24.12  TD /F5 9.96  Tf0.016  Tc 11.7591  Tw (Aqu\355 estaremos a\361adiendo al archivo ) Tj11.8033  Tc 0  Tw (\223) Tj229.92 0  TD /F4 9.96  Tf0.024  Tc (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0169  Tc 11.8142  Tw (\224 un fichero llamado) Tj-301.92 -12.36  TD 0.0433  Tc 0  Tw (\223) Tj3.36 0  TD /F4 9.96  Tf0.024  Tc (PantallaFondo.tga) Tj102 0  TD /F5 9.96  Tf0.0016  Tc 1.3266  Tw (\224 que se halla en la carpeta ) Tj1.3633  Tc 0  Tw (\223) Tj135.6 0  TD /F4 9.96  Tf0.024  Tc (Graficos) Tj48 0  TD /F5 9.96  Tf0.025  Tc 1.3101  Tw (\224. N\363tese que para acceder ) Tj1.3022  Tc 0  Tw (a) Tj-288.96 -12  TD 0.0187  Tc 2.9874  Tw (dicho gr\341fico, se deber\341 de usar siempre la ruta de acceso por lo que se indicar\341 con) Tj0 -11.88  TD 0.0433  Tc 0  Tw (\223) Tj3.36 0  TD /F4 9.96  Tf0.024  Tc (Graficos\\PantallaFondo.tga) Tj156 0  TD /F5 9.96  Tf0.0172  Tc (\224.) Tj-159.36 -24.48  TD /F1 11.04  Tf-0.0324  Tc 0.0983  Tw (G.2.3. A\361adir un conjunto de archivos usando la extensi\363n.) Tj0 -25.92  TD /F5 9.96  Tf0.017  Tc 0.4741  Tw (Para a\361adir un conjunto de archivos se deber\341 de utilizar la orden ) Tj0.5489  Tc 0  Tw (\221) Tj302.4 0  TD /F4 9.96  Tf0.024  Tc (Ae) Tj12 0  TD /F5 9.96  Tf0.0192  Tc 0.212  Tw (\222 \(de ) Tj23.16 0  TD /F7 9.96  Tf0.0537  Tc 0.0574  Tw (Add ) Tj21.12 0  TD 0.0211  Tc 0.09  Tw (by ) Tj13.8 0  TD 0.0206  Tc 0  Tw (Extension) Tj43.92 0  TD /F5 9.96  Tf0.4622  Tc 0.0089  Tw ( o) Tj-416.4 -11.88  TD /F7 9.96  Tf0.013  Tc 1.0581  Tw (A\361adir por extensi\363n) Tj93.72 0  TD /F5 9.96  Tf0.0254  Tc 1.1417  Tw (\). Esta es la orden m\341s completa de todas \(no por ello deja de ser muy) Tj-93.72 -11.64  TD 0.0188  Tc 1.2323  Tw (sencilla de utilizar\). Cuando queramos a\361adir un conjunto de archivos, tendemos que indicar) Tj0 -11.4  TD 0.0163  Tc 1.3291  Tw (siempre la extensi\363n de los mismos \(por ejemplo,) Tj0  Tc -0.0089  Tw ( ) Tj232.8 0  TD 0.0167  Tc -0.0256  Tw (tga, ) Tj20.76 0  TD 0.0083  Tc -0.0172  Tw (txt, ) Tj17.4 0  TD 0.0186  Tc 1.4425  Tw (etc\) pudiendo, de forma opcional,) Tj-270.96 -11.52  TD 0.0164  Tc -0.0253  Tw (indicar la carpeta en donde ) Tj123.24 0  TD /F6 9.96  Tf0.0544  Tc 0  Tw (CPAKTool) Tj44.04 0  TD /F5 9.96  Tf0.0122  Tc 0.0771  Tw ( deber\341 de ir a buscar. De indicarse esto \372ltimo, tendr\341 de) Tj-167.28 -11.52  TD 0.0116  Tc 0.0395  Tw (ir siempre antes que la extensi\363n de los archivos.) Tj0 -23.04  TD 0.0126  Tc -0.0215  Tw (En el ejemplo:) TjET0.949 0.949 0.949 rg 81.24 465.36 432.24 11.28 re fBT85.08 468.36  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (CPAKTool \226) Tj60 0  TD (Ae) Tj12 0  TD /F4 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD 0.024  Tc 0  Tw (tga) Tj-78 -23.52  TD /F5 9.96  Tf0.0198  Tc 1.8913  Tw (Estaremos a\361adiendo todos los archivos con extensi\363n) Tj0  Tc -0.0089  Tw ( ) Tj260.64 0  TD 0.0228  Tc 1.9569  Tw (tga que se hallen en la carpeta en) Tj-260.64 -11.52  TD 0.0212  Tc -0.0301  Tw (donde se est\351 ejecutando ) Tj117.24 0  TD /F6 9.96  Tf0.0394  Tc 0  Tw (CPAKTool) Tj43.92 0  TD /F5 9.96  Tf0.0212  Tc -0.006  Tw (. Sin embargo, veamos este ejemplo:) TjET0.949 0.949 0.949 rg 81.24 408.36 432.24 11.28 re fBT85.08 411.36  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (CPAKTool \226) Tj60 0  TD (Ae) Tj12 0  TD /F4 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD 0.024  Tc 0  Tw (Graficos\\ ) Tj60 0  TD (tga) Tj-138 -23.76  TD /F5 9.96  Tf0.0161  Tc 1.6893  Tw (Aqu\355 estaremos a\361adiendo todos los archivos de extensi\363n) Tj0  Tc -0.0089  Tw ( ) Tj277.92 0  TD 0.0164  Tc 1.7547  Tw (tga que se hallen en la carpeta) Tj-277.92 -11.52  TD 0.0094  Tc 1.7988  Tw (Graficos. N\363tese, y esto es muy importante, que cuando se quieran a\361adir ficheros de una) Tj0 -11.88  TD 0.0133  Tc 0.0122  Tw (carpeta, \351sta siempre deber\341 de acabar en \221) Tj196.08 0  TD /F4 9.96  Tf0.024  Tc 0  Tw (\\) Tj6 0  TD /F5 9.96  Tf0.09  Tc (\222.) Tj-202.08 -24.36  TD /F1 11.04  Tf-0.0327  Tc 0.0836  Tw (G.2.4. Borrar un archivo.) Tj0 -23.64  TD /F5 9.96  Tf0.0215  Tc 1.6496  Tw (Borrar un archivo se lograr\341 usando la orden ) Tj1.7489  Tc 0  Tw (\221) Tj216.72 0  TD /F4 9.96  Tf0.024  Tc (R) Tj6 0  TD /F5 9.96  Tf0.0192  Tc 1.652  Tw (\222 \(de) Tj0  Tc -0.0089  Tw ( ) Tj25.56 0  TD /F7 9.96  Tf0.0198  Tc -0.0287  Tw (Remove ) Tj41.64 0  TD /F5 9.96  Tf-0.0178  Tc 0  Tw (o) Tj5.52 0  TD /F7 9.96  Tf0.0285  Tc 1.6426  Tw ( Borrar) Tj32.4 0  TD /F5 9.96  Tf0.0253  Tc 1.6698  Tw (\). En caso de que el) Tj-327.84 -12  TD 0.0174  Tc 0.6377  Tw (archivo especificado no se encuentre, bien porque no exista o bien porque se escribi\363 mal, se) Tj0 -11.52  TD 0.0127  Tc 1.0372  Tw (indicar\341 en pantalla \(de igual forma que si el archivo es localizado y se borra\). El borrado de) TjT* 0.0248  Tc -0.0336  Tw (archivos ser\341 el proceso m\341s lento de todos.) Tj0 -23.04  TD 0.0126  Tc -0.0215  Tw (En el ejemplo:) TjET0.949 0.949 0.949 rg 81.24 233.28 432.24 11.28 re fBT85.08 236.28  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (CPAKTool \226R) Tj66 0  TD /F4 9.96  Tf( Textos.txt) Tj-66 -24  TD /F5 9.96  Tf0.0196  Tc 4.5315  Tw (Estaremos indicando que queremos borrar el archivo ) Tj4.6033  Tc 0  Tw (\223) Tj273 0  TD /F4 9.96  Tf0.024  Tc (Textos.txt) Tj60 0  TD /F5 9.96  Tf0.0339  Tc 4.5172  Tw (\224 que se halla en) Tj-333 -12.36  TD 0.0433  Tc 0  Tw (\223) Tj3.36 0  TD /F4 9.96  Tf0.024  Tc (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0124  Tc -0.0212  Tw (\224. Mientras que con:) TjET0.949 0.949 0.949 rg 81.24 174.48 432.24 11.28 re fBT85.08 177.48  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (CPAKTool \226R) Tj66 0  TD /F4 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD 0.024  Tc 0  Tw (Graficos\\PantallaPrincipal.tga) Tj-72 -24.12  TD /F5 9.96  Tf0.0189  Tc 0.6723  Tw (Haremos lo propio con el archivo ) Tj0.7633  Tc 0  Tw (\223) Tj156.36 0  TD /F4 9.96  Tf0.024  Tc (PantallaPrincipal.tga) Tj126 0  TD /F5 9.96  Tf0.0271  Tc 0.684  Tw (\224, con la salvedad de que dicho) Tj-282.36 -12.36  TD 0.0207  Tc 1.4105  Tw (archivo fue a\361adido desde la carpeta ) Tj1.4833  Tc 0  Tw (\223) Tj178.68 0  TD /F4 9.96  Tf0.024  Tc (Graficos) Tj48 0  TD /F5 9.96  Tf0.0188  Tc 1.4423  Tw (\224, de ah\355 que sea necesario indicar su ruta) Tj-226.68 -12  TD 0.0152  Tc 0.0559  Tw (completa para poderse hallar.) Tj0 -23.04  TD 0.0121  Tc 0.4873  Tw (N\363tese que cuando borremos un archivo \351ste no se extraer\341, es decir, dejar\341 de existir y si no) Tj0 -11.4  TD 0.021  Tc -0.0032  Tw (tenemos una copia del mismo lo habremos perdido para siempre.) TjETendstream
+endobj
+41 0 obj
+7543
+endobj
+39 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font 42 0 R
+/ProcSet 2 0 R
+>>
+/Contents 40 0 R
+>>
+endobj
+42 0 obj
+<<
+/F0 6 0 R
+/F1 8 0 R
+/F4 14 0 R
+/F5 22 0 R
+/F6 24 0 R
+/F7 34 0 R
+/F8 36 0 R
+>>
+endobj
+45 0 obj
+<<
+/Length 46 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (308) Tj-410.16 -36.48  TD /F1 11.04  Tf-0.0211  Tc 0.012  Tw (G.2.5. Borrar todos los archivos.) Tj0 -25.56  TD /F5 9.96  Tf0.0193  Tc 0.0678  Tw (El borrado de todos los archivos podr\341 ser una medida muy \372til cuando queramos descargar de) Tj0 -11.88  TD 0.0254  Tc 0.0858  Tw (contenido a \223) Tj57.96 0  TD /F4 9.96  Tf0.024  Tc 0  Tw (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0227  Tc 0.1151  Tw (\223. Sin embargo, tambi\351n podr\341 resultar una medida muy peligrosa,) Tj-129.96 -12  TD 0.0161  Tc 0.4409  Tw (ya que ser\341n borrados del empaquetado todos y cada uno de los archivos que se hallen en su) Tj0 -11.88  TD 0.0151  Tc 0.936  Tw (interior. Su utilizaci\363n es extremadamente simple, bastar\341 con usar la orden ) Tj1.0289  Tc 0  Tw (\221) Tj351.84 0  TD /F4 9.96  Tf0.024  Tc (Ra) Tj12 0  TD /F5 9.96  Tf0.0192  Tc 0.932  Tw (\222 \(de) Tj0  Tc -0.0089  Tw ( ) Tj24.12 0  TD /F7 9.96  Tf0.0398  Tc 0  Tw (Remove) Tj-387.96 -11.88  TD -0.0085  Tc -0  Tw (All ) Tj13.8 0  TD /F5 9.96  Tf-0.0178  Tc 0  Tw (o) Tj5.52 0  TD /F7 9.96  Tf0.0152  Tc 0.0359  Tw ( Borrar Todo) Tj56.16 0  TD /F5 9.96  Tf0.0172  Tc 0  Tw (\).) Tj-75.48 -23.04  TD 0.0264  Tc -0.0353  Tw (Como ejemplo bastar\341:) TjET0.949 0.949 0.949 rg 81.24 639.6 432.24 11.4 re fBT85.08 642.6  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (CPAKTool \226) Tj60 0  TD (Ra) Tj-60 -24.12  TD /F5 9.96  Tf0.0174  Tc -0.0023  Tw (Con esa llamada se eliminar\341 todo el contenido del archivo \223) Tj267.84 0  TD /F4 9.96  Tf0.024  Tc 0  Tw (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0172  Tc (\224.) Tj-339.84 -24.36  TD /F1 11.04  Tf-0.0307  Tc 0.0816  Tw (G.2.5. Extraer un archivo.) Tj0 -23.64  TD /F5 9.96  Tf0.021  Tc 1.0501  Tw (Extraer un archivo supondr\341 sacar de ) Tj1.1233  Tc 0  Tw (\223) Tj179.28 0  TD /F4 9.96  Tf0.024  Tc (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0148  Tc 1.1763  Tw (\223 el archivo deseado sin que \351ste sea) Tj-251.28 -12  TD 0.0204  Tc 0.0908  Tw (borrado del mismo, es decir, pasaremos a tener, al menos, dos veces el archivo que extraemos) Tj0 -11.88  TD 0.0157  Tc 1.0954  Tw (\(una en el ) Tj1.2433  Tc 0  Tw (\223) Tj53.88 0  TD /F4 9.96  Tf0.024  Tc (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0038  Tc 1.2714  Tw (\223 y otra en la carpeta original desde la que fue) Tj0  Tc -0.0089  Tw ( ) Tj219.48 0  TD 0.0256  Tc 1.1656  Tw (a\361adido=. N\363tese) Tj-345.36 -11.88  TD 0.0173  Tc 1.0538  Tw (que hablamos de la carpeta original porque) Tj0  Tc -0.0089  Tw ( ) Tj202.44 0  TD /F6 9.96  Tf0.0544  Tc 0  Tw (CPAKTool) Tj44.04 0  TD /F5 9.96  Tf0.0231  Tc 1.0481  Tw ( crear\341, si no existe, la carpeta original) Tj-246.48 -12  TD 0.0153  Tc 0.1664  Tw (del archivo desde la que fue a\361adido. La orden con la que podremos extraer un archivo ser\341 \221) Tj417 0  TD /F4 9.96  Tf0.024  Tc 0  Tw (E) Tj6 0  TD /F5 9.96  Tf-0.0511  Tc (\222) Tj-423 -11.88  TD 0.0026  Tc -0.0115  Tw (\(de ) Tj17.16 0  TD /F7 9.96  Tf0.0121  Tc -0.0209  Tw (Extract ) Tj33.84 0  TD /F5 9.96  Tf-0.0178  Tc 0  Tw (o) Tj5.64 0  TD /F7 9.96  Tf-0.0087  Tc -0  Tw ( Extraer) Tj34.92 0  TD /F5 9.96  Tf0.0172  Tc 0  Tw (\).) Tj-91.56 -23.52  TD 0.0158  Tc 5.7182  Tw (Por ejemplo, si queremos extraer el archivo ) Tj5.8033  Tc 0  Tw (\223) Tj238.92 0  TD /F4 9.96  Tf0.028  Tc (Graficos\\PantallaPrincipal.tga) Tj180.12 0  TD /F5 9.96  Tf0.0172  Tc (\224,) Tj-419.04 -12.36  TD /F6 9.96  Tf0.0244  Tc (CPAKTool) Tj43.8 0  TD /F5 9.96  Tf0.0112  Tc 1.5999  Tw ( crear\341 la carpeta ) Tj1.7233  Tc 0  Tw (\224) Tj90.24 0  TD /F4 9.96  Tf0.024  Tc (Graficos) Tj48 0  TD /F5 9.96  Tf0.0173  Tc 1.7018  Tw (\223 y una vez creada esta carpeta, escribir\341 en ella el) Tj-182.04 -12.36  TD 0.0128  Tc -0.0217  Tw (archivo \224) Tj38.28 0  TD /F4 9.96  Tf0.024  Tc 0  Tw (PantallaPrincipal.tga) Tj126 0  TD /F5 9.96  Tf0.0172  Tc (\224.) Tj-164.28 -23.52  TD 0.02  Tc -0.0288  Tw (Veamos el siguiente ejemplo:) TjET0.949 0.949 0.949 rg 81.24 414 432.24 11.28 re fBT85.08 417  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (CPAKTool \226E) Tj66 0  TD /F4 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD 0.024  Tc 0  Tw (Rules.cbt) Tj-72 -24  TD /F5 9.96  Tf0.0165  Tc 0.7846  Tw (Aqu\355 habremos indicado que deseamos extraer el archivo ) Tj0.8833  Tc 0  Tw (\223) Tj267.96 0  TD /F4 9.96  Tf0.024  Tc (Rules.cbt) Tj54 0  TD /F5 9.96  Tf0.0426  Tc 0.7885  Tw (\224 de ) Tj0.8833  Tc 0  Tw (\223) Tj25.08 0  TD /F4 9.96  Tf0.024  Tc (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0172  Tc (\224.) Tj-419.04 -12  TD -0.0472  Tc 0.0383  Tw (Si ) Tj11.64 0  TD 0.0379  Tc 0  Tw (escribieramos:) TjET0.949 0.949 0.949 rg 81.24 356.04 432.24 11.4 re fBT85.08 359.04  TD0 0 0 rg /F8 9.96  Tf0.024  Tc (CPAKTool \226E) Tj66 0  TD /F4 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD 0.024  Tc 0  Tw (Graficos\\Ingles\\PantallaPrincipal.tga) Tj-72 -24.12  TD /F5 9.96  Tf0.0167  Tc 4.0144  Tw (Indicaremos que deseamos extraer el archivo ) Tj4.1233  Tc 0  Tw (\223) Tj232.44 0  TD /F4 9.96  Tf0.024  Tc (PantallaPrincipal.tga) Tj126 0  TD /F5 9.96  Tf0.0122  Tc 4.0989  Tw (\224, el cual fue) Tj-358.44 -12.36  TD 0.0141  Tc 0.0071  Tw (a\361adido desde la carpeta \223) Tj118.32 0  TD /F4 9.96  Tf0.024  Tc 0  Tw (Graficos\\Ingles\\) Tj96 0  TD /F5 9.96  Tf0.0172  Tc (\224.) Tj-214.32 -24.36  TD /F1 11.04  Tf-0.0159  Tc -0.0232  Tw (G.2.6. Extraer todos los archivos.) Tj0 -23.64  TD /F5 9.96  Tf0.0208  Tc 2.9703  Tw (La extracci\363n de los archivos contenidos en ) Tj3.0433  Tc 0  Tw (\224) Tj221.04 0  TD /F4 9.96  Tf0.024  Tc (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0216  Tc 2.9695  Tw (\223 podr\341 ser muy importante) Tj-293.04 -12.36  TD 0.018  Tc 2.0331  Tw (cuando se desee realizar modificaciones sobre los mismos. Bastar\341 usar la orden ) Tj2.1089  Tc 0  Tw (\221) Tj391.68 0  TD /F4 9.96  Tf0.024  Tc (Ea) Tj12 0  TD /F5 9.96  Tf0.0192  Tc 2.012  Tw (\222 \(de) Tj-403.68 -11.88  TD /F7 9.96  Tf0.0121  Tc -0.0209  Tw (Extract ) Tj34.56 0  TD -0.0085  Tc -0  Tw (All ) Tj14.64 0  TD /F5 9.96  Tf-0.0178  Tc 0  Tw (o) Tj5.52 0  TD /F7 9.96  Tf0.0146  Tc 0.6966  Tw ( Extraer Todo) Tj61.92 0  TD /F5 9.96  Tf0.0188  Tc 0.7723  Tw (\). Todo lo explicado en el apartado anterior sobre la creaci\363n de las) Tj-116.64 -11.64  TD 0.0187  Tc -0.0058  Tw (carpetas origen desde donde los archivos fueron a\361adidos, es v\341lido para este.) Tj0 -22.92  TD 0.0126  Tc -0.0215  Tw (En el ejemplo:) TjET0.949 0.949 0.949 rg 81.24 190.56 432.24 11.4 re fBT85.08 193.56  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (CPAKTool \226Ea) Tj0 -24.12  TD /F5 9.96  Tf0.0214  Tc -0.0203  Tw (Se ordenar\341 que sean extra\355dos todos los archivos que se hallen en \223) Tj307.92 0  TD /F4 9.96  Tf0.024  Tc 0  Tw (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0172  Tc (\224.) Tj-379.92 -24.36  TD /F1 11.04  Tf-0.0254  Tc 0.0436  Tw (G.2.7. Generar un archivo con el listado de todos los archivos contenidos.) Tj0 -25.56  TD /F5 9.96  Tf0.0186  Tc 0.6792  Tw (Una de las opciones m\341s \372tiles ser\341 la de poder generar un archivo de texto con el listado de) Tj0 -11.88  TD 0.0272  Tc 0.2339  Tw (todo el contenido de \223) Tj97.08 0  TD /F4 9.96  Tf0.024  Tc 0  Tw (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.0196  Tc 0.2955  Tw (\224. Este listado adem\341s indicar\341 a los archivos con su ruta) Tj-169.08 -12  TD 0.0164  Tc 0.6861  Tw (completa, as\355 que tendremos el nombre exacto de los mismos. Para poder generar un listado,) Tj0 -11.88  TD 0.0064  Tc 1.5748  Tw (bastar\341 usar la orden ) Tj1.5089  Tc 0  Tw (\221) Tj105.48 0  TD /F4 9.96  Tf0.024  Tc (L) Tj6.12 0  TD /F5 9.96  Tf-0.0511  Tc 1.6022  Tw (\222 ) Tj1.6033  Tc 0  Tw (\() Tj9.84 0  TD /F7 9.96  Tf0.0256  Tc -0.0344  Tw (List ) Tj19.92 0  TD /F5 9.96  Tf-0.0178  Tc 0  Tw (o) Tj5.52 0  TD /F7 9.96  Tf0.0013  Tc 1.5498  Tw ( Listar) Tj28.8 0  TD /F5 9.96  Tf0.0209  Tc 1.5602  Tw (\) seguida del nombre del archivo en donde queramos) TjETendstream
+endobj
+46 0 obj
+8127
+endobj
+43 0 obj
+<<
+/Type /Page
+/Parent 44 0 R
+/Resources <<
+/Font 47 0 R
+/ProcSet 2 0 R
+>>
+/Contents 45 0 R
+>>
+endobj
+47 0 obj
+<<
+/F0 6 0 R
+/F1 8 0 R
+/F4 14 0 R
+/F5 22 0 R
+/F6 24 0 R
+/F7 34 0 R
+/F8 36 0 R
+>>
+endobj
+49 0 obj
+<<
+/Length 50 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (309) Tj-410.16 -35.52  TD /F5 9.96  Tf0.0177  Tc 1.3335  Tw (volcar la informaci\363n. Habr\341 que tener cuidado de no dar el nombre de un archivo existente) Tj0 -11.4  TD 0.0017  Tc 0.1094  Tw (pues ) Tj24.36 0  TD /F6 9.96  Tf0.0394  Tc 0  Tw (CPAKTool) Tj43.92 0  TD /F5 9.96  Tf0.0224  Tc -0.0094  Tw ( crear\355a un archivo de texto que sobreescribir\355a el contenido del mismo.) Tj-68.28 -23.16  TD 0.0249  Tc -0.0338  Tw (Como ejemplo, si se escribiera:) TjET0.949 0.949 0.949 rg 81.24 702.48 432.24 11.4 re fBT85.08 705.48  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (CPAKTool \226L) Tj66 0  TD /F4 9.96  Tf( listado.txt) Tj-66 -23.88  TD /F5 9.96  Tf0.0106  Tc 1.9538  Tw (Se lograr\355a generar un informe del contenido del archivo ) Tj1.9633  Tc 0  Tw (\223) Tj272.88 0  TD /F4 9.96  Tf0.024  Tc (GameData.pak) Tj72 0  TD /F5 9.96  Tf0.033  Tc 1.8782  Tw (\224 sobre el fichero) Tj-344.88 -12.48  TD 0.0433  Tc 0  Tw (\223) Tj3.36 0  TD /F4 9.96  Tf0.024  Tc (Listado.txt) Tj66 0  TD /F5 9.96  Tf0.0196  Tc -0.0164  Tw (\224 que, como se puede observar, es indicando en la ejecuci\363n.) TjETendstream
+endobj
+50 0 obj
+1193
+endobj
+48 0 obj
+<<
+/Type /Page
+/Parent 44 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F4 14 0 R 
+/F5 22 0 R 
+/F6 24 0 R 
+/F8 36 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 49 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F0
+/BaseFont /TimesNewRoman
+/FirstChar 31
+/LastChar 255
+/Widths [ 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 
+278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 
+444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 
+722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 
+500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 
+500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 
+778 500 778 333 500 444 1000 500 500 333 1000 556 333 889 778 778 
+778 778 333 333 444 444 350 500 1000 333 980 389 333 722 778 778 
+722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 
+500 400 549 300 300 333 576 453 250 333 300 310 500 750 750 750 
+444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 
+333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 
+500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 
+278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 
+500 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 7 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /FontDescriptor
+/FontName /TimesNewRoman
+/Flags 34
+/FontBBox [ -250 -241 1200 892 ]
+/MissingWidth 783
+/StemV 73
+/StemH 73
+/ItalicAngle 0
+/CapHeight 892
+/XHeight 624
+/Ascent 892
+/Descent -241
+/Leading 181
+/MaxWidth 1000
+/AvgWidth 398
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F1
+/BaseFont /Arial,Bold
+/FirstChar 31
+/LastChar 255
+/Widths [ 750 278 333 474 556 556 889 722 238 333 333 389 584 278 333 278 
+278 556 556 556 556 556 556 556 556 556 556 333 333 584 584 584 
+611 975 722 722 722 722 667 611 778 722 278 556 722 611 833 722 
+778 667 778 722 667 611 722 667 944 667 667 611 333 278 333 584 
+556 333 556 611 556 611 556 333 611 611 278 278 556 278 889 611 
+611 611 611 389 556 333 611 556 778 556 556 500 389 280 389 584 
+750 556 750 278 556 500 1000 556 556 333 1000 667 333 1000 750 750 
+750 750 278 278 500 500 350 556 1000 333 1000 556 333 944 750 750 
+667 278 333 556 556 556 556 280 556 333 737 370 556 584 333 737 
+552 400 549 333 333 333 576 556 278 333 333 365 556 834 834 834 
+611 722 722 722 722 722 722 1000 722 667 667 667 667 278 278 278 
+278 722 722 778 778 778 778 778 584 778 722 722 722 722 667 667 
+611 556 556 556 556 556 556 889 556 556 556 556 556 278 278 278 
+278 611 611 611 611 611 611 611 549 611 611 611 611 611 556 611 
+556 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 9 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Arial,Bold
+/Flags 16416
+/FontBBox [ -250 -220 1236 930 ]
+/MissingWidth 750
+/StemV 153
+/StemH 153
+/ItalicAngle 0
+/CapHeight 930
+/XHeight 651
+/Ascent 930
+/Descent -220
+/Leading 180
+/MaxWidth 1030
+/AvgWidth 480
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F2
+/BaseFont /Verdana,Bold
+/FirstChar 31
+/LastChar 255
+/Widths [ 1000 342 402 587 867 711 1272 862 332 543 543 711 867 361 480 361 
+689 711 711 711 711 711 711 711 711 711 711 402 402 867 867 867 
+617 964 776 762 724 830 683 650 811 837 546 555 771 637 948 847 
+850 733 850 782 710 682 812 764 1128 764 737 692 543 689 543 867 
+711 711 668 699 588 699 664 422 699 712 342 403 671 342 1058 712 
+687 699 699 497 593 456 712 650 979 669 651 597 711 543 711 867 
+1000 711 1000 332 711 587 1049 711 711 711 1777 710 543 710 682 692 
+692 1000 332 332 587 587 711 711 1000 711 964 593 543 593 465 597 
+597 342 711 711 642 711 776 543 711 711 964 710 850 867 480 964 
+692 587 867 711 352 711 721 711 361 711 668 593 850 637 711 522 
+597 782 776 776 776 776 637 724 724 724 683 683 683 683 546 546 
+830 830 847 847 850 850 850 850 867 782 812 812 812 812 737 682 
+713 497 668 668 668 668 342 588 588 588 664 664 664 664 342 342 
+880 699 712 712 687 687 687 687 867 497 712 712 712 712 651 456 
+711 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 11 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Verdana,Bold
+/Flags 16416
+/FontBBox [ -250 -205 2140 1000 ]
+/MissingWidth 1000
+/StemV 181
+/StemH 181
+/ItalicAngle 0
+/CapHeight 1000
+/XHeight 700
+/Ascent 1000
+/Descent -205
+/Leading 205
+/MaxWidth 1783
+/AvgWidth 566
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F3
+/BaseFont /Verdana
+/FirstChar 31
+/LastChar 255
+/Widths [ 1000 352 394 459 818 636 1076 727 269 454 454 636 818 364 454 364 
+454 636 636 636 636 636 636 636 636 636 636 454 454 818 818 818 
+545 1000 684 686 698 771 632 575 775 751 421 455 693 557 843 748 
+787 603 787 695 684 616 732 684 989 685 615 685 454 454 454 818 
+636 636 601 623 521 623 596 352 623 633 274 344 592 274 973 633 
+607 623 623 427 521 394 633 592 818 592 592 525 635 454 635 818 
+1000 636 1000 269 636 459 818 636 636 636 1521 684 454 684 616 685 
+685 1000 269 269 459 459 545 636 1000 636 977 521 454 521 394 525 
+525 352 636 636 562 636 684 454 636 636 1000 684 645 818 454 1000 
+685 542 818 636 284 636 642 636 364 636 601 521 645 557 636 296 
+525 695 684 684 684 684 557 698 698 698 632 632 632 632 421 421 
+771 775 748 748 787 787 787 787 818 695 732 732 732 732 615 616 
+620 427 601 601 601 601 274 521 521 521 596 596 596 596 274 274 
+647 623 633 633 607 607 607 607 818 427 633 633 633 633 592 394 
+636 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 13 0 R
+>>
+endobj
+13 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Verdana
+/Flags 32
+/FontBBox [ -250 -200 1824 1013 ]
+/MissingWidth 1000
+/StemV 92
+/StemH 92
+/ItalicAngle 0
+/CapHeight 1013
+/XHeight 709
+/Ascent 1013
+/Descent -200
+/Leading 213
+/MaxWidth 1520
+/AvgWidth 507
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F4
+/BaseFont /CourierNew
+/FirstChar 31
+/LastChar 255
+/Widths [ 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 15 0 R
+>>
+endobj
+15 0 obj
+<<
+/Type /FontDescriptor
+/FontName /CourierNew
+/Flags 35
+/FontBBox [ -250 -280 720 787 ]
+/MissingWidth 600
+/StemV 109
+/StemH 109
+/ItalicAngle 0
+/CapHeight 787
+/XHeight 550
+/Ascent 787
+/Descent -280
+/Leading 67
+/MaxWidth 600
+/AvgWidth 600
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F5
+/BaseFont /Arial
+/FirstChar 31
+/LastChar 255
+/Widths [ 750 278 278 355 556 556 889 667 191 333 333 389 584 278 333 278 
+278 556 556 556 556 556 556 556 556 556 556 278 278 584 584 584 
+556 1015 667 667 722 722 667 611 778 722 278 500 667 556 833 722 
+778 667 778 722 667 611 722 667 944 667 667 611 278 278 278 469 
+556 333 556 556 500 556 556 278 556 556 222 222 500 222 833 556 
+556 556 556 333 500 278 556 500 722 500 500 500 334 260 334 584 
+750 556 750 222 556 333 1000 556 556 333 1000 667 333 1000 750 750 
+750 750 222 222 333 333 350 556 1000 333 1000 500 333 944 750 750 
+667 278 333 556 556 556 556 260 556 333 737 370 556 584 333 737 
+552 400 549 333 333 333 576 537 278 333 333 365 556 834 834 834 
+611 667 667 667 667 667 667 1000 722 667 667 667 667 278 278 278 
+278 722 722 778 778 778 778 778 584 778 722 722 722 722 667 667 
+611 556 556 556 556 556 556 889 500 556 556 556 556 278 278 278 
+278 556 556 556 556 556 556 556 549 611 556 556 556 556 500 556 
+500 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 23 0 R
+>>
+endobj
+23 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Arial
+/Flags 32
+/FontBBox [ -250 -217 1214 892 ]
+/MissingWidth 747
+/StemV 81
+/StemH 81
+/ItalicAngle 0
+/CapHeight 892
+/XHeight 624
+/Ascent 892
+/Descent -217
+/Leading 144
+/MaxWidth 1012
+/AvgWidth 446
+>>
+endobj
+24 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F6
+/BaseFont /TimesNewRoman,Italic
+/FirstChar 31
+/LastChar 255
+/Widths [ 778 250 333 420 500 500 833 778 214 333 333 500 675 250 333 250 
+278 500 500 500 500 500 500 500 500 500 500 333 333 675 675 675 
+500 920 611 611 667 722 611 611 722 722 333 444 667 556 833 667 
+722 611 722 611 500 556 722 611 833 611 556 556 389 278 389 422 
+500 333 500 500 444 500 444 278 500 500 278 278 444 278 722 500 
+500 500 500 389 389 278 500 444 667 444 444 389 400 275 400 541 
+778 500 778 333 500 556 889 500 500 333 1000 500 333 944 778 778 
+778 778 333 333 556 556 350 500 889 333 980 389 333 667 778 778 
+556 250 389 500 500 500 500 275 500 333 760 276 500 675 333 760 
+500 400 549 300 300 333 576 523 250 333 300 310 500 750 750 750 
+500 611 611 611 611 611 611 889 667 611 611 611 611 333 333 333 
+333 722 667 722 722 722 722 722 675 722 722 722 722 722 556 611 
+500 500 500 500 500 500 500 667 444 444 444 444 444 278 278 278 
+278 500 500 500 500 500 500 500 549 500 500 500 500 500 444 500 
+444 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 25 0 R
+>>
+endobj
+25 0 obj
+<<
+/Type /FontDescriptor
+/FontName /TimesNewRoman,Italic
+/Flags 98
+/FontBBox [ -250 -241 1171 892 ]
+/MissingWidth 783
+/StemV 73
+/StemH 73
+/ItalicAngle -11
+/CapHeight 892
+/XHeight 624
+/Ascent 892
+/Descent -241
+/Leading 181
+/MaxWidth 976
+/AvgWidth 398
+>>
+endobj
+34 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F7
+/BaseFont /Arial,Italic
+/FirstChar 31
+/LastChar 255
+/Widths [ 750 278 278 355 556 556 889 667 191 333 333 389 584 278 333 278 
+278 556 556 556 556 556 556 556 556 556 556 278 278 584 584 584 
+556 1015 667 667 722 722 667 611 778 722 278 500 667 556 833 722 
+778 667 778 722 667 611 722 667 944 667 667 611 278 278 278 469 
+556 333 556 556 500 556 556 278 556 556 222 222 500 222 833 556 
+556 556 556 333 500 278 556 500 722 500 500 500 334 260 334 584 
+750 556 750 222 556 333 1000 556 556 333 1000 667 333 1000 750 750 
+750 750 222 222 333 333 350 556 1000 333 1000 500 333 944 750 750 
+667 278 333 556 556 556 556 260 556 333 737 370 556 584 333 737 
+552 400 549 333 333 333 576 537 278 333 333 365 556 834 834 834 
+611 667 667 667 667 667 667 1000 722 667 667 667 667 278 278 278 
+278 722 722 778 778 778 778 778 584 778 722 722 722 722 667 667 
+611 556 556 556 556 556 556 889 500 556 556 556 556 278 278 278 
+278 556 556 556 556 556 556 556 549 611 556 556 556 556 500 556 
+500 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 35 0 R
+>>
+endobj
+35 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Arial,Italic
+/Flags 96
+/FontBBox [ -250 -229 1214 892 ]
+/MissingWidth 747
+/StemV 81
+/StemH 81
+/ItalicAngle -11
+/CapHeight 892
+/XHeight 624
+/Ascent 892
+/Descent -229
+/Leading 156
+/MaxWidth 1012
+/AvgWidth 446
+>>
+endobj
+36 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F8
+/BaseFont /CourierNew,Bold
+/FirstChar 31
+/LastChar 255
+/Widths [ 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 37 0 R
+>>
+endobj
+37 0 obj
+<<
+/Type /FontDescriptor
+/FontName /CourierNew,Bold
+/Flags 16419
+/FontBBox [ -250 -301 722 807 ]
+/MissingWidth 602
+/StemV 192
+/StemH 192
+/ItalicAngle 0
+/CapHeight 807
+/XHeight 564
+/Ascent 807
+/Descent -301
+/Leading 108
+/MaxWidth 602
+/AvgWidth 602
+>>
+endobj
+2 0 obj
+[ /PDF /Text  ]
+endobj
+5 0 obj
+<<
+/Kids [4 0 R 18 0 R 21 0 R 28 0 R 31 0 R 39 0 R ]
+/Count 6
+/Type /Pages
+/Parent 51 0 R
+>>
+endobj
+44 0 obj
+<<
+/Kids [43 0 R 48 0 R ]
+/Count 2
+/Type /Pages
+/Parent 51 0 R
+>>
+endobj
+51 0 obj
+<<
+/Kids [5 0 R 44 0 R ]
+/Count 8
+/Type /Pages
+/MediaBox [ 0 0 595 842 ]
+>>
+endobj
+1 0 obj
+<<
+/Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020>
+/CreationDate (D:20020929113909)
+/Title <FEFF0043007200690073006F006C0045006E00670069006E0065005F0044006F00630075006D0065006E0074006100630069006F006E005F0041006E00650078006F005F0047005F004300500041004B0054006F006F006C002E005000440046>
+/Author <FEFF004600650072006E0061006E0064006F00200052006F0064007200ED006700750065007A>
+/Producer (Acrobat PDFWriter 4.0 for Windows)
+>>
+endobj
+3 0 obj
+<<
+/Pages 51 0 R
+/Type /Catalog
+/DefaultGray 52 0 R
+/DefaultRGB  53 0 R
+>>
+endobj
+52 0 obj
+[/CalGray
+<<
+/WhitePoint [0.953 1 1.4127 ]
+/Gamma 0.9475 
+>>
+]
+endobj
+53 0 obj
+[/CalRGB
+<<
+/WhitePoint [0.953 1 1.4127 ]
+/Gamma [0.9475 0.9475 0.9475 ]
+/Matrix [0.3886 0.2089 0.0126 0.323 0.6783 0.0832 0.2527 0.1128 0.7291 ]
+>>
+]
+endobj
+xref
+0 54
+0000000000 65535 f
+0000046868 00000 n
+0000046528 00000 n
+0000047342 00000 n
+0000001345 00000 n
+0000046562 00000 n
+0000033902 00000 n
+0000035022 00000 n
+0000035301 00000 n
+0000036421 00000 n
+0000036702 00000 n
+0000037830 00000 n
+0000038118 00000 n
+0000039241 00000 n
+0000039519 00000 n
+0000040635 00000 n
+0000000021 00000 n
+0000001321 00000 n
+0000001682 00000 n
+0000001528 00000 n
+0000001660 00000 n
+0000005647 00000 n
+0000040911 00000 n
+0000042029 00000 n
+0000042301 00000 n
+0000043428 00000 n
+0000001815 00000 n
+0000005623 00000 n
+0000005985 00000 n
+0000005831 00000 n
+0000005963 00000 n
+0000015910 00000 n
+0000006118 00000 n
+0000015886 00000 n
+0000043716 00000 n
+0000044841 00000 n
+0000045122 00000 n
+0000046243 00000 n
+0000016031 00000 n
+0000023767 00000 n
+0000016139 00000 n
+0000023743 00000 n
+0000023888 00000 n
+0000032208 00000 n
+0000046678 00000 n
+0000023996 00000 n
+0000032184 00000 n
+0000032330 00000 n
+0000033716 00000 n
+0000032438 00000 n
+0000033692 00000 n
+0000046768 00000 n
+0000047440 00000 n
+0000047527 00000 n
+trailer
+<<
+/Size 54
+/Root 3 0 R
+/Info 1 0 R
+/ID [<720d2ba7cc6267441dae6c3d269f9bd8><720d2ba7cc6267441dae6c3d269f9bd8>]
+>>
+startxref
+47703
+%%EOF

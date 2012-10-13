@@ -1,0 +1,90 @@
+/* Cuerpo */
+BODY { 
+ background:rgb(0,0,0); 
+ color:#f7f9d5;
+ font-family:sans-serif,Arial; 
+ font-size:x-small
+}
+
+/* Negrita */
+B {
+
+}
+
+/* Listas */
+UL {
+
+}
+
+LI {
+ text-align:left 
+}
+
+/* Tablas */
+TD {
+ font-size:x-small;
+ text-align:justify
+}
+
+/* Barras */
+HR {
+ color:#800080 
+}
+
+/* Enlaces */
+
+/* Enlace normal, activo y visitado */
+A:link, A:active, A:visited { 
+ font-family:Arial;
+ font-weight:bold; 
+ text-decoration:none; 
+ color:#e4c9e4 
+}
+
+/* Enlace con foco */
+A:hover { 
+ font-family:Arial; 
+ text-decoration:underline; 
+ color:#c6a4dd 
+}
+
+/* Clases */
+
+/* Titulo principal */
+.TituloPrincipal { 
+ font-family:Arial; 
+ color:rgb(255,255,255); 
+ font-size:large; 
+ font-weight:bolder 
+}
+
+/* Titulo de apartado */
+.TituloApartado { 
+ font-family:Arial; 
+ color:rgb(255,255,255); 
+ font-size:medium; 
+ font-weight:bold 
+}
+
+/* Texto fecha portada */
+.TextoFecha {
+ font-size:x-small;
+ font-weight:bold;
+ color:#FFFFFF
+}
+
+/* Texto info adicional en pequeño */
+.TextoInfoAdicional {
+ color:#d0e4c2;
+ font-family:Verdana, Arial;
+ font-size:xx-small;
+ font-weight:bold
+}
+
+/* Preguntas FAQ */
+.TextoPreguntaFAQ {
+ color:#adcaf5;
+ font-family:Verdana,Arial;
+ font-size:xx-small;
+ font-weight:bold
+}

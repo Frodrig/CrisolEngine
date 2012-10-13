@@ -1,0 +1,11 @@
+///////////////////////////////////////////////////////////////////////////////
+// CDrawable.cpp
+// Autor: Fernando Rodríguez Martínez 
+//        <frodrig76@gmail.com | @_frodrig | www.frodrig.com>
+//
+// Consultar CDrawable.h para mas detalles.
+///////////////////////////////////////////////////////////////////////////////
+#include "CDrawable.h"
+
+#include "SYSEngine.h"
+#include "iCGraphicSystem.h"

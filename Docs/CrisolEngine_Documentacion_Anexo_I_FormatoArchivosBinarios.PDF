@@ -1,0 +1,1069 @@
+%PDF-1.2 
+%‚„œ”
+ 
+14 0 obj
+<<
+/Length 15 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (328) Tj-410.16 -37.32  TD /F1 12  Tf-0.0017  Tc 0.0257  Tw (Anexo I. Formato de los archivos binarios.) Tj0 -25.32  TD 0.0206  Tc 0  Tw (\315ndice.) Tj0 -23.04  TD /F2 9.96  Tf0.0235  Tc -0.0298  Tw (I.1. Introducci\363n y convenios.) Tj0 -23.16  TD 0.0266  Tc -0.0489  Tw (I.2. Formato de los ficheros CPAK.) Tj0 -23.04  TD 0.0287  Tc -0.0617  Tw (I.3. Formato de los ficheros de datos generados por CrisolBuilder.) Tj0 -11.16  TD /F3 9  Tf0.008  Tc -0.044  Tw (   I.3.1. Formato del archivo de plantillas de animaci\363n.) Tj0 -11.04  TD 0.0092  Tc -0.0463  Tw (   I.3.2. Formato del archivo de perfiles asociados a ) Tj237.12 0  TD 0.0055  Tc 0  Tw (tiles.) Tj-237.12 -10.92  TD 0.007  Tc -0.0441  Tw (   I.3.3. Formato del archivo de perfiles asociados a paredes.) Tj0 -10.92  TD 0.0106  Tc -0.0494  Tw (   I.3.4. Formato del archivo de perfiles asociados a objetos de escenario.) TjT* 0.0102  Tc -0.0473  Tw (   I.3.5. Formato del archivo de perfiles asociados a \355tems.) TjT* 0.007  Tc -0.0441  Tw (   I.3.6. Formato del archivo de perfiles asociados a criaturas.) TjT* 0.0086  Tc -0.0457  Tw (   I.3.7. Formato del archivo de perfiles asociados a techos.) Tj0 -11.04  TD 0.0066  Tc -0.0437  Tw (   I.3.8. Formato del archivo de dise\361o de un \341rea.) TjETendstream
+endobj
+15 0 obj
+1346
+endobj
+4 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F2 10 0 R 
+/F3 12 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 14 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 18 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (329) TjETendstream
+endobj
+18 0 obj
+71
+endobj
+16 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 17 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 27 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (330) Tj-410.16 -37.32  TD /F1 12  Tf-0.0071  Tc 0.0711  Tw (I.1. Introducci\363n y convenios.) Tj0 -23.52  TD /F4 9.96  Tf0.0188  Tc 0.7723  Tw (En este ap\351ndice se documentar\341n aquellos archivos binarios que puedan ser de importancia) Tj0 -11.4  TD 0.0178  Tc 1.4374  Tw (para un programador que desee trabajar con el c\363digo fuente de) Tj0  Tc -0.0089  Tw ( ) Tj304.92 0  TD /F5 9.96  Tf0.0483  Tc 0  Tw (Crisol) Tj25.08 0  TD /F4 9.96  Tf0.016  Tc 1.5652  Tw (. As\355, se mostrar\341 el) Tj-330 -12  TD 0.0104  Tc 0.0407  Tw (formato del los archivos ) Tj108.36 0  TD /F0 9.96  Tf0.0192  Tc 0  Tw (CPAK) Tj26.64 0  TD /F4 9.96  Tf-0.0144  Tc 0.0776  Tw ( y el de los \223) Tj53.88 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (.) Tj6 0  TD (cbb) Tj18 0  TD /F4 9.96  Tf0.03  Tc -0.0389  Tw (\224 generados por ) Tj73.44 0  TD /F5 9.96  Tf0.0131  Tc 0  Tw (CrisolBuilder) Tj54.96 0  TD /F4 9.96  Tf-0.0089  Tc (.) Tj-341.28 -23.52  TD 0.0199  Tc 0.2937  Tw (Los \372nicos convenios que se deber\341n de conocer ser\341n los relativos al nombre que se dar\341 en) Tj0 -11.52  TD 0.0184  Tc -0.0089  Tw (este documento a los diferentes tipos de datos. Bastar\341 con conocer la siguiente tabla:) TjET0.949 0.949 0.949 rg 81.24 652.92 216.12 11.52 re fBT92.76 655.2  TD0 0 0 rg /F1 9.96  Tf0.0142  Tc 0.0112  Tw (Nombre para referirnos a un tipo de dato) TjET0.949 0.949 0.949 rg 297.36 652.92 216.12 11.52 re fBT301.56 655.2  TD0 0 0 rg 0.0257  Tc -0.0346  Tw (Equivalencia con los tipos de datos del C++) Tj-216.48 -10.8  TD /F6 9.96  Tf0.024  Tc 0  Tw (bool) Tj216.12 0  TD (bool) Tj-216.12 -11.28  TD (byte) Tj216.12 0  TD (unsigned ) Tj54 0  TD (char) Tj-270.12 -11.4  TD (sbyte) Tj216.12 0  TD (char) Tj-216.12 -11.28  TD (word) Tj216.12 0  TD (unsigned ) Tj54 0  TD (short) Tj-270.12 -11.4  TD (sword) Tj216.12 0  TD (short) Tj-216.12 -11.28  TD (dword) Tj216.12 0  TD (unsigned ) Tj54 0  TD (long) Tj-270.12 -11.28  TD (sdword) Tj216.12 0  TD (long) Tj-216.12 -11.4  TD (float) Tj216.12 0  TD (Float) Tj-216.12 -11.28  TD (streampos) Tj216.12 -0.84  TD /F4 9.96  Tf0.018  Tc -0.0069  Tw (Se deber\341 de consultar la documentaci\363n de) Tj0 -11.28  TD -0.003  Tc 0.1141  Tw (las ) Tj15.48 0  TD /F0 9.96  Tf0.097  Tc 0  Tw (STL) Tj17.76 0  TD /F4 9.96  Tf0.0055  Tc 0.0542  Tw (, pero se esperar\341 que sea un valor) Tj-33.24 -10.92  TD /F6 9.96  Tf0.024  Tc 0  Tw (sdword) Tj-216.12 -23.52  TD /F4 9.96  Tf0.0188  Tc 0.0698  Tw (Indicar tambi\351n que siempre que se hable de un valor nombre se har\341 referencia al par longitud) Tj0 -11.52  TD 0.0176  Tc 1.2036  Tw (del nombre \226 caracteres del nombre. Normalmente, los nombres se guardar\341n asignando un) Tj0 -11.88  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf-0.0079  Tc 0.079  Tw ( para la longitud y un ) Tj95.52 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.0168  Tc 0.0276  Tw ( para cada uno de los caracteres que le formen.) TjETendstream
+endobj
+27 0 obj
+3085
+endobj
+19 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F5 22 0 R 
+/F6 24 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 26 0 R
+>>
+endobj
+29 0 obj
+<<
+/Length 30 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (331) TjETendstream
+endobj
+30 0 obj
+71
+endobj
+28 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 29 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 33 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (332) Tj-410.16 -37.32  TD /F1 12  Tf-0.0054  Tc 0.0294  Tw (I.2. Formato de los ficheros CPAK.) Tj0 -23.4  TD /F4 9.96  Tf0.0165  Tc 2.1947  Tw (Esto ser\341n los ficheros empaquetados con los que trabaje) Tj0  Tc -0.0089  Tw ( ) Tj279.84 0  TD /F5 9.96  Tf0.0483  Tc 0  Tw (Crisol) Tj25.08 0  TD /F4 9.96  Tf0.0184  Tc 2.2527  Tw (. La utilidad) Tj0  Tc -0.0089  Tw ( ) Tj60.72 0  TD /F5 9.96  Tf0.0394  Tc 0  Tw (CPAKTool) Tj43.92 0  TD /F4 9.96  Tf0.0811  Tc 2.19  Tw ( se) Tj-409.56 -12.12  TD 0.0095  Tc 0.0537  Tw (encargar\341 de gestionar el fichero \223) Tj152.28 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (GameData.pak) Tj72 0  TD /F4 9.96  Tf0.0169  Tc -0.0258  Tw (\224 que requerir\341 ) Tj68.28 0  TD /F5 9.96  Tf0.0483  Tc 0  Tw (Crisol) Tj25.08 0  TD /F4 9.96  Tf0.0204  Tc -0.0293  Tw ( para poder funcionar.) Tj-317.64 -23.4  TD 0.0114  Tc 0.0312  Tw (Se distinguir\341n las siguientes partes en el archivo:) Tj0 -22.92  TD -0.0133  Tc 0  Tw (1.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.005  Tc 0  Tw (Cabecera) Tj44.88 0  TD /F4 9.96  Tf0.0178  Tc 1.7088  Tw (. La cabecera tendr\341 16 bytes en total y contendr\341 la informaci\363n general del) Tj-44.88 -11.64  TD 0.0251  Tc -0.034  Tw (fichero. Estar\341 formado por los siguientes campos:) Tj6.84 -23.16  TD /F1 9.96  Tf-0  Tc 0  Tw (Firma) Tj134.64 -0.48  TD /F4 9.96  Tf0.0082  Tc -0.017  Tw (Ser\341n 4 ) Tj37.68 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbytes) Tj36 0  TD /F4 9.96  Tf0.0103  Tc 0.0258  Tw ( con los valores \221C\222, \221P\222, \221A\222 y \221K\222.) TjET106.08 652.68 134.64 0.24 re f240.72 652.68 0.24 0.24 re f240.96 652.68 272.52 0.24 re fBT109.92 630.84  TD/F1 9.96  Tf0.0169  Tc -0.0258  Tw (Versi\363n alta) Tj134.64 -0.12  TD /F4 9.96  Tf0.0088  Tc 0.0543  Tw (Contendr\341 la versi\363n superior del fichero.) Tj0 -11.4  TD -0  Tc 0.0714  Tw (Su valor ser\341 1.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 640.08 134.64 0.24 re f240.72 640.08 0.24 0.24 re f240.96 640.08 272.52 0.24 re fBT109.92 595.2  TD/F1 9.96  Tf0.027  Tc -0.0359  Tw (Versi\363n baja) Tj134.64 -0.12  TD /F4 9.96  Tf0.0093  Tc 0.0538  Tw (Contendr\341 la versi\363n inferior del fichero.) Tj0 -11.4  TD -0  Tc 0.0714  Tw (Su valor ser\341 0.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 604.44 134.64 0.24 re f240.72 604.44 0.24 0.24 re f240.96 604.44 272.52 0.24 re fBT109.92 559.56  TD/F1 9.96  Tf0.0044  Tc -0.0133  Tw (Flags del fichero) Tj134.64 -0.12  TD /F4 9.96  Tf0.0147  Tc 0.0245  Tw (Espacio reservado para almacenar valores extra.) Tj0 -11.4  TD 0.0134  Tc 0.0377  Tw (Su valor ser\341 de 0.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (dword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 568.8 134.64 0.24 re f240.72 568.8 0.24 0.24 re f240.96 568.8 272.52 0.24 re fBT109.92 524.04  TD/F1 9.96  Tf0.0067  Tc -0.0156  Tw (N\372mero de fichero) Tj134.64 0  TD /F4 9.96  Tf0.0113  Tc 2.9626  Tw (Contendr\341 el n\372mero de ficheros alojados en el) Tj0  Tc -0.0089  Tw ( ) Tj236.28 0  TD /F0 9.96  Tf0.0492  Tc 0  Tw (CPAK) Tj26.76 0  TD /F4 9.96  Tf-0.0089  Tc (.) Tj-263.04 -12  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (dword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 533.16 134.64 0.24 re f240.72 533.16 0.24 0.24 re f240.96 533.16 272.52 0.24 re fBT109.92 499.8  TD/F1 9.96  Tf0.017  Tc -0.0258  Tw (Offset al \355ndice de) Tj0 -11.52  TD 0.002  Tc 0  Tw (ficheros) Tj134.64 11.4  TD /F4 9.96  Tf0.0164  Tc 0.0148  Tw (Contendr\341 el offset al \355ndice de ficheros.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (dword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 509.04 134.64 0.24 re f240.72 509.04 0.24 0.24 re f240.96 509.04 272.52 0.24 re f106.08 484.92 134.64 0.24 re f240.72 484.92 0.24 0.24 re f240.96 484.92 272.52 0.24 re fBT85.08 464.28  TD-0.0133  Tc 0.0044  Tw (2. ) Tj11.76 0  TD /F1 9.96  Tf0.018  Tc 0.6931  Tw (\315ndice de ficheros) Tj86.4 0  TD /F4 9.96  Tf0.0173  Tc 0.8139  Tw (. El \355ndice de ficheros contendr\341 la informaci\363n general de todos y cada) Tj-98.16 -11.52  TD 0.0091  Tc 0.0334  Tw (uno de los archivos mantenidos en el ) Tj167.76 0  TD /F0 9.96  Tf-0.0108  Tc 0  Tw (CPAK) Tj26.64 0  TD /F4 9.96  Tf0.0333  Tc -0.0422  Tw (. Estar\341 formado por los siguientes campos:) Tj-169.56 -23.4  TD /F1 9.96  Tf0.0133  Tc -0.0221  Tw (Nombre del fichero) Tj134.64 -0.12  TD /F4 9.96  Tf0.0114  Tc 0.0398  Tw (Contendr\341 el nombre del fichero.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 438.6 134.64 0.24 re f240.72 438.6 0.24 0.24 re f240.96 438.6 272.52 0.24 re fBT109.92 405.24  TD/F1 9.96  Tf0.0084  Tc -0.0173  Tw (Tama\361o del fichero) Tj134.64 -0.12  TD /F4 9.96  Tf0.0095  Tc 0.0416  Tw (Contendr\341 el tama\361o del fichero.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (dword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 414.48 134.64 0.24 re f240.72 414.48 0.24 0.24 re f240.96 414.48 272.52 0.24 re fBT109.92 381.12  TD/F1 9.96  Tf0.0102  Tc -0.019  Tw (Offset al fichero) Tj134.64 -0.12  TD /F4 9.96  Tf0.0107  Tc 0.7725  Tw (Contendr\341 el offset donde hallar los datos del fichero en el) Tj0 -11.28  TD 0.0084  Tc -0.0173  Tw (archivo ) Tj34.92 0  TD /F0 9.96  Tf-0.0108  Tc 0  Tw (CPAK) Tj26.64 0  TD /F4 9.96  Tf-0.0089  Tc (.) Tj-61.56 -12  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (dword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 390.36 134.64 0.24 re f240.72 390.36 0.24 0.24 re f240.96 390.36 272.52 0.24 re f106.08 354.72 134.64 0.24 re f240.72 354.72 0.24 0.24 re f240.96 354.72 272.52 0.24 re fendstream
+endobj
+33 0 obj
+6476
+endobj
+31 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F5 22 0 R 
+/F6 24 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 32 0 R
+>>
+endobj
+35 0 obj
+<<
+/Length 36 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (333) TjETendstream
+endobj
+36 0 obj
+71
+endobj
+34 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 35 0 R
+>>
+endobj
+39 0 obj
+<<
+/Length 40 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (334) Tj-410.16 -37.32  TD /F1 12  Tf-0.0044  Tc 0.0284  Tw (I.3. Formato de los ficheros de datos generados por CrisolBuilder.) Tj0 -23.88  TD /F4 9.96  Tf0.0195  Tc 4.3582  Tw (En este apartado se estudiar\341n aquellos ficheros de extensi\363n ) Tj4.4833  Tc 0  Tw (\223) Tj321.72 0  TD /F6 9.96  Tf0.024  Tc (.) Tj6 0  TD (cbb) Tj18 0  TD /F4 9.96  Tf0.0115  Tc 4.4196  Tw (\224 generados por) Tj-345.72 -12.48  TD /F5 9.96  Tf0.0131  Tc 0  Tw (CrisolBuilder) Tj54.96 0  TD /F4 9.96  Tf0.0259  Tc -0.0347  Tw ( a partir de sus hom\363logos \223) Tj123.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (.) Tj6 0  TD (cbt) Tj18 0  TD /F4 9.96  Tf0.0172  Tc (\224.) Tj-202.92 -25.2  TD /F1 12  Tf-0.0023  Tc 0.0263  Tw (I.3.1. Formato del archivo de plantillas de animaci\363n.) Tj0 -23.88  TD /F4 9.96  Tf0.0207  Tc 1.2905  Tw (Este archivo ser\341 el denominado ) Tj1.3633  Tc 0  Tw (\223) Tj158.28 0  TD /F6 9.96  Tf0.024  Tc (AnimTemplates.cbb) Tj102 0  TD /F4 9.96  Tf0.0174  Tc 1.3537  Tw (\224 y contendr\341 todas las plantillas de) Tj-260.28 -12.48  TD 0.0194  Tc -0.0082  Tw (animaci\363n definidas en el archivo hom\363logo \223) Tj200.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (.) Tj6 0  TD (cbt) Tj18 0  TD /F4 9.96  Tf0.0172  Tc (\224.) Tj-224.64 -23.4  TD 0.0114  Tc 0.0312  Tw (Se distinguir\341n las siguientes partes en el archivo:) Tj0 -22.92  TD -0.0133  Tc 0  Tw (1.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.005  Tc 0  Tw (Cabecera) Tj44.88 0  TD /F4 9.96  Tf0.0198  Tc 0.3513  Tw (. En la cabecera se mantendr\341 la informaci\363n b\341sica del archivo. Estar\341 formada) Tj-44.88 -11.64  TD 0.0296  Tc -0.0385  Tw (por los siguientes campos:) Tj6.84 -23.16  TD /F1 9.96  Tf0.016  Tc -0.0249  Tw (C\363digo del tipo del) Tj0 -11.52  TD 0.0303  Tc 0  Tw (archivo) Tj134.64 11.4  TD /F4 9.96  Tf0.0089  Tc 0.0422  Tw (Contendr\341 el c\363digo del archivo.) Tj0 -11.52  TD -0  Tc 0.0714  Tw (Su valor ser\341 1.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 590.28 134.64 0.24 re f240.72 590.28 0.24 0.24 re f240.96 590.28 272.52 0.24 re fBT109.92 545.52  TD/F1 9.96  Tf0.0169  Tc -0.0258  Tw (Versi\363n alta) Tj134.64 -0.12  TD /F4 9.96  Tf0.0088  Tc 0.0543  Tw (Contendr\341 la versi\363n superior del fichero.) Tj0 -11.52  TD -0  Tc 0.0714  Tw (Su valor ser\341 1.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 554.64 134.64 0.24 re f240.72 554.64 0.24 0.24 re f240.96 554.64 272.52 0.24 re fBT109.92 509.88  TD/F1 9.96  Tf0.027  Tc -0.0359  Tw (Versi\363n baja) Tj134.64 -0.12  TD /F4 9.96  Tf0.0093  Tc 0.0538  Tw (Contendr\341 la versi\363n inferior del fichero.) Tj0 -11.52  TD -0  Tc 0.0714  Tw (Su valor ser\341 0.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 519.12 134.64 0.24 re f240.72 519.12 0.24 0.24 re f240.96 519.12 272.52 0.24 re fBT109.92 474.24  TD/F1 9.96  Tf0.017  Tc -0.0258  Tw (Offset al \355ndice de) Tj0 -11.52  TD 0.0023  Tc 0  Tw (plantillas) Tj134.64 11.4  TD /F4 9.96  Tf0.0125  Tc 0.0236  Tw (Contendr\341 el offset al \355ndice de plantillas de animaci\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (fstreampos) Tj60 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 483.48 134.64 0.24 re f240.72 483.48 0.24 0.24 re f240.96 483.48 272.52 0.24 re f106.08 459.36 134.64 0.24 re f240.72 459.36 0.24 0.24 re f240.96 459.36 272.52 0.24 re fBT85.08 438.72  TD-0.0133  Tc (2.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.0169  Tc 1.1442  Tw (\315ndice de plantillas de animaci\363n) Tj160.68 0  TD /F4 9.96  Tf0.0176  Tc 1.2135  Tw (. El \355ndice de plantillas de animaci\363n ocupar\341 la zona) Tj-160.68 -11.64  TD 0.0193  Tc 2.7576  Tw (final del archivo y contendr\341 la informaci\363n general de cada una de las plantillas de) Tj0 -11.52  TD 0.0171  Tc 1.582  Tw (animaci\363n contenidas y, as\355 como la forma de llegar a ellas. En primer lugar vendr\341 un) TjT* 0.0115  Tc 0.0196  Tw (campo de inter\351s global:) Tj6.84 -23.16  TD /F1 9.96  Tf0.0174  Tc -0.0263  Tw (N\372mero de plantillas de) Tj0 -11.52  TD 0.0064  Tc 0  Tw (animaci\363n) Tj134.64 11.4  TD /F4 9.96  Tf0.011  Tc 0.0401  Tw (Contendr\341 el n\372mero de plantillas de animaci\363n.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (dword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 390.12 134.64 0.24 re f240.72 390.12 0.24 0.24 re f240.96 390.12 272.52 0.24 re f106.08 366 134.64 0.24 re f240.72 366 0.24 0.24 re f240.96 366 272.52 0.24 re fBT103.08 345.24  TD0.0214  Tc 2.3097  Tw (Despu\351s del campo anterior vendr\341, para cada plantilla que se halle en el archivo, la) Tj0 -11.52  TD 0.0161  Tc -0.025  Tw (siguiente informaci\363n:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0106  Tc 0.0205  Tw (Nombre de la plantilla) Tj134.64 -0.12  TD /F4 9.96  Tf0.0163  Tc 0.0092  Tw (Contendr\341 el nombre de la plantilla de animaci\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 319.68 134.64 0.24 re f240.72 319.68 0.24 0.24 re f240.96 319.68 272.52 0.24 re fBT109.92 286.32  TD/F1 9.96  Tf0.0146  Tc -0.0235  Tw (Offset a la plantilla) Tj134.64 -0.12  TD /F4 9.96  Tf0.0131  Tc 0.59  Tw (Contendr\341 el offset donde hallar los datos de la plantilla de) Tj0 -11.52  TD 0.0083  Tc 0  Tw (animaci\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (fstreampos) Tj60 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 295.56 134.64 0.24 re f240.72 295.56 0.24 0.24 re f240.96 295.56 272.52 0.24 re f106.08 259.92 134.64 0.24 re f240.72 259.92 0.24 0.24 re f240.96 259.92 272.52 0.24 re fBT85.08 239.28  TD-0.0133  Tc (3.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.0147  Tc 2.3764  Tw (Datos de una plantilla) Tj110.4 0  TD /F4 9.96  Tf0.0116  Tc 2.4696  Tw (. Este ser\341 el campo que defina los datos de una plantilla de) Tj-110.4 -11.64  TD 0.0119  Tc 0.0346  Tw (animaci\363n. En primer lugar vendr\341 la informaci\363n general de la misma a trav\351s de:) Tj6.84 -23.16  TD /F1 9.96  Tf0.0073  Tc 0.0439  Tw (N\372mero de estados) Tj134.64 -0.12  TD /F4 9.96  Tf0.0188  Tc 0.0066  Tw (Contendr\341 el n\372mero de estados de la plantilla.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 213.72 134.64 0.24 re f240.72 213.72 0.24 0.24 re f240.96 213.72 272.52 0.24 re fBT109.92 180.36  TD/F1 9.96  Tf0.0166  Tc -0.0254  Tw (N\372mero de orientaciones) Tj134.64 -0.12  TD /F4 9.96  Tf0.0139  Tc 4.5544  Tw (Contendr\341 el n\372mero de orientaciones de la plantilla.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 189.6 134.64 0.24 re f240.72 189.6 0.24 0.24 re f240.96 189.6 272.52 0.24 re fBT109.92 156.24  TD/F1 9.96  Tf0.0119  Tc -0.0208  Tw (Ancho de los ) Tj65.4 0  TD 0.0569  Tc 0  Tw (frames) Tj69.24 -0.12  TD /F4 9.96  Tf0.0133  Tc 1.6379  Tw (Contendr\341 la dimensi\363n, en anchura, de los) Tj0  Tc 0.1111  Tw ( ) Tj207.48 0  TD 0.0178  Tc 1.6533  Tw (frames de la) Tj-207.48 -11.52  TD 0.0067  Tc 0  Tw (plantilla.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 165.36 134.64 0.24 re f240.72 165.36 0.24 0.24 re f240.96 165.36 272.52 0.24 re fBT109.92 120.6  TD/F1 9.96  Tf0.0114  Tc -0.0202  Tw (Alto de los ) Tj53.76 0  TD 0.0169  Tc 0  Tw (frames) Tj80.88 -0.12  TD /F4 9.96  Tf0.0044  Tc 2.9468  Tw (Contendr\341 la dimensi\363n, en altura, de los) Tj0  Tc 0.1111  Tw ( ) Tj205.08 0  TD 0.0178  Tc 2.8533  Tw (frames de la) Tj-205.08 -11.52  TD 0.0067  Tc 0  Tw (plantilla.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 129.72 134.64 0.24 re f240.72 129.72 0.24 0.24 re f240.96 129.72 272.52 0.24 re fBT109.92 84.96  TD/F1 9.96  Tf-0.0174  Tc (FPS) Tj134.64 -0.12  TD /F4 9.96  Tf0.004  Tc 0.1071  Tw (Contendr\341 los ) Tj64.92 0  TD 0.0109  Tc 0.0523  Tw (frames por segundo de la plantilla.) TjET106.08 94.2 134.64 0.24 re f240.72 94.2 0.24 0.24 re f240.96 94.2 272.52 0.24 re f106.08 82.44 134.64 0.24 re f240.72 82.44 0.24 0.24 re f240.96 82.44 272.52 0.24 re fendstream
+endobj
+40 0 obj
+9246
+endobj
+37 0 obj
+<<
+/Type /Page
+/Parent 38 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F5 22 0 R 
+/F6 24 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 39 0 R
+>>
+endobj
+42 0 obj
+<<
+/Length 43 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (335) Tj-250.68 -36.24  TD /F4 9.96  Tf0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 771 134.64 0.24 re f240.72 771 0.24 0.24 re f240.96 771 272.52 0.24 re f106.08 758.4 134.64 0.24 re f240.72 758.4 0.24 0.24 re f240.96 758.4 272.52 0.24 re fBT103.08 737.64  TD0.0183  Tc -0.0122  Tw (A continuaci\363n vendr\341 la informaci\363n asociada a cada estado:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0089  Tc 0.0422  Tw (Estado de enlace) Tj134.64 -0.12  TD /F4 9.96  Tf0.0085  Tc 0.0426  Tw (Contendr\341 el estado de enlace.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 723.6 134.64 0.24 re f240.72 723.6 0.24 0.24 re f240.96 723.6 272.52 0.24 re fBT109.92 690.24  TD/F1 9.96  Tf0.0125  Tc -0.0214  Tw (Ciclos de espera) Tj134.64 -0.12  TD /F4 9.96  Tf0.0184  Tc -0.0073  Tw (Contendr\341 los segundos del ciclo de espera.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (float) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 699.48 134.64 0.24 re f240.72 699.48 0.24 0.24 re f240.96 699.48 272.52 0.24 re fBT109.92 666.12  TD/F1 9.96  Tf0.0263  Tc -0.0352  Tw (Flag de modo reversible) Tj134.64 -0.12  TD /F4 9.96  Tf0.006  Tc 0.0571  Tw (Contendr\341 el valor asociado al ) Tj137.76 0  TD 0.0145  Tc 0.0167  Tw (flag de modo reversible.) Tj-137.76 -11.52  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD 0.0013  Tc 0  Tw (bool.) TjET106.08 675.36 134.64 0.24 re f240.72 675.36 0.24 0.24 re f240.96 675.36 272.52 0.24 re fBT109.92 642.84  TD/F1 9.96  Tf0.0085  Tc -0.0174  Tw (N\372mero de ) Tj54.84 0  TD 0.0569  Tc 0  Tw (frames) Tj79.8 -0.12  TD /F4 9.96  Tf0.0139  Tc 0.0252  Tw (Contendr\341 el n\372mero asociados al estado.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 652.08 134.64 0.24 re f240.72 652.08 0.24 0.24 re f240.96 652.08 272.52 0.24 re fBT109.92 618.72  TD/F1 9.96  Tf0.0039  Tc -0.0128  Tw (Nombre del archivo WAV) Tj0 -11.52  TD 0.0029  Tc 0  Tw (asociado) Tj134.64 11.4  TD /F4 9.96  Tf0.0118  Tc -0  Tw (Contendr\341 el nombre del posible archivo ) Tj0.0369  Tc -0.0457  Tw (WAV asociado.) Tj0 -11.76  TD 0.0019  Tc 4.0692  Tw (Contendr\341 un) Tj0  Tc -0.0089  Tw ( ) Tj71.16 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf-0.015  Tc 4.1101  Tw ( para la longitud y un) Tj0  Tc -0.0089  Tw ( ) Tj119.4 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf-0.0374  Tc 4.1085  Tw ( por) Tj-244.56 -12.12  TD 0.0151  Tc 0  Tw (car\341cter.) TjET106.08 627.96 134.64 0.24 re f240.72 627.96 0.24 0.24 re f240.96 627.96 272.52 0.24 re fBT109.92 583.08  TD/F1 9.96  Tf0.0291  Tc -0.038  Tw (Flag asociado al archivo) Tj0 -11.52  TD -0.1056  Tc 0  Tw (WAV) Tj134.64 11.4  TD /F4 9.96  Tf-0.0011  Tc 0.0522  Tw (Contendr\341 el ) Tj59.88 0  TD 0.0226  Tc -0.0615  Tw (flag asociado al archivo ) Tj0.1156  Tc 0  Tw (WAV.) Tj-59.88 -11.52  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD 0.0013  Tc 0  Tw (bool.) TjET106.08 592.32 134.64 0.24 re f240.72 592.32 0.24 0.24 re f240.96 592.32 272.52 0.24 re f106.08 569.04 134.64 0.24 re f240.72 569.04 0.24 0.24 re f240.96 569.04 272.52 0.24 re fBT103.08 548.28  TD0.0139  Tc 3.5172  Tw (Dentro del estado vendr\341 tambi\351n la informaci\363n de cada una de las orientaciones) Tj0 -11.4  TD 0.0198  Tc 0  Tw (posibles:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0112  Tc 0.0199  Tw (Localizaci\363n en X del) Tj0 -11.52  TD 0.0154  Tc -0.0242  Tw (inicio de los ) Tj60.48 0  TD 0.0169  Tc 0  Tw (frames) Tj74.16 11.4  TD /F4 9.96  Tf0.0118  Tc 1.4707  Tw (Contendr\341 la posici\363n donde comenzar\341 la tira de) Tj0  Tc -0.0089  Tw ( ) Tj234.96 0  TD 0.047  Tc 0  Tw (frames) Tj-234.96 -11.52  TD 0.0381  Tc -0.047  Tw (en X.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 522.84 134.64 0.24 re f240.72 522.84 0.24 0.24 re f240.96 522.84 272.52 0.24 re fBT109.92 477.96  TD/F1 9.96  Tf0.0112  Tc 0.0199  Tw (Localizaci\363n en Y del) Tj0 -11.52  TD 0.0154  Tc -0.0242  Tw (inicio de los ) Tj60.48 0  TD 0.0169  Tc 0  Tw (frames) Tj74.16 11.4  TD /F4 9.96  Tf0.0118  Tc 1.4707  Tw (Contendr\341 la posici\363n donde comenzar\341 la tira de) Tj0  Tc -0.0089  Tw ( ) Tj234.96 0  TD 0.047  Tc 0  Tw (frames) Tj-234.96 -11.52  TD -0.0219  Tc 0.133  Tw (en Y.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 487.2 134.64 0.24 re f240.72 487.2 0.24 0.24 re f240.96 487.2 272.52 0.24 re fBT109.92 442.32  TD/F1 9.96  Tf0.019  Tc -0.0278  Tw (Longitud del archivo ) Tj101.04 0  TD 0.02  Tc 0  Tw (tga) Tj-101.04 -11.52  TD 0.0098  Tc -0.0187  Tw (con los ) Tj37.68 0  TD 0.0169  Tc 0  Tw (frames) Tj96.96 11.4  TD /F4 9.96  Tf0.0105  Tc 2  Tw (Contendr\341 la longitud del nombre del fichero) Tj0  Tc -0.0089  Tw ( ) Tj213.24 0  TD 0.0235  Tc 2.0077  Tw (tga con los) Tj-213.24 -11.52  TD 0.0183  Tc -0.0272  Tw (frames de animaci\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 451.56 134.64 0.24 re f240.72 451.56 0.24 0.24 re f240.96 451.56 272.52 0.24 re fBT109.92 406.68  TD/F1 9.96  Tf0.0245  Tc -0.0333  Tw (Nombre del archivo ) Tj96.12 0  TD 0.02  Tc 0  Tw (tga) Tj-96.12 -11.52  TD 0.0098  Tc -0.0187  Tw (con los ) Tj37.68 0  TD 0.0169  Tc 0  Tw (frames) Tj96.96 11.4  TD /F4 9.96  Tf0.0131  Tc 1.913  Tw (Contendr\341 la secuencia de caracteres con el nombre del) Tj0 -11.52  TD 0.0084  Tc -0.0173  Tw (archivo ) Tj34.92 0  TD 0.0101  Tc 0.061  Tw (tga con los ) Tj51.12 0  TD 0.025  Tc -0.0339  Tw (frames de animaci\363n.) Tj-86.04 -11.76  TD 0.0207  Tc -0.0296  Tw (Cada car\341cter ser\341 un ) Tj101.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 415.92 134.64 0.24 re f240.72 415.92 0.24 0.24 re f240.96 415.92 272.52 0.24 re f106.08 380.28 134.64 0.24 re f240.72 380.28 0.24 0.24 re f240.96 380.28 272.52 0.24 re fBT85.08 357.72  TD/F1 12  Tf0.0036  Tc -0.0096  Tw (I.3.2. Formato del archivo de perfiles asociados a ) Tj283.56 0  TD 0.002  Tc 0  Tw (tiles.) Tj-283.56 -23.88  TD /F4 9.96  Tf0.0207  Tc 3.4505  Tw (Este archivo ser\341 el denominado ) Tj3.5233  Tc 0  Tw (\223) Tj169.08 0  TD /F6 9.96  Tf0.024  Tc (FloorProfiles.cbb) Tj102 0  TD /F4 9.96  Tf0.0185  Tc 3.5486  Tw (\224 y contendr\341 todos los perfiles) Tj-271.08 -12.36  TD 0.0163  Tc 0.0015  Tw (asociados a los suelos definidos en su archivo hom\363logo \223) Tj258.36 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (.) Tj6 0  TD (cbt) Tj18 0  TD /F4 9.96  Tf0.0172  Tc (\224.) Tj-282.36 -23.52  TD 0.0114  Tc 0.0312  Tw (Se distinguir\341n las siguientes partes en el archivo:) Tj0 -22.8  TD -0.0133  Tc 0  Tw (1.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.005  Tc 0  Tw (Cabecera) Tj44.88 0  TD /F4 9.96  Tf0.0198  Tc 0.3513  Tw (. En la cabecera se mantendr\341 la informaci\363n b\341sica del archivo. Estar\341 formada) Tj-44.88 -11.64  TD 0.0296  Tc -0.0385  Tw (por los siguientes campos:) Tj6.84 -23.28  TD /F1 9.96  Tf0.016  Tc -0.0249  Tw (C\363digo del tipo del) Tj0 -11.52  TD 0.0303  Tc 0  Tw (archivo) Tj134.64 11.4  TD /F4 9.96  Tf0.0089  Tc 0.0422  Tw (Contendr\341 el c\363digo del archivo.) Tj0 -11.52  TD -0  Tc 0.0714  Tw (Su valor ser\341 2.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 249.48 134.64 0.24 re f240.72 249.48 0.24 0.24 re f240.96 249.48 272.52 0.24 re fBT109.92 204.6  TD/F1 9.96  Tf0.0169  Tc -0.0258  Tw (Versi\363n alta) Tj134.64 -0.12  TD /F4 9.96  Tf0.0088  Tc 0.0543  Tw (Contendr\341 la versi\363n superior del fichero.) Tj0 -11.52  TD -0  Tc 0.0714  Tw (Su valor ser\341 1.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 213.84 134.64 0.24 re f240.72 213.84 0.24 0.24 re f240.96 213.84 272.52 0.24 re fBT109.92 168.96  TD/F1 9.96  Tf0.027  Tc -0.0359  Tw (Versi\363n baja) Tj134.64 -0.12  TD /F4 9.96  Tf0.0093  Tc 0.0538  Tw (Contendr\341 la versi\363n inferior del fichero.) Tj0 -11.52  TD -0  Tc 0.0714  Tw (Su valor ser\341 0.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 178.2 134.64 0.24 re f240.72 178.2 0.24 0.24 re f240.96 178.2 272.52 0.24 re fBT109.92 133.32  TD/F1 9.96  Tf0.0151  Tc -0.024  Tw (Offset al \355ndice de perfiles) Tj134.64 -0.12  TD /F4 9.96  Tf0.0166  Tc 0.0145  Tw (Contendr\341 el offset al \355ndice de perfiles.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (fstreampos) Tj60 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 142.56 134.64 0.24 re f240.72 142.56 0.24 0.24 re f240.96 142.56 272.52 0.24 re f106.08 118.44 134.64 0.24 re f240.72 118.44 0.24 0.24 re f240.96 118.44 272.52 0.24 re fBT85.08 97.8  TD-0.0133  Tc (2.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.0228  Tc 1.2883  Tw (\315ndice de perfiles) Tj84.24 0  TD /F4 9.96  Tf0.014  Tc 1.4356  Tw (. El \355ndice de perfiles ocupar\341 la zona final del archivo y contendr\341 la) Tj-84.24 -11.64  TD 0.0219  Tc 0.6653  Tw (informaci\363n general de cada una de los perfiles registrados, as\355 como la forma de llegar ) Tj0.8222  Tc 0  Tw (a) Tj0 -11.4  TD 0.0183  Tc -0.0087  Tw (los datos de los mismos. En primer lugar vendr\341 un campo de inter\351s global:) TjETendstream
+endobj
+43 0 obj
+10281
+endobj
+41 0 obj
+<<
+/Type /Page
+/Parent 38 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F6 24 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 42 0 R
+>>
+endobj
+45 0 obj
+<<
+/Length 46 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (336) Tj-385.32 -47.28  TD /F1 9.96  Tf0.0175  Tc -0.0264  Tw (N\372mero de perfiles) Tj134.64 -0.12  TD /F4 9.96  Tf0.0156  Tc 0.0355  Tw (Contendr\341 el n\372mero de perfiles.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (dword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 759.48 134.64 0.24 re f240.72 759.48 0.24 0.24 re f240.96 759.48 272.52 0.24 re f106.08 735.36 134.64 0.24 re f240.72 735.36 0.24 0.24 re f240.96 735.36 272.52 0.24 re fBT103.08 714.6  TD0.0188  Tc 0.1244  Tw (Despu\351s del campo anterior vendr\341, para cada perfil que se halle en el archivo, la siguiente) Tj0 -11.52  TD 0.0198  Tc 0  Tw (informaci\363n:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0091  Tc -0.0179  Tw (Offset al perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.009  Tc 0.0421  Tw (Contendr\341 el offset donde hallar los datos del perfil.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (fstreampos) Tj60 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 689.04 134.64 0.24 re f240.72 689.04 0.24 0.24 re f240.96 689.04 272.52 0.24 re fBT109.92 655.68  TD/F1 9.96  Tf0.0124  Tc -0.0213  Tw (Nombre del perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.0039  Tc 0.0772  Tw (Contendr\341 el nombre del perfil.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 664.92 134.64 0.24 re f240.72 664.92 0.24 0.24 re f240.96 664.92 272.52 0.24 re f106.08 640.8 134.64 0.24 re f240.72 640.8 0.24 0.24 re f240.96 640.8 272.52 0.24 re fBT85.08 620.16  TD-0.0133  Tc 0  Tw (3.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.0176  Tc 0.3335  Tw (Datos de un perfil) Tj85.44 0  TD /F4 9.96  Tf0.0193  Tc 0.3519  Tw (. La parte central del archivo estar\341 destinada a almacenar los datos de) Tj-85.44 -11.52  TD 0.0152  Tc 0.0195  Tw (los diferentes perfiles. Cada uno de los perfiles guardar\341 la siguiente informaci\363n:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0106  Tc 0.0205  Tw (Nombre de la plantilla) Tj134.64 -0.12  TD /F4 9.96  Tf0.0163  Tc 0.0092  Tw (Contendr\341 el nombre de la plantilla de animaci\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 594.6 134.64 0.24 re f240.72 594.6 0.24 0.24 re f240.96 594.6 272.52 0.24 re fBT109.92 561.24  TD/F1 9.96  Tf0.0249  Tc -0.0338  Tw (Estado inicial de) Tj0 -11.52  TD 0.0064  Tc 0  Tw (animaci\363n) Tj134.64 11.4  TD /F4 9.96  Tf0.0093  Tc 4.5868  Tw (Contendr\341 el valor num\351rico con el estado inicial de) Tj0 -11.52  TD 0.0083  Tc 0  Tw (animaci\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (Byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 570.48 134.64 0.24 re f240.72 570.48 0.24 0.24 re f240.96 570.48 272.52 0.24 re fBT109.92 525.6  TD/F1 9.96  Tf0.0156  Tc -0.0245  Tw (Orientaci\363n inicial de) Tj0 -11.52  TD 0.0049  Tc 0  Tw (animaci\363n.) Tj134.64 11.4  TD /F4 9.96  Tf0.0089  Tc 2.2322  Tw (Contendr\341 el valor num\351rico con la orientaci\363n inicial de) Tj0 -11.52  TD 0.0083  Tc 0  Tw (animaci\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (Byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 534.84 134.64 0.24 re f240.72 534.84 0.24 0.24 re f240.96 534.84 272.52 0.24 re fBT109.92 489.96  TD/F1 9.96  Tf0.021  Tc -0.0299  Tw (Respuesta ante la no) Tj0 -11.52  TD 0.0145  Tc -0.0233  Tw (visibilidad en pantalla) Tj134.64 11.4  TD /F4 9.96  Tf0.0124  Tc 6.493  Tw (Contendr\341 el valor num\351rico asociado al modo de) Tj0 -11.52  TD 0.0179  Tc 1.2332  Tw (respuesta ante la no visibilidad en pantalla. Un valor de ) Tj1.4222  Tc 0  Tw (0) TjT* 0.0102  Tc 0.0343  Tw (indicar\341 pausa y un valor 1 no emisi\363n de sonido.) Tj0 -11.76  TD 0.0218  Tc -0.0306  Tw (Ocupar\341 un valor ) Tj79.44 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 499.2 134.64 0.24 re f240.72 499.2 0.24 0.24 re f240.96 499.2 272.52 0.24 re f106.08 452.04 134.64 0.24 re f240.72 452.04 0.24 0.24 re f240.96 452.04 272.52 0.24 re fBT103.08 431.28  TD0.0136  Tc 0.1714  Tw (A continuaci\363n vendr\341 la informaci\363n referida a los scripts asociados a los distintos eventos) Tj0 -11.52  TD 0.0145  Tc -0.0033  Tw (de la entidad. En primer lugar vendr\341:) Tj6.84 -23.16  TD /F1 9.96  Tf0.0153  Tc 0.0359  Tw (N\372mero de eventos) Tj134.64 -0.12  TD /F4 9.96  Tf0.0196  Tc 0.0115  Tw (Contendr\341 el n\372mero de eventos scripts asociados.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 405.84 134.64 0.24 re f240.72 405.84 0.24 0.24 re f240.96 405.84 272.52 0.24 re f106.08 381.72 134.64 0.24 re f240.72 381.72 0.24 0.24 re f240.96 381.72 272.52 0.24 re fBT103.08 360.96  TD0.021  Tc -0.0299  Tw (Por cada evento tendremos la siguiente informaci\363n:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0264  Tc -0.0353  Tw (C\363digo evento) Tj134.64 -0.12  TD /F4 9.96  Tf0.0109  Tc 0.1668  Tw (Contendr\341 el c\363digo del evento script. Para esta entidad los) Tj0 -11.76  TD 0.0131  Tc 5.438  Tw (c\363digos posibles ser\341n 9 para) Tj0  Tc -0.0089  Tw ( ) Tj162.72 0  TD /F6 9.96  Tf0.0583  Tc 0  Tw (OnSetIn) Tj42.12 0  TD /F4 9.96  Tf-0.0151  Tc 5.6462  Tw ( y 10 para) Tj-204.84 -12.36  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnSetOut) Tj48 0  TD /F4 9.96  Tf-0.0089  Tc (.) Tj-48 -12.36  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 346.92 134.64 0.24 re f240.72 346.92 0.24 0.24 re f240.96 346.92 272.52 0.24 re fBT109.92 288.84  TD/F1 9.96  Tf0.017  Tc -0.0259  Tw (Nombre fichero script) Tj134.64 -0.12  TD /F4 9.96  Tf0.0151  Tc 1.341  Tw (Contendr\341 el nombre del fichero script asociado al c\363digo) Tj0 -11.52  TD 0.0171  Tc 0.406  Tw (de evento. En caso de ser cadena vac\355a, se entender\341 que) TjT* 0.0168  Tc 0.0223  Tw (no habr\341 script asociado al evento.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 297.96 134.64 0.24 re f240.72 297.96 0.24 0.24 re f240.96 297.96 272.52 0.24 re f106.08 250.8 134.64 0.24 re f240.72 250.8 0.24 0.24 re f240.96 250.8 272.52 0.24 re fBT103.08 230.16  TD0.0172  Tc 0.0039  Tw (Finalmente, vendr\341n el resto de los campos de informaci\363n:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0536  Tc 0  Tw (Tipo) Tj134.64 -0.12  TD /F4 9.96  Tf0.0143  Tc 0.0369  Tw (Contendr\341 el valor num\351rico asociado al tipo de suelo.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 216.12 134.64 0.24 re f240.72 216.12 0.24 0.24 re f240.96 216.12 272.52 0.24 re fBT109.92 182.76  TD/F1 9.96  Tf0.0143  Tc -0.0232  Tw (Nombre del posible) Tj0 -11.52  TD 0.0155  Tc 0.0356  Tw (archivo WAV asociado) Tj134.64 11.4  TD /F4 9.96  Tf0.0118  Tc 0.5793  Tw (Contendr\341 el nombre del posible archivo ) Tj0.0274  Tc 0.5637  Tw (WAV a reproducir) Tj0 -11.52  TD 0.0172  Tc -0.0261  Tw (cuando se pise el suelo.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 192 134.64 0.24 re f240.72 192 0.24 0.24 re f240.96 192 272.52 0.24 re fBT109.92 147.12  TD/F1 9.96  Tf0.0178  Tc -0.0267  Tw (M\341scaras de acceso) Tj134.64 -0.12  TD /F4 9.96  Tf0.0124  Tc 0.0987  Tw (Indicar\341 si hay posibilidad de acceder al suelo por cada una) Tj0 -11.52  TD 0.0139  Tc 1.5372  Tw (de las posibles direcciones \(norte, noreste, este, sudeste,) Tj0 -11.4  TD 0.0106  Tc 0.0405  Tw (sur, sudoeste, oeste y noroeste\).) Tj0 -11.52  TD 0.004  Tc 0.0472  Tw (Cada valor ocupar\341 un ) Tj103.92 0  TD 0.0013  Tc 0  Tw (bool.) TjET106.08 156.36 134.64 0.24 re f240.72 156.36 0.24 0.24 re f240.96 156.36 272.52 0.24 re f106.08 110.16 134.64 0.24 re f240.72 110.16 0.24 0.24 re f240.96 110.16 272.52 0.24 re fBT85.08 87.6  TD/F1 12  Tf0.0047  Tc -0.0107  Tw (I.3.3. Formato del archivo de perfiles asociados a paredes.) TjETendstream
+endobj
+46 0 obj
+9276
+endobj
+44 0 obj
+<<
+/Type /Page
+/Parent 38 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F6 24 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 45 0 R
+>>
+endobj
+48 0 obj
+<<
+/Length 49 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (337) Tj-410.16 -36  TD /F4 9.96  Tf0.0207  Tc 4.0505  Tw (Este archivo ser\341 el denominado ) Tj4.1233  Tc 0  Tw (\223) Tj172.08 0  TD /F6 9.96  Tf0.024  Tc (WallProfiles.cbb) Tj96 0  TD /F4 9.96  Tf0.014  Tc 4.1771  Tw (\224 y contendr\341 todos los perfiles) Tj-268.08 -12.36  TD 0.0233  Tc -0.0322  Tw (asociados a las paredes definidos en su archivo hom\363logo \223) Tj265.68 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (.) Tj6 0  TD (cbt) Tj18 0  TD /F4 9.96  Tf0.0172  Tc (\224.) Tj-289.68 -23.4  TD 0.0114  Tc 0.0312  Tw (Se distinguir\341n las siguientes partes en el archivo:) Tj0 -22.92  TD -0.0133  Tc 0  Tw (1.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.005  Tc 0  Tw (Cabecera) Tj44.88 0  TD /F4 9.96  Tf0.0198  Tc 0.3513  Tw (. En la cabecera se mantendr\341 la informaci\363n b\341sica del archivo. Estar\341 formada) Tj-44.88 -11.64  TD 0.0296  Tc -0.0385  Tw (por los siguientes campos:) Tj6.84 -23.28  TD /F1 9.96  Tf0.016  Tc -0.0249  Tw (C\363digo del tipo del) Tj0 -11.4  TD 0.0303  Tc 0  Tw (archivo) Tj134.64 11.28  TD /F4 9.96  Tf0.0089  Tc 0.0422  Tw (Contendr\341 el c\363digo del archivo.) Tj0 -11.4  TD -0  Tc 0.0714  Tw (Su valor ser\341 3.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 677.16 134.64 0.24 re f240.72 677.16 0.24 0.24 re f240.96 677.16 272.52 0.24 re fBT109.92 632.4  TD/F1 9.96  Tf0.0169  Tc -0.0258  Tw (Versi\363n alta) Tj134.64 -0.12  TD /F4 9.96  Tf0.0088  Tc 0.0543  Tw (Contendr\341 la versi\363n superior del fichero.) Tj0 -11.52  TD -0  Tc 0.0714  Tw (Su valor ser\341 1.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 641.52 134.64 0.24 re f240.72 641.52 0.24 0.24 re f240.96 641.52 272.52 0.24 re fBT109.92 596.76  TD/F1 9.96  Tf0.027  Tc -0.0359  Tw (Versi\363n baja) Tj134.64 -0.12  TD /F4 9.96  Tf0.0093  Tc 0.0538  Tw (Contendr\341 la versi\363n inferior del fichero.) Tj0 -11.52  TD -0  Tc 0.0714  Tw (Su valor ser\341 0.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 605.88 134.64 0.24 re f240.72 605.88 0.24 0.24 re f240.96 605.88 272.52 0.24 re fBT109.92 561.12  TD/F1 9.96  Tf0.0151  Tc -0.024  Tw (Offset al \355ndice de perfiles) Tj134.64 -0.12  TD /F4 9.96  Tf0.0166  Tc 0.0145  Tw (Contendr\341 el offset al \355ndice de perfiles.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (fstreampos) Tj60 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 570.24 134.64 0.24 re f240.72 570.24 0.24 0.24 re f240.96 570.24 272.52 0.24 re f106.08 546.12 134.64 0.24 re f240.72 546.12 0.24 0.24 re f240.96 546.12 272.52 0.24 re fBT85.08 525.6  TD-0.0133  Tc (2.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.0228  Tc 1.2883  Tw (\315ndice de perfiles) Tj84.24 0  TD /F4 9.96  Tf0.014  Tc 1.4356  Tw (. El \355ndice de perfiles ocupar\341 la zona final del archivo y contendr\341 la) Tj-84.24 -11.64  TD 0.0219  Tc 0.6653  Tw (informaci\363n general de cada uno de los perfiles registrados, as\355 como la forma de llegar ) Tj0.8222  Tc 0  Tw (a) Tj0 -11.52  TD 0.0183  Tc -0.0087  Tw (los datos de los mismos. En primer lugar vendr\341 un campo de inter\351s global:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0175  Tc -0.0264  Tw (N\372mero de perfiles) Tj134.64 -0.12  TD /F4 9.96  Tf0.0156  Tc 0.0355  Tw (Contendr\341 el n\372mero de perfiles.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (dword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 488.4 134.64 0.24 re f240.72 488.4 0.24 0.24 re f240.96 488.4 272.52 0.24 re f106.08 464.28 134.64 0.24 re f240.72 464.28 0.24 0.24 re f240.96 464.28 272.52 0.24 re fBT103.08 443.52  TD0.0188  Tc 0.1244  Tw (Despu\351s del campo anterior vendr\341, para cada perfil que se halle en el archivo, la siguiente) Tj0 -11.4  TD 0.0198  Tc 0  Tw (informaci\363n:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0091  Tc -0.0179  Tw (Offset al perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.009  Tc 0.0421  Tw (Contendr\341 el offset donde hallar los datos del perfil.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (fstreampos) Tj60 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 418.08 134.64 0.24 re f240.72 418.08 0.24 0.24 re f240.96 418.08 272.52 0.24 re fBT109.92 384.72  TD/F1 9.96  Tf0.0124  Tc -0.0213  Tw (Nombre del perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.0039  Tc 0.0772  Tw (Contendr\341 el nombre del perfil.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 393.96 134.64 0.24 re f240.72 393.96 0.24 0.24 re f240.96 393.96 272.52 0.24 re f106.08 369.84 134.64 0.24 re f240.72 369.84 0.24 0.24 re f240.96 369.84 272.52 0.24 re fBT85.08 349.2  TD-0.0133  Tc 0  Tw (3.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.0176  Tc 0.3335  Tw (Datos de un perfil) Tj85.44 0  TD /F4 9.96  Tf0.0193  Tc 0.3519  Tw (. La parte central del archivo estar\341 destinada a almacenar los datos de) Tj-85.44 -11.64  TD 0.0152  Tc 0.0195  Tw (los diferentes perfiles. Cada uno de los perfiles guardar\341 la siguiente informaci\363n:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0106  Tc 0.0205  Tw (Nombre de la plantilla) Tj134.64 -0.12  TD /F4 9.96  Tf0.0163  Tc 0.0092  Tw (Contendr\341 el nombre de la plantilla de animaci\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 323.52 134.64 0.24 re f240.72 323.52 0.24 0.24 re f240.96 323.52 272.52 0.24 re fBT109.92 290.16  TD/F1 9.96  Tf0.0249  Tc -0.0338  Tw (Estado inicial de) Tj0 -11.52  TD 0.0064  Tc 0  Tw (animaci\363n) Tj134.64 11.4  TD /F4 9.96  Tf0.0093  Tc 4.5868  Tw (Contendr\341 el valor num\351rico con el estado inicial de) Tj0 -11.52  TD 0.0083  Tc 0  Tw (animaci\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (Byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 299.4 134.64 0.24 re f240.72 299.4 0.24 0.24 re f240.96 299.4 272.52 0.24 re fBT109.92 254.52  TD/F1 9.96  Tf0.0156  Tc -0.0245  Tw (Orientaci\363n inicial de) Tj0 -11.52  TD 0.0049  Tc 0  Tw (animaci\363n.) Tj134.64 11.4  TD /F4 9.96  Tf0.0089  Tc 2.2172  Tw (Contendr\341 el valor num\351rico con la orientaci\363n inicial de) Tj0 -11.52  TD 0.0083  Tc 0  Tw (animaci\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (Byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 263.76 134.64 0.24 re f240.72 263.76 0.24 0.24 re f240.96 263.76 272.52 0.24 re fBT109.92 218.88  TD/F1 9.96  Tf0.021  Tc -0.0299  Tw (Respuesta ante la no) Tj0 -11.4  TD 0.0145  Tc -0.0233  Tw (visibilidad en pantalla) Tj134.64 11.28  TD /F4 9.96  Tf0.0124  Tc 6.493  Tw (Contendr\341 el valor num\351rico asociado al modo de) Tj0 -11.4  TD 0.0179  Tc 1.2332  Tw (respuesta ante la no visibilidad en pantalla. Un valor de ) Tj1.4222  Tc 0  Tw (0) Tj0 -11.52  TD 0.0102  Tc 0.0343  Tw (indicar\341 pausa y un valor 1 no emisi\363n de sonido.) Tj0 -11.88  TD 0.0218  Tc -0.0306  Tw (Ocupar\341 un valor ) Tj79.44 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 228.12 134.64 0.24 re f240.72 228.12 0.24 0.24 re f240.96 228.12 272.52 0.24 re f106.08 180.96 134.64 0.24 re f240.72 180.96 0.24 0.24 re f240.96 180.96 272.52 0.24 re fBT103.08 160.32  TD0.0136  Tc 0.1714  Tw (A continuaci\363n vendr\341 la informaci\363n referida a los scripts asociados a los distintos eventos) Tj0 -11.52  TD 0.0145  Tc -0.0033  Tw (de la entidad. En primer lugar vendr\341:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0153  Tc 0.0359  Tw (N\372mero de eventos) Tj134.64 -0.12  TD /F4 9.96  Tf0.0196  Tc 0.0115  Tw (Contendr\341 el n\372mero de eventos scripts asociados.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 134.76 134.64 0.24 re f240.72 134.76 0.24 0.24 re f240.96 134.76 272.52 0.24 re f106.08 110.64 134.64 0.24 re f240.72 110.64 0.24 0.24 re f240.96 110.64 272.52 0.24 re fBT103.08 89.88  TD0.021  Tc -0.0299  Tw (Por cada evento tendremos la siguiente informaci\363n:) TjETendstream
+endobj
+49 0 obj
+9126
+endobj
+47 0 obj
+<<
+/Type /Page
+/Parent 38 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F6 24 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 48 0 R
+>>
+endobj
+51 0 obj
+<<
+/Length 52 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (338) Tj-385.32 -35.76  TD /F1 9.96  Tf0.0264  Tc -0.0353  Tw (C\363digo evento) Tj134.64 -0.12  TD /F4 9.96  Tf0.0109  Tc 0.1668  Tw (Contendr\341 el c\363digo del evento script. Para esta entidad los) Tj0 -11.76  TD 0.0211  Tc 4.41  Tw (c\363digos posibles ser\341n 13 para) Tj0  Tc -0.0089  Tw ( ) Tj163.32 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnObserve) Tj54 0  TD /F4 9.96  Tf0.0265  Tc 4.5246  Tw (, 14 para) Tj-217.32 -12.48  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnTalk) Tj36 0  TD /F4 9.96  Tf-0.0078  Tc 15.2989  Tw (, 15 para) Tj0  Tc -0.0089  Tw ( ) Tj87.84 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnManipulate) Tj72 0  TD /F4 9.96  Tf0.0265  Tc 15.2646  Tw (, 27 para) Tj-195.84 -12.36  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnEntityIdle) Tj72 0  TD /F4 9.96  Tf-0.0078  Tc 12.8989  Tw (, 23 para) Tj0  Tc -0.0089  Tw ( ) Tj80.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnHit) Tj30 0  TD /F4 9.96  Tf-0.0151  Tc 13.0462  Tw ( y 30 para) Tj-182.64 -12.36  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnEntityCreated) Tj90 0  TD /F4 9.96  Tf-0.0089  Tc (.) Tj-90 -12.36  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 771 134.64 0.24 re f240.72 771 0.24 0.24 re f240.96 771 272.52 0.24 re fBT109.92 688.08  TD/F1 9.96  Tf0.017  Tc -0.0259  Tw (Nombre fichero script) Tj134.64 -0.12  TD /F4 9.96  Tf0.0151  Tc 1.341  Tw (Contendr\341 el nombre del fichero script asociado al c\363digo) Tj0 -11.52  TD 0.0171  Tc 0.406  Tw (de evento. En caso de ser cadena vac\355a, se entender\341 que) TjT* 0.0168  Tc 0.0223  Tw (no habr\341 script asociado al evento.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 697.32 134.64 0.24 re f240.72 697.32 0.24 0.24 re f240.96 697.32 272.52 0.24 re f106.08 650.16 134.64 0.24 re f240.72 650.16 0.24 0.24 re f240.96 650.16 272.52 0.24 re fBT103.08 629.4  TD0.0172  Tc 0.0039  Tw (Finalmente, vendr\341n el resto de los campos de informaci\363n:) Tj6.84 -23.16  TD /F1 9.96  Tf0.0124  Tc -0.0213  Tw (Nombre del perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.0157  Tc 2.8105  Tw (Contendr\341 el nombre de la entidad representada por el) Tj0 -11.52  TD 0.0011  Tc 0  Tw (perfil.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 615.36 134.64 0.24 re f240.72 615.36 0.24 0.24 re f240.96 615.36 272.52 0.24 re fBT109.92 570.6  TD/F1 9.96  Tf0.0139  Tc -0.0228  Tw (Plantilla de animaci\363n) Tj0 -11.52  TD 0.0189  Tc -0.0278  Tw (asociada al retrato) Tj134.64 11.4  TD /F4 9.96  Tf0.0162  Tc 0.6416  Tw (Nombre de la plantilla de animaci\363n asociada al retrato del) Tj0 -11.52  TD 0.0011  Tc 0  Tw (perfil.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 579.72 134.64 0.24 re f240.72 579.72 0.24 0.24 re f240.96 579.72 272.52 0.24 re fBT109.92 534.96  TD/F1 9.96  Tf0.0245  Tc -0.0333  Tw (Nombre del archivo ) Tj96.12 0  TD 0.02  Tc 0  Tw (tga) Tj-96.12 -11.52  TD 0.013  Tc 0.0181  Tw (asociado a la sombra.) Tj134.64 11.4  TD /F4 9.96  Tf0.014  Tc 3.3772  Tw (Nombre del posible archivo) Tj0  Tc -0.0089  Tw ( ) Tj137.28 0  TD 0.0225  Tc 3.4786  Tw (tga asociado a la sombra.) Tj-137.28 -11.52  TD 0.0012  Tc 0.1099  Tw (Deber\341 de incluirse la extensi\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 544.2 134.64 0.24 re f240.72 544.2 0.24 0.24 re f240.96 544.2 272.52 0.24 re fBT109.92 499.32  TD/F1 9.96  Tf0.0208  Tc -0.0297  Tw (Tiempo asociado al script) Tj0 -11.52  TD -0  Tc 0  Tw (idle) Tj134.64 11.4  TD /F4 9.96  Tf0.0177  Tc -0.0266  Tw (Tiempo asociado al script ) Tj116.16 0  TD -0.0053  Tc 0  Tw (idle.) Tj-116.16 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (float) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 508.56 134.64 0.24 re f240.72 508.56 0.24 0.24 re f240.96 508.56 272.52 0.24 re fBT109.92 475.2  TD/F1 9.96  Tf0.0536  Tc (Tipo) Tj134.64 -0.12  TD /F4 9.96  Tf0.012  Tc 0.0541  Tw (Contendr\341 el valor num\351rico asociado al tipo de pared.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 484.44 134.64 0.24 re f240.72 484.44 0.24 0.24 re f240.96 484.44 272.52 0.24 re fBT109.92 451.08  TD/F1 9.96  Tf0.0127  Tc -0.0216  Tw (Atributos locales) Tj134.64 -0.12  TD /F4 9.96  Tf0.0099  Tc 1.3012  Tw (Contendr\341 el valor de todos los atributos locales. Habr\341 ) Tj1.4222  Tc 0  Tw (4) Tj0 -11.52  TD 0.0235  Tc -0.0324  Tw (atributos locales.) Tj0 -11.76  TD 0.0092  Tc 0.0299  Tw (Cada atributo local ocupar\341 un ) Tj138.84 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 460.2 134.64 0.24 re f240.72 460.2 0.24 0.24 re f240.96 460.2 272.52 0.24 re fBT109.92 415.44  TD/F1 9.96  Tf0.0161  Tc -0.0249  Tw (Orientaci\363n de la pared) Tj134.64 -0.12  TD /F4 9.96  Tf0.0073  Tc 1.0489  Tw (Contendr\341 la orientaci\363n de la pared. Los posibles valores) Tj0 -11.52  TD 0.0076  Tc 2.4436  Tw (ser\341n 0, ninguna) Tj0  Tc -0.0089  Tw ( ) Tj84.36 0  TD 0.0256  Tc 2.3655  Tw (orientacion, 1, orientaci\363n sudoeste, 2,) Tj-84.36 -11.52  TD 0.0085  Tc 0.0546  Tw (orientaci\363n frontal, y 3, orientaci\363n sudeste.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 424.68 134.64 0.24 re f240.72 424.68 0.24 0.24 re f240.96 424.68 272.52 0.24 re fBT109.92 368.28  TD/F1 9.96  Tf0.019  Tc -0.0278  Tw (Flag de interacci\363n) Tj134.64 -0.12  TD /F4 9.96  Tf-0.0011  Tc 3.4722  Tw (Contendr\341 el) Tj0  Tc -0.0089  Tw ( ) Tj66.6 0  TD 0.0176  Tc 3.4235  Tw (flag indicativo de si la entidad es, o no,) Tj-66.6 -11.52  TD 0.0064  Tc 0  Tw (interactuable.) Tj0 -11.52  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD 0.0013  Tc 0  Tw (bool.) TjET106.08 377.52 134.64 0.24 re f240.72 377.52 0.24 0.24 re f240.96 377.52 272.52 0.24 re f106.08 342.72 134.64 0.24 re f240.72 342.72 0.24 0.24 re f240.96 342.72 272.52 0.24 re fBT85.08 320.16  TD/F1 12  Tf0.0025  Tc -0.0025  Tw (I.3.4. Formato del archivo de perfiles asociados a objetos de escenario.) Tj0 -23.88  TD /F4 9.96  Tf0.0207  Tc 1.6505  Tw (Este archivo ser\341 el denominado ) Tj1.7233  Tc 0  Tw (\223) Tj160.08 0  TD /F6 9.96  Tf0.024  Tc (SceneObjProfiles.cbb) Tj120 0  TD /F4 9.96  Tf0.0096  Tc 1.8055  Tw (\224 y contendr\341 todos los perfiles) Tj-280.08 -12.36  TD 0.0214  Tc -0.0194  Tw (asociados a los objetos de escenario definidos en su archivo hom\363logo \223) Tj321.84 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (.) Tj6 0  TD (cbt) Tj18 0  TD /F4 9.96  Tf0.0172  Tc (\224.) Tj-345.84 -23.52  TD 0.0114  Tc 0.0312  Tw (Se distinguir\341n las siguientes partes en el archivo:) Tj0 -22.8  TD -0.0133  Tc 0  Tw (1.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.005  Tc 0  Tw (Cabecera) Tj44.88 0  TD /F4 9.96  Tf0.0198  Tc 0.3513  Tw (. En la cabecera se mantendr\341 la informaci\363n b\341sica del archivo. Estar\341 formada) Tj-44.88 -11.64  TD 0.0296  Tc -0.0385  Tw (por los siguientes campos:) Tj6.84 -23.28  TD /F1 9.96  Tf0.016  Tc -0.0249  Tw (C\363digo del tipo del) Tj0 -11.4  TD 0.0303  Tc 0  Tw (archivo) Tj134.64 11.28  TD /F4 9.96  Tf0.0089  Tc 0.0422  Tw (Contendr\341 el c\363digo del archivo.) Tj0 -11.4  TD -0  Tc 0.0714  Tw (Su valor ser\341 4.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 211.92 134.64 0.24 re f240.72 211.92 0.24 0.24 re f240.96 211.92 272.52 0.24 re fBT109.92 167.04  TD/F1 9.96  Tf0.0169  Tc -0.0258  Tw (Versi\363n alta) Tj134.64 -0.12  TD /F4 9.96  Tf0.0088  Tc 0.0543  Tw (Contendr\341 la versi\363n superior del fichero.) Tj0 -11.4  TD -0  Tc 0.0714  Tw (Su valor ser\341 1.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 176.28 134.64 0.24 re f240.72 176.28 0.24 0.24 re f240.96 176.28 272.52 0.24 re fBT109.92 131.4  TD/F1 9.96  Tf0.027  Tc -0.0359  Tw (Versi\363n baja) Tj134.64 -0.12  TD /F4 9.96  Tf0.0093  Tc 0.0538  Tw (Contendr\341 la versi\363n inferior del fichero.) Tj0 -11.4  TD -0  Tc 0.0714  Tw (Su valor ser\341 0.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 140.64 134.64 0.24 re f240.72 140.64 0.24 0.24 re f240.96 140.64 272.52 0.24 re fBT109.92 95.88  TD/F1 9.96  Tf0.0151  Tc -0.024  Tw (Offset al \355ndice de perfiles) Tj134.64 -0.12  TD /F4 9.96  Tf0.0166  Tc 0.0145  Tw (Contendr\341 el offset al \355ndice de perfiles.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (fstreampos) Tj60 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 105 134.64 0.24 re f240.72 105 0.24 0.24 re f240.96 105 272.52 0.24 re f106.08 80.88 134.64 0.24 re f240.72 80.88 0.24 0.24 re f240.96 80.88 272.52 0.24 re fendstream
+endobj
+52 0 obj
+10336
+endobj
+50 0 obj
+<<
+/Type /Page
+/Parent 38 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F6 24 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 51 0 R
+>>
+endobj
+54 0 obj
+<<
+/Length 55 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (339) Tj-410.16 -46.92  TD /F4 9.96  Tf-0.0133  Tc (2.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.0228  Tc 1.2883  Tw (\315ndice de perfiles) Tj84.24 0  TD /F4 9.96  Tf0.014  Tc 1.4356  Tw (. El \355ndice de perfiles ocupar\341 la zona final del archivo y contendr\341 la) Tj-84.24 -11.64  TD 0.0219  Tc 0.6653  Tw (informaci\363n general de cada uno de los perfiles registrados, as\355 como la forma de llegar ) Tj0.8222  Tc 0  Tw (a) Tj0 -11.52  TD 0.0183  Tc -0.0087  Tw (los datos de los mismos. En primer lugar vendr\341 un campo de inter\351s global:) Tj6.84 -23.16  TD /F1 9.96  Tf0.0175  Tc -0.0264  Tw (N\372mero de perfiles) Tj134.64 -0.12  TD /F4 9.96  Tf0.0156  Tc 0.0355  Tw (Contendr\341 el n\372mero de perfiles.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (dword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 713.4 134.64 0.24 re f240.72 713.4 0.24 0.24 re f240.96 713.4 272.52 0.24 re f106.08 689.28 134.64 0.24 re f240.72 689.28 0.24 0.24 re f240.96 689.28 272.52 0.24 re fBT103.08 668.64  TD0.0188  Tc 0.1244  Tw (Despu\351s del campo anterior vendr\341, para cada perfil que se halle en el archivo, la siguiente) Tj0 -11.52  TD 0.0198  Tc 0  Tw (informaci\363n:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0091  Tc -0.0179  Tw (Offset al perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.009  Tc 0.0421  Tw (Contendr\341 el offset donde hallar los datos del perfil.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (fstreampos) Tj60 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 643.08 134.64 0.24 re f240.72 643.08 0.24 0.24 re f240.96 643.08 272.52 0.24 re fBT109.92 609.72  TD/F1 9.96  Tf0.0124  Tc -0.0213  Tw (Nombre del perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.0039  Tc 0.0772  Tw (Contendr\341 el nombre del perfil.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 618.96 134.64 0.24 re f240.72 618.96 0.24 0.24 re f240.96 618.96 272.52 0.24 re f106.08 594.84 134.64 0.24 re f240.72 594.84 0.24 0.24 re f240.96 594.84 272.52 0.24 re fBT85.08 574.2  TD-0.0133  Tc 0  Tw (3.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.0176  Tc 0.3335  Tw (Datos de un perfil) Tj85.44 0  TD /F4 9.96  Tf0.0193  Tc 0.3519  Tw (. La parte central del archivo estar\341 destinada a almacenar los datos de) Tj-85.44 -11.64  TD 0.0152  Tc 0.0195  Tw (los diferentes perfiles. Cada uno de los perfiles guardar\341 la siguiente informaci\363n:) Tj6.84 -23.16  TD /F1 9.96  Tf0.0106  Tc 0.0205  Tw (Nombre de la plantilla) Tj134.64 -0.12  TD /F4 9.96  Tf0.0163  Tc 0.0092  Tw (Contendr\341 el nombre de la plantilla de animaci\363n.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 548.52 134.64 0.24 re f240.72 548.52 0.24 0.24 re f240.96 548.52 272.52 0.24 re fBT109.92 515.16  TD/F1 9.96  Tf0.0249  Tc -0.0338  Tw (Estado inicial de) Tj0 -11.4  TD 0.0064  Tc 0  Tw (animaci\363n) Tj134.64 11.28  TD /F4 9.96  Tf0.0093  Tc 4.5868  Tw (Contendr\341 el valor num\351rico con el estado inicial de) Tj0 -11.4  TD 0.0083  Tc 0  Tw (animaci\363n.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (Byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 524.4 134.64 0.24 re f240.72 524.4 0.24 0.24 re f240.96 524.4 272.52 0.24 re fBT109.92 479.64  TD/F1 9.96  Tf0.0156  Tc -0.0245  Tw (Orientaci\363n inicial de) Tj0 -11.52  TD 0.0049  Tc 0  Tw (animaci\363n.) Tj134.64 11.4  TD /F4 9.96  Tf0.0089  Tc 2.2172  Tw (Contendr\341 el valor num\351rico con la orientaci\363n inicial de) Tj0 -11.52  TD 0.0083  Tc 0  Tw (animaci\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (Byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 488.76 134.64 0.24 re f240.72 488.76 0.24 0.24 re f240.96 488.76 272.52 0.24 re fBT109.92 444  TD/F1 9.96  Tf0.021  Tc -0.0299  Tw (Respuesta ante la no) Tj0 -11.52  TD 0.0145  Tc -0.0233  Tw (visibilidad en pantalla) Tj134.64 11.4  TD /F4 9.96  Tf0.0124  Tc 6.493  Tw (Contendr\341 el valor num\351rico asociado al modo de) Tj0 -11.52  TD 0.0179  Tc 1.2332  Tw (respuesta ante la no visibilidad en pantalla. Un valor de ) Tj1.4222  Tc 0  Tw (0) TjT* 0.0102  Tc 0.0343  Tw (indicar\341 pausa y un valor 1 no emisi\363n de sonido.) Tj0 -11.76  TD 0.0218  Tc -0.0306  Tw (Ocupar\341 un valor ) Tj79.44 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 453.12 134.64 0.24 re f240.72 453.12 0.24 0.24 re f240.96 453.12 272.52 0.24 re f106.08 405.96 134.64 0.24 re f240.72 405.96 0.24 0.24 re f240.96 405.96 272.52 0.24 re fBT103.08 385.32  TD0.0136  Tc 0.1714  Tw (A continuaci\363n vendr\341 la informaci\363n referida a los scripts asociados a los distintos eventos) Tj0 -11.52  TD 0.0145  Tc -0.0033  Tw (de la entidad. En primer lugar vendr\341:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0153  Tc 0.0359  Tw (N\372mero de eventos) Tj134.64 -0.12  TD /F4 9.96  Tf0.0169  Tc 0.0143  Tw (Contendr\341 el n\372mero de eventos scripts asociados.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 359.76 134.64 0.24 re f240.72 359.76 0.24 0.24 re f240.96 359.76 272.52 0.24 re f106.08 335.64 134.64 0.24 re f240.72 335.64 0.24 0.24 re f240.96 335.64 272.52 0.24 re fBT103.08 314.88  TD0.021  Tc -0.0299  Tw (Por cada evento tendremos la siguiente informaci\363n:) Tj6.84 -23.16  TD /F1 9.96  Tf0.0264  Tc -0.0353  Tw (C\363digo evento) Tj134.64 -0.12  TD /F4 9.96  Tf0.0109  Tc 0.1668  Tw (Contendr\341 el c\363digo del evento script. Para esta entidad los) Tj0 -11.76  TD 0.0211  Tc 4.41  Tw (c\363digos posibles ser\341n 13 para) Tj0  Tc -0.0089  Tw ( ) Tj163.32 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnObserve) Tj54 0  TD /F4 9.96  Tf0.0265  Tc 4.5246  Tw (, 14 para) Tj-217.32 -12.48  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnTalk) Tj36 0  TD /F4 9.96  Tf-0.0078  Tc 15.2989  Tw (, 15 para) Tj0  Tc -0.0089  Tw ( ) Tj87.84 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnManipulate) Tj72 0  TD /F4 9.96  Tf0.0265  Tc 15.2646  Tw (, 27 para) Tj-195.84 -12.36  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnEntityIdle) Tj72 0  TD /F4 9.96  Tf-0.0078  Tc 12.8989  Tw (, 23 para) Tj0  Tc -0.0089  Tw ( ) Tj80.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnHit) Tj30 0  TD /F4 9.96  Tf-0.0151  Tc 13.0462  Tw ( y 30 para) Tj-182.64 -12.36  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnEntityCreated) Tj90 0  TD /F4 9.96  Tf-0.0089  Tc (.) Tj-90 -12.36  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 300.96 134.64 0.24 re f240.72 300.96 0.24 0.24 re f240.96 300.96 272.52 0.24 re fBT109.92 218.04  TD/F1 9.96  Tf0.017  Tc -0.0259  Tw (Nombre fichero script) Tj134.64 -0.12  TD /F4 9.96  Tf0.0151  Tc 1.341  Tw (Contendr\341 el nombre del fichero script asociado al c\363digo) Tj0 -11.52  TD 0.0171  Tc 0.406  Tw (de evento. En caso de ser cadena vac\355a, se entender\341 que) TjT* 0.0168  Tc 0.0223  Tw (no habr\341 script asociado al evento.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 227.28 134.64 0.24 re f240.72 227.28 0.24 0.24 re f240.96 227.28 272.52 0.24 re f106.08 180.12 134.64 0.24 re f240.72 180.12 0.24 0.24 re f240.96 180.12 272.52 0.24 re fBT103.08 159.36  TD0.0172  Tc 0.0039  Tw (Finalmente, vendr\341n el resto de los campos de informaci\363n:) Tj6.84 -23.16  TD /F1 9.96  Tf0.0124  Tc -0.0213  Tw (Nombre del perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.0157  Tc 2.8105  Tw (Contendr\341 el nombre de la entidad representada por el) Tj0 -11.52  TD 0.0011  Tc 0  Tw (perfil.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 145.32 134.64 0.24 re f240.72 145.32 0.24 0.24 re f240.96 145.32 272.52 0.24 re fBT109.92 100.56  TD/F1 9.96  Tf0.0139  Tc -0.0228  Tw (Plantilla de animaci\363n) Tj0 -11.52  TD 0.0189  Tc -0.0278  Tw (asociada al retrato) Tj134.64 11.4  TD /F4 9.96  Tf0.0162  Tc 0.6416  Tw (Nombre de la plantilla de animaci\363n asociada al retrato del) Tj0 -11.52  TD 0.0011  Tc 0  Tw (perfil.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 109.8 134.64 0.24 re f240.72 109.8 0.24 0.24 re f240.96 109.8 272.52 0.24 re f106.08 74.16 134.64 0.24 re f240.72 74.16 0.24 0.24 re f240.96 74.16 272.52 0.24 re fendstream
+endobj
+55 0 obj
+9863
+endobj
+53 0 obj
+<<
+/Type /Page
+/Parent 38 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F6 24 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 54 0 R
+>>
+endobj
+58 0 obj
+<<
+/Length 59 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (340) Tj-385.32 -35.76  TD /F1 9.96  Tf0.0245  Tc -0.0333  Tw (Nombre del archivo ) Tj96.12 0  TD 0.02  Tc 0  Tw (tga) Tj-96.12 -11.52  TD 0.013  Tc 0.0181  Tw (asociado a la sombra.) Tj134.64 11.4  TD /F4 9.96  Tf0.014  Tc 3.3772  Tw (Nombre del posible archivo) Tj0  Tc -0.0089  Tw ( ) Tj137.28 0  TD 0.0225  Tc 3.4786  Tw (tga asociado a la sombra.) Tj-137.28 -11.52  TD 0.0012  Tc 0.1099  Tw (Deber\341 de incluirse la extensi\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 771 134.64 0.24 re f240.72 771 0.24 0.24 re f240.96 771 272.52 0.24 re fBT109.92 726.12  TD/F1 9.96  Tf0.0208  Tc -0.0297  Tw (Tiempo asociado al script) Tj0 -11.52  TD -0  Tc 0  Tw (idle) Tj134.64 11.4  TD /F4 9.96  Tf0.0177  Tc -0.0266  Tw (Tiempo asociado al script ) Tj116.16 0  TD -0.0053  Tc 0  Tw (idle.) Tj-116.16 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (float) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 735.36 134.64 0.24 re f240.72 735.36 0.24 0.24 re f240.96 735.36 272.52 0.24 re fBT109.92 702  TD/F1 9.96  Tf0.0536  Tc (Tipo) Tj134.64 -0.12  TD /F4 9.96  Tf0.0113  Tc 1.1798  Tw (Contendr\341 el valor num\351rico asociado al tipo de objeto de) Tj0 -11.52  TD 0.0255  Tc 0  Tw (escenario.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 711.24 134.64 0.24 re f240.72 711.24 0.24 0.24 re f240.96 711.24 272.52 0.24 re fBT109.92 666.36  TD/F1 9.96  Tf-0.0107  Tc (Clase) Tj134.64 -0.12  TD /F4 9.96  Tf0.0119  Tc 0.9793  Tw (Contendr\341 el valor num\351rico asociado a la clase de objeto) Tj0 -11.52  TD 0.0083  Tc -0.0171  Tw (de escenario.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 675.6 134.64 0.24 re f240.72 675.6 0.24 0.24 re f240.96 675.6 272.52 0.24 re fBT109.92 630.72  TD/F1 9.96  Tf0.0127  Tc -0.0216  Tw (Atributos locales) Tj134.64 -0.12  TD /F4 9.96  Tf0.0099  Tc 1.3012  Tw (Contendr\341 el valor de todos los atributos locales. Habr\341 ) Tj1.4222  Tc 0  Tw (4) Tj0 -11.52  TD 0.0235  Tc -0.0324  Tw (atributos locales.) Tj0 -11.76  TD 0.0092  Tc 0.0299  Tw (Cada atributo local ocupar\341 un ) Tj138.84 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 639.96 134.64 0.24 re f240.72 639.96 0.24 0.24 re f240.96 639.96 272.52 0.24 re fBT109.92 595.08  TD/F1 9.96  Tf0.019  Tc -0.0278  Tw (Flag de interacci\363n) Tj134.64 -0.12  TD /F4 9.96  Tf-0.0011  Tc 3.4722  Tw (Contendr\341 el) Tj0  Tc -0.0089  Tw ( ) Tj66.6 0  TD 0.0176  Tc 3.4235  Tw (flag indicativo de si la entidad es, o no,) Tj-66.6 -11.52  TD 0.0064  Tc 0  Tw (interactuable.) Tj0 -11.52  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD 0.0013  Tc 0  Tw (bool.) TjET106.08 604.32 134.64 0.24 re f240.72 604.32 0.24 0.24 re f240.96 604.32 272.52 0.24 re fBT109.92 560.28  TD/F1 9.96  Tf0.0204  Tc -0.0293  Tw (Flag de acceso) Tj134.64 -0.12  TD /F4 9.96  Tf-0.0011  Tc 2.3922  Tw (Contendr\341 el) Tj0  Tc -0.0089  Tw ( ) Tj64.44 0  TD 0.0203  Tc 2.3022  Tw (flag indicativo de si el objeto de escenario) Tj-64.44 -11.4  TD 0.0182  Tc -0.0151  Tw (impide el acceso a la celda en la que se halla.) Tj0 -11.52  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD 0.0013  Tc 0  Tw (bool.) TjET106.08 569.52 134.64 0.24 re f240.72 569.52 0.24 0.24 re f240.96 569.52 272.52 0.24 re f106.08 534.72 134.64 0.24 re f240.72 534.72 0.24 0.24 re f240.96 534.72 272.52 0.24 re fBT85.08 512.28  TD/F1 12  Tf0.0032  Tc -0.0092  Tw (I.3.5. Formato del archivo de perfiles asociados a \355tems.) Tj0 -23.88  TD /F4 9.96  Tf0.0207  Tc 4.0505  Tw (Este archivo ser\341 el denominado ) Tj4.1233  Tc 0  Tw (\223) Tj172.08 0  TD /F6 9.96  Tf0.024  Tc (ItemProfiles.cbb) Tj96 0  TD /F4 9.96  Tf0.014  Tc 4.1771  Tw (\224 y contendr\341 todos los perfiles) Tj-268.08 -12.36  TD 0.0165  Tc 0.0013  Tw (asociados a los \355tems definidos en su archivo hom\363logo \223) Tj253.92 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (.) Tj6 0  TD (cbt) Tj18 0  TD /F4 9.96  Tf0.0172  Tc (\224.) Tj-277.92 -23.52  TD 0.0114  Tc 0.0312  Tw (Se distinguir\341n las siguientes partes en el archivo:) Tj0 -22.92  TD -0.0133  Tc 0  Tw (1.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.005  Tc 0  Tw (Cabecera) Tj44.88 0  TD /F4 9.96  Tf0.0198  Tc 0.3513  Tw (. En la cabecera se mantendr\341 la informaci\363n b\341sica del archivo. Estar\341 formada) Tj-44.88 -11.64  TD 0.0296  Tc -0.0385  Tw (por los siguientes campos:) Tj6.84 -23.16  TD /F1 9.96  Tf0.016  Tc -0.0249  Tw (C\363digo del tipo del) Tj0 -11.52  TD 0.0303  Tc 0  Tw (archivo) Tj134.64 11.4  TD /F4 9.96  Tf0.0089  Tc 0.0422  Tw (Contendr\341 el c\363digo del archivo.) Tj0 -11.52  TD -0  Tc 0.0714  Tw (Su valor ser\341 5.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 404.04 134.64 0.24 re f240.72 404.04 0.24 0.24 re f240.96 404.04 272.52 0.24 re fBT109.92 359.16  TD/F1 9.96  Tf0.0169  Tc -0.0258  Tw (Versi\363n alta) Tj134.64 -0.12  TD /F4 9.96  Tf0.0088  Tc 0.0543  Tw (Contendr\341 la versi\363n superior del fichero.) Tj0 -11.52  TD -0  Tc 0.0714  Tw (Su valor ser\341 1.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 368.4 134.64 0.24 re f240.72 368.4 0.24 0.24 re f240.96 368.4 272.52 0.24 re fBT109.92 323.52  TD/F1 9.96  Tf0.027  Tc -0.0359  Tw (Versi\363n baja) Tj134.64 -0.12  TD /F4 9.96  Tf0.0093  Tc 0.0538  Tw (Contendr\341 la versi\363n inferior del fichero.) Tj0 -11.52  TD -0  Tc 0.0714  Tw (Su valor ser\341 0.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 332.76 134.64 0.24 re f240.72 332.76 0.24 0.24 re f240.96 332.76 272.52 0.24 re fBT109.92 287.88  TD/F1 9.96  Tf0.0151  Tc -0.024  Tw (Offset al \355ndice de perfiles) Tj134.64 -0.12  TD /F4 9.96  Tf0.0166  Tc 0.0145  Tw (Contendr\341 el offset al \355ndice de perfiles.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (fstreampos) Tj60 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 297.12 134.64 0.24 re f240.72 297.12 0.24 0.24 re f240.96 297.12 272.52 0.24 re f106.08 273 134.64 0.24 re f240.72 273 0.24 0.24 re f240.96 273 272.52 0.24 re fBT85.08 252.36  TD-0.0133  Tc (2.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.0228  Tc 1.2883  Tw (\315ndice de perfiles) Tj84.24 0  TD /F4 9.96  Tf0.014  Tc 1.4356  Tw (. El \355ndice de perfiles ocupar\341 la zona final del archivo y contendr\341 la) Tj-84.24 -11.64  TD 0.0219  Tc 0.6653  Tw (informaci\363n general de cada uno de los perfiles registrados, as\355 como la forma de llegar ) Tj0.8222  Tc 0  Tw (a) Tj0 -11.52  TD 0.0183  Tc -0.0087  Tw (los datos de los mismos. En primer lugar vendr\341 un campo de inter\351s global:) Tj6.84 -23.16  TD /F1 9.96  Tf0.0175  Tc -0.0264  Tw (N\372mero de perfiles) Tj134.64 -0.12  TD /F4 9.96  Tf0.0156  Tc 0.0355  Tw (Contendr\341 el n\372mero de perfiles.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (dword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 215.28 134.64 0.24 re f240.72 215.28 0.24 0.24 re f240.96 215.28 272.52 0.24 re f106.08 191.16 134.64 0.24 re f240.72 191.16 0.24 0.24 re f240.96 191.16 272.52 0.24 re fBT103.08 170.4  TD0.0188  Tc 0.1244  Tw (Despu\351s del campo anterior vendr\341, para cada perfil que se halle en el archivo, la siguiente) Tj0 -11.52  TD 0.0198  Tc 0  Tw (informaci\363n:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0091  Tc -0.0179  Tw (Offset al perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.009  Tc 0.0421  Tw (Contendr\341 el offset donde hallar los datos del perfil.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (fstreampos) Tj60 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 144.84 134.64 0.24 re f240.72 144.84 0.24 0.24 re f240.96 144.84 272.52 0.24 re fBT109.92 111.48  TD/F1 9.96  Tf0.0124  Tc -0.0213  Tw (Nombre del perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.0039  Tc 0.0772  Tw (Contendr\341 el nombre del perfil.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 120.72 134.64 0.24 re f240.72 120.72 0.24 0.24 re f240.96 120.72 272.52 0.24 re f106.08 96.6 134.64 0.24 re f240.72 96.6 0.24 0.24 re f240.96 96.6 272.52 0.24 re fendstream
+endobj
+59 0 obj
+9419
+endobj
+56 0 obj
+<<
+/Type /Page
+/Parent 57 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F6 24 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 58 0 R
+>>
+endobj
+61 0 obj
+<<
+/Length 62 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (341) Tj-410.16 -35.4  TD /F4 9.96  Tf-0.0133  Tc (3.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.0176  Tc 0.3335  Tw (Datos de un perfil) Tj85.44 0  TD /F4 9.96  Tf0.0193  Tc 0.3519  Tw (. La parte central del archivo estar\341 destinada a almacenar los datos de) Tj-85.44 -11.64  TD 0.0152  Tc 0.0195  Tw (los diferentes perfiles. Cada uno de los perfiles guardar\341 la siguiente informaci\363n:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0106  Tc 0.0205  Tw (Nombre de la plantilla) Tj134.64 -0.12  TD /F4 9.96  Tf0.0163  Tc 0.0092  Tw (Contendr\341 el nombre de la plantilla de animaci\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 736.44 134.64 0.24 re f240.72 736.44 0.24 0.24 re f240.96 736.44 272.52 0.24 re fBT109.92 703.08  TD/F1 9.96  Tf0.0249  Tc -0.0338  Tw (Estado inicial de) Tj0 -11.52  TD 0.0064  Tc 0  Tw (animaci\363n) Tj134.64 11.4  TD /F4 9.96  Tf0.0093  Tc 4.5868  Tw (Contendr\341 el valor num\351rico con el estado inicial de) Tj0 -11.52  TD 0.0083  Tc 0  Tw (animaci\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 712.32 134.64 0.24 re f240.72 712.32 0.24 0.24 re f240.96 712.32 272.52 0.24 re fBT109.92 667.44  TD/F1 9.96  Tf0.0156  Tc -0.0245  Tw (Orientaci\363n inicial de) Tj0 -11.52  TD 0.0049  Tc 0  Tw (animaci\363n.) Tj134.64 11.4  TD /F4 9.96  Tf0.0089  Tc 2.2172  Tw (Contendr\341 el valor num\351rico con la orientaci\363n inicial de) Tj0 -11.52  TD 0.0083  Tc 0  Tw (animaci\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 676.68 134.64 0.24 re f240.72 676.68 0.24 0.24 re f240.96 676.68 272.52 0.24 re fBT109.92 631.8  TD/F1 9.96  Tf0.021  Tc -0.0299  Tw (Respuesta ante la no) Tj0 -11.4  TD 0.0145  Tc -0.0233  Tw (visibilidad en pantalla) Tj134.64 11.28  TD /F4 9.96  Tf0.0124  Tc 6.493  Tw (Contendr\341 el valor num\351rico asociado al modo de) Tj0 -11.4  TD 0.0179  Tc 1.2332  Tw (respuesta ante la no visibilidad en pantalla. Un valor de ) Tj1.4222  Tc 0  Tw (0) Tj0 -11.52  TD 0.0102  Tc 0.0343  Tw (indicar\341 pausa y un valor 1 no emisi\363n de sonido.) Tj0 -11.88  TD 0.0218  Tc -0.0306  Tw (Ocupar\341 un valor ) Tj79.44 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 641.04 134.64 0.24 re f240.72 641.04 0.24 0.24 re f240.96 641.04 272.52 0.24 re f106.08 593.88 134.64 0.24 re f240.72 593.88 0.24 0.24 re f240.96 593.88 272.52 0.24 re fBT103.08 573.24  TD0.0136  Tc 0.1714  Tw (A continuaci\363n vendr\341 la informaci\363n referida a los scripts asociados a los distintos eventos) Tj0 -11.52  TD 0.0145  Tc -0.0033  Tw (de la entidad. En primer lugar vendr\341:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0153  Tc 0.0359  Tw (N\372mero de eventos) Tj134.64 -0.12  TD /F4 9.96  Tf0.0196  Tc 0.0115  Tw (Contendr\341 el n\372mero de eventos scripts asociados.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 547.68 134.64 0.24 re f240.72 547.68 0.24 0.24 re f240.96 547.68 272.52 0.24 re f106.08 523.56 134.64 0.24 re f240.72 523.56 0.24 0.24 re f240.96 523.56 272.52 0.24 re fBT103.08 502.8  TD0.021  Tc -0.0299  Tw (Por cada evento tendremos la siguiente informaci\363n:) Tj6.84 -23.16  TD /F1 9.96  Tf0.0264  Tc -0.0353  Tw (C\363digo evento) Tj134.64 -0.12  TD /F4 9.96  Tf0.0109  Tc 0.1668  Tw (Contendr\341 el c\363digo del evento script. Para esta entidad los) Tj0 -11.88  TD 0.0211  Tc 1.65  Tw (c\363digos posibles ser\341n 11 para) Tj0  Tc -0.0089  Tw ( ) Tj149.52 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnGet) Tj30 0  TD /F4 9.96  Tf0.0265  Tc 1.7046  Tw (, 12 para) Tj0  Tc -0.0089  Tw ( ) Tj47.52 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnDrop) Tj36 0  TD /F4 9.96  Tf-0.0089  Tc (,) Tj-263.04 -12.36  TD 0.0124  Tc 8.1387  Tw (13 para) Tj0  Tc -0.0089  Tw ( ) Tj52.92 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnObserve) Tj54 0  TD /F4 9.96  Tf0.0094  Tc 8.2017  Tw (, 14 para) Tj0  Tc -0.0089  Tw ( ) Tj66.84 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnTalk) Tj36 0  TD /F4 9.96  Tf0.0094  Tc 8.3817  Tw (, 15 para) Tj-209.76 -12.36  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnManipulate) Tj72 0  TD /F4 9.96  Tf-0.0078  Tc 0.7789  Tw (, 23 para) Tj0  Tc -0.0089  Tw ( ) Tj44.28 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnHit) Tj30 0  TD /F4 9.96  Tf0.0094  Tc 0.8217  Tw (, 27 para) Tj0  Tc -0.0089  Tw ( ) Tj44.64 0  TD /F6 9.96  Tf0.034  Tc 0  Tw (OnEntityIdle) Tj72.12 0  TD /F4 9.96  Tf-0.0089  Tc (,) Tj-263.04 -12.36  TD 0.0124  Tc 2.7387  Tw (28 para) Tj0  Tc -0.0089  Tw ( ) Tj42.12 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnUseItem) Tj54 0  TD /F4 9.96  Tf0.0094  Tc 2.8017  Tw (, 29 para) Tj0  Tc -0.0089  Tw ( ) Tj50.52 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnTradeItem) Tj66 0  TD /F4 9.96  Tf0.0192  Tc 2.9319  Tw ( y 30 para) Tj-212.64 -12.36  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnEntityCreated) Tj90 0  TD /F4 9.96  Tf-0.0089  Tc (.) Tj-90 -12.48  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 488.76 134.64 0.24 re f240.72 488.76 0.24 0.24 re f240.96 488.76 272.52 0.24 re fBT109.92 393.48  TD/F1 9.96  Tf0.017  Tc -0.0259  Tw (Nombre fichero script) Tj134.64 -0.12  TD /F4 9.96  Tf0.0151  Tc 1.341  Tw (Contendr\341 el nombre del fichero script asociado al c\363digo) Tj0 -11.4  TD 0.0171  Tc 0.406  Tw (de evento. En caso de ser cadena vac\355a, se entender\341 que) Tj0 -11.52  TD 0.0168  Tc 0.0223  Tw (no habr\341 script asociado al evento.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 402.72 134.64 0.24 re f240.72 402.72 0.24 0.24 re f240.96 402.72 272.52 0.24 re f106.08 355.56 134.64 0.24 re f240.72 355.56 0.24 0.24 re f240.96 355.56 272.52 0.24 re fBT103.08 334.92  TD0.0172  Tc 0.0039  Tw (Finalmente, vendr\341n el resto de los campos de informaci\363n:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0124  Tc -0.0213  Tw (Nombre del perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.0157  Tc 2.8105  Tw (Contendr\341 el nombre de la entidad representada por el) Tj0 -11.52  TD 0.0011  Tc 0  Tw (perfil.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 320.88 134.64 0.24 re f240.72 320.88 0.24 0.24 re f240.96 320.88 272.52 0.24 re fBT109.92 276  TD/F1 9.96  Tf0.0139  Tc -0.0228  Tw (Plantilla de animaci\363n) Tj0 -11.52  TD 0.0189  Tc -0.0278  Tw (asociada al retrato) Tj134.64 11.4  TD /F4 9.96  Tf0.0162  Tc 0.6416  Tw (Nombre de la plantilla de animaci\363n asociada al retrato del) Tj0 -11.52  TD 0.0011  Tc 0  Tw (perfil.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 285.24 134.64 0.24 re f240.72 285.24 0.24 0.24 re f240.96 285.24 272.52 0.24 re fBT109.92 240.36  TD/F1 9.96  Tf0.0245  Tc -0.0333  Tw (Nombre del archivo ) Tj96.12 0  TD 0.02  Tc 0  Tw (tga) Tj-96.12 -11.4  TD 0.013  Tc 0.0181  Tw (asociado a la sombra.) Tj134.64 11.28  TD /F4 9.96  Tf0.014  Tc 3.3772  Tw (Nombre del posible archivo) Tj0  Tc -0.0089  Tw ( ) Tj137.28 0  TD 0.0225  Tc 3.4786  Tw (tga asociado a la sombra.) Tj-137.28 -11.4  TD 0.0012  Tc 0.1099  Tw (Deber\341 de incluirse la extensi\363n.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 249.6 134.64 0.24 re f240.72 249.6 0.24 0.24 re f240.96 249.6 272.52 0.24 re fBT109.92 204.72  TD/F1 9.96  Tf0.0208  Tc -0.0297  Tw (Tiempo asociado al script) Tj0 -11.4  TD -0  Tc 0  Tw (idle) Tj134.64 11.28  TD /F4 9.96  Tf0.0177  Tc -0.0266  Tw (Tiempo asociado al script ) Tj116.16 0  TD -0.0053  Tc 0  Tw (idle.) Tj-116.16 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (float) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 213.96 134.64 0.24 re f240.72 213.96 0.24 0.24 re f240.96 213.96 272.52 0.24 re fBT109.92 180.6  TD/F1 9.96  Tf0.0536  Tc (Tipo) Tj134.64 -0.12  TD /F4 9.96  Tf0.0113  Tc 1.1798  Tw (Contendr\341 el valor num\351rico asociado al tipo de objeto de) Tj0 -11.52  TD 0.0255  Tc 0  Tw (escenario.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 189.84 134.64 0.24 re f240.72 189.84 0.24 0.24 re f240.96 189.84 272.52 0.24 re fBT109.92 144.96  TD/F1 9.96  Tf-0.0107  Tc (Clase) Tj134.64 -0.12  TD /F4 9.96  Tf0.0119  Tc 0.9793  Tw (Contendr\341 el valor num\351rico asociado a la clase de objeto) Tj0 -11.4  TD 0.0083  Tc -0.0171  Tw (de escenario.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 154.2 134.64 0.24 re f240.72 154.2 0.24 0.24 re f240.96 154.2 272.52 0.24 re fBT109.92 109.32  TD/F1 9.96  Tf0.0241  Tc -0.033  Tw (Atributos globales) Tj134.64 -0.12  TD /F4 9.96  Tf0.0102  Tc 0.6209  Tw (Contendr\341 el valor de todos los atributos globales. Habr\341 ) Tj0.7022  Tc 0  Tw (3) Tj0 -11.4  TD 0.0235  Tc -0.0324  Tw (atributos globales.) Tj0 -11.88  TD 0.0092  Tc 0.0299  Tw (Cada atributo local ocupar\341 un ) Tj138.84 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 118.56 134.64 0.24 re f240.72 118.56 0.24 0.24 re f240.96 118.56 272.52 0.24 re fBT109.92 73.8  TD/F1 9.96  Tf0.0127  Tc -0.0216  Tw (Atributos locales) Tj134.64 -0.12  TD /F4 9.96  Tf0.0099  Tc 1.3012  Tw (Contendr\341 el valor de todos los atributos locales. Habr\341 ) Tj1.4222  Tc 0  Tw (6) TjET106.08 82.92 134.64 0.24 re f240.72 82.92 0.24 0.24 re f240.96 82.92 272.52 0.24 re f106.08 71.16 134.64 0.24 re f240.72 71.16 0.24 0.24 re f240.96 71.16 272.52 0.24 re fendstream
+endobj
+62 0 obj
+11283
+endobj
+60 0 obj
+<<
+/Type /Page
+/Parent 57 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F6 24 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 61 0 R
+>>
+endobj
+64 0 obj
+<<
+/Length 65 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (342) Tj-250.68 -35.88  TD /F4 9.96  Tf0.0235  Tc -0.0324  Tw (atributos locales.) Tj0 -11.76  TD 0.0092  Tc 0.0299  Tw (Cada atributo local ocupar\341 un ) Tj138.84 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 771 134.64 0.24 re f240.72 771 0.24 0.24 re f240.96 771 272.52 0.24 re f106.08 746.88 134.64 0.24 re f240.72 746.88 0.24 0.24 re f240.96 746.88 272.52 0.24 re fBT85.08 721.92  TD/F1 12  Tf0  Tc -0.0062  Tw (I.3.6. Formato del archivo de perfiles asociados a criaturas.) Tj0 -23.88  TD /F4 9.96  Tf0.0207  Tc 4.0505  Tw (Este archivo ser\341 el denominado ) Tj4.1233  Tc 0  Tw (\223) Tj172.08 0  TD /F6 9.96  Tf0.024  Tc (ItemProfiles.cbb) Tj96 0  TD /F4 9.96  Tf0.014  Tc 4.1771  Tw (\224 y contendr\341 todos los perfiles) Tj-268.08 -12.36  TD 0.0216  Tc -0.0305  Tw (asociados a las criaturas definidos en su archivo hom\363logo \223) Tj267.84 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (.) Tj6 0  TD (cbt) Tj18 0  TD /F4 9.96  Tf0.0172  Tc (\224.) Tj-291.84 -23.4  TD 0.0114  Tc 0.0312  Tw (Se distinguir\341n las siguientes partes en el archivo:) Tj0 -22.92  TD -0.0133  Tc 0  Tw (1.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.005  Tc 0  Tw (Cabecera) Tj44.88 0  TD /F4 9.96  Tf0.0198  Tc 0.3513  Tw (. En la cabecera se mantendr\341 la informaci\363n b\341sica del archivo. Estar\341 formada) Tj-44.88 -11.64  TD 0.0296  Tc -0.0385  Tw (por los siguientes campos:) Tj6.84 -23.28  TD /F1 9.96  Tf0.016  Tc -0.0249  Tw (C\363digo del tipo del) Tj0 -11.4  TD 0.0303  Tc 0  Tw (archivo) Tj134.64 11.28  TD /F4 9.96  Tf0.0089  Tc 0.0422  Tw (Contendr\341 el c\363digo del archivo.) Tj0 -11.4  TD -0  Tc 0.0714  Tw (Su valor ser\341 6.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 613.68 134.64 0.24 re f240.72 613.68 0.24 0.24 re f240.96 613.68 272.52 0.24 re fBT109.92 568.92  TD/F1 9.96  Tf0.0169  Tc -0.0258  Tw (Versi\363n alta) Tj134.64 -0.12  TD /F4 9.96  Tf0.0088  Tc 0.0543  Tw (Contendr\341 la versi\363n superior del fichero.) Tj0 -11.52  TD -0  Tc 0.0714  Tw (Su valor ser\341 1.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 578.04 134.64 0.24 re f240.72 578.04 0.24 0.24 re f240.96 578.04 272.52 0.24 re fBT109.92 533.28  TD/F1 9.96  Tf0.027  Tc -0.0359  Tw (Versi\363n baja) Tj134.64 -0.12  TD /F4 9.96  Tf0.0093  Tc 0.0538  Tw (Contendr\341 la versi\363n inferior del fichero.) Tj0 -11.52  TD -0  Tc 0.0714  Tw (Su valor ser\341 0.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 542.4 134.64 0.24 re f240.72 542.4 0.24 0.24 re f240.96 542.4 272.52 0.24 re fBT109.92 497.64  TD/F1 9.96  Tf0.0151  Tc -0.024  Tw (Offset al \355ndice de perfiles) Tj134.64 -0.12  TD /F4 9.96  Tf0.0166  Tc 0.0145  Tw (Contendr\341 el offset al \355ndice de perfiles.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (fstreampos) Tj60 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 506.76 134.64 0.24 re f240.72 506.76 0.24 0.24 re f240.96 506.76 272.52 0.24 re f106.08 482.64 134.64 0.24 re f240.72 482.64 0.24 0.24 re f240.96 482.64 272.52 0.24 re fBT85.08 462.12  TD-0.0133  Tc (2.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.0228  Tc 1.2883  Tw (\315ndice de perfiles) Tj84.24 0  TD /F4 9.96  Tf0.014  Tc 1.4356  Tw (. El \355ndice de perfiles ocupar\341 la zona final del archivo y contendr\341 la) Tj-84.24 -11.64  TD 0.0219  Tc 0.6653  Tw (informaci\363n general de cada uno de los perfiles registrados, as\355 como la forma de llegar ) Tj0.8222  Tc 0  Tw (a) Tj0 -11.52  TD 0.0183  Tc -0.0087  Tw (los datos de los mismos. En primer lugar vendr\341 un campo de inter\351s global:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0175  Tc -0.0264  Tw (N\372mero de perfiles) Tj134.64 -0.12  TD /F4 9.96  Tf0.0156  Tc 0.0355  Tw (Contendr\341 el n\372mero de perfiles.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (dword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 424.92 134.64 0.24 re f240.72 424.92 0.24 0.24 re f240.96 424.92 272.52 0.24 re f106.08 400.8 134.64 0.24 re f240.72 400.8 0.24 0.24 re f240.96 400.8 272.52 0.24 re fBT103.08 380.04  TD0.0188  Tc 0.1244  Tw (Despu\351s del campo anterior vendr\341, para cada perfil que se halle en el archivo, la siguiente) Tj0 -11.4  TD 0.0198  Tc 0  Tw (informaci\363n:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0091  Tc -0.0179  Tw (Offset al perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.009  Tc 0.0421  Tw (Contendr\341 el offset donde hallar los datos del perfil.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (fstreampos) Tj60 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 354.6 134.64 0.24 re f240.72 354.6 0.24 0.24 re f240.96 354.6 272.52 0.24 re fBT109.92 321.24  TD/F1 9.96  Tf0.0124  Tc -0.0213  Tw (Nombre del perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.0039  Tc 0.0772  Tw (Contendr\341 el nombre del perfil.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 330.48 134.64 0.24 re f240.72 330.48 0.24 0.24 re f240.96 330.48 272.52 0.24 re f106.08 306.36 134.64 0.24 re f240.72 306.36 0.24 0.24 re f240.96 306.36 272.52 0.24 re fBT85.08 285.72  TD-0.0133  Tc 0  Tw (3.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.0176  Tc 0.3335  Tw (Datos de un perfil) Tj85.44 0  TD /F4 9.96  Tf0.0193  Tc 0.3519  Tw (. La parte central del archivo estar\341 destinada a almacenar los datos de) Tj-85.44 -11.64  TD 0.0152  Tc 0.0195  Tw (los diferentes perfiles. Cada uno de los perfiles guardar\341 la siguiente informaci\363n:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0106  Tc 0.0205  Tw (Nombre de la plantilla) Tj134.64 -0.12  TD /F4 9.96  Tf0.0163  Tc 0.0092  Tw (Contendr\341 el nombre de la plantilla de animaci\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 260.04 134.64 0.24 re f240.72 260.04 0.24 0.24 re f240.96 260.04 272.52 0.24 re fBT109.92 226.68  TD/F1 9.96  Tf0.0249  Tc -0.0338  Tw (Estado inicial de) Tj0 -11.52  TD 0.0064  Tc 0  Tw (animaci\363n) Tj134.64 11.4  TD /F4 9.96  Tf0.0093  Tc 4.5868  Tw (Contendr\341 el valor num\351rico con el estado inicial de) Tj0 -11.52  TD 0.0083  Tc 0  Tw (animaci\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (Byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 235.92 134.64 0.24 re f240.72 235.92 0.24 0.24 re f240.96 235.92 272.52 0.24 re fBT109.92 191.04  TD/F1 9.96  Tf0.0156  Tc -0.0245  Tw (Orientaci\363n inicial de) Tj0 -11.52  TD 0.0049  Tc 0  Tw (animaci\363n.) Tj134.64 11.4  TD /F4 9.96  Tf0.0089  Tc 2.2172  Tw (Contendr\341 el valor num\351rico con la orientaci\363n inicial de) Tj0 -11.52  TD 0.0083  Tc 0  Tw (animaci\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (Byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 200.28 134.64 0.24 re f240.72 200.28 0.24 0.24 re f240.96 200.28 272.52 0.24 re fBT109.92 155.4  TD/F1 9.96  Tf0.021  Tc -0.0299  Tw (Respuesta ante la no) Tj0 -11.4  TD 0.0145  Tc -0.0233  Tw (visibilidad en pantalla) Tj134.64 11.28  TD /F4 9.96  Tf0.0124  Tc 6.493  Tw (Contendr\341 el valor num\351rico asociado al modo de) Tj0 -11.4  TD 0.0179  Tc 1.2332  Tw (respuesta ante la no visibilidad en pantalla. Un valor de ) Tj1.4222  Tc 0  Tw (0) Tj0 -11.52  TD 0.0102  Tc 0.0343  Tw (indicar\341 pausa y un valor 1 no emisi\363n de sonido.) Tj0 -11.76  TD 0.0218  Tc -0.0306  Tw (Ocupar\341 un valor ) Tj79.44 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 164.64 134.64 0.24 re f240.72 164.64 0.24 0.24 re f240.96 164.64 272.52 0.24 re f106.08 117.48 134.64 0.24 re f240.72 117.48 0.24 0.24 re f240.96 117.48 272.52 0.24 re fBT103.08 96.84  TD0.0136  Tc 0.1714  Tw (A continuaci\363n vendr\341 la informaci\363n referida a los scripts asociados a los distintos eventos) Tj0 -11.52  TD 0.0145  Tc -0.0033  Tw (de la entidad. En primer lugar vendr\341:) TjETendstream
+endobj
+65 0 obj
+9039
+endobj
+63 0 obj
+<<
+/Type /Page
+/Parent 57 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F6 24 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 64 0 R
+>>
+endobj
+67 0 obj
+<<
+/Length 68 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (343) Tj-385.32 -35.76  TD /F1 9.96  Tf0.0153  Tc 0.0359  Tw (N\372mero de eventos) Tj134.64 -0.12  TD /F4 9.96  Tf0.0196  Tc 0.0115  Tw (Contendr\341 el n\372mero de eventos scripts asociados.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 771 134.64 0.24 re f240.72 771 0.24 0.24 re f240.96 771 272.52 0.24 re f106.08 746.88 134.64 0.24 re f240.72 746.88 0.24 0.24 re f240.96 746.88 272.52 0.24 re fBT103.08 726.12  TD0.021  Tc -0.0299  Tw (Por cada evento tendremos la siguiente informaci\363n:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0264  Tc -0.0353  Tw (C\363digo evento) Tj134.64 -0.12  TD /F4 9.96  Tf0.0109  Tc 0.1668  Tw (Contendr\341 el c\363digo del evento script. Para esta entidad los) Tj0 -11.76  TD 0.0211  Tc 4.41  Tw (c\363digos posibles ser\341n 13 para) Tj0  Tc -0.0089  Tw ( ) Tj163.32 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnObserve) Tj54 0  TD /F4 9.96  Tf0.0265  Tc 4.5246  Tw (, 14 para) Tj-217.32 -12.36  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnTalk) Tj36 0  TD /F4 9.96  Tf-0.0078  Tc 2.0989  Tw (, 15 para) Tj0  Tc -0.0089  Tw ( ) Tj48.24 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnManipulate) Tj72 0  TD /F4 9.96  Tf0.0094  Tc 2.1417  Tw (, 16 para) Tj0  Tc -0.0089  Tw ( ) Tj48.6 0  TD /F6 9.96  Tf0.0411  Tc 0  Tw (OnDeath) Tj42.12 0  TD /F4 9.96  Tf-0.0148  Tc 2.1659  Tw (, 15) Tj-246.96 -12.36  TD -0.0025  Tc -0.0064  Tw (para ) Tj68.52 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnResurrect) Tj66 0  TD /F4 9.96  Tf0.0094  Tc 46.0017  Tw (, 18 para) Tj-134.52 -12.48  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnInsertInEquipmentSlot) Tj138 0  TD /F4 9.96  Tf0.0094  Tc 44.2617  Tw (, 19 para) Tj-138 -12.36  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnRemoveFromEquipmentSlot) Tj150 0  TD /F4 9.96  Tf0.0094  Tc 38.2617  Tw (, 20 para) Tj-150 -12.36  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnUseHability) Tj78 0  TD /F4 9.96  Tf-0.0078  Tc 5.2189  Tw (, 21 para) Tj0  Tc -0.0089  Tw ( ) Tj57.72 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnActivatedSymptom) Tj108 0  TD /F4 9.96  Tf0.1052  Tc 5.1659  Tw (, 22) Tj-243.72 -12.36  TD -0.0025  Tc -0.0064  Tw (para ) Tj24.48 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnDeactivatedSymptom) Tj120 0  TD /F4 9.96  Tf0.0094  Tc 1.9617  Tw (, 23 para) Tj0  Tc -0.0089  Tw ( ) Tj48 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnHit) Tj30 0  TD /F4 9.96  Tf0.0437  Tc 1.8675  Tw (, 24 para) Tj-222.48 -12.36  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnStartCombatTurn) Tj102 0  TD /F4 9.96  Tf0.0094  Tc 0.7017  Tw (, 25 para) Tj0  Tc -0.0089  Tw ( ) Tj44.28 0  TD /F6 9.96  Tf0.0311  Tc 0  Tw (OnCriatureInRange) Tj102.12 0  TD /F4 9.96  Tf0.0652  Tc 0.6459  Tw (, 26) Tj-248.4 -12.48  TD -0.0025  Tc -0.0064  Tw (para ) Tj22.92 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnCriatureOutOfRange) Tj120 0  TD /F4 9.96  Tf0.0094  Tc 0.1817  Tw (, 27 para ) Tj42.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnEntityIdle) Tj72 0  TD /F4 9.96  Tf0.18  Tc 0.0511  Tw ( y) Tj-257.88 -12.36  TD 0.0124  Tc -0.0213  Tw (30 para ) Tj36.6 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (OnEntityCreated) Tj90 0  TD /F4 9.96  Tf-0.0089  Tc (.) Tj-126.6 -12.36  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 712.08 134.64 0.24 re f240.72 712.08 0.24 0.24 re f240.96 712.08 272.52 0.24 re fBT109.92 554.88  TD/F1 9.96  Tf0.017  Tc -0.0259  Tw (Nombre fichero script) Tj134.64 -0.12  TD /F4 9.96  Tf0.0151  Tc 1.341  Tw (Contendr\341 el nombre del fichero script asociado al c\363digo) Tj0 -11.52  TD 0.0171  Tc 0.406  Tw (de evento. En caso de ser cadena vac\355a, se entender\341 que) TjT* 0.0168  Tc 0.0223  Tw (no habr\341 script asociado al evento.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 564.12 134.64 0.24 re f240.72 564.12 0.24 0.24 re f240.96 564.12 272.52 0.24 re f106.08 516.96 134.64 0.24 re f240.72 516.96 0.24 0.24 re f240.96 516.96 272.52 0.24 re fBT103.08 496.2  TD0.0172  Tc 0.0039  Tw (Finalmente, vendr\341n el resto de los campos de informaci\363n:) Tj6.84 -23.16  TD /F1 9.96  Tf0.0124  Tc -0.0213  Tw (Nombre del perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.0157  Tc 2.8105  Tw (Contendr\341 el nombre de la entidad representada por el) Tj0 -11.52  TD 0.0011  Tc 0  Tw (perfil.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 482.28 134.64 0.24 re f240.72 482.28 0.24 0.24 re f240.96 482.28 272.52 0.24 re fBT109.92 437.4  TD/F1 9.96  Tf0.0139  Tc -0.0228  Tw (Plantilla de animaci\363n) Tj0 -11.52  TD 0.0189  Tc -0.0278  Tw (asociada al retrato) Tj134.64 11.4  TD /F4 9.96  Tf0.0162  Tc 0.6416  Tw (Nombre de la plantilla de animaci\363n asociada al retrato del) Tj0 -11.52  TD 0.0011  Tc 0  Tw (perfil.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 446.64 134.64 0.24 re f240.72 446.64 0.24 0.24 re f240.96 446.64 272.52 0.24 re fBT109.92 401.76  TD/F1 9.96  Tf0.0245  Tc -0.0333  Tw (Nombre del archivo ) Tj96.12 0  TD 0.02  Tc 0  Tw (tga) Tj-96.12 -11.52  TD 0.013  Tc 0.0181  Tw (asociado a la sombra.) Tj134.64 11.4  TD /F4 9.96  Tf0.014  Tc 3.3772  Tw (Nombre del posible archivo) Tj0  Tc -0.0089  Tw ( ) Tj137.28 0  TD 0.0225  Tc 3.4786  Tw (tga asociado a la sombra.) Tj-137.28 -11.52  TD 0.0012  Tc 0.1099  Tw (Deber\341 de incluirse la extensi\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 411 134.64 0.24 re f240.72 411 0.24 0.24 re f240.96 411 272.52 0.24 re fBT109.92 366.12  TD/F1 9.96  Tf0.0208  Tc -0.0297  Tw (Tiempo asociado al script) Tj0 -11.52  TD -0  Tc 0  Tw (idle) Tj134.64 11.4  TD /F4 9.96  Tf0.0177  Tc -0.0266  Tw (Tiempo asociado al script ) Tj116.16 0  TD -0.0053  Tc 0  Tw (idle.) Tj-116.16 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (float) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 375.36 134.64 0.24 re f240.72 375.36 0.24 0.24 re f240.96 375.36 272.52 0.24 re fBT109.92 342  TD/F1 9.96  Tf0.0536  Tc (Tipo) Tj134.64 -0.12  TD /F4 9.96  Tf0.0113  Tc 1.1798  Tw (Contendr\341 el valor num\351rico asociado al tipo de objeto de) Tj0 -11.52  TD 0.0255  Tc 0  Tw (escenario.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 351.24 134.64 0.24 re f240.72 351.24 0.24 0.24 re f240.96 351.24 272.52 0.24 re fBT109.92 306.36  TD/F1 9.96  Tf-0.0107  Tc (Clase) Tj134.64 -0.12  TD /F4 9.96  Tf0.0119  Tc 0.9793  Tw (Contendr\341 el valor num\351rico asociado a la clase de objeto) Tj0 -11.52  TD 0.0083  Tc -0.0171  Tw (de escenario.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 315.6 134.64 0.24 re f240.72 315.6 0.24 0.24 re f240.96 315.6 272.52 0.24 re fBT109.92 270.72  TD/F1 9.96  Tf-0.0117  Tc (G\351nero) Tj134.64 -0.12  TD /F4 9.96  Tf0.0162  Tc 0.0349  Tw (Contendr\341 el valor num\351rico asociado al g\351nero.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 279.96 134.64 0.24 re f240.72 279.96 0.24 0.24 re f240.96 279.96 272.52 0.24 re fBT109.92 246.6  TD/F1 9.96  Tf0.0151  Tc (Nivel) Tj134.64 -0.12  TD /F4 9.96  Tf0.0107  Tc 0.0284  Tw (Contendr\341 el nivel de la criatura.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 255.84 134.64 0.24 re f240.72 255.84 0.24 0.24 re f240.96 255.84 272.52 0.24 re fBT109.92 222.48  TD/F1 9.96  Tf0.0113  Tc (Experiencia) Tj134.64 -0.12  TD /F4 9.96  Tf0.0132  Tc 0.0259  Tw (Contendr\341 la experiencia de la criatura.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 231.72 134.64 0.24 re f240.72 231.72 0.24 0.24 re f240.96 231.72 272.52 0.24 re fBT109.92 198.36  TD/F1 9.96  Tf0.0164  Tc -0.0252  Tw (Puntos de acci\363n) Tj134.64 -0.12  TD /F4 9.96  Tf0.0074  Tc 0.0523  Tw (Contendr\341 los puntos de acci\363n de la criatura.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 207.6 134.64 0.24 re f240.72 207.6 0.24 0.24 re f240.96 207.6 272.52 0.24 re fBT109.92 174.24  TD/F1 9.96  Tf-0  Tc (Salud) Tj134.64 -0.12  TD /F4 9.96  Tf-0.0011  Tc 3.5562  Tw (Contendr\341 el valor base y temporal de la salud de la) Tj0 -11.52  TD 0.0027  Tc 0  Tw (criatura.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sword) Tj30 0  TD /F4 9.96  Tf0.0109  Tc 0.0202  Tw ( por cada valor.) TjET106.08 183.48 134.64 0.24 re f240.72 183.48 0.24 0.24 re f240.96 183.48 272.52 0.24 re fBT109.92 138.6  TD/F1 9.96  Tf0.0126  Tc -0.0215  Tw (Atributos extendidos) Tj134.64 -0.12  TD /F4 9.96  Tf0.0118  Tc 0.7593  Tw (Contendr\341 los valores base y temporal de cada uno de los) Tj0 -11.52  TD 0.0187  Tc 2.7857  Tw (atributos extendidos de la criatura. Habr\341 un total de ) Tj2.8622  Tc 0  Tw (8) TjT* 0.0194  Tc -0.0283  Tw (atributos extendidos.) Tj0 -11.76  TD 0.0108  Tc 0.2203  Tw (Ocupar\341 dos ) Tj60.6 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sword) Tj30.12 0  TD /F4 9.96  Tf0.0099  Tc 0.5063  Tw ( por cada atributo, ya que cada uno de) Tj-90.72 -12.12  TD 0.016  Tc 0.0265  Tw (ellos tendr\341 un valor base y temporal asociado.) TjET106.08 147.84 134.64 0.24 re f240.72 147.84 0.24 0.24 re f240.96 147.84 272.52 0.24 re fBT109.92 79.92  TD/F1 9.96  Tf0.0231  Tc 0  Tw (Habilidades) Tj134.64 -0.12  TD /F4 9.96  Tf0.0089  Tc 6.2522  Tw (Contendr\341 un valor indicativo de si se posee una) TjET106.08 89.16 134.64 0.24 re f240.72 89.16 0.24 0.24 re f240.96 89.16 272.52 0.24 re f106.08 77.4 134.64 0.24 re f240.72 77.4 0.24 0.24 re f240.96 77.4 272.52 0.24 re fendstream
+endobj
+68 0 obj
+11288
+endobj
+66 0 obj
+<<
+/Type /Page
+/Parent 57 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F6 24 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 67 0 R
+>>
+endobj
+70 0 obj
+<<
+/Length 71 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (344) TjETq 240.72 759.48 272.76 11.76 re W n BT244.56 761.64  TD/F4 9.96  Tf0.0112  Tc 6.865  Tw (determinada habilidad o no. Habr\341 un total de ) Tj6.9422  Tc 0  Tw (8) TjETQ BT244.56 750.12  TD/F4 9.96  Tf0.0211  Tc (habilidades.) Tj0 -11.52  TD 0.007  Tc 0.0441  Tw (Cada habilidad ocupar\341 un ) Tj122.16 0  TD 0.0253  Tc 0  Tw (bool.) TjET106.08 771 134.64 0.24 re f240.72 771 0.24 0.24 re f240.96 771 272.52 0.24 re fBT109.92 726.96  TD/F1 9.96  Tf0.0063  Tc (S\355ntomas) Tj134.64 -0.12  TD /F4 9.96  Tf0.0106  Tc 2.3405  Tw (Contendr\341 un valor indicativo de si se tiene activado un) Tj0 -11.52  TD 0.0265  Tc -0.022  Tw (determinado s\355ntoma o no. Habr\341 un total de 16 s\355ntomas.) Tj0 -11.4  TD 0.0133  Tc 0.0078  Tw (Cada s\355ntoma ocupar\341 un ) Tj117.72 0  TD 0.0253  Tc 0  Tw (bool.) TjET106.08 736.2 134.64 0.24 re f240.72 736.2 0.24 0.24 re f240.96 736.2 272.52 0.24 re fBT109.92 692.28  TD/F1 9.96  Tf0.0189  Tc (Rango) Tj134.64 -0.12  TD /F4 9.96  Tf0.0207  Tc -0.0056  Tw (Contendr\341 el rango de la criatura.) Tj0 -11.88  TD 0.0156  Tc 0.0355  Tw (Cada criatura ocupar\341 un ) Tj115.56 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 701.4 134.64 0.24 re f240.72 701.4 0.24 0.24 re f240.96 701.4 272.52 0.24 re fBT109.92 668.16  TD/F1 9.96  Tf0.0188  Tc -0.0277  Tw (Flag de modo) Tj0 -11.52  TD 0.0248  Tc 0  Tw (transparencia) Tj134.64 11.4  TD /F4 9.96  Tf0.0117  Tc 7.5544  Tw (Contendr\341 un valor indicativo de si el modo de) Tj0 -11.52  TD 0.0105  Tc 0.0206  Tw (transparencia se halla activo.) TjT* 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD 0.0013  Tc 0  Tw (bool.) TjET106.08 677.28 134.64 0.24 re f240.72 677.28 0.24 0.24 re f240.96 677.28 272.52 0.24 re fBT109.92 633.36  TD/F1 9.96  Tf0.0277  Tc -0.0366  Tw (Flag de modo correr) Tj134.64 -0.12  TD /F4 9.96  Tf0.0131  Tc 0.8061  Tw (Contendr\341 un valor indicativo de si el modo correr se halla) Tj0 -11.52  TD 0.0022  Tc 0  Tw (activo.) TjT* 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD 0.0013  Tc 0  Tw (bool.) TjET106.08 642.6 134.64 0.24 re f240.72 642.6 0.24 0.24 re f240.96 642.6 272.52 0.24 re fBT109.92 598.56  TD/F1 9.96  Tf0.028  Tc -0.0368  Tw (Flag de modo fantasma) Tj134.64 -0.12  TD /F4 9.96  Tf0.0208  Tc 1.8637  Tw (Contendr\341 un valor indicativo de si el modo fantasma se) Tj0 -11.4  TD -0.0017  Tc 0.1128  Tw (halla activo.) Tj0 -11.52  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD 0.0013  Tc 0  Tw (bool.) TjET106.08 607.8 134.64 0.24 re f240.72 607.8 0.24 0.24 re f240.96 607.8 272.52 0.24 re fBT109.92 563.88  TD/F1 9.96  Tf0.0204  Tc -0.0293  Tw (Flag de acceso) Tj134.64 -0.12  TD /F4 9.96  Tf0.0088  Tc 0.7863  Tw (Contendr\341 un valor indicativo de si es posible acceder a la) Tj0 -11.52  TD 0.0089  Tc 0.0422  Tw (celda ocupada por la criatura.) TjT* 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD 0.0013  Tc 0  Tw (bool.) TjET106.08 573.12 134.64 0.24 re f240.72 573.12 0.24 0.24 re f240.96 573.12 272.52 0.24 re f106.08 538.32 134.64 0.24 re f240.72 538.32 0.24 0.24 re f240.96 538.32 272.52 0.24 re fBT85.08 515.76  TD/F1 12  Tf0.0029  Tc -0.0089  Tw (I.3.7. Formato del archivo de perfiles asociados a techos.) Tj0 -23.88  TD /F4 9.96  Tf0.0207  Tc 4.0505  Tw (Este archivo ser\341 el denominado ) Tj4.1233  Tc 0  Tw (\223) Tj172.08 0  TD /F6 9.96  Tf0.024  Tc (ItemProfiles.cbb) Tj96 0  TD /F4 9.96  Tf0.014  Tc 4.1771  Tw (\224 y contendr\341 todos los perfiles) Tj-268.08 -12.36  TD 0.0197  Tc -0.0153  Tw (asociados a los techos definidos en su archivo hom\363logo \223) Tj258.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (.) Tj6 0  TD (cbt) Tj18 0  TD /F4 9.96  Tf0.0172  Tc (\224.) Tj-282.96 -23.52  TD 0.0114  Tc 0.0312  Tw (Se distinguir\341n las siguientes partes en el archivo:) Tj0 -22.8  TD -0.0133  Tc 0  Tw (1.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.005  Tc 0  Tw (Cabecera) Tj44.88 0  TD /F4 9.96  Tf0.0198  Tc 0.3513  Tw (. En la cabecera se mantendr\341 la informaci\363n b\341sica del archivo. Estar\341 formada) Tj-44.88 -11.64  TD 0.0296  Tc -0.0385  Tw (por los siguientes campos:) Tj6.84 -23.28  TD /F1 9.96  Tf0.016  Tc -0.0249  Tw (C\363digo del tipo del) Tj0 -11.52  TD 0.0303  Tc 0  Tw (archivo) Tj134.64 11.4  TD /F4 9.96  Tf0.0089  Tc 0.0422  Tw (Contendr\341 el c\363digo del archivo.) Tj0 -11.52  TD -0  Tc 0.0714  Tw (Su valor ser\341 7.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 407.52 134.64 0.24 re f240.72 407.52 0.24 0.24 re f240.96 407.52 272.52 0.24 re fBT109.92 362.64  TD/F1 9.96  Tf0.0169  Tc -0.0258  Tw (Versi\363n alta) Tj134.64 -0.12  TD /F4 9.96  Tf0.0088  Tc 0.0543  Tw (Contendr\341 la versi\363n superior del fichero.) Tj0 -11.4  TD -0  Tc 0.0714  Tw (Su valor ser\341 1.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 371.88 134.64 0.24 re f240.72 371.88 0.24 0.24 re f240.96 371.88 272.52 0.24 re fBT109.92 327  TD/F1 9.96  Tf0.027  Tc -0.0359  Tw (Versi\363n baja) Tj134.64 -0.12  TD /F4 9.96  Tf0.0093  Tc 0.0538  Tw (Contendr\341 la versi\363n inferior del fichero.) Tj0 -11.4  TD -0  Tc 0.0714  Tw (Su valor ser\341 0.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 336.24 134.64 0.24 re f240.72 336.24 0.24 0.24 re f240.96 336.24 272.52 0.24 re fBT109.92 291.36  TD/F1 9.96  Tf0.0151  Tc -0.024  Tw (Offset al \355ndice de perfiles) Tj134.64 -0.12  TD /F4 9.96  Tf0.0166  Tc 0.0145  Tw (Contendr\341 el offset al \355ndice de perfiles.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (fstreampos) Tj60 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 300.6 134.64 0.24 re f240.72 300.6 0.24 0.24 re f240.96 300.6 272.52 0.24 re f106.08 276.48 134.64 0.24 re f240.72 276.48 0.24 0.24 re f240.96 276.48 272.52 0.24 re fBT85.08 255.84  TD-0.0133  Tc (2.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.0228  Tc 1.2883  Tw (\315ndice de perfiles) Tj84.24 0  TD /F4 9.96  Tf0.014  Tc 1.4356  Tw (. El \355ndice de perfiles ocupar\341 la zona final del archivo y contendr\341 la) Tj-84.24 -11.52  TD 0.0219  Tc 0.6653  Tw (informaci\363n general de cada uno de los perfiles registrados, as\355 como la forma de llegar ) Tj0.8222  Tc 0  Tw (a) Tj0 -11.52  TD 0.0183  Tc -0.0087  Tw (los datos de los mismos. En primer lugar vendr\341 un campo de inter\351s global:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0175  Tc -0.0264  Tw (N\372mero de perfiles) Tj134.64 -0.12  TD /F4 9.96  Tf0.0156  Tc 0.0355  Tw (Contendr\341 el n\372mero de perfiles.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (dword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 218.76 134.64 0.24 re f240.72 218.76 0.24 0.24 re f240.96 218.76 272.52 0.24 re f106.08 194.64 134.64 0.24 re f240.72 194.64 0.24 0.24 re f240.96 194.64 272.52 0.24 re fBT103.08 173.88  TD0.0188  Tc 0.1244  Tw (Despu\351s del campo anterior vendr\341, para cada perfil que se halle en el archivo, la siguiente) Tj0 -11.52  TD 0.0198  Tc 0  Tw (informaci\363n:) Tj6.84 -23.16  TD /F1 9.96  Tf0.0091  Tc -0.0179  Tw (Offset al perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.009  Tc 0.0421  Tw (Contendr\341 el offset donde hallar los datos del perfil.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (fstreampos) Tj60 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 148.44 134.64 0.24 re f240.72 148.44 0.24 0.24 re f240.96 148.44 272.52 0.24 re fBT109.92 115.08  TD/F1 9.96  Tf0.0124  Tc -0.0213  Tw (Nombre del perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.0039  Tc 0.0772  Tw (Contendr\341 el nombre del perfil.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 124.2 134.64 0.24 re f240.72 124.2 0.24 0.24 re f240.96 124.2 272.52 0.24 re f106.08 100.08 134.64 0.24 re f240.72 100.08 0.24 0.24 re f240.96 100.08 272.52 0.24 re fendstream
+endobj
+71 0 obj
+8691
+endobj
+69 0 obj
+<<
+/Type /Page
+/Parent 57 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F6 24 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 70 0 R
+>>
+endobj
+73 0 obj
+<<
+/Length 74 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (345) Tj-410.16 -35.4  TD /F4 9.96  Tf-0.0133  Tc (3.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.0176  Tc 0.3335  Tw (Datos de un perfil) Tj85.44 0  TD /F4 9.96  Tf0.0193  Tc 0.3519  Tw (. La parte central del archivo estar\341 destinada a almacenar los datos de) Tj-85.44 -11.64  TD 0.0152  Tc 0.0195  Tw (los diferentes perfiles. Cada uno de los perfiles guardar\341 la siguiente informaci\363n:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0106  Tc 0.0205  Tw (Nombre de la plantilla) Tj134.64 -0.12  TD /F4 9.96  Tf0.0163  Tc 0.0092  Tw (Contendr\341 el nombre de la plantilla de animaci\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 736.44 134.64 0.24 re f240.72 736.44 0.24 0.24 re f240.96 736.44 272.52 0.24 re fBT109.92 703.08  TD/F1 9.96  Tf0.0249  Tc -0.0338  Tw (Estado inicial de) Tj0 -11.52  TD 0.0064  Tc 0  Tw (animaci\363n) Tj134.64 11.4  TD /F4 9.96  Tf0.0093  Tc 4.5868  Tw (Contendr\341 el valor num\351rico con el estado inicial de) Tj0 -11.52  TD 0.0083  Tc 0  Tw (animaci\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (Byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 712.32 134.64 0.24 re f240.72 712.32 0.24 0.24 re f240.96 712.32 272.52 0.24 re fBT109.92 667.44  TD/F1 9.96  Tf0.0156  Tc -0.0245  Tw (Orientaci\363n inicial de) Tj0 -11.52  TD 0.0049  Tc 0  Tw (animaci\363n.) Tj134.64 11.4  TD /F4 9.96  Tf0.0089  Tc 2.2172  Tw (Contendr\341 el valor num\351rico con la orientaci\363n inicial de) Tj0 -11.52  TD 0.0083  Tc 0  Tw (animaci\363n.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (Byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 676.68 134.64 0.24 re f240.72 676.68 0.24 0.24 re f240.96 676.68 272.52 0.24 re fBT109.92 631.8  TD/F1 9.96  Tf0.021  Tc -0.0299  Tw (Respuesta ante la no) Tj0 -11.4  TD 0.0145  Tc -0.0233  Tw (visibilidad en pantalla) Tj134.64 11.28  TD /F4 9.96  Tf0.0124  Tc 6.493  Tw (Contendr\341 el valor num\351rico asociado al modo de) Tj0 -11.4  TD 0.0179  Tc 1.2332  Tw (respuesta ante la no visibilidad en pantalla. Un valor de ) Tj1.4222  Tc 0  Tw (0) Tj0 -11.52  TD 0.0102  Tc 0.0343  Tw (indicar\341 pausa y un valor 1 no emisi\363n de sonido.) Tj0 -11.88  TD 0.0218  Tc -0.0306  Tw (Ocupar\341 un valor ) Tj79.44 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sword) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 641.04 134.64 0.24 re f240.72 641.04 0.24 0.24 re f240.96 641.04 272.52 0.24 re f106.08 593.88 134.64 0.24 re f240.72 593.88 0.24 0.24 re f240.96 593.88 272.52 0.24 re fBT85.08 571.44  TD/F1 12  Tf-0.006  Tc 0.03  Tw (I.3.8. Formato del archivo de dise\361o de un \341rea.) Tj0 -23.52  TD /F4 9.96  Tf0.0214  Tc 0.304  Tw (Los archivos destinados al dise\361o de un \341rea poseer\341n la organizaci\363n de datos m\341s compleja) Tj0 -11.4  TD 0.0184  Tc 0.54  Tw (de todas. Tal y como se comenta en el ap\351ndice destinado a) Tj0  Tc -0.0089  Tw ( ) Tj278.88 0  TD /F5 9.96  Tf0.0223  Tc 0  Tw (CrisolBuilder) Tj55.08 0  TD /F4 9.96  Tf0.0175  Tc 0.5736  Tw (, siempre existir\341 un) Tj-333.96 -12.12  TD 0.0204  Tc 1.42  Tw (archivo de \341rea y todos los que esta utilidad construya tendr\341n como nombre ) Tj1.4833  Tc 0  Tw (\223) Tj366.6 0  TD /F6 9.96  Tf0.024  Tc (area) Tj24 0  TD /F0 9.96  Tf0.0089  Tc (X) Tj7.2 0  TD /F6 9.96  Tf0.024  Tc (.cbb) Tj24 0  TD /F4 9.96  Tf0.0433  Tc (\224) Tj-421.8 -11.88  TD 0.0062  Tc -0.0151  Tw (donde ) Tj30.6 0  TD /F0 9.96  Tf0.0089  Tc 0  Tw (X) Tj7.2 0  TD /F4 9.96  Tf0.0198  Tc 0.1513  Tw ( deber\341 de ser sustituido por un identificador num\351rico que asociar\341 el archivo con una) Tj-37.8 -11.64  TD 0.004  Tc 0.1072  Tw (determinada \341rea.) Tj0 -22.92  TD 0.0224  Tc -0.0203  Tw (A continuaci\363n se mostrar\341n las diferentes partes de los archivos de \341reas:) TjT* -0.0133  Tc 0  Tw (1.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.005  Tc 0  Tw (Cabecera) Tj44.88 0  TD /F4 9.96  Tf0.0198  Tc 0.3513  Tw (. En la cabecera se mantendr\341 la informaci\363n b\341sica del archivo. Estar\341 formada) Tj-44.88 -11.64  TD 0.0296  Tc -0.0385  Tw (por los siguientes campos:) Tj6.84 -23.16  TD /F1 9.96  Tf0.016  Tc -0.0249  Tw (C\363digo del tipo del) Tj0 -11.52  TD 0.0303  Tc 0  Tw (archivo) Tj134.64 11.4  TD /F4 9.96  Tf0.0089  Tc 0.0422  Tw (Contendr\341 el c\363digo del archivo.) Tj0 -11.52  TD -0  Tc 0.0714  Tw (Su valor ser\341 8.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 429.48 134.64 0.24 re f240.72 429.48 0.24 0.24 re f240.96 429.48 272.52 0.24 re fBT109.92 384.6  TD/F1 9.96  Tf0.0169  Tc -0.0258  Tw (Versi\363n alta) Tj134.64 -0.12  TD /F4 9.96  Tf0.0088  Tc 0.0543  Tw (Contendr\341 la versi\363n superior del fichero.) Tj0 -11.52  TD -0  Tc 0.0714  Tw (Su valor ser\341 1.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 393.84 134.64 0.24 re f240.72 393.84 0.24 0.24 re f240.96 393.84 272.52 0.24 re fBT109.92 348.96  TD/F1 9.96  Tf0.027  Tc -0.0359  Tw (Versi\363n baja) Tj134.64 -0.12  TD /F4 9.96  Tf0.0093  Tc 0.0538  Tw (Contendr\341 la versi\363n inferior del fichero.) Tj0 -11.52  TD -0  Tc 0.0714  Tw (Su valor ser\341 0.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 358.2 134.64 0.24 re f240.72 358.2 0.24 0.24 re f240.96 358.2 272.52 0.24 re f106.08 322.56 134.64 0.24 re f240.72 322.56 0.24 0.24 re f240.96 322.56 272.52 0.24 re fBT85.08 301.92  TD-0.0133  Tc (2.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.0185  Tc 2.2526  Tw (Datos generales del \341rea) Tj124.56 0  TD /F4 9.96  Tf0.0197  Tc 2.3594  Tw (. En esta secci\363n se guardar\341n los datos b\341sicos del \341rea.) Tj-124.56 -11.64  TD 0.0278  Tc -0.0367  Tw (Estar\341 formada por los siguientes campos:) Tj6.84 -23.16  TD /F1 9.96  Tf0.0135  Tc -0.0224  Tw (Identificador del \341rea) Tj134.64 -0.12  TD /F4 9.96  Tf0.0059  Tc 0.0709  Tw (Contendr\341 el valor num\351rico que identificar\341 al \341rea.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 276.24 134.64 0.24 re f240.72 276.24 0.24 0.24 re f240.96 276.24 272.52 0.24 re fBT109.92 242.88  TD/F1 9.96  Tf0.0162  Tc -0.0251  Tw (Nombre del \341rea) Tj134.64 -0.12  TD /F4 9.96  Tf0.0031  Tc 0.078  Tw (Contendr\341 el nombre del \341rea.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 252.12 134.64 0.24 re f240.72 252.12 0.24 0.24 re f240.96 252.12 272.52 0.24 re fBT109.92 218.76  TD/F1 9.96  Tf0.0145  Tc -0.0233  Tw (Anchura del \341rea) Tj134.64 -0.12  TD /F4 9.96  Tf0.0166  Tc 0.0012  Tw (Contendr\341 el n\372mero de celdas a lo ancho del \341rea.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 228 134.64 0.24 re f240.72 228 0.24 0.24 re f240.96 228 272.52 0.24 re fBT109.92 194.64  TD/F1 9.96  Tf0.0143  Tc -0.0232  Tw (Altura del \341rea) Tj134.64 -0.12  TD /F4 9.96  Tf0.0119  Tc 0.0192  Tw (Contendr\341 el n\372mero de celdas a lo alto del \341rea.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 203.88 134.64 0.24 re f240.72 203.88 0.24 0.24 re f240.96 203.88 272.52 0.24 re fBT109.92 170.52  TD/F1 9.96  Tf0.0257  Tc -0.0345  Tw (Modelo de luz) Tj134.64 -0.12  TD /F4 9.96  Tf0.008  Tc 0.0517  Tw (Contendr\341 el modelo de luz asociado al \341rea.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 179.76 134.64 0.24 re f240.72 179.76 0.24 0.24 re f240.96 179.76 272.52 0.24 re fBT109.92 146.4  TD/F1 9.96  Tf0.0191  Tc -0.028  Tw (N\372mero de habitaciones) Tj134.64 -0.12  TD /F4 9.96  Tf0.0124  Tc 0.0321  Tw (Contendr\341 el n\372mero de habitaciones que haya en el \341rea.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 155.64 134.64 0.24 re f240.72 155.64 0.24 0.24 re f240.96 155.64 272.52 0.24 re f106.08 131.52 134.64 0.24 re f240.72 131.52 0.24 0.24 re f240.96 131.52 272.52 0.24 re fBT85.08 110.88  TD-0.0133  Tc (3.) Tj8.28 0  TD 0  Tc -0.0089  Tw ( ) Tj9.72 0  TD /F1 9.96  Tf0.0129  Tc 0.3382  Tw (Datos asociados a las celdas) Tj139.56 0  TD /F4 9.96  Tf0.0261  Tc 0.3359  Tw (. Esta ser\341 la secci\363n m\341s grande pues ser\341 aqu\355 donde se) Tj-139.56 -11.64  TD 0.0165  Tc 1.0085  Tw (guarden los datos asociados a las distintas celdas. Todas las celdas se almacenar\341n por) Tj0 -11.52  TD 0.0165  Tc 0.0023  Tw (filas y cada una de ellas contendr\341 los campos que se especificar\341n a continuaci\363n.) TjETendstream
+endobj
+74 0 obj
+9935
+endobj
+72 0 obj
+<<
+/Type /Page
+/Parent 57 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F5 22 0 R 
+/F6 24 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 73 0 R
+>>
+endobj
+77 0 obj
+<<
+/Length 78 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (346) Tj-385.32 -35.76  TD /F1 9.96  Tf0.0165  Tc -0.0254  Tw (Flags asociados al tipo de) Tj0 -11.52  TD 0.0241  Tc -0.033  Tw (contenido existente) Tj134.64 11.4  TD /F4 9.96  Tf0.0122  Tc 1.6246  Tw (Contendr\341 un total de 5 valores de tipo) Tj0  Tc -0.0089  Tw ( ) Tj187.92 0  TD 0.0237  Tc 1.7074  Tw (bool indicando si) Tj-187.92 -11.52  TD 0.022  Tc 4.1349  Tw (existe informaci\363n asociada a un determinado tipo de) Tj0 -11.52  TD 0.0135  Tc 0.3077  Tw (entidad. El valor primero indicar\341 si hay un ) Tj194.4 0  TD 0.0536  Tc 0.3575  Tw (floor asociado a) Tj-194.4 -11.52  TD 0.0174  Tc 0.0637  Tw (la celda, el valor segundo si hay un techo, el valor tercero si) Tj0 -11.52  TD 0.0059  Tc 1.6892  Tw (hay datos de objetos de escenario, el valor cuarto si hay) Tj0 -11.4  TD 0.0107  Tc 0.0459  Tw (datos de criaturas y el valor quinto si hay datos de paredes.) TjET106.08 771 134.64 0.24 re f240.72 771 0.24 0.24 re f240.96 771 272.52 0.24 re f106.08 701.76 134.64 0.24 re f240.72 701.76 0.24 0.24 re f240.96 701.76 272.52 0.24 re fBT103.08 681  TD0.0202  Tc -0.0024  Tw (A continuaci\363n vendr\341n los datos asociados a las diferentes secciones.) Tj-18 -22.92  TD -0.0133  Tc 0  Tw (3.1.) Tj16.56 0  TD 0  Tc -0.0089  Tw ( ) Tj3.72 0  TD /F1 9.96  Tf0.0095  Tc 1.8416  Tw (Informaci\363n relativa a los suelos) Tj162.12 0  TD /F4 9.96  Tf0.0223  Tc 1.8755  Tw (. En caso de que no exista informaci\363n asociada al) Tj-162.12 -11.64  TD 0.0211  Tc 0.7929  Tw (suelo es seguro que no existir\341n datos asociados al resto de entidades. Los campos que) Tj0 -11.4  TD 0.0172  Tc -0.0261  Tw (encontraremos aqu\355 ser\341n:) Tj4.56 -23.28  TD /F1 9.96  Tf0.0059  Tc 0.0452  Tw (Perfil del suelo) Tj134.64 -0.12  TD /F4 9.96  Tf0.0146  Tc 0.0365  Tw (Contendr\341 el nombre del perfil que representar\341 al suelo.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 621 134.64 0.24 re f240.72 621 0.24 0.24 re f240.96 621 272.52 0.24 re fBT109.92 587.64  TD/F1 9.96  Tf0.0063  Tc 0  Tw (Elevaci\363n) Tj134.64 -0.12  TD /F4 9.96  Tf0.0099  Tc 0.0412  Tw (Contendr\341 la elevaci\363n del terreno.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 596.88 134.64 0.24 re f240.72 596.88 0.24 0.24 re f240.96 596.88 272.52 0.24 re fBT109.92 563.52  TD/F1 9.96  Tf0.0032  Tc 0.0779  Tw (N\372mero de \355tems sobre el) Tj0 -11.52  TD 0.0049  Tc 0  Tw (suelo) Tj134.64 11.4  TD /F4 9.96  Tf0.0154  Tc 0.0117  Tw (Contendr\341 el n\372mero de \355tems que se hallen sobre el suelo.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 572.64 134.64 0.24 re f240.72 572.64 0.24 0.24 re f240.96 572.64 272.52 0.24 re f106.08 548.52 134.64 0.24 re f240.72 548.52 0.24 0.24 re f240.96 548.52 272.52 0.24 re fBT103.08 527.88  TD0.0208  Tc -0.002  Tw (Por cada \355tem que se pueda hallar sobre el suelo existir\341n los siguientes campos:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0262  Tc -0.035  Tw (Perfil del \355tem) Tj134.64 -0.12  TD /F4 9.96  Tf0.0197  Tc 0.0314  Tw (Contendr\341 el nombre del perfil que representar\341 al \355tem.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 513.84 134.64 0.24 re f240.72 513.84 0.24 0.24 re f240.96 513.84 272.52 0.24 re fBT109.92 480.48  TD/F1 9.96  Tf0.057  Tc 0  Tw (Tag) Tj134.64 -0.12  TD /F4 9.96  Tf-0.0011  Tc 0.0522  Tw (Contendr\341 el ) Tj60 0  TD 0.0359  Tc -0.0048  Tw (tag asociado al \355tem.) Tj-60 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 489.72 134.64 0.24 re f240.72 489.72 0.24 0.24 re f240.96 489.72 272.52 0.24 re fBT109.92 456.36  TD/F1 9.96  Tf0.028  Tc -0.0369  Tw (Luz asociada al \355tem) Tj134.64 -0.12  TD /F4 9.96  Tf0.0231  Tc 0.016  Tw (Contendr\341 la luz asociada al \355tem.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 465.6 134.64 0.24 re f240.72 465.6 0.24 0.24 re f240.96 465.6 272.52 0.24 re f106.08 441.48 134.64 0.24 re f240.72 441.48 0.24 0.24 re f240.96 441.48 272.52 0.24 re fBT103.08 420.72  TD0.012  Tc 1.162  Tw (Una vez especificada la informaci\363n de los posibles \355tems alojados en el suelo vendr\341 el) Tj0 -11.52  TD 0.0173  Tc 0.0338  Tw (resto de datos del mismo:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0129  Tc -0.0218  Tw (Identificador de la) Tj0 -11.4  TD 0.011  Tc 0  Tw (habitaci\363n) Tj134.64 11.28  TD /F4 9.96  Tf0.0192  Tc 0.6919  Tw (Contendr\341 el identificador de la posible habitaci\363n a la que) Tj0 -11.4  TD 0.0082  Tc 3.4629  Tw (est\351 asociada la celda. En caso de valer 0 no estar\341) Tj0 -11.52  TD 0.0092  Tc 0.042  Tw (asociado a ninguna.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 395.16 134.64 0.24 re f240.72 395.16 0.24 0.24 re f240.96 395.16 272.52 0.24 re f106.08 348 134.64 0.24 re f240.72 348 0.24 0.24 re f240.96 348 272.52 0.24 re fBT85.08 327.48  TD-0.0133  Tc (3.2.) Tj16.56 0  TD 0  Tc -0.0089  Tw ( ) Tj3.72 0  TD /F1 9.96  Tf0.0154  Tc 0.0057  Tw (Informaci\363n relativa a los techos) Tj155.52 0  TD /F4 9.96  Tf0.0247  Tc -0.0336  Tw (. Los campos que encontraremos aqu\355 ser\341n:) Tj-150.96 -23.4  TD /F1 9.96  Tf0.0182  Tc -0.0271  Tw (Perfil del techo) Tj134.64 -0.12  TD /F4 9.96  Tf0.0106  Tc 0.0406  Tw (Contendr\341 el nombre del perfil que representar\341 al techo.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 313.32 134.64 0.24 re f240.72 313.32 0.24 0.24 re f240.96 313.32 272.52 0.24 re fBT109.92 279.96  TD/F1 9.96  Tf0.0063  Tc 0  Tw (Elevaci\363n) Tj134.64 -0.12  TD /F4 9.96  Tf0.0103  Tc 0.0408  Tw (Contendr\341 la elevaci\363n del techo.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 289.2 134.64 0.24 re f240.72 289.2 0.24 0.24 re f240.96 289.2 272.52 0.24 re fBT109.92 255.84  TD/F1 9.96  Tf0.0181  Tc -0.0269  Tw (Flag de ocultaci\363n) Tj134.64 -0.12  TD /F4 9.96  Tf0.0024  Tc 1.5488  Tw (Contendr\341 un valor) Tj0  Tc -0.0089  Tw ( ) Tj92.16 0  TD 0.0176  Tc 1.4935  Tw (identificativo de si el techo deber\341 de) Tj-92.16 -11.52  TD 0.0164  Tc 0.7307  Tw (ocultarse cuando la entidad con la c\341mara se halle en una) Tj0 -11.52  TD 0.0177  Tc -0.0066  Tw (habitaci\363n a la que pertenezca dicho techo.) TjT* 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD 0.0013  Tc 0  Tw (bool.) TjET106.08 265.08 134.64 0.24 re f240.72 265.08 0.24 0.24 re f240.96 265.08 272.52 0.24 re f106.08 218.88 134.64 0.24 re f240.72 218.88 0.24 0.24 re f240.96 218.88 272.52 0.24 re fBT85.08 198.24  TD-0.0133  Tc (3.3.) Tj16.56 0  TD 0  Tc -0.0089  Tw ( ) Tj3.72 0  TD /F1 9.96  Tf0.0167  Tc 0.9944  Tw (Informaci\363n relativa a los objetos de escenario) Tj228.72 0  TD /F4 9.96  Tf0.0242  Tc 1.0709  Tw (. Los campos que encontraremos aqu\355) Tj-228.72 -11.64  TD 0.0069  Tc 0  Tw (ser\341n:) Tj4.56 -23.28  TD /F1 9.96  Tf0.018  Tc -0.0269  Tw (N\372mero de objetos de) Tj0 -11.52  TD 0.0063  Tc 0  Tw (escenario) Tj134.64 11.4  TD /F4 9.96  Tf0.015  Tc 0.0961  Tw (Contendr\341 el n\372mero de objetos de escenario que se hallan) Tj0 -11.52  TD 0.0129  Tc -0.0218  Tw (sobre la celda.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 172.56 134.64 0.24 re f240.72 172.56 0.24 0.24 re f240.96 172.56 272.52 0.24 re f106.08 136.92 134.64 0.24 re f240.72 136.92 0.24 0.24 re f240.96 136.92 272.52 0.24 re fBT103.08 116.16  TD0.0277  Tc -0.0366  Tw (Por cada objeto de escenario tendremos los siguientes campos:) Tj6.84 -23.16  TD /F1 9.96  Tf-0.0117  Tc 0  Tw (Perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.01  Tc 0.0411  Tw (Contendr\341 el nombre del perfil asociado a la entidad.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 102.12 134.64 0.24 re f240.72 102.12 0.24 0.24 re f240.96 102.12 272.52 0.24 re f106.08 78 134.64 0.24 re f240.72 78 0.24 0.24 re f240.96 78 272.52 0.24 re fendstream
+endobj
+78 0 obj
+9780
+endobj
+75 0 obj
+<<
+/Type /Page
+/Parent 76 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F6 24 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 77 0 R
+>>
+endobj
+80 0 obj
+<<
+/Length 81 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (347) Tj-385.32 -35.76  TD /F1 9.96  Tf0.057  Tc (Tag) Tj134.64 -0.12  TD /F4 9.96  Tf0.0048  Tc 0.0463  Tw (Contendr\341 el nombre del ) Tj112.8 0  TD 0.0051  Tc 0.1061  Tw (tag asociado) Tj-112.8 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 771 134.64 0.24 re f240.72 771 0.24 0.24 re f240.96 771 272.52 0.24 re fBT109.92 737.64  TD/F1 9.96  Tf0.0063  Tc 0  Tw (Elevaci\363n) Tj134.64 -0.12  TD /F4 9.96  Tf0.0122  Tc 0.0323  Tw (Contendr\341 la elevaci\363n de la entidad con respecto al suelo.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 746.76 134.64 0.24 re f240.72 746.76 0.24 0.24 re f240.96 746.76 272.52 0.24 re fBT109.92 713.52  TD/F1 9.96  Tf0.0091  Tc -0.018  Tw (Luz asociada) Tj134.64 -0.12  TD /F4 9.96  Tf0.0105  Tc 0.0492  Tw (Contendr\341 el valor luminoso asociado a la entidad.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 722.64 134.64 0.24 re f240.72 722.64 0.24 0.24 re f240.96 722.64 272.52 0.24 re f106.08 698.52 134.64 0.24 re f240.72 698.52 0.24 0.24 re f240.96 698.52 272.52 0.24 re fBT103.08 677.88  TD0.0136  Tc 2.2655  Tw (En caso de que el perfil del objeto de escenario sea contenedor, se esperar\341 leer su) Tj0 -11.52  TD 0.0159  Tc 2.3643  Tw (posible contenido. Cuando tal ocurra, el contenido vendr\341 especificado de la siguiente) TjT* 0.0356  Tc 0  Tw (forma:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0071  Tc 0.044  Tw (N\372mero de \355tems) Tj134.64 -0.12  TD /F4 9.96  Tf0.0171  Tc 1.454  Tw (Contendr\341 el n\372mero de \355tems que contenga el objeto de) Tj0 -11.52  TD 0.0255  Tc 0  Tw (escenario.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 640.8 134.64 0.24 re f240.72 640.8 0.24 0.24 re f240.96 640.8 272.52 0.24 re f106.08 605.16 134.64 0.24 re f240.72 605.16 0.24 0.24 re f240.96 605.16 272.52 0.24 re fBT103.08 584.4  TD0.0272  Tc -0.0361  Tw (Por cada \355tem tendremos, a su vez, los siguientes campos:) Tj6.84 -23.16  TD /F1 9.96  Tf-0.0117  Tc 0  Tw (Perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.01  Tc 0.0411  Tw (Contendr\341 el nombre del perfil asociado a la entidad.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 570.48 134.64 0.24 re f240.72 570.48 0.24 0.24 re f240.96 570.48 272.52 0.24 re fBT109.92 537.12  TD/F1 9.96  Tf0.057  Tc 0  Tw (Tag) Tj134.64 -0.12  TD /F4 9.96  Tf0.0048  Tc 0.0463  Tw (Contendr\341 el nombre del ) Tj112.8 0  TD 0.0051  Tc 0.1061  Tw (tag asociado) Tj-112.8 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 546.24 134.64 0.24 re f240.72 546.24 0.24 0.24 re f240.96 546.24 272.52 0.24 re fBT109.92 513  TD/F1 9.96  Tf0.0091  Tc -0.018  Tw (Luz asociada) Tj134.64 -0.12  TD /F4 9.96  Tf0.0105  Tc 0.0492  Tw (Contendr\341 el valor luminoso asociado a la entidad.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 522.12 134.64 0.24 re f240.72 522.12 0.24 0.24 re f240.96 522.12 272.52 0.24 re f106.08 498 134.64 0.24 re f240.72 498 0.24 0.24 re f240.96 498 272.52 0.24 re fBT85.08 477.48  TD-0.0133  Tc (3.4.) Tj16.56 0  TD 0  Tc -0.0089  Tw ( ) Tj3.72 0  TD /F1 9.96  Tf0.0196  Tc 0.0016  Tw (Informaci\363n relativa a las criaturas) Tj165 0  TD /F4 9.96  Tf0.0247  Tc -0.0336  Tw (. Los campos que encontraremos aqu\355 ser\341n:) Tj-160.44 -23.4  TD /F1 9.96  Tf0.021  Tc 0.0301  Tw (N\372mero de criaturas) Tj134.64 -0.12  TD /F4 9.96  Tf0.0139  Tc 1.8306  Tw (Contendr\341 el n\372mero de criaturas que se hallan sobre la) Tj0 -11.52  TD -0.0089  Tc 0  Tw (celda.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 463.32 134.64 0.24 re f240.72 463.32 0.24 0.24 re f240.96 463.32 272.52 0.24 re f106.08 427.68 134.64 0.24 re f240.72 427.68 0.24 0.24 re f240.96 427.68 272.52 0.24 re fBT103.08 406.92  TD0.0277  Tc -0.0366  Tw (Por cada objeto de escenario tendremos los siguientes campos:) Tj6.84 -23.28  TD /F1 9.96  Tf-0.0117  Tc 0  Tw (Perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.01  Tc 0.0411  Tw (Contendr\341 el nombre del perfil asociado a la entidad.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 392.88 134.64 0.24 re f240.72 392.88 0.24 0.24 re f240.96 392.88 272.52 0.24 re fBT109.92 359.52  TD/F1 9.96  Tf0.057  Tc 0  Tw (Tag) Tj134.64 -0.12  TD /F4 9.96  Tf0.0048  Tc 0.0463  Tw (Contendr\341 el nombre del ) Tj112.8 0  TD 0.0051  Tc 0.1061  Tw (tag asociado) Tj-112.8 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 368.76 134.64 0.24 re f240.72 368.76 0.24 0.24 re f240.96 368.76 272.52 0.24 re fBT109.92 335.4  TD/F1 9.96  Tf0.0193  Tc -0.0282  Tw (Flag de criatura temporal) Tj134.64 -0.12  TD /F4 9.96  Tf0.0132  Tc 3.3679  Tw (Contendr\341 un valor num\351rico indicado si la criatura es) Tj0 -11.52  TD 0.0161  Tc -0.025  Tw (temporal o no.) Tj0 -11.4  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD 0.0013  Tc 0  Tw (bool.) TjET106.08 344.64 134.64 0.24 re f240.72 344.64 0.24 0.24 re f240.96 344.64 272.52 0.24 re fBT109.92 300.72  TD/F1 9.96  Tf0.0063  Tc (Elevaci\363n) Tj134.64 -0.12  TD /F4 9.96  Tf0.0122  Tc 0.0323  Tw (Contendr\341 la elevaci\363n de la entidad con respecto al suelo.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 309.96 134.64 0.24 re f240.72 309.96 0.24 0.24 re f240.96 309.96 272.52 0.24 re fBT109.92 276.6  TD/F1 9.96  Tf0.0091  Tc -0.018  Tw (Luz asociada) Tj134.64 -0.12  TD /F4 9.96  Tf0.0105  Tc 0.0492  Tw (Contendr\341 el valor luminoso asociado a la entidad.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 285.72 134.64 0.24 re f240.72 285.72 0.24 0.24 re f240.96 285.72 272.52 0.24 re f106.08 261.6 134.64 0.24 re f240.72 261.6 0.24 0.24 re f240.96 261.6 272.52 0.24 re fBT103.08 240.96  TD0.0182  Tc 0.0191  Tw (A continuaci\363n vendr\341 el contenido del inventario de la criatura. En primer lugar tendremos:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0071  Tc 0.044  Tw (N\372mero de \355tems) Tj134.64 -0.12  TD /F4 9.96  Tf0.0131  Tc 0.023  Tw (Contendr\341 el n\372mero de \355tems que contenga la criatura.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 226.92 134.64 0.24 re f240.72 226.92 0.24 0.24 re f240.96 226.92 272.52 0.24 re f106.08 202.8 134.64 0.24 re f240.72 202.8 0.24 0.24 re f240.96 202.8 272.52 0.24 re fBT103.08 182.04  TD0.0272  Tc -0.0361  Tw (Por cada \355tem tendremos, a su vez, los siguientes campos:) Tj6.84 -23.28  TD /F1 9.96  Tf-0.0117  Tc 0  Tw (Perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.01  Tc 0.0411  Tw (Contendr\341 el nombre del perfil asociado a la entidad.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 168 134.64 0.24 re f240.72 168 0.24 0.24 re f240.96 168 272.52 0.24 re fBT109.92 134.64  TD/F1 9.96  Tf0.057  Tc 0  Tw (Tag) Tj134.64 -0.12  TD /F4 9.96  Tf0.0048  Tc 0.0463  Tw (Contendr\341 el nombre del ) Tj112.8 0  TD 0.0051  Tc 0.1061  Tw (tag asociado) Tj-112.8 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 143.88 134.64 0.24 re f240.72 143.88 0.24 0.24 re f240.96 143.88 272.52 0.24 re fBT109.92 110.52  TD/F1 9.96  Tf0.0091  Tc -0.018  Tw (Luz asociada) Tj134.64 -0.12  TD /F4 9.96  Tf0.0105  Tc 0.0492  Tw (Contendr\341 el valor luminoso asociado a la entidad.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 119.76 134.64 0.24 re f240.72 119.76 0.24 0.24 re f240.96 119.76 272.52 0.24 re f106.08 95.64 134.64 0.24 re f240.72 95.64 0.24 0.24 re f240.96 95.64 272.52 0.24 re fendstream
+endobj
+81 0 obj
+10177
+endobj
+79 0 obj
+<<
+/Type /Page
+/Parent 76 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F6 24 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 80 0 R
+>>
+endobj
+83 0 obj
+<<
+/Length 84 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (348) Tj-392.16 -35.52  TD /F4 9.96  Tf0.0137  Tc 3.7374  Tw (Una vez especificado el contenido del inventario, le tocar\341 el turno a los) Tj0  Tc 0.1111  Tw ( ) Tj369 0  TD 0.0181  Tc 3.693  Tw (slots de) Tj-369 -11.52  TD 0.0235  Tc -0.0323  Tw (equipamiento. El primer campo relativo a los mismos ser\341:) Tj6.84 -23.28  TD /F1 9.96  Tf0.0085  Tc -0.0174  Tw (N\372mero de ) Tj54.96 0  TD 0.0071  Tc -0.016  Tw (slots de) Tj-54.96 -11.52  TD 0.0149  Tc -0.0238  Tw (equipamiento con datos) Tj134.64 11.4  TD /F4 9.96  Tf0.0078  Tc 4.2233  Tw (Contendr\341 el n\372mero de) Tj0  Tc -0.0089  Tw ( ) Tj127.2 0  TD 0.0258  Tc 4.1954  Tw (slots de equipamiento en la) Tj-127.2 -11.52  TD 0.0242  Tc -0.033  Tw (criatura, con datos asociados \(es decir, con \355tems\).) Tj0 -11.76  TD 0.0218  Tc -0.0306  Tw (Ocupar\341 un valor ) Tj79.44 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 736.44 134.64 0.24 re f240.72 736.44 0.24 0.24 re f240.96 736.44 272.52 0.24 re f106.08 700.8 134.64 0.24 re f240.72 700.8 0.24 0.24 re f240.96 700.8 272.52 0.24 re fBT103.08 680.04  TD0.0156  Tc -0.0244  Tw (Por cada ) Tj42.72 0  TD 0.0142  Tc 0.0269  Tw (slot de equipamiento con datos se tendr\341, a su vez, la siguiente informaci\363n:) Tj-35.88 -23.16  TD /F1 9.96  Tf0.0149  Tc -0.0237  Tw (Identificador del ) Tj79.92 0  TD 0.0128  Tc 0  Tw (slot) Tj54.72 -0.12  TD /F4 9.96  Tf0.0077  Tc 0.9435  Tw (Contendr\341 el identificador del) Tj0  Tc -0.0089  Tw ( ) Tj136.32 0  TD 0.0183  Tc 0.9629  Tw (slot de equipamiento para el) Tj-136.32 -11.52  TD 0.0083  Tc 0.0548  Tw (que es v\341lida la informaci\363n siguiente.) TjET106.08 666.12 134.64 0.24 re f240.72 666.12 0.24 0.24 re f240.96 666.12 272.52 0.24 re fBT109.92 633.6  TD/F1 9.96  Tf-0.0117  Tc 0  Tw (Perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.0102  Tc 0.041  Tw (Contendr\341 el nombre del perfil del \355tem que contenga.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 642.84 134.64 0.24 re f240.72 642.84 0.24 0.24 re f240.96 642.84 272.52 0.24 re fBT109.92 609.48  TD/F1 9.96  Tf0.057  Tc 0  Tw (Tag) Tj134.64 -0.12  TD /F4 9.96  Tf0.0048  Tc 0.0463  Tw (Contendr\341 el nombre del ) Tj112.8 0  TD 0.0292  Tc 0.0419  Tw (tag asociado al \355tem.) Tj-112.8 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 618.72 134.64 0.24 re f240.72 618.72 0.24 0.24 re f240.96 618.72 272.52 0.24 re fBT109.92 585.36  TD/F1 9.96  Tf0.0091  Tc -0.018  Tw (Luz asociada) Tj134.64 -0.12  TD /F4 9.96  Tf0.0206  Tc 0.0305  Tw (Contendr\341 el valor luminoso asociado al \355tem.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 594.6 134.64 0.24 re f240.72 594.6 0.24 0.24 re f240.96 594.6 272.52 0.24 re f106.08 570.48 134.64 0.24 re f240.72 570.48 0.24 0.24 re f240.96 570.48 272.52 0.24 re fBT85.08 549.84  TD-0.0133  Tc (3.5.) Tj16.56 0  TD 0  Tc -0.0089  Tw ( ) Tj3.72 0  TD /F1 9.96  Tf0.014  Tc 0.0071  Tw (Informaci\363n relativa a las paredes) Tj161.04 0  TD /F4 9.96  Tf0.0247  Tc -0.0336  Tw (. Los campos que encontraremos aqu\355 ser\341n:) Tj-156.48 -23.4  TD /F1 9.96  Tf0.0181  Tc -0.027  Tw (N\372mero de paredes) Tj134.64 -0.12  TD /F4 9.96  Tf0.0127  Tc 2.0717  Tw (Contendr\341 el n\372mero de paredes que se hallan sobre la) Tj0 -11.52  TD -0.0089  Tc 0  Tw (celda.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 535.68 134.64 0.24 re f240.72 535.68 0.24 0.24 re f240.96 535.68 272.52 0.24 re f106.08 500.04 134.64 0.24 re f240.72 500.04 0.24 0.24 re f240.96 500.04 272.52 0.24 re fBT103.08 479.28  TD0.0269  Tc -0.0358  Tw (Por cada pared tendremos los siguientes campos:) Tj6.84 -23.16  TD /F1 9.96  Tf-0.0117  Tc 0  Tw (Perfil) Tj134.64 -0.12  TD /F4 9.96  Tf0.01  Tc 0.0411  Tw (Contendr\341 el nombre del perfil asociado a la entidad.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 465.36 134.64 0.24 re f240.72 465.36 0.24 0.24 re f240.96 465.36 272.52 0.24 re fBT109.92 432  TD/F1 9.96  Tf0.057  Tc 0  Tw (Tag) Tj134.64 -0.12  TD /F4 9.96  Tf0.0048  Tc 0.0463  Tw (Contendr\341 el nombre del ) Tj112.8 0  TD 0.0051  Tc 0.1061  Tw (tag asociado) Tj-112.8 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (word) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 0.0378  Tw ( para la longitud y un ) Tj95.64 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (sbyte) Tj30 0  TD /F4 9.96  Tf0.022  Tc -0.0308  Tw ( por car\341cter.) TjET106.08 441.12 134.64 0.24 re f240.72 441.12 0.24 0.24 re f240.96 441.12 272.52 0.24 re fBT109.92 407.88  TD/F1 9.96  Tf0.0063  Tc 0  Tw (Elevaci\363n) Tj134.64 -0.12  TD /F4 9.96  Tf0.0122  Tc 0.0323  Tw (Contendr\341 la elevaci\363n de la entidad con respecto al suelo.) Tj0 -11.88  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 417 134.64 0.24 re f240.72 417 0.24 0.24 re f240.96 417 272.52 0.24 re fBT109.92 383.64  TD/F1 9.96  Tf0.0091  Tc -0.018  Tw (Luz asociada) Tj134.64 -0.12  TD /F4 9.96  Tf0.0105  Tc 0.0492  Tw (Contendr\341 el valor luminoso asociado a la entidad.) Tj0 -11.76  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD /F6 9.96  Tf0.024  Tc 0  Tw (byte) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (.) TjET106.08 392.88 134.64 0.24 re f240.72 392.88 0.24 0.24 re f240.96 392.88 272.52 0.24 re fBT109.92 359.52  TD/F1 9.96  Tf0.0157  Tc -0.0246  Tw (Flag de bloqueo) Tj134.64 -0.12  TD /F4 9.96  Tf0.0099  Tc 2.5279  Tw (Contendr\341 el identificador que indique si se halla, o no,) Tj0 -11.4  TD 0.0247  Tc -0.0336  Tw (activo el bloqueo en la pared.) Tj0 -11.52  TD 0.0187  Tc 0.0325  Tw (Ocupar\341 un ) Tj54.96 0  TD 0.0013  Tc 0  Tw (bool.) TjET106.08 368.76 134.64 0.24 re f240.72 368.76 0.24 0.24 re f240.96 368.76 272.52 0.24 re f106.08 333.96 134.64 0.24 re f240.72 333.96 0.24 0.24 re f240.96 333.96 272.52 0.24 re fendstream
+endobj
+84 0 obj
+7028
+endobj
+82 0 obj
+<<
+/Type /Page
+/Parent 76 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F6 24 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 83 0 R
+>>
+endobj
+86 0 obj
+<<
+/Length 87 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (349) TjETendstream
+endobj
+87 0 obj
+71
+endobj
+85 0 obj
+<<
+/Type /Page
+/Parent 76 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 86 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F0
+/BaseFont /TimesNewRoman
+/FirstChar 31
+/LastChar 255
+/Widths [ 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 
+278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 
+444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 
+722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 
+500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 
+500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 
+778 500 778 333 500 444 1000 500 500 333 1000 556 333 889 778 778 
+778 778 333 333 444 444 350 500 1000 333 980 389 333 722 778 778 
+722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 
+500 400 549 300 300 333 576 453 250 333 300 310 500 750 750 750 
+444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 
+333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 
+500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 
+278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 
+500 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 7 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /FontDescriptor
+/FontName /TimesNewRoman
+/Flags 34
+/FontBBox [ -250 -241 1200 892 ]
+/MissingWidth 783
+/StemV 73
+/StemH 73
+/ItalicAngle 0
+/CapHeight 892
+/XHeight 624
+/Ascent 892
+/Descent -241
+/Leading 181
+/MaxWidth 1000
+/AvgWidth 398
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F1
+/BaseFont /Arial,Bold
+/FirstChar 31
+/LastChar 255
+/Widths [ 750 278 333 474 556 556 889 722 238 333 333 389 584 278 333 278 
+278 556 556 556 556 556 556 556 556 556 556 333 333 584 584 584 
+611 975 722 722 722 722 667 611 778 722 278 556 722 611 833 722 
+778 667 778 722 667 611 722 667 944 667 667 611 333 278 333 584 
+556 333 556 611 556 611 556 333 611 611 278 278 556 278 889 611 
+611 611 611 389 556 333 611 556 778 556 556 500 389 280 389 584 
+750 556 750 278 556 500 1000 556 556 333 1000 667 333 1000 750 750 
+750 750 278 278 500 500 350 556 1000 333 1000 556 333 944 750 750 
+667 278 333 556 556 556 556 280 556 333 737 370 556 584 333 737 
+552 400 549 333 333 333 576 556 278 333 333 365 556 834 834 834 
+611 722 722 722 722 722 722 1000 722 667 667 667 667 278 278 278 
+278 722 722 778 778 778 778 778 584 778 722 722 722 722 667 667 
+611 556 556 556 556 556 556 889 556 556 556 556 556 278 278 278 
+278 611 611 611 611 611 611 611 549 611 611 611 611 611 556 611 
+556 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 9 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Arial,Bold
+/Flags 16416
+/FontBBox [ -250 -220 1236 930 ]
+/MissingWidth 750
+/StemV 153
+/StemH 153
+/ItalicAngle 0
+/CapHeight 930
+/XHeight 651
+/Ascent 930
+/Descent -220
+/Leading 180
+/MaxWidth 1030
+/AvgWidth 480
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F2
+/BaseFont /Verdana,Bold
+/FirstChar 31
+/LastChar 255
+/Widths [ 1000 342 402 587 867 711 1272 862 332 543 543 711 867 361 480 361 
+689 711 711 711 711 711 711 711 711 711 711 402 402 867 867 867 
+617 964 776 762 724 830 683 650 811 837 546 555 771 637 948 847 
+850 733 850 782 710 682 812 764 1128 764 737 692 543 689 543 867 
+711 711 668 699 588 699 664 422 699 712 342 403 671 342 1058 712 
+687 699 699 497 593 456 712 650 979 669 651 597 711 543 711 867 
+1000 711 1000 332 711 587 1049 711 711 711 1777 710 543 1135 1000 1000 
+1000 1000 332 332 587 587 711 711 1000 711 964 593 543 1068 1000 1000 
+737 342 402 711 711 711 711 543 711 711 964 598 850 867 480 964 
+711 587 867 598 598 711 721 711 361 711 598 598 850 1182 1182 1182 
+617 776 776 776 776 776 776 1094 724 683 683 683 683 546 546 546 
+546 830 847 850 850 850 850 850 867 850 812 812 812 812 737 735 
+713 668 668 668 668 668 668 1018 588 664 664 664 664 342 342 342 
+342 679 712 687 687 687 687 687 867 687 712 712 712 712 651 699 
+651 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 11 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Verdana,Bold
+/Flags 16416
+/FontBBox [ -250 -205 2140 1000 ]
+/MissingWidth 1000
+/StemV 181
+/StemH 181
+/ItalicAngle 0
+/CapHeight 1000
+/XHeight 700
+/Ascent 1000
+/Descent -205
+/Leading 205
+/MaxWidth 1783
+/AvgWidth 566
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F3
+/BaseFont /Verdana
+/FirstChar 31
+/LastChar 255
+/Widths [ 1000 352 394 459 818 636 1076 727 269 454 454 636 818 364 454 364 
+454 636 636 636 636 636 636 636 636 636 636 454 454 818 818 818 
+545 1000 684 686 698 771 632 575 775 751 421 455 693 557 843 748 
+787 603 787 695 684 616 732 684 989 685 615 685 454 454 454 818 
+636 636 601 623 521 623 596 352 623 633 274 344 592 274 973 633 
+607 623 623 427 521 394 633 592 818 592 592 525 635 454 635 818 
+1000 636 1000 269 636 459 818 636 636 636 1521 684 454 1070 1000 1000 
+1000 1000 269 269 459 459 545 636 1000 636 977 521 454 981 1000 1000 
+615 352 394 636 636 636 636 454 636 636 1000 545 645 818 454 1000 
+636 542 818 542 542 636 642 636 364 636 542 545 645 1000 1000 1000 
+545 684 684 684 684 684 684 984 698 632 632 632 632 421 421 421 
+421 775 748 787 787 787 787 787 818 787 732 732 732 732 615 605 
+620 601 601 601 601 601 601 955 521 596 596 596 596 274 274 274 
+274 612 633 607 607 607 607 607 818 607 633 633 633 633 592 623 
+592 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 13 0 R
+>>
+endobj
+13 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Verdana
+/Flags 32
+/FontBBox [ -250 -200 1824 1013 ]
+/MissingWidth 1000
+/StemV 92
+/StemH 92
+/ItalicAngle 0
+/CapHeight 1013
+/XHeight 709
+/Ascent 1013
+/Descent -200
+/Leading 213
+/MaxWidth 1520
+/AvgWidth 507
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F4
+/BaseFont /Arial
+/FirstChar 31
+/LastChar 255
+/Widths [ 750 278 278 355 556 556 889 667 191 333 333 389 584 278 333 278 
+278 556 556 556 556 556 556 556 556 556 556 278 278 584 584 584 
+556 1015 667 667 722 722 667 611 778 722 278 500 667 556 833 722 
+778 667 778 722 667 611 722 667 944 667 667 611 278 278 278 469 
+556 333 556 556 500 556 556 278 556 556 222 222 500 222 833 556 
+556 556 556 333 500 278 556 500 722 500 500 500 334 260 334 584 
+750 556 750 222 556 333 1000 556 556 333 1000 667 333 1000 750 750 
+750 750 222 222 333 333 350 556 1000 333 1000 500 333 944 750 750 
+667 278 333 556 556 556 556 260 556 333 737 370 556 584 333 737 
+552 400 549 333 333 333 576 537 278 333 333 365 556 834 834 834 
+611 667 667 667 667 667 667 1000 722 667 667 667 667 278 278 278 
+278 722 722 778 778 778 778 778 584 778 722 722 722 722 667 667 
+611 556 556 556 556 556 556 889 500 556 556 556 556 278 278 278 
+278 556 556 556 556 556 556 556 549 611 556 556 556 556 500 556 
+500 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 21 0 R
+>>
+endobj
+21 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Arial
+/Flags 32
+/FontBBox [ -250 -217 1214 892 ]
+/MissingWidth 747
+/StemV 81
+/StemH 81
+/ItalicAngle 0
+/CapHeight 892
+/XHeight 624
+/Ascent 892
+/Descent -217
+/Leading 144
+/MaxWidth 1012
+/AvgWidth 446
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F5
+/BaseFont /TimesNewRoman,Italic
+/FirstChar 31
+/LastChar 255
+/Widths [ 778 250 333 420 500 500 833 778 214 333 333 500 675 250 333 250 
+278 500 500 500 500 500 500 500 500 500 500 333 333 675 675 675 
+500 920 611 611 667 722 611 611 722 722 333 444 667 556 833 667 
+722 611 722 611 500 556 722 611 833 611 556 556 389 278 389 422 
+500 333 500 500 444 500 444 278 500 500 278 278 444 278 722 500 
+500 500 500 389 389 278 500 444 667 444 444 389 400 275 400 541 
+778 500 778 333 500 556 889 500 500 333 1000 500 333 944 778 778 
+778 778 333 333 556 556 350 500 889 333 980 389 333 667 778 778 
+556 250 389 500 500 500 500 275 500 333 760 276 500 675 333 760 
+500 400 549 300 300 333 576 523 250 333 300 310 500 750 750 750 
+500 611 611 611 611 611 611 889 667 611 611 611 611 333 333 333 
+333 722 667 722 722 722 722 722 675 722 722 722 722 722 556 611 
+500 500 500 500 500 500 500 667 444 444 444 444 444 278 278 278 
+278 500 500 500 500 500 500 500 549 500 500 500 500 500 444 500 
+444 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 23 0 R
+>>
+endobj
+23 0 obj
+<<
+/Type /FontDescriptor
+/FontName /TimesNewRoman,Italic
+/Flags 98
+/FontBBox [ -250 -241 1171 892 ]
+/MissingWidth 783
+/StemV 73
+/StemH 73
+/ItalicAngle -11
+/CapHeight 892
+/XHeight 624
+/Ascent 892
+/Descent -241
+/Leading 181
+/MaxWidth 976
+/AvgWidth 398
+>>
+endobj
+24 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F6
+/BaseFont /CourierNew
+/FirstChar 31
+/LastChar 255
+/Widths [ 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 25 0 R
+>>
+endobj
+25 0 obj
+<<
+/Type /FontDescriptor
+/FontName /CourierNew
+/Flags 35
+/FontBBox [ -250 -277 722 783 ]
+/MissingWidth 602
+/StemV 110
+/StemH 110
+/ItalicAngle 0
+/CapHeight 783
+/XHeight 548
+/Ascent 783
+/Descent -277
+/Leading 60
+/MaxWidth 602
+/AvgWidth 602
+>>
+endobj
+2 0 obj
+[ /PDF /Text  ]
+endobj
+5 0 obj
+<<
+/Kids [4 0 R 16 0 R 19 0 R 28 0 R 31 0 R 34 0 R ]
+/Count 6
+/Type /Pages
+/Parent 88 0 R
+>>
+endobj
+38 0 obj
+<<
+/Kids [37 0 R 41 0 R 44 0 R 47 0 R 50 0 R 53 0 R ]
+/Count 6
+/Type /Pages
+/Parent 88 0 R
+>>
+endobj
+57 0 obj
+<<
+/Kids [56 0 R 60 0 R 63 0 R 66 0 R 69 0 R 72 0 R ]
+/Count 6
+/Type /Pages
+/Parent 88 0 R
+>>
+endobj
+76 0 obj
+<<
+/Kids [75 0 R 79 0 R 82 0 R 85 0 R ]
+/Count 4
+/Type /Pages
+/Parent 88 0 R
+>>
+endobj
+88 0 obj
+<<
+/Kids [5 0 R 38 0 R 57 0 R 76 0 R ]
+/Count 22
+/Type /Pages
+/MediaBox [ 0 0 595 842 ]
+>>
+endobj
+1 0 obj
+<<
+/Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020>
+/CreationDate (D:20020929113946)
+/Title <FEFF0043007200690073006F006C0045006E00670069006E0065005F0044006F00630075006D0065006E0074006100630069006F006E005F0041006E00650078006F005F0049005F0046006F0072006D00610074006F0041007200630068>
+/Author <FEFF004600650072006E0061006E0064006F00200052006F0064007200ED006700750065007A>
+/Producer (Acrobat PDFWriter 4.0 for Windows)
+>>
+endobj
+3 0 obj
+<<
+/Pages 88 0 R
+/Type /Catalog
+/DefaultGray 89 0 R
+/DefaultRGB  90 0 R
+>>
+endobj
+89 0 obj
+[/CalGray
+<<
+/WhitePoint [0.953 1 1.4127 ]
+/Gamma 0.9475 
+>>
+]
+endobj
+90 0 obj
+[/CalRGB
+<<
+/WhitePoint [0.953 1 1.4127 ]
+/Gamma [0.9475 0.9475 0.9475 ]
+/Matrix [0.3886 0.2089 0.0126 0.323 0.6783 0.0832 0.2527 0.1128 0.7291 ]
+>>
+]
+endobj
+xref
+0 91
+0000000000 65535 f
+0000171964 00000 n
+0000171359 00000 n
+0000172434 00000 n
+0000001452 00000 n
+0000171393 00000 n
+0000161524 00000 n
+0000162644 00000 n
+0000162923 00000 n
+0000164043 00000 n
+0000164324 00000 n
+0000165464 00000 n
+0000165752 00000 n
+0000166884 00000 n
+0000000021 00000 n
+0000001428 00000 n
+0000001776 00000 n
+0000001622 00000 n
+0000001754 00000 n
+0000005079 00000 n
+0000167162 00000 n
+0000168280 00000 n
+0000168552 00000 n
+0000169679 00000 n
+0000169967 00000 n
+0000171083 00000 n
+0000001909 00000 n
+0000005055 00000 n
+0000005417 00000 n
+0000005263 00000 n
+0000005395 00000 n
+0000012111 00000 n
+0000005550 00000 n
+0000012087 00000 n
+0000012449 00000 n
+0000012295 00000 n
+0000012427 00000 n
+0000021913 00000 n
+0000171509 00000 n
+0000012582 00000 n
+0000021889 00000 n
+0000032465 00000 n
+0000022098 00000 n
+0000032440 00000 n
+0000041998 00000 n
+0000032637 00000 n
+0000041974 00000 n
+0000051381 00000 n
+0000042170 00000 n
+0000051357 00000 n
+0000061975 00000 n
+0000051553 00000 n
+0000061950 00000 n
+0000072095 00000 n
+0000062147 00000 n
+0000072071 00000 n
+0000081771 00000 n
+0000171627 00000 n
+0000072267 00000 n
+0000081747 00000 n
+0000093312 00000 n
+0000081943 00000 n
+0000093287 00000 n
+0000102608 00000 n
+0000093484 00000 n
+0000102584 00000 n
+0000114154 00000 n
+0000102780 00000 n
+0000114129 00000 n
+0000123102 00000 n
+0000114326 00000 n
+0000123078 00000 n
+0000133294 00000 n
+0000123274 00000 n
+0000133270 00000 n
+0000143344 00000 n
+0000171745 00000 n
+0000133479 00000 n
+0000143320 00000 n
+0000153779 00000 n
+0000143516 00000 n
+0000153754 00000 n
+0000161064 00000 n
+0000153951 00000 n
+0000161040 00000 n
+0000161390 00000 n
+0000161236 00000 n
+0000161368 00000 n
+0000171849 00000 n
+0000172532 00000 n
+0000172619 00000 n
+trailer
+<<
+/Size 91
+/Root 3 0 R
+/Info 1 0 R
+/ID [<7cdda16654bcdad8102a12aa97b0ec74><7cdda16654bcdad8102a12aa97b0ec74>]
+>>
+startxref
+172795
+%%EOF

@@ -1,0 +1,320 @@
+%PDF-1.2 
+%‚„œ”
+ 
+12 0 obj
+<<
+/Length 13 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (264) Tj-410.16 -37.32  TD /F1 12  Tf0.003  Tc -0.0056  Tw (Anexo E. Relaci\363n de las constantes globales internas en CrisolScript.) TjET0.949 0.949 0.949 rg 81.24 732.12 432.24 11.52 re fBT85.08 734.4  TD0 0 0 rg /F1 9.96  Tf0.0119  Tc 0.0192  Tw (Control de resultados l\363gicos.) Tj0 -10.92  TD /F2 9.96  Tf0.024  Tc 0  Tw (number FALSE := 0; // Falso) Tj0 -11.28  TD (number TRUE := 1;  // Verdadero) TjET0.949 0.949 0.949 rg 81.24 686.64 432.24 11.52 re fBT85.08 688.92  TD0 0 0 rg /F1 9.96  Tf0.0108  Tc -0.0197  Tw (Entidad nula) Tj0 -10.92  TD /F2 9.96  Tf0.024  Tc 0  Tw (entity NULL := 0; // Nulo) TjET0.949 0.949 0.949 rg 81.24 652.44 432.24 11.52 re fBT85.08 654.72  TD0 0 0 rg /F1 9.96  Tf0.0031  Tc (Alineaciones:) Tj0 -10.8  TD /F2 9.96  Tf0.024  Tc (number PLAYER_ALINGMENT := 0;       // Alineaci\363n con jugador) Tj0 -11.4  TD (number ENEMY_PLAYER_ALINGMENT := 1; // Alineaci\363n contra el jugador) Tj0 -11.28  TD (number NO_ALINGMENT := 2;           // Sin alineaci\363n) TjET0.949 0.949 0.949 rg 81.24 595.68 432.24 11.52 re fBT85.08 597.96  TD0 0 0 rg /F1 9.96  Tf0.0161  Tc 0.015  Tw (Slots de equipamiento princial:) Tj0 -10.92  TD /F2 9.96  Tf0.024  Tc 0  Tw (number RIGHT_HAND_SLOT := 0; // Slot de mano derecha) Tj0 -11.28  TD (number LEFT_HAND_SLOT := 1;  // Slot de mano izquierda) TjET0.949 0.949 0.949 rg 81.24 550.2 432.24 11.4 re fBT85.08 552.48  TD0 0 0 rg /F1 9.96  Tf0.0115  Tc -0.0204  Tw (Orientaciones posibles:) TjET0.949 0.949 0.949 rg 81.24 550.08 432.24 0.24 re f1 1 1 rg 81.24 538.8 432.24 11.4 re fBT85.08 541.56  TD0 0 0 rg /F2 9.96  Tf0.024  Tc 0  Tw (number NORTH_DIRECTION := 0;     // Direcci\363n norte) TjET1 1 1 rg 81.24 527.52 432.24 11.28 re fBT85.08 530.28  TD0 0 0 rg (number NORTHEAST_DIRECTION := 1; // Direcci\363n noreste) TjET1 1 1 rg 81.24 516.12 432.24 11.4 re fBT85.08 518.88  TD0 0 0 rg (number EAST_DIRECTION := 2;      // Direccion este) TjET1 1 1 rg 81.24 504.84 432.24 11.28 re fBT85.08 507.6  TD0 0 0 rg (number SOUTHEAST_DIRECTION := 3; // Direccion sureste) TjET1 1 1 rg 81.24 493.56 432.24 11.28 re fBT85.08 496.32  TD0 0 0 rg (number SOUTH_DIRECTION := 4;     // Direcci\363n sur) TjET1 1 1 rg 81.24 482.16 432.24 11.4 re fBT85.08 484.92  TD0 0 0 rg (number SOUTHWEST_DIRECTION := 6; // Direcci\363n suroeste) TjET1 1 1 rg 81.24 470.88 432.24 11.28 re fBT85.08 473.64  TD0 0 0 rg (number WEST_DIRECTION := 6;      // Direcci\363n oeste) TjET1 1 1 rg 81.24 459.48 432.24 11.4 re fBT85.08 462.24  TD0 0 0 rg (number NORTHWEST_DIRECTION := 7; // Direcci\363n noroeste) TjET0.949 0.949 0.949 rg 81.24 436.56 432.24 11.52 re fBT85.08 438.84  TD0 0 0 rg /F1 9.96  Tf0.0181  Tc -0.027  Tw (Tipos de valores) Tj0 -10.92  TD /F2 9.96  Tf0.024  Tc 0  Tw (number TEMP_VALUE := 0; // Valor temporal) Tj0 -11.28  TD (number BASE_VALUE := 1; // Valor base) TjET0.949 0.949 0.949 rg 81.24 390.84 432.24 11.52 re fBT85.08 393.12  TD0 0 0 rg /F1 9.96  Tf0.0175  Tc -0.0264  Tw (Tipos de entidades) Tj0 -10.8  TD /F2 9.96  Tf0.024  Tc 0  Tw (number ENTITY_PLAYER := 1;    // Entidad de tipo jugador) Tj0 -11.28  TD (number ENTITY_SCENE_OBJ := 2; // Entidad de tipo objeto de escenario) Tj0 -11.4  TD (number ENTITY_NPC := 2;       // Entidad de tipo criatura no jugador) Tj0 -11.28  TD (number ENTITY_WALL := 3;      // Entidad de tipo pared) Tj0 -11.4  TD (number ENTITY_ITEM := 4;      // Entidad de tipo \355tem) TjET0.949 0.949 0.949 rg 81.24 311.28 432.24 11.52 re fBT85.08 313.56  TD0 0 0 rg /F1 9.96  Tf0.0196  Tc -0.0284  Tw (Tipo de justificaci\363n del texto) Tj0 -10.92  TD /F2 9.96  Tf0.024  Tc 0  Tw (number TEXT_RIGHT_JUSTIFY := 0; // A la derecha de la entidad) Tj0 -11.28  TD (number TEXT_UP_JUSTIFY := 1;    // Por encima de la entidad) Tj0 -11.4  TD (number TEXT_LEFT_JUSTIFY := 0;  // A la izquierda de la entidad) TjET0.949 0.949 0.949 rg 81.24 254.28 432.24 11.52 re fBT85.08 256.56  TD0 0 0 rg /F1 9.96  Tf0.0225  Tc -0.0313  Tw (Tipos de scripts) TjET0.949 0.949 0.949 rg 81.24 245.04 432.24 9.24 re fBT85.08 246.96  TD0 0 0 rg /F1 8.04  Tf-0.0241  Tc 0.0449  Tw (Nota: ser\341n los mismos identificadores que para definir los eventos scripts.) Tj0 -10.44  TD /F2 9.96  Tf0.024  Tc 0  Tw (number ONSTARTGAME := 0;) Tj0 -11.4  TD (number ONCLICKHOURPANNEL := 1;) Tj0 -11.28  TD (number ONFLEECOMBAT := 2;) TjT* (number ONKEYPRESSED := 3;) Tj0 -11.4  TD (number ONSTARTCOMBATMODE := 4;) Tj0 -11.28  TD (number ONENDCOMBATMODE := 5;) Tj0 -11.4  TD (number ONNEWHOUR := 6;) Tj0 -11.28  TD (number ONENTERINAREA := 7;) TjT* (number ONWORLDIDLE := 8;) Tj0 -11.4  TD (number ONSETINFLOOR := 9;) Tj0 -11.28  TD (number ONSETOUTFLOOR := 10;) Tj0 -11.4  TD (number ONGETITEM := 11;) Tj0 -11.28  TD (number ONDROPITEM := 12;) TjT* (number ONOBSERVEENTITY := 13;) Tj0 -11.4  TD (number ONTALKTOENTITY := 14;) TjETendstream
+endobj
+13 0 obj
+5028
+endobj
+4 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F2 10 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 12 0 R
+>>
+endobj
+15 0 obj
+<<
+/Length 16 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (265) Tj-410.16 -34.92  TD /F2 9.96  Tf0.024  Tc (number ONMANIPULATEENTITY := 15;) Tj0 -11.28  TD (number ONDEATH := 16;) Tj0 -11.4  TD (number ONRESURRECT := 17;) Tj0 -11.28  TD (number ONINSERTINEQUIPMENTSLOT := 18;) TjT* (number ONREMOVEFROMEQUIPMENTSLOT := 19;) Tj0 -11.4  TD (number ONUSEHABILITY := 20;) Tj0 -11.28  TD (number ONACTIVATEDSYMPTOM := 21;) Tj0 -11.4  TD (number ONDEACTIVATEDSYMPTOM := 22;) Tj0 -11.28  TD (number ONHITENTITY := 23;) TjT* (number ONSTARTCOMBATTURN := 24;) Tj0 -11.4  TD (number ONCRIATUREINRANGE := 25;) Tj0 -11.28  TD (number ONCRIATUREOUTOFRANGE := 26;) Tj0 -11.4  TD (number ONENTITYIDLE := 27;) Tj0 -11.28  TD (number ONUSEITEM := 28;) TjT* (number ONTRADEITEM := 29;) Tj0 -11.4  TD (number ONENTITYCREATED := 30;) TjET0.949 0.949 0.949 rg 81.24 567 432.24 11.4 re fBT85.08 569.28  TD0 0 0 rg /F1 9.96  Tf0.0136  Tc -0.0225  Tw (Tipos de teclas) TjET0.949 0.949 0.949 rg 81.24 566.88 432.24 0.24 re fBT85.08 558.36  TD0 0 0 rg /F2 9.96  Tf0.024  Tc 0  Tw (number KEY_ESC := 0;        // Tecla ESC) Tj0 -11.28  TD (number KEY_F1 := 1;         // ) Tj186 0  TD (Tecla F1) Tj-186 -11.4  TD (number KEY_F2 := 2;         // Tecla F2) Tj0 -11.28  TD (number KEY_F3 := 3;         // Tecla F3) TjT* (number KEY_F4 := 4;         // Tecla F4) Tj0 -11.4  TD (number KEY_F5 := 5;         // Tecla F5) Tj0 -11.28  TD (number KEY_F6 := 6;         // ) Tj186 0  TD (Tecla F6) Tj-186 -11.4  TD (number KEY_F7 := 7;         // ) Tj186 0  TD (Tecla F7) Tj-186 -11.28  TD (number KEY_F8 := 8;         // ) Tj186 0  TD (Tecla F8) Tj-186 -11.28  TD (number KEY_F9 := 9;         // Tecla F9) Tj0 -11.4  TD (number KEY_F10 := 10;       // Tecla F10) Tj0 -11.28  TD (number KEY_F11 := 11;       // Tecla F11) Tj0 -11.4  TD (number KEY_F12 := 12;       // Tecla F12) Tj0 -11.28  TD (number KEY_0 := 13;         // Tecla 0) Tj0 -11.4  TD (number KEY_1 := 14;         // Tecla 1) Tj0 -11.28  TD (number KEY_2 := 15;         // Tecla 2) TjT* (number KEY_3 := 16;         // Tecla 3) Tj0 -11.4  TD (number KEY_4 := 17;         // Tecla 4) Tj0 -11.28  TD (number KEY_5 := 18;         // Tecla 5) Tj0 -11.4  TD (number KEY_6 := 19;         // Tecla 6) Tj0 -11.28  TD (number KEY_7 := 20;         // Tecla 7) TjT* (number KEY_8 := 21;         // Tecla 8) Tj0 -11.4  TD (number KEY_9 := 22;         // Tecla 9) Tj0 -11.28  TD (number KEY_A := 23;         // Tecla A) Tj0 -11.4  TD (number KEY_B := 24;         // Tecla B) Tj0 -11.28  TD (number KEY_C := 25;         // Tecla C) TjT* (number KEY_D := 26;         // Tecla D) Tj0 -11.4  TD (number KEY_E := 27;         // Tecla E) Tj0 -11.28  TD (number KEY_F := 28;         // Tecla F) Tj0 -11.4  TD (number KEY_G := 29;         // Tecla G) Tj0 -11.28  TD (number KEY_H := 30;         // Tecla H) TjT* (number KEY_I := 31;         // Tecla I) Tj0 -11.4  TD (number KEY_J := 32;         // Tecla J) Tj0 -11.28  TD (number KEY_K := 33;         // Tecla K) Tj0 -11.4  TD (number KEY_L := 34;         // Tecla L) Tj0 -11.28  TD (number KEY_M := 35;         // Tecla M) TjT* (number KEY_N := 36;         // ) Tj186 0  TD (Tecla N) Tj-186 -11.4  TD (number KEY_O := 37;         // Tecla O) Tj0 -11.28  TD (number KEY_P := 38;         // Tecla P) Tj0 -11.4  TD (number KEY_Q := 39;         // Tecla Q) Tj0 -11.28  TD (number KEY_R := 40;         // Tecla R) TjT* (number KEY_S := 41;         // Tecla S) Tj0 -11.4  TD (number KEY_T := 42;         // Tecla T) TjETendstream
+endobj
+16 0 obj
+3555
+endobj
+14 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F2 10 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 15 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 19 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (266) Tj-410.16 -34.92  TD /F2 9.96  Tf0.024  Tc (number KEY_U := 43;         // Tecla U) Tj0 -11.28  TD (number KEY_V := 44;         // ) Tj186 0  TD (Tecla V) Tj-186 -11.4  TD (number KEY_W := 45;         // Tecla W) Tj0 -11.28  TD (number KEY_X := 46;         // Tecla X) TjT* (number KEY_Y := 47;         // Tecla Y) Tj0 -11.4  TD (number KEY_Z := 48;         // Tecla Z) Tj0 -11.28  TD (number KEY_BACK := 49;      // Tecla Retroceso) Tj0 -11.4  TD (number KEY_TAB := 50;       // Tecla Tabulador) Tj0 -11.28  TD (number KEY_RETURN := 51;    // Tecla ) Tj222 0  TD (Enter) Tj-222 -11.28  TD (number KEY_SPACE := 52;     // Tecla Espacio) Tj0 -11.4  TD (number KEY_LCONTROL := 53;  // Tecla ) Tj222 0  TD (Ctrl a izquierda) Tj-222 -11.28  TD (number KEY_RCONTROL := 54;  // ) Tj186 0  TD (Tecla Ctrl a ) Tj78 0  TD (derecha) Tj-264 -11.4  TD (number KEY_LSHIFT := 55;    // ) Tj186 0  TD (Tecla Shift a ) Tj84 0  TD (izquierda) Tj-270 -11.28  TD (number KEY_RSHIFT := 56;    // Tecla ) Tj222 0  TD (Shift a derecha) Tj-222 -11.28  TD (number KEY_ALT := 57;       // Tecla ) Tj222 0  TD (Alt) Tj-222 -11.4  TD (number KEY_ALTGR := 58;     // Tecla ) Tj222 0  TD (Alt ) Tj24 0  TD (Gr) Tj-246 -11.28  TD (number KEY_INSERT := 59;    // Tecla ) Tj222 0  TD (Insert) Tj-222 -11.4  TD (number KEY_REPAG := 60;     // Tecla Re ) Tj240 0  TD (Pag) Tj-240 -11.28  TD (number KEY_AVPAG := 61;     // Tecla ) Tj222 0  TD (Av ) Tj18 0  TD (Pag) Tj-240 -11.28  TD (number KEY_MINUS_PAD := 62; // Tecla \226 \(teclado num\351rico\)) Tj0 -11.4  TD (number KEY_ADD_PAD := 63;   // Tecla + \(teclado num\351rico\)) Tj0 -11.28  TD (number KEY_DIV_PAD := 64;   // Tecla / \(teclado num\351rico\)) Tj0 -11.4  TD (number KEY_MUL_PAD := 65;   // Tecla * \(teclado num\351rico\)) Tj0 -11.28  TD (number KEY_0_PAD := 66;     // Tecla 0 \(teclado num\351rico\)) TjT* (number KEY_1_PAD := 67;     // Tecla 1 \(teclado num\351rico\)) Tj0 -11.4  TD (number KEY_2_PAD := 68;     // Tecla 2 \(teclado num\351rico\)) Tj0 -11.28  TD (number KEY_3_PAD := 69;     // Tecla 3 \(teclado num\351rico\)) Tj0 -11.4  TD (number KEY_4_PAD := 70;     // Tecla 4 \(teclado num\351rico\)) Tj0 -11.28  TD (number KEY_5_PAD := 71;     // Tecla 5 \(teclado num\351rico\)) TjT* (number KEY_6_PAD := 72;     // Tecla 6 \(teclado num\351rico\)) Tj0 -11.4  TD (number KEY_7_PAD := 73;     // Tecla 7 \(teclado num\351rico\)) Tj0 -11.28  TD (number KEY_8_PAD := 74;     // Tecla 8 \(teclado num\351rico\)) Tj0 -11.4  TD (number KEY_9_PAD := 75;     // Tecla 9 \(teclado num\351rico\)) Tj0 -11.28  TD (number KEY_UP := 76;        // Tecla Cursor Arriba) TjT* (number KEY_DOWN := 77;      // Tecla Cursor Abajo) Tj0 -11.4  TD (number KEY_RIGHT := 78;     // ) Tj186 0  TD (Tecla Cursor ) Tj78 0  TD (Derecho) Tj-264 -11.28  TD (number KEY_LEFT := 79;      // Tecla Cursor Izquierdo) TjETendstream
+endobj
+19 0 obj
+2954
+endobj
+17 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F2 10 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 18 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 22 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (267) TjETendstream
+endobj
+22 0 obj
+71
+endobj
+20 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 21 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F0
+/BaseFont /TimesNewRoman
+/FirstChar 31
+/LastChar 255
+/Widths [ 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 
+278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 
+444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 
+722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 
+500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 
+500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 
+778 500 778 333 500 444 1000 500 500 333 1000 556 333 889 778 778 
+778 778 333 333 444 444 350 500 1000 333 980 389 333 722 778 778 
+722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 
+500 400 549 300 300 333 576 453 250 333 300 310 500 750 750 750 
+444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 
+333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 
+500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 
+278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 
+500 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 7 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /FontDescriptor
+/FontName /TimesNewRoman
+/Flags 34
+/FontBBox [ -250 -241 1200 892 ]
+/MissingWidth 783
+/StemV 73
+/StemH 73
+/ItalicAngle 0
+/CapHeight 892
+/XHeight 624
+/Ascent 892
+/Descent -241
+/Leading 181
+/MaxWidth 1000
+/AvgWidth 398
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F1
+/BaseFont /Arial,Bold
+/FirstChar 31
+/LastChar 255
+/Widths [ 750 278 333 474 556 556 889 722 238 333 333 389 584 278 333 278 
+278 556 556 556 556 556 556 556 556 556 556 333 333 584 584 584 
+611 975 722 722 722 722 667 611 778 722 278 556 722 611 833 722 
+778 667 778 722 667 611 722 667 944 667 667 611 333 278 333 584 
+556 333 556 611 556 611 556 333 611 611 278 278 556 278 889 611 
+611 611 611 389 556 333 611 556 778 556 556 500 389 280 389 584 
+750 556 750 278 556 500 1000 556 556 333 1000 667 333 1000 750 750 
+750 750 278 278 500 500 350 556 1000 333 1000 556 333 944 750 750 
+667 278 333 556 556 556 556 280 556 333 737 370 556 584 333 737 
+552 400 549 333 333 333 576 556 278 333 333 365 556 834 834 834 
+611 722 722 722 722 722 722 1000 722 667 667 667 667 278 278 278 
+278 722 722 778 778 778 778 778 584 778 722 722 722 722 667 667 
+611 556 556 556 556 556 556 889 556 556 556 556 556 278 278 278 
+278 611 611 611 611 611 611 611 549 611 611 611 611 611 556 611 
+556 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 9 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Arial,Bold
+/Flags 16416
+/FontBBox [ -250 -220 1236 930 ]
+/MissingWidth 750
+/StemV 153
+/StemH 153
+/ItalicAngle 0
+/CapHeight 930
+/XHeight 651
+/Ascent 930
+/Descent -220
+/Leading 180
+/MaxWidth 1030
+/AvgWidth 480
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F2
+/BaseFont /CourierNew
+/FirstChar 31
+/LastChar 255
+/Widths [ 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 11 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /FontDescriptor
+/FontName /CourierNew
+/Flags 35
+/FontBBox [ -250 -277 722 783 ]
+/MissingWidth 602
+/StemV 110
+/StemH 110
+/ItalicAngle 0
+/CapHeight 783
+/XHeight 548
+/Ascent 783
+/Descent -277
+/Leading 60
+/MaxWidth 602
+/AvgWidth 602
+>>
+endobj
+2 0 obj
+[ /PDF /Text  ]
+endobj
+5 0 obj
+<<
+/Kids [4 0 R 14 0 R 17 0 R 20 0 R ]
+/Count 4
+/Type /Pages
+/MediaBox [ 0 0 595 842 ]
+>>
+endobj
+1 0 obj
+<<
+/Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020>
+/CreationDate (D:20020929113832)
+/Title <FEFF0043007200690073006F006C0045006E00670069006E0065005F0044006F00630075006D0065006E0074006100630069006F006E005F0041006E00650078006F005F0045005F0043006F006E007300740047006C006F00620061006C>
+/Author <FEFF004600650072006E0061006E0064006F00200052006F0064007200ED006700750065007A>
+/Producer (Acrobat PDFWriter 4.0 for Windows)
+>>
+endobj
+3 0 obj
+<<
+/Pages 5 0 R
+/Type /Catalog
+/DefaultGray 23 0 R
+/DefaultRGB  24 0 R
+>>
+endobj
+23 0 obj
+[/CalGray
+<<
+/WhitePoint [0.953 1 1.4127 ]
+/Gamma 0.9475 
+>>
+]
+endobj
+24 0 obj
+[/CalRGB
+<<
+/WhitePoint [0.953 1 1.4127 ]
+/Gamma [0.9475 0.9475 0.9475 ]
+/Matrix [0.3886 0.2089 0.0126 0.323 0.6783 0.0832 0.2527 0.1128 0.7291 ]
+>>
+]
+endobj
+xref
+0 25
+0000000000 65535 f
+0000016900 00000 n
+0000016753 00000 n
+0000017370 00000 n
+0000005134 00000 n
+0000016787 00000 n
+0000012561 00000 n
+0000013681 00000 n
+0000013960 00000 n
+0000015080 00000 n
+0000015361 00000 n
+0000016477 00000 n
+0000000021 00000 n
+0000005110 00000 n
+0000008931 00000 n
+0000005291 00000 n
+0000008907 00000 n
+0000012128 00000 n
+0000009089 00000 n
+0000012104 00000 n
+0000012428 00000 n
+0000012274 00000 n
+0000012406 00000 n
+0000017467 00000 n
+0000017554 00000 n
+trailer
+<<
+/Size 25
+/Root 3 0 R
+/Info 1 0 R
+/ID [<c629c29d0ab87cb25b883a2baa8738d3><c629c29d0ab87cb25b883a2baa8738d3>]
+>>
+startxref
+17730
+%%EOF

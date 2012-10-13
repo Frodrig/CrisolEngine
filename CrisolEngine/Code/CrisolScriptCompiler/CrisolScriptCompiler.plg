@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CrisolScriptCompiler - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP61C6.TMP" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/CrisolScriptCompiler.pch" /YX /Fo"Release/" /Fd"Release/" /FD /TC /c 
+"C:\Trabajo\Proyecto Fin Carrera\src\CRISOLEngine\CrisolScriptCompiler\CrisolScriptCompiler.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP61C6.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP61C7.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/CSCompiler.pdb" /machine:I386 /out:"Release/CSCompiler.exe" 
+".\Release\ASTPrinting.obj"
+".\Release\ASTree.obj"
+".\Release\crisolscript_tab.obj"
+".\Release\CrisolScriptCompiler.obj"
+".\Release\Error.obj"
+".\Release\lex.yy.obj"
+".\Release\Memory.obj"
+".\Release\OpcodeAssembling.obj"
+".\Release\OpcodeEmit.obj"
+".\Release\OpcodeGen.obj"
+".\Release\Release.obj"
+".\Release\Resource.obj"
+".\Release\SymTableCheck.obj"
+".\Release\TypeCheck.obj"
+".\Release\Weeding.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP61C7.TMP"
+<h3>Output Window</h3>
+Compiling...
+CrisolScriptCompiler.cpp
+Spawn Time 0:00.8
+Linking...
+Spawn Time 0:00.7
+
+
+
+<h3>Results</h3>
+CSCompiler.exe - 0 error(s), 0 warning(s)
+Build Time 0:02.0
+</pre>
+</body>
+</html>

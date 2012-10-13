@@ -1,0 +1,1245 @@
+%PDF-1.2 
+%‚„œ”
+ 
+14 0 obj
+<<
+/Length 15 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (226) Tj-410.16 -37.32  TD /F1 12  Tf-0.0049  Tc 0.0289  Tw (Anexo C. Manual de uso de CrisolScript y CSCompiler.) Tj0 -27.6  TD 0.0206  Tc 0  Tw (\315ndice.) Tj0 -24.36  TD /F2 9.96  Tf0.0159  Tc 0.0578  Tw (C.1. Introducci\363n.) Tj0 -11.28  TD /F3 9  Tf0.0147  Tc -0.0627  Tw (   C.1.1. Un lenguaje interpretado.) Tj0 -10.92  TD 0.0124  Tc -0.0604  Tw (   C.1.2. Notaci\363n simple orientada a objetos.) TjT* 0.0059  Tc -0.0539  Tw (   C.1.3. Sin distinci\363n entre may\372sculas y min\372sculas.) TjT* 0.0112  Tc -0.0592  Tw (   C.1.4. Modo general de trabajo con scripts.) Tj0 -21.6  TD /F2 9.96  Tf0.0276  Tc -0.074  Tw (C.2. Especificaciones de trabajo con CrisolScript.) Tj0 -11.28  TD /F3 9  Tf0.0092  Tc -0.0572  Tw (   C.2.1. Palabras clave base.) Tj0 -10.92  TD 0.0097  Tc -0.0577  Tw (   C.2.2. Operadores l\363gicos y matem\341ticos.) TjT* 0.0123  Tc -0.0603  Tw (   C.2.3. Operadores sint\341cticos.) TjT* 0.0062  Tc -0.0371  Tw (   C.2.4. Extensi\363n de un archivo.) TjT* 0.0144  Tc -0.0624  Tw (   C.2.5. Formato de un script.) Tj0 -9.96  TD /F3 8.04  Tf-0.0294  Tc 0.0394  Tw (      C.2.5.1. La funci\363n asociada al evento script.) Tj0 -9.72  TD 0.0508  Tc -0.0542  Tw (         C.) Tj33.84 0  TD -0.0252  Tc 0.0751  Tw (2.5.1.1. Tipos de scripts.) Tj-33.84 -9.72  TD 0.0508  Tc -0.0608  Tw (      C.) Tj25.44 0  TD -0.0282  Tc 0.0782  Tw (2.5.2. Las funciones.) Tj-25.44 -9.72  TD 0.0508  Tc -0.0608  Tw (      C.) Tj25.44 0  TD -0.0252  Tc 0.0751  Tw (2.5.3. Las variables.) Tj-25.44 -9.72  TD 0.0508  Tc -0.0608  Tw (      C.) Tj25.44 0  TD -0.0305  Tc 0.0804  Tw (2.5.4. Las constantes.) Tj-25.44 -9.72  TD 0.0508  Tc -0.0542  Tw (         C.) Tj33.84 0  TD -0.023  Tc 0.033  Tw (2.5.4.1. Constantes globales internas.) Tj-33.84 -9.72  TD 0.0508  Tc -0.0608  Tw (      C.) Tj25.44 0  TD -0.0176  Tc -0.0124  Tw (2.5.5. Conversi\363n de tipos.) Tj-25.44 -9.72  TD 0.0508  Tc -0.0608  Tw (      C.) Tj25.44 0  TD -0.0164  Tc -0.0297  Tw (2.5.6. Argumentos en scripts y funciones.) Tj-25.44 -9.72  TD 0.0508  Tc -0.0542  Tw (         C.) Tj33.84 0  TD -0.0218  Tc -0  Tw (2.5.6.1. Funciones con argumentos por referencia.) Tj-33.84 -9.72  TD 0.0508  Tc -0.0608  Tw (      C.) Tj25.44 0  TD -0.0277  Tc 0.0536  Tw (2.5.7. El tipo de una funci\363n.) Tj-25.44 -9.72  TD 0.0508  Tc -0.0608  Tw (      C.) Tj25.44 0  TD -0.0278  Tc 0.0777  Tw (2.5.8. Estructuras de control.) Tj-25.44 -9.72  TD 0.0508  Tc -0.0542  Tw (         C.) Tj33.84 0  TD -0.0276  Tc 0.0575  Tw (2.5.8.1. Sentencia if / then / else.) Tj-33.84 -9.72  TD 0.0508  Tc -0.0542  Tw (         C.) Tj33.84 0  TD -0.0163  Tc 0.0062  Tw (2.5.8.2. Sentencia while / do.) Tj-33.84 -9.72  TD 0.0508  Tc -0.0608  Tw (      C.) Tj25.44 0  TD -0.0217  Tc 0.0716  Tw (2.5.9. El \341mbito.) Tj-25.44 -9.72  TD 0.0508  Tc -0.0542  Tw (         C.) Tj33.84 0  TD -0.0247  Tc 0.0346  Tw (2.5.9.1. El \341mbito en variables y constantes.) Tj-33.84 -9.72  TD 0.0508  Tc -0.0542  Tw (         C.) Tj33.84 0  TD -0.0304  Tc 0.0585  Tw (2.5.9.2. El \341mbito en las llamadas a funciones locales a un script.) Tj-33.84 -9.84  TD 0.0508  Tc -0.0608  Tw (      C.) Tj25.44 0  TD -0.0268  Tc 0.0425  Tw (2.5.10. Uso de funciones globales en un script.) Tj-25.44 -9.72  TD 0.0508  Tc -0.0608  Tw (      C.) Tj25.44 0  TD -0.024  Tc 0.0339  Tw (2.5.11. Objetos y m\351todos.) Tj-25.44 -9.72  TD 0.0508  Tc -0.0542  Tw (         C.) Tj33.84 0  TD -0.0299  Tc 0.0798  Tw (2.5.11.1. El objeto Game.) Tj-33.84 -9.72  TD 0.0508  Tc -0.0542  Tw (         C.) Tj33.84 0  TD -0.0198  Tc 0.0697  Tw (2.5.11.2. El objeto World.) Tj-33.84 -9.72  TD 0.0508  Tc -0.0542  Tw (         C.) Tj33.84 0  TD -0.0204  Tc 0.0303  Tw (2.5.11.3. Los objetos entity.) Tj-33.84 -9.72  TD 0.0508  Tc -0.0608  Tw (      C.) Tj25.44 0  TD -0.0261  Tc 0.076  Tw (2.5.12. Funciones del API.) Tj-25.44 -9.72  TD 0.0508  Tc -0.0608  Tw (      C.) Tj25.44 0  TD -0.0193  Tc 0.0092  Tw (2.5.13. El archivo de definiciones globales y de scripts a compilar.) Tj-25.44 -21.36  TD /F2 9.96  Tf-0.0033  Tc 0  Tw (C.) Tj10.8 0  TD 0.0275  Tc -0.0738  Tw (3. El compilador CSCompiler.) Tj-10.8 -11.16  TD /F3 9  Tf0.081  Tc -0.129  Tw (   C.) Tj18.96 0  TD 0.0114  Tc -0.0594  Tw (3.1. Las opciones de CSCompiler.) TjETendstream
+endobj
+15 0 obj
+4370
+endobj
+4 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F2 10 0 R 
+/F3 12 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 14 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 18 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (227) TjETendstream
+endobj
+18 0 obj
+71
+endobj
+16 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 17 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 27 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (228) Tj-410.16 -37.32  TD /F1 12  Tf0.0085  Tc 0.0155  Tw (C.1. Introducci\363n.) Tj0 -25.8  TD /F4 9.96  Tf0.0126  Tc 1.8385  Tw (Este documento recoger\341 las especificaciones del lenguaje) Tj0  Tc -0.0089  Tw ( ) Tj278.16 0  TD /F5 9.96  Tf0.0313  Tc 0  Tw (CrisolScript) Tj48.96 0  TD /F4 9.96  Tf0.018  Tc 1.8211  Tw ( as\355 como el uso del) Tj-327.12 -11.52  TD 0.0259  Tc -0.0048  Tw (compilador asociado al mismo y al que denominaremos ) Tj249.72 0  TD /F5 9.96  Tf0.0068  Tc 0  Tw (CSCompiler) Tj49.32 0  TD /F4 9.96  Tf0.0026  Tc -0.0115  Tw ( \(de ) Tj19.92 0  TD /F6 9.96  Tf0.0089  Tc 0  Tw (C) Tj7.2 0  TD /F4 9.96  Tf0.0447  Tc (risol) Tj18.36 0  TD /F6 9.96  Tf-0.0433  Tc (S) Tj6.6 0  TD /F4 9.96  Tf0.02  Tc (criptCompiler\).) Tj-351.12 -23.04  TD 0.0057  Tc 0.1054  Tw (El lenguaje ) Tj52.44 0  TD /F5 9.96  Tf0.0213  Tc 0  Tw (CrisolScript) Tj48.84 0  TD /F4 9.96  Tf0.023  Tc 0.1481  Tw ( permitir\341 que el dise\361ador pueda establecer la l\363gica del juego que est\351) Tj-101.28 -11.64  TD 0.017  Tc 2.3241  Tw (creando pues mediante su uso, se permitir\341 especificar \(programar\) lo que ocurra cuando) Tj0 -11.4  TD /F5 9.96  Tf0.0283  Tc 0  Tw (Crisol) Tj24.96 0  TD /F4 9.96  Tf0.0177  Tc 3.2975  Tw ( desencadene diferentes eventos. Estos eventos se podr\341n personalizar para cada) Tj-24.96 -11.64  TD 0.0205  Tc 1.8267  Tw (entidad que exista en el universo de juego, es decir, para un mismo evento dos entidades) Tj0 -11.4  TD 0.0169  Tc 2.6604  Tw (diferentes podr\341n tener asociadas, a su vez, dos scripts tambi\351n distintos. El objetivo de) Tj0 -11.52  TD /F5 9.96  Tf0.0213  Tc 0  Tw (CrisolScript) Tj48.84 0  TD /F4 9.96  Tf0.0199  Tc -0.0179  Tw ( ser\341 el de ser un lenguaje, ante todo, sencillo de utilizar.) Tj-48.84 -23.04  TD 0.0156  Tc 0.3355  Tw (Mediante el uso de ) Tj89.16 0  TD /F5 9.96  Tf0.0068  Tc 0  Tw (CSCompiler) Tj49.32 0  TD /F4 9.96  Tf0.0228  Tc 0.5138  Tw ( se lograr\341 realizar una validaci\363n de los archivos con el c\363digo) Tj-138.48 -11.52  TD 0.016  Tc 1.2391  Tw (fuente escrito. De este modo se podr\341 detectar posibles errores y pasar de formato texto \(el) Tj0 -11.52  TD 0.0229  Tc 0.7911  Tw (formato en el que el dise\361ador programar\341 en) Tj0  Tc -0.0089  Tw ( ) Tj212.76 0  TD /F5 9.96  Tf0.0213  Tc 0  Tw (CrisolScript) Tj48.84 0  TD /F4 9.96  Tf0.0263  Tc 0.8248  Tw (\) a formato binario. Esto \372ltimo ser\341) Tj-261.6 -11.52  TD -0.0088  Tc 0.0599  Tw (vital para ) Tj43.32 0  TD /F5 9.96  Tf0.0283  Tc 0  Tw (Crisol) Tj24.96 0  TD /F4 9.96  Tf0.0234  Tc -0.0151  Tw (, pues permitir\341 una ejecuci\363n r\341pida del c\363digo.) Tj-68.28 -26.28  TD /F1 11.04  Tf-0.0275  Tc 0.0384  Tw (C.1.1. Un lenguaje interpretado.) Tj0 -25.44  TD /F4 9.96  Tf0.0166  Tc 1.0914  Tw (Antes de pasar a explicar el lenguaje, se deber\341 de tener en cuenta que) Tj0  Tc -0.0089  Tw ( ) Tj337.68 0  TD /F5 9.96  Tf0.0313  Tc 0  Tw (CrisolScript) Tj48.96 0  TD /F4 9.96  Tf0.0054  Tc 1.2457  Tw ( ser\341 un) Tj-386.64 -11.64  TD 0.0134  Tc 2.2149  Tw (lenguaje interpretado a nivel de c\363digo intermedio, es decir, la ejecuci\363n de los scripts se) Tj0 -11.4  TD 0.0207  Tc 1.3171  Tw (realizar\341 s\363lo cuando el c\363digo fuente haya sido compilado por) Tj0  Tc -0.0089  Tw ( ) Tj295.8 0  TD /F5 9.96  Tf0.0308  Tc 0  Tw (CSCompiler) Tj49.44 0  TD /F4 9.96  Tf0.0156  Tc 1.4955  Tw (. El proceso para) Tj-345.24 -11.64  TD 0.0222  Tc 2.2397  Tw (llegar del c\363digo fuente originalmente escrito por el dise\361ador a c\363digo intermedio ser\341 el) Tj0 -11.52  TD 0.0091  Tc 0  Tw (siguiente:) Tj0 -23.04  TD -0.0472  Tc (1\)) Tj8.88 0  TD 0  Tc -0.0089  Tw ( ) Tj9.12 0  TD 0.0199  Tc -0.0196  Tw (Se escribir\341n los ficheros script en modo texto. Estos ficheros formar\341n el c\363digo fuente.) Tj-18 -22.92  TD -0.0472  Tc 0  Tw (2\)) Tj8.88 0  TD 0  Tc -0.0089  Tw ( ) Tj9.12 0  TD 0.0201  Tc 0.7939  Tw (Los ficheros con el c\363digo fuente se compilar\341n para producir un archivo que poseer\341 las) Tj0 -11.52  TD 0.0115  Tc 1.8296  Tw (instrucciones que hab\355a en los ficheros fuentes pero preparadas para que un int\351rprete) Tj0 -11.4  TD 0.003  Tc 1.4281  Tw (embebido en) Tj0  Tc -0.0089  Tw ( ) Tj63.24 0  TD /F5 9.96  Tf0.0283  Tc 0  Tw (Crisol) Tj24.96 0  TD /F4 9.96  Tf0.0172  Tc 1.434  Tw ( las procese. Este archivo de salida ser\341 lo que se denomine c\363digo) Tj-88.2 -11.64  TD 0.0053  Tc 0  Tw (intermedio.) Tj-18 -23.04  TD -0.0472  Tc (3\)) Tj8.88 0  TD 0  Tc -0.0089  Tw ( ) Tj9.12 0  TD 0.0094  Tc 0.0833  Tw (El c\363digo intermedio producido ser\341 procesado y ejecutado por el int\351rprete embebido en el) Tj0 -11.52  TD 0.025  Tc 0.9354  Tw (motor \(que tambi\351n se le conocer\341 como m\341quina virtual\) siempre y cuando se produzca) TjT* 0.0158  Tc 0.0053  Tw (un evento para el que se hubiera asociado un fichero con c\363digo script.) Tj-18 -22.92  TD 0.0084  Tc 1.1998  Tw (Una opci\363n alternativa al trabajo con c\363digo intermedio ser\355a el utilizar un int\351rprete puro, es) Tj0 -11.52  TD 0.0241  Tc 0.6963  Tw (decir, un int\351rprete que trabajara directamente con los archivos de c\363digo fuente. El problema) TjT* 0.0114  Tc 1.3317  Tw (es que este int\351rprete se convierte en algo lento para una aplicaci\363n interactiva como es un) TjT* 0.0154  Tc 0.3057  Tw (videojuego y tales lapsus siempre ser\355an perceptibles por el jugador. Principalmente cuando se) TjT* 0.0227  Tc 3.1913  Tw (hallen activos scripts que se ejecuten cada \223x\224 tiempo. El uso de c\363digo intermedio no) Tj0 -11.4  TD 0.0203  Tc 1.78  Tw (soluciona completamente este problema de p\351rdida de velocidad, pero s\355 que lo mejora de) Tj0 -11.52  TD 0.0204  Tc -0.0184  Tw (forma considerable al evitar, entre otras operaciones, los an\341lisis l\351xicos y sint\341cticos.) Tj0 -23.88  TD /F1 11.04  Tf-0.0321  Tc 0.0829  Tw (C.1.2 Notaci\363n simple orientada a objetos.) Tj0 -23.16  TD /F4 9.96  Tf0.0057  Tc 1.9054  Tw (El lenguaje) Tj0  Tc -0.0089  Tw ( ) Tj55.8 0  TD /F5 9.96  Tf0.0213  Tc 0  Tw (CrisolScript) Tj48.84 0  TD /F4 9.96  Tf0.0231  Tc 1.908  Tw ( trabaja con una sintaxis similar a lo que pudiera encontrarse en un) Tj-104.64 -11.64  TD 0.0201  Tc 0.3231  Tw (lenguaje orientado a objetos. Si bien, se tratar\341 s\363lo de un maquillaje para implementar de una) Tj0 -11.52  TD 0.0266  Tc -0.0475  Tw (forma mucho m\341s clara y sencilla el trabajo con ciertos elementos.) Tj0 -23.4  TD 0.0128  Tc 0.9783  Tw (Existir\341 un \223objeto\224 llamado) Tj0  Tc -0.0089  Tw ( ) Tj127.68 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (Game) Tj24 0  TD /F4 9.96  Tf0.0219  Tc 1.0293  Tw ( que se encargar\341 de simular a) Tj0  Tc -0.0089  Tw ( ) Tj147.96 0  TD /F5 9.96  Tf0.0483  Tc 0  Tw (Crisol) Tj25.08 0  TD /F4 9.96  Tf0.025  Tc 1.0461  Tw ( como aplicaci\363n, otro) Tj-324.72 -12.36  TD 0.0071  Tc -0.016  Tw (llamado ) Tj39.72 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (World) Tj30 0  TD /F4 9.96  Tf0.0164  Tc 2.0793  Tw ( que representar\341 al universo de juego y por \372ltimo, unas variables de tipo) Tj-69.72 -12.36  TD /F7 9.96  Tf0.024  Tc 0  Tw (entity) Tj36 0  TD /F4 9.96  Tf0.0137  Tc 1.5374  Tw ( que permitir\341n gestionar a todas las entidades que existan en el universo de juego) Tj-36 -12  TD 0.0254  Tc -0.0343  Tw (como si de objetos se trataran.) Tj0 -24  TD /F1 11.04  Tf-0.06  Tc 0  Tw (C.) Tj11.04 0  TD -0.0264  Tc 0.0573  Tw (1.3. Sin distinci\363n entre may\372sculas y min\372sculas.) TjETendstream
+endobj
+27 0 obj
+7670
+endobj
+19 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font 30 0 R
+/ProcSet 2 0 R
+>>
+/Contents 26 0 R
+>>
+endobj
+30 0 obj
+<<
+/F0 6 0 R
+/F1 8 0 R
+/F4 20 0 R
+/F5 22 0 R
+/F6 24 0 R
+/F7 28 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 33 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (229) Tj-410.16 -35.52  TD /F5 9.96  Tf0.0213  Tc (CrisolScript) Tj48.84 0  TD /F4 9.96  Tf0.0185  Tc 0.6806  Tw ( no distinguir\341 entre may\372sculas y min\372sculas, por lo tanto para) Tj0  Tc -0.0089  Tw ( ) Tj292.68 0  TD /F5 9.96  Tf0.0188  Tc 0  Tw (CSCompiler) Tj49.44 0  TD /F4 9.96  Tf-0  Tc 0.7713  Tw ( ser\341 lo) Tj-390.96 -12  TD 0.0217  Tc 0.8094  Tw (mismo leer la palabra reservada) Tj0  Tc 0.1111  Tw ( ) Tj149.76 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (function) Tj48 0  TD /F4 9.96  Tf0.0222  Tc 0.9289  Tw ( que) Tj0  Tc -0.0089  Tw ( ) Tj24.12 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (Function) Tj48 0  TD /F4 9.96  Tf0.0622  Tc 0.8889  Tw ( que) Tj0  Tc 0.1111  Tw ( ) Tj24.24 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (FunCtION) Tj48 0  TD /F4 9.96  Tf0.0433  Tc 0.9078  Tw (. Esto mismo ser\341) Tj-342.12 -12  TD 0.0176  Tc 0.0063  Tw (aplicable a constantes, variables y nombres de funci\363n definidos por el programador.) Tj0 -22.92  TD 0.019  Tc 0.6847  Tw (Esta libertad para poner los identificadores como se quiera ser\341 un arma de doble filo. Por un) Tj0 -11.52  TD 0.0223  Tc 0.0974  Tw (lado se permitir\341 solventar uno de los errores m\341s t\355picos en los programadores sin experiencia) TjT* 0.0243  Tc 1.3568  Tw (sin embargo, estos mismos programadores sin experiencia correr\341 el riesgo de crear c\363digo) TjT* 0.0173  Tc 0.2969  Tw (poco legible. Para evitar este problema, se recomendar\341 que cada dise\361ador use unas normas) TjT* 0.0226  Tc 0.9285  Tw (de escritura o de lo contrario, los c\363digos que realice ser\341n dif\355ciles de comprender para otra) Tj0 -11.4  TD 0.0121  Tc 4.439  Tw (persona. En los ejemplos de este documento, todas las palabras reservadas ir\341n en) Tj0 -11.52  TD 0.0145  Tc 3.0043  Tw (min\372sculas y los nombres de funciones y variables con la primera letra del identificador) TjT* 0.02  Tc 2.9249  Tw (\(incluido los compuestos\) en may\372sculas. En el caso de las constantes se utilizar\341n las) TjT* 0.0193  Tc 0  Tw (may\372sculas.) Tj0 -23.88  TD /F1 11.04  Tf-0.0256  Tc 0.0564  Tw (C.1.4. Modo general de trabajo con scripts.) Tj0 -23.28  TD /F4 9.96  Tf0.0222  Tc 1.6039  Tw (El trabajo con los scripts ser\341 muy sencillo; existir\341n una serie de eventos en el motor que) Tj0 -11.52  TD 0.0205  Tc 0.382  Tw (podr\341n tener asociados scripts definidos por el dise\361ador. En tales casos, \351ste podr\341 indicar el) Tj0 -11.4  TD 0.0189  Tc 2.9294  Tw (nombre del archivo script para que cuando se produzca tal evento se ejecute el c\363digo) Tj0 -11.52  TD 0.0218  Tc 2.3393  Tw (localizado en dicho script. Los archivos scripts estar\341n formados por una funci\363n especial) TjT* 0.0205  Tc 1.6044  Tw (\(consultar el ap\351ndice destinado a los eventos script para obtener m\341s informaci\363n\) con un) TjT* 0.0198  Tc 0.4144  Tw (formato espec\355fico en cuanto a los par\341metros que recibir\341. Dicho formato se conocer\341 porque) TjT* 0.0128  Tc 0.3459  Tw (todas estas funciones asociadas a eventos poseer\341n un tipo \(que no ser\341 otro que el evento al) TjT* 0.0144  Tc 2.5949  Tw (que pertenecen\) que permitir\341n al compilador averiguar inmediatamente el formato de los) Tj0 -11.4  TD 0.0217  Tc 1.0495  Tw (par\341metros que deber\341 de poder localizar. Acompa\361ando a dicha funci\363n especial se podr\341n) Tj0 -11.52  TD 0.0102  Tc 0.141  Tw (definir otras de ) Tj69.48 0  TD 0.0235  Tc 0.2476  Tw (caracter local cuya funcionalidad ser\341 la de facilitar la organizaci\363n del c\363digo ) Tj0.54  Tc 0  Tw (y) Tj-69.48 -11.52  TD 0.0134  Tc 0.0239  Tw (cuya utilizaci\363n quedar\341 restringida al cuerpo de la funci\363n especial que representa el evento.) Tj0 -22.92  TD 0.0185  Tc 1.6526  Tw (El dise\361ador no tendr\341 la obligaci\363n de asociar archivos con c\363digo) Tj0  Tc -0.0089  Tw ( ) Tj320.04 0  TD /F5 9.96  Tf0.0213  Tc 0  Tw (CrisolScript) Tj48.84 0  TD /F4 9.96  Tf0.0235  Tc 1.6477  Tw ( a todos los) Tj-368.88 -11.64  TD 0.0174  Tc 2.4476  Tw (eventos; cuando uno se desencadene y \351ste no tenga asociado ning\372n archivo script, se) Tj0 -11.52  TD 0.0228  Tc 1.0883  Tw (ejecutar\341 \372nicamente el comportamiento por defecto asociado a dicho evento. Como se ver\341) TjT* 0.0194  Tc 1.979  Tw (m\341s adelante, habr\341 eventos que no tendr\341n comportamiento por defecto. Cuando s\355) Tj0  Tc -0.0089  Tw ( ) Tj404.04 0  TD 0.0169  Tc 0  Tw (exita) Tj-404.04 -11.4  TD 0.0195  Tc 1.8488  Tw (comportamiento por defecto ser\341 muy importante el modo en que se retorne de los scripts) Tj0 -11.52  TD 0.0149  Tc 0.4563  Tw (pues, dependiendo de este factor, se podr\341 indicar al motor que realice, o no, la operaci\363n por) TjT* 0.0103  Tc 0  Tw (defecto.) Tj0 -23.04  TD 0.0238  Tc 1.1598  Tw (Por ejemplo, asociado a la acci\363n de coger un \355tem existe un script. Dicho script tiene como) Tj0 -11.4  TD 0.018  Tc 0.6691  Tw (comportamiento por defecto el de pasar el \355tem al inventario de la criatura que quiere cogerlo.) Tj0 -11.52  TD 0.017  Tc 1.7816  Tw (Si en el script se programa un c\363digo que compruebe el espacio libre en el inventario que) TjT* 0.0153  Tc 0.4558  Tw (desee coger el \355tem, se podr\341 indicar que no se desea realizar la operaci\363n por defecto \(coger) TjT* 0.0095  Tc 0.0416  Tw (el \355tem\) cuando en el inventario ya no quede espacio libre.) TjETendstream
+endobj
+33 0 obj
+5485
+endobj
+31 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F5 22 0 R 
+/F7 28 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 32 0 R
+>>
+endobj
+35 0 obj
+<<
+/Length 36 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (230) Tj-410.16 -37.32  TD /F1 11.04  Tf-0.06  Tc (C.) Tj11.04 0  TD /F1 12  Tf-0  Tc 0.0247  Tw (2. Especificaciones de CrisolScript.) Tj-11.04 -25.8  TD /F4 9.96  Tf0.014  Tc 1.5371  Tw (En este apartado se analizar\341n todas y cada una de las partes que hacen a) Tj0  Tc -0.0089  Tw ( ) Tj360.72 0  TD /F5 9.96  Tf0.0313  Tc 0  Tw (CrisolScript) Tj48.96 0  TD /F4 9.96  Tf-0.0178  Tc 1.5689  Tw ( un) Tj-409.68 -11.52  TD 0.0156  Tc 0.1555  Tw (lenguaje de programaci\363n. Ser\341, por tanto, el apartado m\341s importante de esta documentaci\363n,) Tj0 -11.52  TD 0.0186  Tc -0.0075  Tw (pues se comentar\341n los aspectos concretos del mismo de cara a su utilizaci\363n.) Tj0 -26.28  TD /F1 11.04  Tf-0.0272  Tc 0.078  Tw (C.2.1. Palabras clave base.) Tj0 -23.16  TD /F4 9.96  Tf0.0151  Tc -0  Tw (Las palabras clave base, y por lo tanto, reservadas de ) Tj242.76 0  TD /F5 9.96  Tf0.0313  Tc 0  Tw (CrisolScript) Tj48.96 0  TD /F4 9.96  Tf0.0272  Tc -0.0361  Tw (, ser\341n las siguientes:) TjET0.949 0.949 0.949 rg 81.24 636.72 108 11.4 re fBT120.6 639.48  TD0 0 0 rg /F7 9.96  Tf0.024  Tc 0  Tw (begin) TjET0.949 0.949 0.949 rg 189.24 636.72 108.12 11.4 re fBT234.6 639.48  TD0 0 0 rg (end) TjET0.949 0.949 0.949 rg 297.36 636.72 108 11.4 re fBT333.72 639.48  TD0 0 0 rg (global) TjET0.949 0.949 0.949 rg 405.36 636.72 108.12 11.4 re fBT444.72 639.48  TD0 0 0 rg (const) TjET0.949 0.949 0.949 rg 81.24 625.44 108 11.28 re fBT126.6 628.2  TD0 0 0 rg (var) TjET0.949 0.949 0.949 rg 189.24 625.44 108.12 11.28 re fBT222.6 628.2  TD0 0 0 rg (compile) TjET0.949 0.949 0.949 rg 297.36 625.44 108 11.28 re fBT339.72 628.2  TD0 0 0 rg (func) TjET0.949 0.949 0.949 rg 405.36 625.44 108.12 11.28 re fBT441.72 628.2  TD0 0 0 rg (number) TjET0.949 0.949 0.949 rg 81.24 614.04 108 11.4 re fBT117.6 616.8  TD0 0 0 rg (string) TjET0.949 0.949 0.949 rg 189.24 614.04 108.12 11.4 re fBT225.6 616.8  TD0 0 0 rg (entity) TjET0.949 0.949 0.949 rg 297.36 614.04 108 11.4 re fBT333.72 616.8  TD0 0 0 rg (script) TjET0.949 0.949 0.949 rg 405.36 614.04 108.12 11.4 re fBT435.72 616.8  TD0 0 0 rg (function) TjET0.949 0.949 0.949 rg 81.24 602.76 108 11.28 re fBT129.6 605.52  TD0 0 0 rg (if) TjET0.949 0.949 0.949 rg 189.24 602.76 108.12 11.28 re fBT231.6 605.52  TD0 0 0 rg (then) TjET0.949 0.949 0.949 rg 297.36 602.76 108 11.28 re fBT339.72 605.52  TD0 0 0 rg (else) TjET0.949 0.949 0.949 rg 405.36 602.76 108.12 11.28 re fBT444.72 605.52  TD0 0 0 rg (while) TjET0.949 0.949 0.949 rg 81.24 591.48 108 11.28 re fBT129.6 594.24  TD0 0 0 rg (do) TjET0.949 0.949 0.949 rg 189.24 591.48 108.12 11.28 re fBT225.6 594.24  TD0 0 0 rg (return) TjET0.949 0.949 0.949 rg 297.36 591.48 108 11.28 re fBT342.72 594.24  TD0 0 0 rg (ref) TjET0.949 0.949 0.949 rg 405.36 591.48 108.12 11.28 re fBT441.72 594.24  TD0 0 0 rg (import) TjET0.949 0.949 0.949 rg 81.24 580.08 108 11.4 re fBT123.6 582.84  TD0 0 0 rg (void) TjET0.949 0.949 0.949 rg 189.24 580.08 108.12 11.4 re f297.36 580.08 108 11.4 re f405.36 580.08 108.12 11.4 re fBT234.6 570.96  TD0 0 0 rg /F5 9.96  Tf0.0152  Tc 0.0148  Tw (Palabras clave de CrisolScript.) Tj-149.52 -23.04  TD /F4 9.96  Tf0.0184  Tc 3.1027  Tw (Estas palabras no podr\341n usarse por el programador para crear constantes, variables ) Tj3.2222  Tc 0  Tw (o) Tj0 -11.52  TD 0.0159  Tc 3.7432  Tw (nombres de funciones pues, como ya se indica, ser\341n reservadas por) Tj0  Tc -0.0089  Tw ( ) Tj352.32 0  TD /F5 9.96  Tf0.0313  Tc 0  Tw (CrisolScript) Tj48.96 0  TD /F4 9.96  Tf-0  Tc 3.8314  Tw (. Sin) Tj-401.28 -12  TD 0.0164  Tc 1.9907  Tw (embargo, s\355 que podr\341n aparecer incluidas en otras palabras. Por ejemplo:) Tj0  Tc -0.0089  Tw ( ) Tj356.4 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (ReturnValue) Tj66 0  TD /F4 9.96  Tf-0.0089  Tc (,) Tj-422.4 -12.36  TD /F7 9.96  Tf0.024  Tc (MagicNumber) Tj66 0  TD /F4 9.96  Tf0.0222  Tc -0.031  Tw (, etc ser\341n construcciones v\341lidas.) Tj-66 -23.52  TD 0.0185  Tc 0.6427  Tw (Cuando se estudien los diferentes eventos script se especificar\341n nuevas palabras claves que) Tj0 -11.4  TD 0.0207  Tc 3.2104  Tw (servir\341n para indicar el tipo de un script \(el evento al que est\341 asociado\). Tambi\351n se) Tj0 -11.52  TD 0.0166  Tc 0.2545  Tw (comentar\341n las constantes globales internas de ) Tj216.36 0  TD /F5 9.96  Tf0.0313  Tc 0  Tw (CrisolScript) Tj48.96 0  TD /F4 9.96  Tf0.0197  Tc 0.3485  Tw ( cuya finalidad ser\341 la de permitir al) Tj-265.32 -11.52  TD 0.0222  Tc -0.0011  Tw (usuario una programaci\363n m\341s c\363moda.) Tj0 -24  TD /F1 11.04  Tf-0.0223  Tc 0.0431  Tw (C.2.2. Operadores l\363gicos y matem\341ticos) Tj0 -23.16  TD /F4 9.96  Tf0.0161  Tc 0.7083  Tw (A continuaci\363n se muestran los operadores l\363gicos y matem\341ticos en) Tj0  Tc -0.0089  Tw ( ) Tj317.04 0  TD /F5 9.96  Tf0.0313  Tc 0  Tw (CrisolScript) Tj48.96 0  TD /F4 9.96  Tf0.0289  Tc 0.6822  Tw (. Tambi\351n se) Tj-366 -11.52  TD 0.0131  Tc 0.1381  Tw (incluye el operador de asignaci\363n, que permitir\341 asociar un valor a una variable o constante \(en) Tj0 -11.52  TD 0.018  Tc -0.0269  Tw (este caso, s\363lo en su declaraci\363n\).) TjET0.949 0.949 0.949 rg 145.56 358.56 60.24 11.52 re fBT156.24 360.84  TD0 0 0 rg /F1 9.96  Tf0.0097  Tc 0  Tw (S\355mbolo) TjET0.949 0.949 0.949 rg 205.8 358.56 243.24 11.52 re fBT303.12 360.84  TD0 0 0 rg 0.0064  Tc (Operaci\363n) Tj-153.72 -10.8  TD /F7 9.96  Tf0.024  Tc (/) Tj60.24 -0.84  TD /F4 9.96  Tf0.0225  Tc (Divisi\363n) Tj-60.24 -10.68  TD /F7 9.96  Tf0.024  Tc (-) Tj60.24 -0.84  TD /F4 9.96  Tf0.0049  Tc (Resta) Tj-60.24 -10.68  TD /F7 9.96  Tf0.024  Tc (+) Tj60.24 -0.72  TD /F4 9.96  Tf0.0961  Tc (Suma) Tj-60.24 -10.8  TD /F7 9.96  Tf0.024  Tc (%) Tj60.24 -0.72  TD /F4 9.96  Tf0.0049  Tc (Resto) Tj-60.24 -10.8  TD /F7 9.96  Tf0.024  Tc (*) Tj60.24 -0.72  TD /F4 9.96  Tf0.0079  Tc (Multiplicaci\363n) Tj-60.24 -10.8  TD /F7 9.96  Tf0.024  Tc (>) Tj60.24 -0.72  TD /F4 9.96  Tf0.0169  Tc -0.0018  Tw (Mayor que \(de izq. a dcha.\)) Tj-60.24 -10.68  TD /F7 9.96  Tf0.024  Tc 0  Tw (>=) Tj60.24 -0.84  TD /F4 9.96  Tf0.0028  Tc 0.0569  Tw (Mayor o igual que \(de izq. a dcha.\)) Tj-60.24 -10.68  TD /F7 9.96  Tf0.024  Tc 0  Tw (<) Tj60.24 -0.84  TD /F4 9.96  Tf0.0079  Tc 0.0312  Tw (Menor que \(de izq. a dcha.\)) Tj-60.24 -10.68  TD /F7 9.96  Tf0.024  Tc 0  Tw (<=) Tj60.24 -0.72  TD /F4 9.96  Tf0.0129  Tc 0.0125  Tw (Menor o igual que \(de izq. a dcha.\)) Tj-60.24 -10.8  TD /F7 9.96  Tf0.024  Tc 0  Tw (:=) Tj60.24 -0.72  TD /F4 9.96  Tf0.015  Tc 0.0161  Tw (Asignaci\363n \(se asigna de dcha. a izq.\)) Tj-60.24 -10.8  TD /F7 9.96  Tf0.024  Tc 0  Tw (==) Tj60.24 -0.72  TD /F4 9.96  Tf0.0141  Tc -0.023  Tw (Comparaci\363n \223igual que\224) Tj-60.24 -10.68  TD /F7 9.96  Tf0.024  Tc 0  Tw (!=) Tj60.24 -0.84  TD /F4 9.96  Tf0.0141  Tc -0.023  Tw (Comparaci\363n \223distinto que\224) Tj-60.24 -10.68  TD /F7 9.96  Tf0.024  Tc 0  Tw (&&) Tj60.24 -0.84  TD /F4 9.96  Tf0.0145  Tc -0.0233  Tw (Y l\363gico) Tj-60.24 -10.68  TD /F7 9.96  Tf0.024  Tc 0  Tw (||) Tj60.24 -0.84  TD /F4 9.96  Tf0.0279  Tc -0.0368  Tw (O l\363gico) Tj-60.24 -10.68  TD /F7 9.96  Tf0.024  Tc 0  Tw (!) Tj60.24 -0.72  TD /F4 9.96  Tf0.017  Tc -0.0258  Tw (No l\363gico) Tj17.16 -11.28  TD /F5 9.96  Tf0.0142  Tc 0.0158  Tw (Operadores l\363gicos y matem\341ticos.) Tj-141.72 -23.16  TD /F4 9.96  Tf0.0217  Tc 3.7794  Tw (Los operadores l\363gicos permitir\341n realizar construcciones en las que se eval\372e si una) Tj0 -11.88  TD 0.02  Tc 0.5861  Tw (expresi\363n es verdadera o falsa. Por ejemplo, la expresi\363n) Tj0  Tc 0.1111  Tw ( ) Tj263.28 0  TD /F7 9.96  Tf0.024  Tc 0.6  Tw (\(3 > 4\)) Tj43.2 0  TD /F4 9.96  Tf0  Tc 0.642  Tw ( ser\341 falsa ya que 3 no es) Tj-306.48 -12.36  TD 0.0211  Tc 0.17  Tw (mayor que 4. ) Tj61.8 0  TD /F5 9.96  Tf0.0213  Tc 0  Tw (CrisolScript) Tj48.84 0  TD /F4 9.96  Tf0.0258  Tc 0.3053  Tw ( evaluar\341 las expresiones falsas con un valor menor igual a 1 \() Tj281.16 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (false) Tj30 0  TD /F4 9.96  Tf0.0433  Tc (\)) Tj-421.8 -12.36  TD 0.0169  Tc 0.0042  Tw (y las expresiones verdaderas con un valor mayor o igual a 1 \() Tj272.88 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (true) Tj24 0  TD /F4 9.96  Tf0.0172  Tc (\).) TjETendstream
+endobj
+36 0 obj
+8571
+endobj
+34 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F5 22 0 R 
+/F7 28 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 35 0 R
+>>
+endobj
+38 0 obj
+<<
+/Length 39 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (231) Tj-410.16 -35.52  TD /F4 9.96  Tf0.0205  Tc 0.0507  Tw (Los operadores matem\341ticos permitir\341n realizar operaciones aritm\351ticas utilizando constantes o) Tj0 -11.52  TD 0.015  Tc 1.8261  Tw (variables. Adem\341s, el valor que produzcan podr\341 ser utilizado para construir una operaci\363n) TjT* 0.013  Tc 0.0327  Tw (l\363gica o para asign\341rselo a una variable o constante \(en su declaraci\363n\).) Tj0 -23.88  TD /F1 11.04  Tf-0.06  Tc 0  Tw (C.) Tj11.04 0  TD -0.0166  Tc 0.0075  Tw (2.3. Operadores sint\341cticos) Tj-11.04 -23.16  TD /F4 9.96  Tf0.0168  Tc -0.0257  Tw (Los operadores sint\341cticos en ) Tj135.48 0  TD /F5 9.96  Tf0.0313  Tc 0  Tw (CrisolScript) Tj48.96 0  TD /F4 9.96  Tf0.0269  Tc -0.0357  Tw ( ser\341n:) TjET0.949 0.949 0.949 rg 90 666.48 67.32 11.52 re fBT104.28 668.76  TD0 0 0 rg /F1 9.96  Tf0.0097  Tc 0  Tw (S\355mbolo) TjET0.949 0.949 0.949 rg 157.32 666.48 347.28 11.52 re fBT304.44 668.76  TD0 0 0 rg 0.0069  Tc (Significado) Tj-210.6 -10.8  TD /F7 9.96  Tf0.024  Tc (,) Tj67.32 -0.84  TD /F4 9.96  Tf0.0124  Tc 0.0187  Tw (La coma sirve para separar los par\341metros y argumentos de funci\363n y las) Tj0 -11.4  TD 0.0204  Tc 0  Tw (variables cuando \351stas se declaran.) Tj-67.32 -10.8  TD /F7 9.96  Tf0.024  Tc 0  Tw (/**/) Tj67.32 -0.72  TD /F4 9.96  Tf0.0145  Tc -0.0033  Tw (Inicio / fin de un comentario multil\355nea.) Tj-67.32 -10.8  TD /F7 9.96  Tf0.024  Tc 0  Tw (//) Tj67.32 -0.72  TD /F4 9.96  Tf0.019  Tc -0.0145  Tw (Inicio de una l\355nea de comentario de una sola l\355nea.) Tj-67.32 -10.68  TD /F7 9.96  Tf0.024  Tc 0  Tw (;) Tj67.32 -0.84  TD /F4 9.96  Tf0.014  Tc -0.0228  Tw (Fin de una expresi\363n.) Tj-67.32 -10.68  TD /F7 9.96  Tf0.024  Tc 0  Tw (\() Tj67.32 -0.84  TD /F4 9.96  Tf0.0168  Tc -0.0257  Tw (Inicio de una ) Tj59.4 0  TD 0.0195  Tc 0.0317  Tw (subexpresi\363n o de una lista de par\341metros.) Tj-126.72 -10.68  TD /F7 9.96  Tf0.024  Tc 0  Tw (\)) Tj67.32 -0.84  TD /F4 9.96  Tf0.0146  Tc -0.0235  Tw (Fin de una ) Tj49.92 0  TD 0.0168  Tc 0.0143  Tw (subexpresi\363n o de una lista de par\341metros) Tj-117.24 -10.68  TD /F7 9.96  Tf0.024  Tc 0  Tw (.) Tj67.32 -0.72  TD /F4 9.96  Tf0.0223  Tc -0.0312  Tw (Acceso a un m\351todo de un objeto.) Tj90.96 -11.28  TD /F5 9.96  Tf0.0088  Tc 0.0212  Tw (Operadores sint\341ticos.) Tj-167.04 -23.16  TD /F4 9.96  Tf0.0201  Tc 1.0602  Tw (Los operadores sint\341cticos tendr\341n una enorme importancia a la hora de elaborar los scripts.) Tj0 -11.52  TD 0.0217  Tc 1.058  Tw (Menci\363n a parte merecer\341n los comentarios cuya utilidad ser\341 m\341s que evidente para que el) TjT* 0.0236  Tc 2.4968  Tw (programador pueda asociar texto de ayuda en los mismos archivos de c\363digo fuente. Se) Tj0 -11.4  TD 0.0161  Tc 0.665  Tw (recomienda encarecidamente que se haga uso de los comentarios para facilitar la compresi\363n) Tj0 -11.52  TD 0.0127  Tc 0.0025  Tw (de lo que se est\351 creando.) Tj0 -22.92  TD 0.0187  Tc 1.096  Tw (Tal y como se indica en la tabla,  los comentarios en) Tj0  Tc -0.0089  Tw ( ) Tj248.4 0  TD /F5 9.96  Tf0.0313  Tc 0  Tw (CrisolScript) Tj48.96 0  TD /F4 9.96  Tf0.0232  Tc 1.1679  Tw ( podr\341n ser de dos tipos. ) Tj1.1311  Tc 0  Tw (O) Tj-297.36 -11.64  TD 0.0199  Tc -0.0288  Tw (bien en una sola l\355nea:) TjET0.949 0.949 0.949 rg 81.24 436.68 432.24 11.28 re fBT85.08 439.44  TD0 0 0 rg /F7 9.96  Tf0.024  Tc 0  Tw (// Comentario) Tj0 -23.52  TD /F4 9.96  Tf0.0203  Tc 0.0008  Tw (O bien en varias l\355neas:) TjET0.949 0.949 0.949 rg 81.24 390.84 432.24 11.28 re fBT85.08 393.6  TD0 0 0 rg /F7 9.96  Tf0.024  Tc 0  Tw (/*) TjET0.949 0.949 0.949 rg 81.24 379.44 432.24 11.4 re fBT85.08 382.2  TD0 0 0 rg (Comentario) TjET0.949 0.949 0.949 rg 81.24 368.16 432.24 11.28 re fBT85.08 370.92  TD0 0 0 rg (Comentario) TjET0.949 0.949 0.949 rg 81.24 356.88 432.24 11.28 re fBT85.08 359.64  TD0 0 0 rg (....) TjET0.949 0.949 0.949 rg 81.24 345.48 432.24 11.4 re fBT85.08 348.24  TD0 0 0 rg (Comentario) TjET0.949 0.949 0.949 rg 81.24 334.2 432.24 11.28 re fBT85.08 336.96  TD0 0 0 rg (*/) Tj0 -23.88  TD /F4 9.96  Tf0.0226  Tc -0.0315  Tw (En este \372ltimo caso, ser\341 comentario todo aquello que se encuentre entre ) Tj330.12 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (/*) Tj12 0  TD /F4 9.96  Tf-0.06  Tc 0.0511  Tw ( y ) Tj10.56 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (*/) Tj12 0  TD /F4 9.96  Tf-0.0089  Tc (.) Tj-364.68 -23.88  TD 0.0173  Tc 1.1588  Tw (Otros de los aspectos vitales a comentar de la tabla, ser\341 el apartado referido al car\341cter ) Tj1.1489  Tc 0  Tw (\221) Tj417 0  TD /F7 9.96  Tf0.024  Tc (;) Tj6 0  TD /F4 9.96  Tf-0.0511  Tc (\222) Tj-423 -11.88  TD 0.0135  Tc 0.1976  Tw (para indicar fin de expresi\363n. En ) Tj147.48 0  TD /F5 9.96  Tf0.0313  Tc 0  Tw (CrisolScript) Tj48.96 0  TD /F4 9.96  Tf0.0182  Tc 0.2579  Tw (, todas las expresiones deber\341n de acabar con ese) Tj-196.44 -11.64  TD 0.0151  Tc 0  Tw (car\341cter.) Tj0 -23.88  TD /F1 11.04  Tf-0.06  Tc (C.) Tj11.04 0  TD -0.0329  Tc 0.0838  Tw (2.4. Extensi\363n de los archivos.) Tj-11.04 -23.28  TD /F4 9.96  Tf0.0244  Tc 0.4468  Tw (Los archivos donde se programen los scripts, funciones, etc, ser\341n siempre de texto. Al ser de) Tj0 -11.52  TD 0.0161  Tc 2.7617  Tw (texto, podr\341n editarse con cualquier editor normal y corriente ) Tj2.8033  Tc 0  Tw (\() Tj300.48 0  TD 0.0114  Tc 2.8997  Tw (wordpad, por ejemplo\). La) Tj-300.48 -11.88  TD 0.0182  Tc 1.0529  Tw (extensi\363n de los archivos ser\341 ) Tj1.1233  Tc 0  Tw (\223) Tj145.92 0  TD /F7 9.96  Tf0.024  Tc (.) Tj6 0  TD (cst) Tj18 0  TD /F4 9.96  Tf0.0208  Tc 1.0903  Tw (\224 \(que vendr\341 de) Tj0  Tc -0.0089  Tw ( ) Tj80.52 0  TD /F6 9.96  Tf0.0089  Tc 0  Tw (C) Tj7.2 0  TD /F4 9.96  Tf0.0447  Tc (risol) Tj18.36 0  TD /F6 9.96  Tf-0.0433  Tc (S) Tj6.6 0  TD /F4 9.96  Tf0.0291  Tc -0.038  Tw (cript ) Tj22.8 0  TD /F6 9.96  Tf0.0344  Tc 0  Tw (T) Tj6.12 0  TD /F4 9.96  Tf0.0173  Tc 1.2038  Tw (ext\). El archivo de salida) Tj-311.52 -12.36  TD 0.0061  Tc 0.105  Tw (que producir\341 ) Tj64.08 0  TD /F5 9.96  Tf0.0188  Tc 0  Tw (CSCompiler) Tj49.44 0  TD /F4 9.96  Tf0.0321  Tc 0.1191  Tw ( se denominar\341 \223) Tj75.48 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (CrisolGameScripts.csb) Tj126 0  TD /F4 9.96  Tf0.014  Tc 0.2971  Tw (\224 \(cuya extensi\363n vendr\341) Tj-315 -11.88  TD -0.0178  Tc 0.0089  Tw (de ) Tj16.08 0  TD /F6 9.96  Tf0.0089  Tc 0  Tw (C) Tj7.2 0  TD /F4 9.96  Tf0.0447  Tc (risol) Tj18.36 0  TD /F6 9.96  Tf-0.0433  Tc (S) Tj6.6 0  TD /F4 9.96  Tf0.0291  Tc -0.038  Tw (cript ) Tj24.12 0  TD /F6 9.96  Tf-0.0433  Tc 0  Tw (B) Tj6.6 0  TD /F4 9.96  Tf0.0181  Tc 2.3997  Tw (inary\). Este archivo contendr\341 las instrucciones de c\363digo intermedio que) Tj-78.96 -11.64  TD 0.0158  Tc 0.0153  Tw (representen a los scripts.) Tj0 -23.88  TD /F1 11.04  Tf-0.06  Tc 0  Tw (C.) Tj11.04 0  TD -0.0346  Tc 0.0854  Tw (2.5. Formato de un script.) Tj-11.04 -25.56  TD /F4 9.96  Tf0.0174  Tc -0.0063  Tw (El formato general de un script asociable a un evento ser\341 el siguiente:) TjET0.949 0.949 0.949 rg 81.24 84.72 432.24 11.28 re fBT85.08 87.72  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (script) Tj36 0  TD /F7 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD 0.024  Tc 0  Tw (TipoScript\(Par\341metros\)) TjET0.949 0.949 0.949 rg 81.24 73.32 432.24 11.4 re fBT85.08 76.08  TD0 0 0 rg (// Funciones importadas al script) TjETendstream
+endobj
+39 0 obj
+7645
+endobj
+37 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font 42 0 R
+/ProcSet 2 0 R
+>>
+/Contents 38 0 R
+>>
+endobj
+42 0 obj
+<<
+/F0 6 0 R
+/F1 8 0 R
+/F4 20 0 R
+/F5 22 0 R
+/F6 24 0 R
+/F7 28 0 R
+/F8 40 0 R
+>>
+endobj
+45 0 obj
+<<
+/Length 46 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (232) TjET0.949 0.949 0.949 rg 81.24 759.84 432.24 11.4 re fBT85.08 762.84  TD0 0 0 rg /F8 9.96  Tf0.024  Tc (import ) Tj42 0  TD /F7 9.96  Tf(\223Archivo_1\224;) TjET0.949 0.949 0.949 rg 81.24 748.56 432.24 11.28 re fBT85.08 751.32  TD0 0 0 rg (// ...) TjET0.949 0.949 0.949 rg 81.24 737.16 432.24 11.4 re fBT85.08 740.16  TD0 0 0 rg /F8 9.96  Tf(import ) Tj42 0  TD /F7 9.96  Tf(\223) Tj6 0  TD (Archivo_n\224;) TjET0.949 0.949 0.949 rg 81.24 725.88 432.24 11.28 re f81.24 714.6 432.24 11.28 re fBT85.08 717.6  TD0 0 0 rg /F8 9.96  Tf(const) TjET0.949 0.949 0.949 rg 81.24 703.2 432.24 11.4 re fBT85.08 705.96  TD0 0 0 rg /F7 9.96  Tf(// Constantes locales al script) TjET0.949 0.949 0.949 rg 81.24 691.92 432.24 11.28 re fBT85.08 694.92  TD0 0 0 rg /F8 9.96  Tf(var) TjET0.949 0.949 0.949 rg 81.24 680.52 432.24 11.4 re fBT85.08 683.28  TD0 0 0 rg /F7 9.96  Tf(// Variables locales al script) TjET0.949 0.949 0.949 rg 81.24 669.24 432.24 11.28 re f81.24 657.96 432.24 11.28 re fBT85.08 660.96  TD0 0 0 rg /F8 9.96  Tf(func) TjET0.949 0.949 0.949 rg 81.24 646.56 432.24 11.4 re fBT85.08 649.32  TD0 0 0 rg /F7 9.96  Tf(// Funciones locales al script) TjET0.949 0.949 0.949 rg 81.24 635.28 432.24 11.28 re fBT85.08 638.28  TD0 0 0 rg /F8 9.96  Tf(tipo ) Tj30 0  TD (function) Tj48 0  TD /F7 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD 0.024  Tc 0  Tw (NombreFuncionLocalAlScript\(Par\341metros\)) TjET0.949 0.949 0.949 rg 81.24 623.88 432.24 11.4 re fBT85.08 626.88  TD0 0 0 rg /F8 9.96  Tf(const) TjET0.949 0.949 0.949 rg 81.24 612.6 432.24 11.28 re fBT85.08 615.36  TD0 0 0 rg /F7 9.96  Tf(// Constates locales a la funci\363n) TjET0.949 0.949 0.949 rg 81.24 601.32 432.24 11.28 re fBT85.08 604.32  TD0 0 0 rg /F8 9.96  Tf(var) TjET0.949 0.949 0.949 rg 81.24 589.92 432.24 11.4 re fBT85.08 592.68  TD0 0 0 rg /F7 9.96  Tf(// Variables locales a la funci\363n) TjET0.949 0.949 0.949 rg 81.24 578.64 432.24 11.28 re fBT85.08 581.64  TD0 0 0 rg /F8 9.96  Tf(begin) TjET0.949 0.949 0.949 rg 81.24 567.24 432.24 11.4 re fBT85.08 570  TD0 0 0 rg /F7 9.96  Tf(// Cuerpo de la funci\363n local al script) TjET0.949 0.949 0.949 rg 81.24 555.96 432.24 11.28 re fBT85.08 558.96  TD0 0 0 rg /F8 9.96  Tf(end) TjET0.949 0.949 0.949 rg 81.24 544.68 432.24 11.28 re f81.24 533.28 432.24 11.4 re fBT85.08 536.28  TD0 0 0 rg (begin) TjET0.949 0.949 0.949 rg 81.24 522 432.24 11.28 re fBT85.08 524.76  TD0 0 0 rg /F7 9.96  Tf( // Cuerpo del script) TjET0.949 0.949 0.949 rg 81.24 510.6 432.24 11.4 re fBT85.08 513.6  TD0 0 0 rg 0  Tc 0.024  Tw ( ) Tj6 0  TD /F8 9.96  Tf0.024  Tc 0  Tw (return) Tj36 0  TD /F7 9.96  Tf( Valor Num\351rico;) TjET0.949 0.949 0.949 rg 81.24 499.32 432.24 11.28 re fBT85.08 502.32  TD0 0 0 rg /F8 9.96  Tf(end) Tj107.64 -12.12  TD /F5 9.96  Tf0.0153  Tc -0  Tw (Formato general de un script asociable a un evento.) Tj-107.64 -22.92  TD /F4 9.96  Tf0.0157  Tc 0.8004  Tw (A continuaci\363n se analizar\341 cada uno de las partes del archivo script. Baste decir, a modo de) Tj0 -11.52  TD 0.0213  Tc 0.5098  Tw (introducci\363n, que el cuerpo del script ser\341 el punto donde se comenzar\341 a ejecutar el c\363digo ) Tj0.78  Tc 0  Tw (y) TjT* 0.0221  Tc 0.2015  Tw (que siempre se esperar\341 que se retorne un valor num\351rico. Si dicho valor num\351rico es mayor o) TjT* 0.0099  Tc 0.8012  Tw (igual a 1 se entender\341 que se querr\341 ejecutar la acci\363n por defecto asociada al evento y si el) Tj0 -11.4  TD 0.0185  Tc 1.6859  Tw (valor es menor  que 1, lo que se entender\341 es que no se desea ejecutar dicha acci\363n por) Tj0 -11.52  TD 0.0191  Tc 1.62  Tw (defecto. En caso de no retornar ning\372n valor, se evaluar\341 como si se hubiera retornado un) TjT* 0.0083  Tc -0.0172  Tw (valor de 1.) Tj0 -23.88  TD /F1 11.04  Tf-0.06  Tc 0  Tw (C.) Tj11.04 0  TD -0.028  Tc 0.0588  Tw (2.5.1. La funci\363n asociada al evento script.) Tj-11.04 -23.16  TD /F4 9.96  Tf0.0202  Tc 1.691  Tw (Todo archivo script estar\341 dominado por una funci\363n especial que no ser\341 m\341s que la que) Tj0 -11.4  TD 0.0204  Tc 0.1764  Tw (represente al evento al que estar\341 asociado el archivo script. Dicha funci\363n estar\341 indicada con) Tj0 -12  TD 0.0163  Tc 2.7348  Tw (la palabra clave) Tj0  Tc -0.0089  Tw ( ) Tj81 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (script) Tj36 0  TD /F4 9.96  Tf0.0172  Tc 2.854  Tw ( seguida del tipo de script del que se trata y, encerrados entre) Tj-117 -11.88  TD 0.0186  Tc 0.7954  Tw (par\351ntesis, los posibles par\341metros que podr\341 recibir. Siempre que se hable a partir de ahora) Tj0 -11.52  TD 0.0194  Tc 0.2584  Tw (de script, haremos referencia, a no ser que por el contexto se hable de un archivo general, a la) TjT* 0.0187  Tc -0.0167  Tw (funci\363n especial que define un evento script. En nuestro ejemplo anterior ser\355a:) TjET0.949 0.949 0.949 rg 81.24 267.84 432.24 11.28 re fBT85.08 270.84  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (script) Tj36 0  TD /F7 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD 0.024  Tc 0  Tw (TipoScript\(Par\341metros\)) Tj-42 -23.76  TD /F4 9.96  Tf0.0193  Tc 0.5193  Tw (Los tipos de script sirven para que el compilador sepa cu\341les son los par\341metros que debe de) Tj0 -11.4  TD 0.0185  Tc 0.5726  Tw (exigir, adem\341s de permitir que cuando desde) Tj0  Tc -0.0089  Tw ( ) Tj206.88 0  TD /F5 9.96  Tf0.0483  Tc 0  Tw (Crisol) Tj25.08 0  TD /F4 9.96  Tf0.0176  Tc 0.5907  Tw ( se invoque un script, se pueda comprobar) Tj-231.96 -11.64  TD 0.0145  Tc 0.4699  Tw (si el script asociado al evento que ha ocurrido es v\341lido o no \(es decir, que se pueda asegurar) Tj0 -11.52  TD 0.0154  Tc 1.0885  Tw (que al evento de observar no se le asocie, por ejemplo, una) Tj0  Tc -0.0089  Tw ( ) Tj280.8 0  TD 0.0089  Tc 1.1342  Tw (funcion script para el evento de) Tj-280.8 -11.52  TD 0.014  Tc 0.5771  Tw (coger \355tem\). Los tipos de scripts, as\355 como su significado y par\341metros, est\341n explicados en el) Tj0 -11.4  TD 0.015  Tc -0.0239  Tw (ap\351ndice correspondiente.) Tj0 -23.04  TD 0.0202  Tc 0.6269  Tw (La funci\363n que representa un evento siempre deber\341 de retornar un valor num\351rico \(que, tal ) Tj0.78  Tc 0  Tw (y) Tj0 -11.52  TD 0.0198  Tc 0.5713  Tw (como se explico anteriormente, indicar\341 si se desea ejecutar la acci\363n por defecto asociada al) Tj0 -11.88  TD 0.0204  Tc 0.0908  Tw (evento o no\). Para retornar un valor num\351rico se utilizar\341 la palabra reservada ) Tj351.12 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (return) Tj36 0  TD /F4 9.96  Tf0.0229  Tc 0.2083  Tw ( seguida) Tj-387.12 -12  TD 0.0123  Tc 0.0388  Tw (del valor num\351rico, esto es:) TjET0.949 0.949 0.949 rg 81.24 106.08 432.24 11.28 re fBT85.08 109.08  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (return) Tj36 0  TD /F7 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD 0.024  Tc 0  Tw (ValorNumerico;) Tj-42 -23.64  TD /F4 9.96  Tf0.0197  Tc -0.0152  Tw (Si la funci\363n termina sin retornar un valor num\351rico ) Tj228.96 0  TD /F5 9.96  Tf0.0213  Tc 0  Tw (CrisolScript) Tj48.84 0  TD /F4 9.96  Tf0.0269  Tc -0.0357  Tw ( usar\341:) TjETendstream
+endobj
+46 0 obj
+7341
+endobj
+43 0 obj
+<<
+/Type /Page
+/Parent 44 0 R
+/Resources <<
+/Font 47 0 R
+/ProcSet 2 0 R
+>>
+/Contents 45 0 R
+>>
+endobj
+47 0 obj
+<<
+/F0 6 0 R
+/F1 8 0 R
+/F4 20 0 R
+/F5 22 0 R
+/F7 28 0 R
+/F8 40 0 R
+>>
+endobj
+49 0 obj
+<<
+/Length 50 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (233) TjET0.949 0.949 0.949 rg 81.24 759.84 432.24 11.4 re fBT85.08 762.84  TD0 0 0 rg /F8 9.96  Tf0.024  Tc (return) Tj36 0  TD /F7 9.96  Tf( 1;) Tj-36 -23.64  TD /F4 9.96  Tf0.0117  Tc 0.0194  Tw (como valor por defecto.) Tj0 -23.04  TD 0.0193  Tc 1.2918  Tw (La funci\363n script ser\341 el \372nico elemento necesario de un archivo script, pues \351sta no tendr\341) Tj0 -11.52  TD 0.0188  Tc 0.7569  Tw (porque tener constantes, variables, funciones locales o c\363digo para ser v\341lida \(no har\355a nada,) TjT* 0.0131  Tc 2.7565  Tw (pero ser\355a v\341lida\). Por ejemplo, un archivo script asociado a un determinado evento \(sin) TjT* 0.0204  Tc -0.0159  Tw (especificar\) ser\355a correcto si se escribiera de la forma siguiente:) TjET0.949 0.949 0.949 rg 81.24 656.52 432.24 11.4 re fBT85.08 659.52  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (script) Tj36 0  TD /F7 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD 0.024  Tc 0  Tw (TipoScript\(Par\341metros\)) TjET0.949 0.949 0.949 rg 81.24 645.24 432.24 11.28 re fBT85.08 648.24  TD0 0 0 rg /F8 9.96  Tf(begin) TjET0.949 0.949 0.949 rg 81.24 633.84 432.24 11.4 re fBT85.08 636.6  TD0 0 0 rg /F7 9.96  Tf( // Cuerpo del script, aqu\355 es donde comenzar\341 a ejecutarse el script) TjET0.949 0.949 0.949 rg 81.24 622.56 432.24 11.28 re fBT85.08 625.56  TD0 0 0 rg /F8 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD 0.024  Tc 0  Tw (return) Tj36 0  TD /F7 9.96  Tf( 1;) TjET0.949 0.949 0.949 rg 81.24 611.28 432.24 11.28 re fBT85.08 614.28  TD0 0 0 rg /F8 9.96  Tf(end) Tj0 -23.64  TD /F4 9.96  Tf0.0157  Tc 0.0054  Tw (Sin embargo, un archivo script que tuviera s\363lo este contenido ya ser\355a incorrecto:) TjET0.949 0.949 0.949 rg 81.24 565.8 432.24 11.28 re fBT85.08 568.8  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (void ) Tj30 0  TD (function) Tj48 0  TD /F7 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD 0.024  Tc 0  Tw (NombreFuncion\(Par\341metros\)) TjET0.949 0.949 0.949 rg 81.24 554.4 432.24 11.4 re fBT85.08 557.4  TD0 0 0 rg /F8 9.96  Tf(begin) TjET0.949 0.949 0.949 rg 81.24 543.12 432.24 11.28 re fBT85.08 545.88  TD0 0 0 rg /F7 9.96  Tf(// Cuerpo de una funci\363n sin constantes y sin variables) TjET0.949 0.949 0.949 rg 81.24 531.72 432.24 11.4 re fBT85.08 534.72  TD0 0 0 rg /F8 9.96  Tf(end) Tj0 -23.52  TD /F4 9.96  Tf0.0167  Tc 1.5269  Tw (Y ser\355a incorrecto porque faltar\355a la funci\363n de evento script a la que la anterior deber\355a de) Tj0 -11.52  TD 0.017  Tc -0.0259  Tw (pertenecer \(ser local\).) Tj0 -22.92  TD 0.0234  Tc 0.0427  Tw (Podr\341n existir cero o m\341s funciones asociadas a un mismo evento, la diferencia se hallar\341 en el) Tj0 -11.52  TD 0.0185  Tc 0.7377  Tw (nombre del archivo deber\341 de ser distinto. Por ejemplo, si tenemos una espada y una lanza ) Tj1.02  Tc 0  Tw (y) TjT* 0.0191  Tc 2.2263  Tw (queremos que cuando se produzca el evento de observar espada y lanza se ofrezca una) TjT* 0.0216  Tc 0.9209  Tw (descripci\363n detallada de cada una de las armas, tendremos dos opciones. La mejor de todas) TjT* 0.0126  Tc 1.2835  Tw (ser\341 definir un script asociado al evento de observar y asoci\341rselo a la espada y definir otro) Tj0 -11.4  TD 0.0173  Tc 0.9818  Tw (diferente y asoci\341rselo a la lanza. La segunda opci\363n consistir\355a en definir un \372nico archivo ) Tj1.02  Tc 0  Tw (y) Tj0 -11.52  TD 0.0113  Tc 1.1022  Tw (asoci\341rselo tanto a la espada como a la lanza pero teniendo en cuenta que en el interior del) TjT* 0.0112  Tc 2.188  Tw (mismo, el c\363digo deber\355a de comprobar el tipo de arma y realizar la descripci\363n seg\372n la) TjT* 0.0171  Tc 0.8878  Tw (misma. Este m\351todo ser\341 de ejecuci\363n m\341s lenta \(al tenerse que realizar comprobaciones\) y,) TjT* 0.0252  Tc 0.1899  Tw (de cara al futuro, m\341s complicado de mantener \(pues a medida que se incrementara el n\372mero) TjT* 0.0217  Tc 1.3541  Tw (de armas, m\341s comprobaciones se deber\355an de realizar, empeorando con ello la calidad del) Tj0 -11.4  TD 0.0088  Tc -0.0177  Tw (c\363digo fuente\).) Tj0 -24  TD /F1 11.04  Tf-0.06  Tc 0  Tw (C.) Tj11.04 0  TD -0.018  Tc 0.0689  Tw (2.5.1.1. Tipos de scripts) Tj-11.04 -23.04  TD /F4 9.96  Tf0.0212  Tc 0.6042  Tw (Gracias a los tipos de scripts, sabremos a qu\351 eventos podremos asociar c\363digo. En el) Tj0  Tc -0.0089  Tw ( ) Tj397.92 0  TD /F6 9.96  Tf0.0458  Tc 0  Tw (anexo) Tj-397.92 -11.52  TD 0.0089  Tc (D) Tj7.2 0  TD /F4 9.96  Tf0.0163  Tc 1.5163  Tw (, se mencionar\341n todos los tipos existentes, los par\341metros que poseer\341n y la descripci\363n) Tj-7.2 -11.64  TD 0.0184  Tc 4.3364  Tw (general. Los tipos asociados a los scripts ser\341n f\341cilmente distinguibles porque todos) Tj0 -11.88  TD 0.0151  Tc -0.024  Tw (comenzar\341n por \223) Tj78.24 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (On) Tj12 0  TD /F4 9.96  Tf0.0172  Tc (\224.) Tj-90.24 -23.52  TD 0.0174  Tc 1.1497  Tw (Recordemos que todo script deber\341 de indicar si desea que se ejecute la acci\363n por defecto) Tj0 -11.52  TD 0.0178  Tc 1.3413  Tw (asociada al mismo o si por el contrario, desea cancelarla. Aunque esta sea la norma, habr\341) Tj0 -11.4  TD 0.0156  Tc 2.5056  Tw (excepciones cuando el script no tenga asociada ninguna acci\363n por defecto \(sean scripts) Tj0 -11.52  TD 0.0166  Tc 0.0545  Tw (meramente informativos como el que se lanza cuando se ha pulsado en el panel horario\) dando) TjT* 0.0214  Tc 1.4097  Tw (igual la forma en la que se retorne. Normalmente, lo ideal ser\341 no retornar nada cuando se) Tj0 -11.4  TD 0.0138  Tc 1.7894  Tw (desee que se ejecute la acci\363n por defecto ya que cuando) Tj0  Tc -0.0089  Tw ( ) Tj280.68 0  TD /F5 9.96  Tf0.0188  Tc 0  Tw (CSCompiler) Tj49.44 0  TD /F4 9.96  Tf0.0418  Tc 1.7793  Tw ( detecte que no hay) Tj-330.12 -11.64  TD 0.0189  Tc 1.2123  Tw (retorno en un script, se encargar\341 de asociar por si s\363lo la acci\363n por defecto \(internamente) Tj0 -11.88  TD 0.006  Tc 0.0571  Tw (introducir\341 una l\355nea de c\363digo ) Tj139.44 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (return 1;) Tj54 0  TD /F4 9.96  Tf0.0433  Tc (\)) Tj-193.44 -23.52  TD 0.0231  Tc 2.1927  Tw (Todos los eventos ser\341n relativos siempre a los tres \223objetos\224 principales que existir\341n en) Tj0 -11.4  TD /F5 9.96  Tf0.0213  Tc 0  Tw (CrisolScript) Tj48.84 0  TD /F4 9.96  Tf0.0141  Tc 2.9471  Tw ( y que fueron comentados al comienzo de este documento, a saber: existir\341n) Tj-48.84 -12  TD 0.015  Tc 1.1761  Tw (eventos asociados al objeto) Tj0  Tc 0.1111  Tw ( ) Tj130.8 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (World) Tj30 0  TD /F4 9.96  Tf0.0237  Tc 1.1675  Tw (, eventos asociados al objeto) Tj0  Tc -0.0089  Tw ( ) Tj137.76 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (Game) Tj24 0  TD /F4 9.96  Tf0.0151  Tc 1.176  Tw ( y, por \372ltimo, eventos) Tj-322.56 -12.48  TD 0.0182  Tc 3.4529  Tw (asociados a las entidades, objetos) Tj0  Tc 0.1111  Tw ( ) Tj172.92 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (entity) Tj36 0  TD /F4 9.96  Tf0.0153  Tc 3.5758  Tw (. La \372nica excepci\363n ser\341n los dos eventos) Tj-208.92 -11.88  TD 0.0212  Tc 0.5329  Tw (asociados a celdas de juego. Comprender esto facilitar\341 en gran medida el desenvolverse con) Tj0 -11.52  TD 0.0278  Tc -0.0367  Tw (los m\351todos.) TjETendstream
+endobj
+50 0 obj
+7431
+endobj
+48 0 obj
+<<
+/Type /Page
+/Parent 44 0 R
+/Resources <<
+/Font 51 0 R
+/ProcSet 2 0 R
+>>
+/Contents 49 0 R
+>>
+endobj
+51 0 obj
+<<
+/F0 6 0 R
+/F1 8 0 R
+/F4 20 0 R
+/F5 22 0 R
+/F6 24 0 R
+/F7 28 0 R
+/F8 40 0 R
+>>
+endobj
+53 0 obj
+<<
+/Length 54 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (234) Tj-410.16 -36.48  TD /F1 11.04  Tf-0.06  Tc (C.) Tj11.04 0  TD -0.0303  Tc 0.0211  Tw (2.5.2. Las funciones.) Tj-11.04 -25.56  TD /F4 9.96  Tf0.0197  Tc 2.1314  Tw (Las funciones servir\341n para agrupar c\363digo que pueda ser utilizado varias veces, esto es,) Tj0 -11.4  TD 0.0119  Tc 0.2126  Tw (evitan el tener que escribir un c\363digo que se ha de ejecutar en varias ocasiones una y otra vez.) Tj0 -11.52  TD 0.0155  Tc 1.388  Tw (El uso de funciones ser\341 imprescindibles en el caso de que hagamos scripts medianamente) TjT* 0.0159  Tc 0.0298  Tw (complejos y queramos programar de la forma m\341s optimizada y legible posible.) Tj0 -23.04  TD 0.0224  Tc 0.1787  Tw (Las funciones podr\341n existir de dos formas. Por un lado se podr\341n tener funciones locales a un) Tj0 -11.52  TD 0.0225  Tc 0.8086  Tw (script y por otro funciones globales \(estas \372ltimas se ver\341n en profundidad m\341s adelante\). En) Tj0 -11.4  TD 0.0194  Tc 1.9009  Tw (ambos casos, su existencia ser\341 opcional, esto es, se podr\341n escribir scripts sin funciones) Tj0 -11.52  TD 0.021  Tc 3.6716  Tw (locales y/o globales. Las funciones locales a un script siempre se escribir\341n de forma) Tj0 -11.88  TD 0.0159  Tc 0.9592  Tw (secuencial y antes del cuerpo de \351ste, es decir, antes del) Tj0  Tc -0.0089  Tw ( ) Tj267.24 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (begin) Tj30 0  TD /F4 9.96  Tf0.0311  Tc 0.92  Tw ( ...) Tj0  Tc -0.0089  Tw ( ) Tj15.84 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (end) Tj18 0  TD /F4 9.96  Tf0.0265  Tc 0.9846  Tw ( del script) Tj44.88 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (. ) Tj13.08 0  TD /F4 9.96  Tf-0.0118  Tc 1.203  Tw (Las dos) Tj-389.04 -12  TD 0.0157  Tc 2.3293  Tw (\372nicas diferencias entre las funciones locales y globales radicar\341 en que estas \372ltimas se) Tj0 -11.52  TD 0.0106  Tc 1.7066  Tw (escribir\341n en archivos a parte y podr\341n ser accesibles desde cualquier script \(las funciones) TjT* 0.0199  Tc -0.0195  Tw (locales, como su propio nombre indica, ser\341n locales al script en donde se definan\).) Tj0 -22.8  TD 0.016  Tc 0.9726  Tw (Una funci\363n podr\341 invocarse desde el cuerpo de un script o desde el cuerpo de otra funci\363n.) Tj0 -11.52  TD 0.0138  Tc 1.3659  Tw (Para que la llamada a funci\363n sea correcta, las funciones deber\341n de recibir los par\341metros) TjT* 0.0172  Tc 0.3801  Tw (adecuados \(si es que poseen argumentos\). Por otro lado, las funciones globales podr\341n llamar) TjT* 0.0192  Tc 1.5079  Tw (s\363lo a aquellas funciones que est\351n definidas en su mismo archivo \(y que ser\341n, por tanto,) Tj0 -11.4  TD 0.014  Tc 0.1399  Tw (tambi\351n funciones globales\) y no podr\341n utilizar las constantes o variables definidas en el script) Tj0 -11.52  TD 0.0128  Tc 0.6083  Tw (que las use \(a diferencia de lo que ocurre con las funciones locales\). Por \372ltimo, las funciones) TjT* 0.021  Tc 0.2822  Tw (locales podr\341n llamar a todas aquellas funciones locales que se definan en el mismo script, as\355) TjT* 0.0238  Tc -0.0327  Tw (como a aquellas funciones globales que sean importadas.) Tj0 -23.04  TD 0.0177  Tc 1.9974  Tw (Toda funci\363n tendr\341 un tipo mediante el cu\341l deber\341, o no, retornar un valor. Cuando una) Tj0 -11.88  TD 0.0176  Tc 0.3335  Tw (funci\363n no retorna ning\372n valor decimos que su tipo es ) Tj249.36 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (void) Tj24 0  TD /F4 9.96  Tf0.0254  Tc 0.4629  Tw ( y cuando retorne un valor su tipo) Tj-273.36 -12.36  TD 0.0072  Tc 0.7039  Tw (podr\341 ser) Tj0  Tc -0.0089  Tw ( ) Tj46.44 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (entity) Tj36 0  TD /F4 9.96  Tf0.1111  Tc (, ) Tj6.48 0  TD /F7 9.96  Tf0.024  Tc (string) Tj36 0  TD /F4 9.96  Tf-0.0178  Tc 0.8489  Tw ( o) Tj0  Tc -0.0089  Tw ( ) Tj12.72 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (number) Tj36 0  TD /F4 9.96  Tf0.0233  Tc 0.8378  Tw (. Siempre que se lea) Tj0  Tc -0.0089  Tw ( ) Tj98.76 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (return) Tj36 0  TD /F4 9.96  Tf0.0125  Tc 0.8787  Tw ( se abandonar\341 el cuerpo) Tj-308.4 -12.36  TD 0.0114  Tc 0.0197  Tw (de una funci\363n. En caso de que la funci\363n sea de tipo ) Tj240.6 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (void) Tj24 0  TD /F4 9.96  Tf0.0141  Tc 0.097  Tw (, el ) Tj16.2 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (return) Tj36 0  TD /F4 9.96  Tf0.0335  Tc 0.0537  Tw ( deber\341 de ir seguido de) Tj-316.8 -12.36  TD 0.0199  Tc 0.0012  Tw (un punto y coma \(\223) Tj83.4 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (;) Tj6 0  TD /F4 9.96  Tf0.0045  Tc 0.1167  Tw (\224\) y en el caso de que la funci\363n sea de tipo ) Tj197.16 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (entity) Tj36 0  TD /F4 9.96  Tf-0.0089  Tc (, ) Tj5.64 0  TD /F7 9.96  Tf0.044  Tc (string) Tj36.12 0  TD /F4 9.96  Tf-0.0178  Tc 0.0689  Tw ( o ) Tj11.28 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (number) Tj36 0  TD /F4 9.96  Tf0.0541  Tc 0.057  Tw (, el) Tj-411.6 -12.48  TD /F7 9.96  Tf0.024  Tc 0  Tw (return) Tj36 0  TD /F4 9.96  Tf0.0204  Tc 0.1684  Tw ( deber\341 de ir seguido de un valor acorde al tipo que devuelven \(ya sea una constante o) Tj-36 -11.88  TD 0.0134  Tc 0.4718  Tw (una variable de ese tipo o, incluso, una llamada a una funci\363n que devuelva el mismo tipo que) Tj0 -12  TD 0.0171  Tc 0.014  Tw (la funci\363n original\), seguido de un punto y coma \(\223) Tj221.88 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (;) Tj6 0  TD /F4 9.96  Tf0.0067  Tc (\224\222\).) Tj-227.88 -23.4  TD 0.0233  Tc 0.6878  Tw (Nunca dos funciones locales podr\341n existir con el mismo nombre. Esto mismo se extender\341 ) Tj0.7022  Tc 0  Tw (a) Tj0 -11.88  TD 0.0224  Tc 0.3588  Tw (aquellos archivos con funciones globales que se incluyan con la palabra reservada ) Tj374.76 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (import) Tj36 0  TD /F4 9.96  Tf0.0715  Tc 0.3996  Tw ( \(la) Tj-410.76 -12  TD 0.0182  Tc 1.7947  Tw (cual se estudiar\341 m\341s adelante\). Tampoco podr\341n ser iguales a funci\363n de) Tj0  Tc -0.0089  Tw ( ) Tj355.68 0  TD /F0 9.96  Tf0.0915  Tc 0  Tw (API) Tj16.2 0  TD /F4 9.96  Tf0.034  Tc 1.8772  Tw ( alguna \(se) Tj-371.88 -11.52  TD 0.0173  Tc 0.943  Tw (ver\341n m\341s adelante tambi\351n\) sin embargo, funciones locales a scripts distintos s\355 que podr\341n) Tj0 -11.52  TD 0.0182  Tc 0.3969  Tw (tener el mismo nombre ya que en tales casos no podr\341n existir conflictos, al ser compilaciones) TjT* 0.0241  Tc -0.033  Tw (completamente independientes.) Tj0 -23.88  TD /F1 11.04  Tf-0.06  Tc 0  Tw (C.) Tj11.04 0  TD -0.0265  Tc 0.0773  Tw (2.5.3. Las variables.) Tj-11.04 -23.64  TD /F4 9.96  Tf0.0071  Tc 0.764  Tw (Las variables en) Tj0  Tc -0.0089  Tw ( ) Tj77.76 0  TD /F5 9.96  Tf0.0213  Tc 0  Tw (CrisolScript) Tj48.84 0  TD /F4 9.96  Tf0.0199  Tc 0.7062  Tw ( se declarar\341n siempre despu\351s de la palabra clave) Tj0  Tc -0.0089  Tw ( ) Tj238.2 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (var) Tj18 0  TD /F4 9.96  Tf0.0757  Tc 0.7554  Tw (. No ser\341) Tj-382.8 -12  TD 0.0201  Tc 2.0453  Tw (obligatorio que un script o una funci\363n tenga variables. Los nombres de las variables s\363lo) Tj0 -11.88  TD 0.0141  Tc 3.0437  Tw (podr\341n crearse usando caracteres alfab\351ticos y/o el signo subrayado bajo) Tj0  Tc -0.0089  Tw ( ) Tj360.36 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (\221_\222) Tj18 0  TD /F4 9.96  Tf0.0414  Tc 3.0697  Tw (. No ser\341) Tj-378.36 -12.36  TD 0.0145  Tc -0.0233  Tw (aceptado el car\341cter ) Tj93.24 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (\221\361\222) Tj18 0  TD /F4 9.96  Tf0.0056  Tc 0.1055  Tw ( ni los acentos.) Tj-111.24 -23.52  TD /F5 9.96  Tf0.0213  Tc 0  Tw (CrisolScript) Tj48.84 0  TD /F4 9.96  Tf0.0172  Tc 0.0219  Tw ( soportar\341 tres tipos de variables:) Tj-48.84 -23.04  TD /F0 9.96  Tf0.0433  Tc 0  Tw (-) Tj3.24 0  TD /F4 9.96  Tf0  Tc -0.0089  Tw ( ) Tj14.76 0  TD /F1 9.96  Tf0.011  Tc 0.9401  Tw (Los n\372meros) Tj63.6 0  TD /F4 9.96  Tf0.0366  Tc 0.9145  Tw (. Los n\372meros en) Tj0  Tc -0.0089  Tw ( ) Tj84 0  TD /F5 9.96  Tf0.0213  Tc 0  Tw (CrisolScript) Tj48.84 0  TD /F4 9.96  Tf0.0269  Tc 0.9776  Tw ( ser\341n reales, con lo que su gesti\363n ser\341 muy) Tj-196.44 -11.52  TD 0.0146  Tc 0.2646  Tw (c\363moda y f\341cil para el programador. Para designar una variable de tipo n\372mero se usar\341 la) Tj0 -12  TD 0.0147  Tc -0.0236  Tw (palabra clave ) Tj62.16 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (number) Tj36 0  TD /F4 9.96  Tf-0.0089  Tc (.) Tj-116.16 -23.28  TD /F0 9.96  Tf0.0433  Tc (-) Tj3.24 0  TD /F4 9.96  Tf0  Tc -0.0089  Tw ( ) Tj14.76 0  TD /F1 9.96  Tf0.0203  Tc 0.3309  Tw (Las cadenas de caracteres) Tj128.28 0  TD /F4 9.96  Tf0.0206  Tc 0.4505  Tw (. Las cadenas de caracteres representar\341n porciones de texto) Tj-128.28 -12  TD 0.0104  Tc 1.748  Tw (y podr\341n tener una longitud variable. Se declarar\341n utilizando la palabra clave) Tj0  Tc -0.0089  Tw ( ) Tj368.4 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (string) Tj36 0  TD /F4 9.96  Tf-0.0089  Tc (.) Tj-404.4 -12.48  TD 0.0272  Tc 0.2039  Tw (Todas las cadenas de caracteres deber\341n de ir siempre entre comillas dobles \() Tj353.04 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (\223cadena\224) Tj48 0  TD /F4 9.96  Tf0.0172  Tc (\),) Tj-401.04 -11.88  TD 0.0197  Tc -0.0152  Tw (estando permitida la cadena vac\355a o de longitud cero \(\223\224\).) TjETendstream
+endobj
+54 0 obj
+9451
+endobj
+52 0 obj
+<<
+/Type /Page
+/Parent 44 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F5 22 0 R 
+/F7 28 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 53 0 R
+>>
+endobj
+56 0 obj
+<<
+/Length 57 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (235) Tj-410.16 -35.4  TD 0.0433  Tc (-) Tj3.24 0  TD /F4 9.96  Tf0  Tc -0.0089  Tw ( ) Tj14.76 0  TD /F1 9.96  Tf0.0046  Tc 0  Tw (Entidades) Tj47.64 0  TD /F4 9.96  Tf0.0247  Tc 0.1664  Tw (. Para poder trabajar con las diversas entidades que se han creado en un \341rea o) Tj-47.64 -11.64  TD 0.0232  Tc 0.2279  Tw (con el jugador mismamente, tendremos unas variables especiales que actuar\341n a modo de) Tj0 -11.88  TD 0.017  Tc 0.0141  Tw (objetos. Estas variables se declarar\341n utilizando la palabra clave ) Tj289.56 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (entity) Tj36 0  TD /F4 9.96  Tf-0.0089  Tc (.) Tj-343.56 -23.52  TD 0.026  Tc 2.4551  Tw (A la hora de declarar variables podremos hacerlo separando dichas variables por comas,) Tj0 -11.52  TD 0.0122  Tc 2.691  Tw (logrando declarar varias variables de un mismo tipo a la vez y/o usando el operador de) Tj0 -11.88  TD 0.0151  Tc 0.096  Tw (asignaci\363n ) Tj50.76 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (\221:=\222,) Tj30 0  TD /F4 9.96  Tf0.0187  Tc 0.3495  Tw ( con lo que ademas las inicializaremos a la vez que las declaramos. En caso) Tj-80.76 -11.88  TD 0.0198  Tc 0.3913  Tw (de no inicializar una variable al ser declarada, ) Tj209.4 0  TD /F5 9.96  Tf0.0313  Tc 0  Tw (CrisolScript) Tj48.96 0  TD /F4 9.96  Tf0.024  Tc 0.5405  Tw ( la inicializar\341 a cero \(0\) si es de tipo) Tj-258.36 -12  TD /F7 9.96  Tf0.024  Tc 0  Tw (number) Tj36 0  TD /F4 9.96  Tf-0.0178  Tc 0.0089  Tw ( o ) Tj11.04 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (entity) Tj36 0  TD /F4 9.96  Tf0.0201  Tc -0.017  Tw ( o a cadena vacia \(\223\224\) si es de tipo ) Tj153.36 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (string) Tj36 0  TD /F4 9.96  Tf-0.0089  Tc (.) Tj-272.4 -23.52  TD 0.0111  Tc 0.0657  Tw (Seg\372n lo dicho, son declaraci\363nes v\341lidas de variables:) TjET0.949 0.949 0.949 rg 81.24 619.2 432.24 11.28 re fBT85.08 622.2  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (var) TjET0.949 0.949 0.949 rg 81.24 607.8 432.24 11.4 re fBT85.08 610.8  TD0 0 0 rg ( number) Tj42 0  TD /F7 9.96  Tf( x, pi := 3.141516, y, z := -23;) TjET0.949 0.949 0.949 rg 81.24 596.52 432.24 11.28 re fBT85.08 599.52  TD0 0 0 rg /F8 9.96  Tf( string) Tj42 0  TD /F7 9.96  Tf( Nombre := \223Bilbo\224, Apellido := \223Bolson\224;) TjET0.949 0.949 0.949 rg 81.24 585.24 432.24 11.28 re fBT85.08 588.24  TD0 0 0 rg /F8 9.96  Tf( entity) Tj42 0  TD /F7 9.96  Tf( Arbol;) Tj-42 -23.64  TD /F4 9.96  Tf0.0154  Tc 0.8811  Tw (Las operaciones matem\341ticas de divisi\363n, suma, resta, resto, multiplicaci\363n y comparaci\363n en) Tj0 -11.4  TD 0.0235  Tc 0.3801  Tw (t\351rminos de mayor, mayor o igual, menor o menor o igual s\363lo se podr\341n realizar con n\372meros) Tj0 -11.52  TD 0.0195  Tc 3.7009  Tw (a excepci\363n de la operaci\363n de suma, que con cadenas de caracteres adquirir\341 unas) TjT* 0.0128  Tc 0.8183  Tw (posibilidades especiales, ya que al sumar dos o mas cadenas, lograremos concatenarlas. Por) TjT* 0.0201  Tc 0  Tw (ejemplo:) TjET0.949 0.949 0.949 rg 81.24 493.56 432.24 11.28 re fBT85.08 496.56  TD0 0 0 rg /F8 9.96  Tf0.024  Tc (var) TjET0.949 0.949 0.949 rg 81.24 482.16 432.24 11.4 re fBT85.08 485.16  TD0 0 0 rg ( string) Tj42 0  TD /F7 9.96  Tf( Nombre := \223Bilbo\224, Apellido := \223Bolson\224;) TjET0.949 0.949 0.949 rg 81.24 470.88 432.24 11.28 re fBT85.08 473.88  TD0 0 0 rg /F8 9.96  Tf( string) Tj42 0  TD /F7 9.96  Tf( NombreCompleto;) TjET0.949 0.949 0.949 rg 81.24 459.6 432.24 11.28 re f81.24 448.2 432.24 11.4 re fBT85.08 451.2  TD0 0 0 rg /F8 9.96  Tf(begin) TjET0.949 0.949 0.949 rg 81.24 436.92 432.24 11.28 re fBT85.08 439.68  TD0 0 0 rg /F7 9.96  Tf( // Como vemos, concatenamos la variable nombre que contiene la) TjET0.949 0.949 0.949 rg 81.24 425.52 432.24 11.4 re fBT85.08 428.28  TD0 0 0 rg ( // candena \223Bilbo\224, la cadena vacia \223 \223 y por \372ltimo la variable) TjET0.949 0.949 0.949 rg 81.24 414.24 432.24 11.28 re fBT85.08 417  TD0 0 0 rg ( // apellido que contiene la cadena \223Bolson\224. El resultado ser\341 la) TjET0.949 0.949 0.949 rg 81.24 402.96 432.24 11.28 re fBT85.08 405.72  TD0 0 0 rg ( // cadena \223Bilbo Bolson\224.) TjET0.949 0.949 0.949 rg 81.24 391.56 432.24 11.4 re fBT85.08 394.32  TD0 0 0 rg ( NombreCompleto := Nombre + \223 \223 + Apellido;) TjET0.949 0.949 0.949 rg 81.24 380.28 432.24 11.28 re fBT85.08 383.28  TD0 0 0 rg /F8 9.96  Tf(end) Tj0 -24.48  TD /F1 11.04  Tf-0.06  Tc (C.) Tj11.04 0  TD -0.0237  Tc 0.0745  Tw (2.5.4. Las constantes.) Tj-11.04 -23.04  TD /F4 9.96  Tf0.0167  Tc 1.5173  Tw (Las constantes no ser\341n m\341s que variables que no podr\341n cambiar su valor. Se declarar\341n) Tj0 -11.88  TD 0.0229  Tc 0.6883  Tw (siempre despu\351s de la palabra clave) Tj0  Tc 0.1111  Tw ( ) Tj169.92 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (const) Tj30 0  TD /F4 9.96  Tf0.0075  Tc 0.8103  Tw (. Al igual que con las variables, las constantes no) Tj-199.92 -12  TD 0.0198  Tc -0.0286  Tw (ser\341n obligatorias.) Tj0 -23.04  TD 0.0217  Tc 1.1919  Tw (A la hora de declarar constantes no podremos hacer uso de la posibilidad que nos brinda la) Tj0 -11.52  TD 0.0183  Tc 0.4529  Tw (coma, es decir, no podremos declarar varias constantes a la vez para un mismo tipo. Adem\341s,) Tj0 -11.4  TD 0.0192  Tc -0.0131  Tw (siempre deberenos de asignar un valor en su declaraci\363n.) Tj0 -23.04  TD 0.0216  Tc -0.0305  Tw (As\355, ser\341n constantes bien declaradas:) TjET0.949 0.949 0.949 rg 81.24 217.8 432.24 11.28 re fBT85.08 220.8  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (const) TjET0.949 0.949 0.949 rg 81.24 206.4 432.24 11.4 re fBT85.08 209.4  TD0 0 0 rg ( number) Tj42 0  TD /F7 9.96  Tf( PI := 3.141516;) TjET0.949 0.949 0.949 rg 81.24 195.12 432.24 11.28 re fBT85.08 198.12  TD0 0 0 rg /F8 9.96  Tf( number) Tj42 0  TD /F7 9.96  Tf( Z := -23;) TjET0.949 0.949 0.949 rg 81.24 183.72 432.24 11.4 re fBT85.08 186.72  TD0 0 0 rg /F8 9.96  Tf( string) Tj42 0  TD /F7 9.96  Tf( NOMBRE := \223Bilbo\224;) TjET0.949 0.949 0.949 rg 81.24 172.44 432.24 11.28 re fBT85.08 175.44  TD0 0 0 rg /F8 9.96  Tf( entity) Tj42 0  TD /F7 9.96  Tf( ARBOL := 0;) Tj-42 -23.52  TD /F4 9.96  Tf0.0223  Tc -0.0312  Tw (Y estar\341n mal declaradas:) TjET0.949 0.949 0.949 rg 81.24 126.84 432.24 11.28 re fBT85.08 129.84  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (const) TjET0.949 0.949 0.949 rg 81.24 115.44 432.24 11.4 re fBT85.08 118.44  TD0 0 0 rg ( number) Tj42 0  TD /F7 9.96  Tf( X, ) Tj24 0  TD (PI) Tj12 0  TD ( := 3.141516, ) Tj84 0  TD (Y, Z) Tj24 0  TD ( := -23;) TjET0.949 0.949 0.949 rg 81.24 104.16 432.24 11.28 re fBT85.08 107.16  TD0 0 0 rg /F8 9.96  Tf( string) Tj42 0  TD /F7 9.96  Tf( NOMBRE := \223Bilbo\224, ) Tj120 0  TD (APELLIDO) Tj48 0  TD ( := \223Bolson\224;) TjET0.949 0.949 0.949 rg 81.24 92.76 432.24 11.4 re fBT85.08 95.76  TD0 0 0 rg /F8 9.96  Tf( entity) Tj42 0  TD /F7 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD 0.024  Tc 0  Tw (ARBOL) Tj30 0  TD (;) TjETendstream
+endobj
+57 0 obj
+7201
+endobj
+55 0 obj
+<<
+/Type /Page
+/Parent 44 0 R
+/Resources <<
+/Font 58 0 R
+/ProcSet 2 0 R
+>>
+/Contents 56 0 R
+>>
+endobj
+58 0 obj
+<<
+/F0 6 0 R
+/F1 8 0 R
+/F4 20 0 R
+/F5 22 0 R
+/F7 28 0 R
+/F8 40 0 R
+>>
+endobj
+60 0 obj
+<<
+/Length 61 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (236) Tj-410.16 -36.48  TD /F1 11.04  Tf-0.06  Tc (C.) Tj11.04 0  TD -0.0259  Tc 0.0368  Tw (2.5.4.1. Constantes globales internas.) Tj-11.04 -23.16  TD /F4 9.96  Tf0.0223  Tc 3.9988  Tw (Existir\341n una serie de constantes globales internas que servir\341n para m\341s c\363moda la) Tj0 -11.52  TD 0.0165  Tc 2.0846  Tw (programaci\363n y comprensible el c\363digo para otras personas. Al ser constantes internas no) TjT* 0.019  Tc 1.7503  Tw (podr\341n declararse otras constantes, variables o funciones con igual identificador al utilizado) TjT* 0.0177  Tc -0.0266  Tw (para \351stas.) Tj0 -23.04  TD 0.0171  Tc 1.904  Tw (El uso de constantes globales abarcara el trabajo con identificadores num\351ricos relativos ) Tj1.9022  Tc 0  Tw (a) Tj0 -11.4  TD 0.0152  Tc 3.716  Tw (alineaciones, teclas, resultados de expresiones l\363gicas, etc.) Tj0  Tc -0.0089  Tw ( ) Tj293.76 0  TD /F5 9.96  Tf0.0313  Tc 0  Tw (CrisolScript) Tj48.96 0  TD /F4 9.96  Tf0.0105  Tc 3.7006  Tw ( podr\355a funcionar) Tj-342.72 -11.64  TD 0.0162  Tc 4.835  Tw (perfectamente sin estas constantes globales pero obligar\355a al programador a trabajar) Tj0 -11.4  TD 0.0161  Tc 0.285  Tw (directamente con valores num\351ricos, haciendo mucho menos legibles los scripts y m\341s dif\355ciles) Tj0 -11.52  TD 0.0176  Tc 0.416  Tw (de comprender a un simple vistazo \(si bien, otra opci\363n que tendr\355a el programador ser\355a la de) TjT* 0.0111  Tc 1.7885  Tw (definirse \351l mismo las constantes\) cosa, \351sta \372ltima, que har\355a inc\363moda y no inmediata la) TjT* 0.0194  Tc 0.2117  Tw (programaci\363n. Las constantes globales internas y sus valores se pueden encontrar en el anexo) TjT* 0.0136  Tc 0  Tw (correspondiente.) Tj0 -22.92  TD 0.0203  Tc 1.5994  Tw (A partir de ahora, cuando haya que poner un ejemplo, se utilizar\341n las constantes globales) Tj0 -11.52  TD 0.012  Tc 0.6648  Tw (para facilitar la lectura de los mismos. As\355, cuando mostr\341bamos los retornos de las funciones) Tj0 -11.88  TD 0.0173  Tc -0.0262  Tw (script, podr\355amos sustituir ) Tj116.64 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (return 1;) Tj54 0  TD /F4 9.96  Tf0.0426  Tc -0.0515  Tw ( por ) Tj20.04 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (return TRUE;) Tj-190.68 -24.48  TD /F1 11.04  Tf-0.06  Tc (C.) Tj11.04 0  TD -0.035  Tc 0.0859  Tw (2.5.5. Conversi\363n de tipos.) Tj-11.04 -25.44  TD /F4 9.96  Tf0.0233  Tc 0.0278  Tw (Por conversi\363n de tipos se entender\341 la capacidad que tendr\341 ) Tj278.52 0  TD /F5 9.96  Tf0.0213  Tc 0  Tw (CrisolScript) Tj48.84 0  TD /F4 9.96  Tf0.013  Tc 0.1281  Tw ( para trabajar con dos) Tj-327.36 -11.64  TD 0.0147  Tc 1.0115  Tw (datos de diferente tipo, forzando la conversi\363n de uno de ellos al otro para as\355 poder realizar) Tj0 -11.4  TD 0.0126  Tc 2.9486  Tw (una operaci\363n l\363gica o matem\341tica.) Tj0  Tc -0.0089  Tw ( ) Tj175.08 0  TD /F5 9.96  Tf0.0213  Tc 0  Tw (CrisolScript) Tj48.84 0  TD /F4 9.96  Tf0.0217  Tc 2.9894  Tw ( incorporar\341 una conversi\363n de tipos muy) Tj-223.92 -11.64  TD 0.0182  Tc 0.5914  Tw (b\341sica, pero muy \372til, entre cadenas de caracteres y n\372meros. Supongamos que tenemos dos) Tj0 -11.4  TD 0.0221  Tc 0  Tw (variables:) TjET0.949 0.949 0.949 rg 81.24 432.24 432.24 11.4 re fBT85.08 435.24  TD0 0 0 rg /F8 9.96  Tf0.024  Tc (var) TjET0.949 0.949 0.949 rg 81.24 420.96 432.24 11.28 re fBT85.08 423.96  TD0 0 0 rg ( number) Tj42 0  TD /F7 9.96  Tf( X := 2002;) TjET0.949 0.949 0.949 rg 81.24 409.56 432.24 11.4 re fBT85.08 412.56  TD0 0 0 rg /F8 9.96  Tf( string) Tj42 0  TD /F7 9.96  Tf( Name := \223Crisol \224;) Tj-42 -23.64  TD /F4 9.96  Tf0.0263  Tc -0.0181  Tw (Pues bien, se podr\341n hacer cosas como estas:) TjET0.949 0.949 0.949 rg 81.24 363.84 432.24 11.28 re fBT85.08 366.84  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (begin) TjET0.949 0.949 0.949 rg 81.24 352.44 432.24 11.4 re fBT85.08 355.2  TD0 0 0 rg /F7 9.96  Tf( Name := Name + X;) TjET0.949 0.949 0.949 rg 81.24 341.16 432.24 11.28 re fBT85.08 344.16  TD0 0 0 rg /F8 9.96  Tf(end) Tj0 -24.12  TD /F4 9.96  Tf0.0091  Tc 1.002  Tw (Con esto hemos logrado que la variable) Tj0  Tc -0.0089  Tw ( ) Tj186.12 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (Name) Tj24 0  TD /F4 9.96  Tf0.0093  Tc 1.0618  Tw ( pase a ser) Tj0  Tc -0.0089  Tw ( ) Tj56.4 0  TD /F7 9.96  Tf0.024  Tc 1.08  Tw (\223Crisol 2002\224) Tj79.08 0  TD /F4 9.96  Tf0.0194  Tc 1.0917  Tw (, es decir, hemos) Tj-345.6 -12.36  TD 0.0131  Tc 0.0123  Tw (pasado el n\372mero que conten\355a la variable ) Tj191.64 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (X) Tj6 0  TD /F4 9.96  Tf0.0279  Tc -0.0128  Tw ( a una cadena de caracteres.) Tj-197.64 -23.88  TD 0.0163  Tc 1.3069  Tw (Esta misma operaci\363n a la inversa tambi\351n ser\341 posible si el) Tj0  Tc 0.1111  Tw ( ) Tj285.48 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (string) Tj36 0  TD /F4 9.96  Tf0.0255  Tc 1.2856  Tw ( es un valor num\351rico.) Tj-321.48 -12  TD 0.0424  Tc 0  Tw (Supongamos:) TjET0.949 0.949 0.949 rg 81.24 246.72 432.24 11.28 re fBT85.08 249.72  TD0 0 0 rg /F8 9.96  Tf0.024  Tc (begin) TjET0.949 0.949 0.949 rg 81.24 235.32 432.24 11.4 re fBT85.08 238.08  TD0 0 0 rg /F7 9.96  Tf( Name := \22333\224;) TjET0.949 0.949 0.949 rg 81.24 224.04 432.24 11.28 re fBT85.08 226.8  TD0 0 0 rg ( X := X + Name;) TjET0.949 0.949 0.949 rg 81.24 212.64 432.24 11.4 re fBT85.08 215.64  TD0 0 0 rg /F8 9.96  Tf(end) Tj0 -24.12  TD /F4 9.96  Tf0.0197  Tc 1.4114  Tw (El resultado ser\341 que) Tj0  Tc -0.0089  Tw ( ) Tj102.96 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (X) Tj6 0  TD /F4 9.96  Tf0.0193  Tc 1.4718  Tw ( contendr\341 el valor 2035, pues primero se convirti\363) Tj0  Tc -0.0089  Tw ( ) Tj240.72 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (Name) Tj24 0  TD /F4 9.96  Tf0.0104  Tc 1.5807  Tw ( a un valor) Tj-373.68 -12.36  TD 0.0197  Tc -0.0086  Tw (num\351rico y luego se sumo a ) Tj127.8 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (X) Tj6 0  TD /F4 9.96  Tf0.0139  Tc 0.0972  Tw ( para finalmente a\361adirlo a ) Tj121.68 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (X) Tj6 0  TD /F4 9.96  Tf0.0261  Tc 0.085  Tw ( tambi\351n. En caso de que el ) Tj127.68 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (string) Tj-389.16 -12.36  TD (Name) Tj24 0  TD /F4 9.96  Tf0.0153  Tc 3.173  Tw ( tuviera una cadena de caracteres que no fuera un n\372mero \(por ejemplo, el valor) Tj-24 -12.36  TD /F7 9.96  Tf0.024  Tc 0  Tw (\223Crisol\224) Tj48 0  TD /F4 9.96  Tf0.0154  Tc 1.6214  Tw (\) y se repitiera la operaci\363n, el resultado ser\355a que la cadena se transformar\355a al) Tj-48 -12  TD 0.013  Tc -0.0218  Tw (valor num\351rico 0.) Tj0 -23.04  TD 0.0161  Tc 1.415  Tw (Todo lo explicado tambi\351n ser\341 aplicable a operaciones directas de asignaci\363n de cadena ) Tj1.4222  Tc 0  Tw (a) Tj0 -11.52  TD 0.0183  Tc -0.0272  Tw (n\372mero. Por ejemplo:) TjET0.949 0.949 0.949 rg 81.24 82.8 432.24 11.4 re fBT85.08 85.8  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (begin) TjET0.949 0.949 0.949 rg 81.24 71.52 432.24 11.28 re fBT85.08 74.28  TD0 0 0 rg /F7 9.96  Tf( // Asignamos a la variable ) Tj168 0  TD (X) Tj6 0  TD ( el valor 33) TjETendstream
+endobj
+61 0 obj
+7314
+endobj
+59 0 obj
+<<
+/Type /Page
+/Parent 44 0 R
+/Resources <<
+/Font 62 0 R
+/ProcSet 2 0 R
+>>
+/Contents 60 0 R
+>>
+endobj
+62 0 obj
+<<
+/F0 6 0 R
+/F1 8 0 R
+/F4 20 0 R
+/F5 22 0 R
+/F7 28 0 R
+/F8 40 0 R
+>>
+endobj
+64 0 obj
+<<
+/Length 65 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (237) TjET0.949 0.949 0.949 rg 81.24 759.84 432.24 11.4 re fBT85.08 762.6  TD0 0 0 rg /F7 9.96  Tf0.024  Tc ( Name := \22333\224;) TjET0.949 0.949 0.949 rg 81.24 748.56 432.24 11.28 re fBT85.08 751.32  TD0 0 0 rg 0  Tc 0.024  Tw ( ) Tj6 0  TD 0.024  Tc 0  Tw (X) Tj6 0  TD ( := Name;) TjET0.949 0.949 0.949 rg 81.24 737.16 432.24 11.4 re fBT85.08 740.16  TD0 0 0 rg /F8 9.96  Tf(end) Tj0 -23.64  TD /F4 9.96  Tf0.0177  Tc -0.0266  Tw (Y de n\372mero a cadena:) TjET0.949 0.949 0.949 rg 81.24 691.44 432.24 11.28 re fBT85.08 694.44  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (begin) TjET0.949 0.949 0.949 rg 81.24 680.04 432.24 11.4 re fBT85.08 682.8  TD0 0 0 rg /F7 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD 0.024  Tc 0  Tw (X) Tj6 0  TD ( := 33;) TjET0.949 0.949 0.949 rg 81.24 668.76 432.24 11.28 re fBT85.08 671.52  TD0 0 0 rg ( Name := ) Tj54 0  TD (X) Tj6 0  TD (;) TjET0.949 0.949 0.949 rg 81.24 657.36 432.24 11.4 re fBT85.08 660.36  TD0 0 0 rg /F8 9.96  Tf(End) Tj0 -24.12  TD /F4 9.96  Tf0.0133  Tc 0.0978  Tw (Ahora ) Tj29.4 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (Name) Tj24 0  TD /F4 9.96  Tf0.0245  Tc -0.0333  Tw ( pasar\341 a contener la cadena \22333\224.) Tj-53.4 -24.36  TD /F1 11.04  Tf-0.06  Tc 0  Tw (C.) Tj11.04 0  TD -0.0308  Tc 0.0817  Tw (2.5.6. Argumentos en scripts y funciones.) Tj-11.04 -25.56  TD /F4 9.96  Tf0.0199  Tc 2.1712  Tw (Tanto los scripts como las funciones podr\341n poseer argumentos. La \372nica diferencia entre) Tj0 -11.52  TD 0.0164  Tc 1.2547  Tw (ambas construcciones se centrar\341 en que los scripts poseer\341n unos argumentos cuyos tipos) Tj0 -11.4  TD 0.0161  Tc 2.8551  Tw (est\341n determinados, precisamente, por el tipo del script \(el tipo del evento\) que se est\351) Tj0 -11.52  TD 0.0149  Tc 1.9562  Tw (programando. Esto es necesario pues dependiendo del evento al que est\351n asociados, los) Tj0 -11.88  TD 0.0178  Tc 1.4283  Tw (par\341metros a pasar ser\341n distintos \(por ejemplo, el script) Tj0  Tc -0.0089  Tw ( ) Tj267.96 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (OnObserveEntity) Tj90 0  TD /F4 9.96  Tf0.0298  Tc 1.4013  Tw ( ser\341 un script) Tj-357.96 -12.48  TD 0.0177  Tc 4.0535  Tw (que tendr\341 dos argumentos de tipo) Tj0  Tc -0.0089  Tw ( ) Tj182.16 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (entity) Tj36 0  TD /F4 9.96  Tf0.0177  Tc 4.0706  Tw ( siempre\). Debe de quedar claro que los) Tj-218.16 -11.88  TD 0.0188  Tc 0.3323  Tw (argumentos ser\341n las variables con los tipos de valores que un script y/o funci\363n necesite para) Tj0 -11.52  TD 0.0173  Tc 1.2618  Tw (para funcionar mientras que los par\341metros ser\341n los valores que se pasen a los scripts y/o) TjT* 0.0198  Tc 0.3999  Tw (funciones cuando sean invocados \(en el caso de los scripts, la invocaci\363n siempre se realizar\341) Tj0 -11.4  TD -0.0022  Tc -0.0067  Tw (desde ) Tj30 0  TD /F5 9.96  Tf0.0283  Tc 0  Tw (Crisol) Tj24.96 0  TD /F4 9.96  Tf0.0172  Tc (\).) Tj-54.96 -23.16  TD 0.0187  Tc 0.4524  Tw (En caso de que un script o una funci\363n deba de recibir par\341metros \351stos tendr\341n de colocarse) Tj0 -11.52  TD 0.0169  Tc 2.4042  Tw (dentro de los par\351ntesis que van despu\351s del tipo del script o del nombre de la funci\363n.) TjT* 0.0205  Tc 0.0026  Tw (Adem\341s, cuando el n\372mero de ellos sea superior a uno deber\341n de ir separados por comas.) Tj0 -22.92  TD 0.0203  Tc 0.7079  Tw (Para declarar una funci\363n que deba de recibir par\341metros, sus argumentos se pondr\341n con el) Tj0 -11.52  TD 0.0185  Tc -0  Tw (formato tipo de argumento y nombre de argumento. Por ejemplo:) TjET0.949 0.949 0.949 rg 81.24 375.48 432.24 11.28 re fBT85.08 378.48  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (void function) Tj78 0  TD /F7 9.96  Tf( FuncionDePrueba\() Tj102 0  TD /F8 9.96  Tf(number) Tj36 0  TD /F7 9.96  Tf( Argumento1, ) Tj78 0  TD /F8 9.96  Tf(string) Tj36 0  TD /F7 9.96  Tf( Argumento2\)) TjET0.949 0.949 0.949 rg 81.24 364.08 432.24 11.4 re fBT85.08 367.08  TD0 0 0 rg /F8 9.96  Tf(begin) TjET0.949 0.949 0.949 rg 81.24 352.8 432.24 11.28 re fBT85.08 355.56  TD0 0 0 rg /F7 9.96  Tf( // Cuerpo de la funci\363n) TjET0.949 0.949 0.949 rg 81.24 341.52 432.24 11.28 re fBT85.08 344.52  TD0 0 0 rg /F8 9.96  Tf(end) Tj0 -23.76  TD /F4 9.96  Tf0.0176  Tc 1.1895  Tw (En el ejemplo anterior vemos una funci\363n con dos argumentos; un n\372mero y una cadena de) Tj0 -11.52  TD 0.0149  Tc 0.2402  Tw (caracteres. Los par\341metros se pasar\341n desde el exterior cuando se llame a la funci\363n y podr\341n) TjT* 0.0169  Tc 0.1681  Tw (ser variables del tipo que corresponda al par\341metro o constantes. Por ejemplo, ser\355an llamadas) TjT* 0.0245  Tc 0  Tw (v\341lidas:) TjET0.949 0.949 0.949 rg 81.24 261.12 432.24 11.4 re fBT85.08 263.88  TD0 0 0 rg /F7 9.96  Tf0.024  Tc (FuncionDePrueba\(23.3, \223Hola\224\)) TjET0.949 0.949 0.949 rg 81.24 249.84 432.24 11.28 re fBT85.08 252.6  TD0 0 0 rg (FuncionDePrueba\(Numero, \223\224\)) TjET0.949 0.949 0.949 rg 81.24 238.44 432.24 11.4 re fBT85.08 241.2  TD0 0 0 rg (FuncionDePrueba\(0, Nombre\)) Tj0 -23.88  TD /F4 9.96  Tf0.0124  Tc -0.0213  Tw (Siendo ) Tj36.24 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (Numero) Tj36 0  TD /F4 9.96  Tf-0.18  Tc 2.8111  Tw ( y) Tj0  Tc -0.1289  Tw ( ) Tj15.36 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (Nombre) Tj36 0  TD /F4 9.96  Tf0.0277  Tc 2.4834  Tw ( dos variables o constantes previamente declaradas \(la primera) Tj-123.6 -12.36  TD 0.0179  Tc -0.0268  Tw (deber\341 de ser tipo ) Tj83.28 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (number) Tj36 0  TD /F4 9.96  Tf0.0183  Tc -0.0072  Tw ( y la segunda de tipo ) Tj95.04 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (string) Tj36 0  TD /F4 9.96  Tf0.0172  Tc (\).) Tj-250.32 -23.88  TD 0.0155  Tc 0.3656  Tw (N\363tese que gracias a la conversi\363n de tipos un par\341metro de tipo ) Tj296.52 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (string) Tj36 0  TD /F4 9.96  Tf0.0254  Tc 0.4458  Tw ( podr\355a conectar con) Tj-332.52 -12.36  TD 0.0211  Tc 0.09  Tw (argumentos ) Tj55.56 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (number) Tj36 0  TD /F4 9.96  Tf-0.0009  Tc 0.112  Tw ( y viceversa.) Tj-91.56 -23.52  TD 0.0201  Tc 0.7557  Tw (Cuando una funci\363n no tenga argumentos asociados, no se le podr\341 pasar par\341metro alguno.) Tj0 -11.88  TD 0.0139  Tc 3.4973  Tw (Utilizando la palabra reservada) Tj0  Tc -0.0089  Tw ( ) Tj154.44 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (void) Tj24 0  TD /F4 9.96  Tf0.0193  Tc 3.5376  Tw ( \(vacio\), podremos declarar funciones de este tipo) Tj-178.44 -12.36  TD 0.0155  Tc 0.3556  Tw (\(n\363tese, que los script que no reciben par\341metros tambi\351n se declaran utilizando ) Tj365.04 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (void) Tj24 0  TD /F4 9.96  Tf0.0785  Tc 0.3926  Tw (\). Como) Tj-389.04 -12  TD 0.0194  Tc -0.0083  Tw (ejemplo de funci\363n sin argumentos podremos tener:) TjET0.949 0.949 0.949 rg 81.24 84 432.24 11.4 re fBT85.08 87  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (void function) Tj78 0  TD /F7 9.96  Tf( Funci\363nDePrueba\() Tj102 0  TD /F8 9.96  Tf(void) Tj24 0  TD /F7 9.96  Tf(\)) TjET0.949 0.949 0.949 rg 81.24 72.72 432.24 11.28 re fBT85.08 75.72  TD0 0 0 rg /F8 9.96  Tf(Begin) TjETendstream
+endobj
+65 0 obj
+7400
+endobj
+63 0 obj
+<<
+/Type /Page
+/Parent 44 0 R
+/Resources <<
+/Font 66 0 R
+/ProcSet 2 0 R
+>>
+/Contents 64 0 R
+>>
+endobj
+66 0 obj
+<<
+/F0 6 0 R
+/F1 8 0 R
+/F4 20 0 R
+/F5 22 0 R
+/F7 28 0 R
+/F8 40 0 R
+>>
+endobj
+69 0 obj
+<<
+/Length 70 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (238) TjET0.949 0.949 0.949 rg 81.24 759.84 432.24 11.4 re fBT85.08 762.6  TD0 0 0 rg /F7 9.96  Tf0.024  Tc ( // Cuerpo de la funci\363n) TjET0.949 0.949 0.949 rg 81.24 748.56 432.24 11.28 re fBT85.08 751.56  TD0 0 0 rg /F8 9.96  Tf(end) Tj0 -23.52  TD /F4 9.96  Tf0.0188  Tc 1.7723  Tw (Para invocar a una funci\363n que no tiene argumentos bastar\341 con poner el nombre de \351sta) Tj0 -11.52  TD 0.013  Tc 0.0381  Tw (seguida de los par\351ntesis vac\355os. Por ejemplo:) TjET0.949 0.949 0.949 rg 81.24 691.44 432.24 11.28 re fBT85.08 694.2  TD0 0 0 rg /F7 9.96  Tf0.024  Tc 0  Tw (Funci\363nDePrueba\(\)) Tj0 -24.48  TD /F1 11.04  Tf-0.06  Tc (C.) Tj11.04 0  TD -0.029  Tc 0.0559  Tw (2.5.6.1. Funciones con argumentos por referencia.) Tj-11.04 -25.56  TD /F4 9.96  Tf0.0198  Tc 0.8466  Tw (La forma normal de pasar par\341meros a una funci\363n es por valor. Esto quiere decir que a una) Tj0 -11.4  TD 0.0199  Tc 2.3435  Tw (funci\363n le podemos pasar como par\341metro una variable o una constante. Sin embargo, ) Tj2.3822  Tc 0  Tw (a) Tj0 -11.52  TD 0.0172  Tc 0.0016  Tw (diferencia de los scripts, las funciones tambi\351n admiten el paso de par\341metros por referencia.) Tj0 -23.04  TD 0.022  Tc 0.5784  Tw (Pasar un par\341metro por referencia supone que la funci\363n esperar\341 recibir una variable, Nunca) Tj0 -11.52  TD 0.0171  Tc 0.078  Tw (una constante, y que el argumento que recoja la variable pasada como par\341metro apuntar\341 a la) Tj0 -11.4  TD 0.0216  Tc 0.7449  Tw (misma direcci\363n de memoria que la variable original. En otras palabras, que cualquier cambio) Tj0 -11.52  TD 0.022  Tc 0.1211  Tw (que se efect\372e sobre el argumento que recoja la variable pasada a la funci\363n, como par\341metro,) TjT* 0.0125  Tc 0.0266  Tw (repercutir\341 tambi\351n en la variable original.) Tj0 -23.04  TD 0.0218  Tc 2.0093  Tw (Para indicar que queremos que un argumento sea por referencia, se deber\341 de colocar la) Tj0 -11.88  TD 0.0163  Tc 0.0948  Tw (palabra reservada ) Tj83.76 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (ref) Tj18 0  TD /F4 9.96  Tf0.0204  Tc 0.2965  Tw ( antes del tipo del mismo en la funci\363n. N\363tese, de nuevo, que s\363lo est\341) Tj-101.76 -12  TD 0.0225  Tc -0.0314  Tw (permitido para funciones.) Tj0 -22.92  TD 0.0174  Tc 0.1007  Tw (Como ejemplo, vamos a ver la definici\363n de una funci\363n que recibe un par\341metro por valor y no) Tj0 -11.52  TD 0.0052  Tc 0.0545  Tw (por direcci\363n y que le suma un valor.) TjET0.949 0.949 0.949 rg 81.24 445.68 432.24 11.4 re fBT85.08 448.68  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (void function) Tj78 0  TD /F7 9.96  Tf( SumaUnNumero\() Tj84 0  TD /F8 9.96  Tf(number) Tj36 0  TD /F7 9.96  Tf( Argumento\)) TjET0.949 0.949 0.949 rg 81.24 434.4 432.24 11.28 re fBT85.08 437.4  TD0 0 0 rg /F8 9.96  Tf(begin) TjET0.949 0.949 0.949 rg 81.24 423.12 432.24 11.28 re fBT85.08 425.88  TD0 0 0 rg /F7 9.96  Tf( Argumento := Argumento + 10;) TjET0.949 0.949 0.949 rg 81.24 411.72 432.24 11.4 re fBT85.08 414.72  TD0 0 0 rg /F8 9.96  Tf(end) Tj0 -23.64  TD /F4 9.96  Tf0.015  Tc -0.0039  Tw (Si ahora llamamos a dicha funci\363n as\355:) TjET0.949 0.949 0.949 rg 81.24 365.88 432.24 11.4 re fBT85.08 368.88  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (var) TjET0.949 0.949 0.949 rg 81.24 354.6 432.24 11.28 re fBT85.08 357.6  TD0 0 0 rg ( number) Tj42 0  TD /F7 9.96  Tf( Parametro := 5;) TjET0.949 0.949 0.949 rg 81.24 343.32 432.24 11.28 re fBT85.08 346.32  TD0 0 0 rg /F8 9.96  Tf(begin) TjET0.949 0.949 0.949 rg 81.24 331.92 432.24 11.4 re fBT85.08 334.68  TD0 0 0 rg /F7 9.96  Tf( SumaUnNumero\(Parametro\);) TjET0.949 0.949 0.949 rg 81.24 320.64 432.24 11.28 re fBT85.08 323.64  TD0 0 0 rg /F8 9.96  Tf(end) Tj0 -24.12  TD /F4 9.96  Tf0  Tc 0.1904  Tw (El valor de ) Tj50.64 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (Argumento) Tj54 0  TD /F4 9.96  Tf0.006  Tc 0.1851  Tw ( dentro de ) Tj48.48 0  TD /F7 9.96  Tf0.034  Tc 0  Tw (SumaUnNumero) Tj72.12 0  TD /F4 9.96  Tf0.0246  Tc 0.1723  Tw ( es de 15 pero al regresar ) Tj118.92 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (Parametro) Tj54 0  TD /F4 9.96  Tf0.0631  Tc 0.168  Tw ( sigue) Tj-398.16 -12.36  TD 0.0172  Tc 1.0839  Tw (valiendo 5. Sin embargo, vamos a suponer ahora que) Tj0  Tc -0.0089  Tw ( ) Tj250.44 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (SumaUnNumero) Tj72 0  TD /F4 9.96  Tf0.0138  Tc 1.2573  Tw ( recoja los par\341metros) Tj-322.44 -12  TD 0.0258  Tc -0.0346  Tw (recibidos por referencia. Tendremos:) TjET0.949 0.949 0.949 rg 81.24 250.08 432.24 11.28 re fBT85.08 253.08  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (void function) Tj78 0  TD /F7 9.96  Tf( SumaUnNumero\() Tj84 0  TD /F8 9.96  Tf(ref) Tj18 0  TD /F7 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD /F8 9.96  Tf0.024  Tc 0  Tw (number) Tj36 0  TD /F7 9.96  Tf( Argumento\)) TjET0.949 0.949 0.949 rg 81.24 238.68 432.24 11.4 re fBT85.08 241.68  TD0 0 0 rg /F8 9.96  Tf(begin) TjET0.949 0.949 0.949 rg 81.24 227.4 432.24 11.28 re fBT85.08 230.16  TD0 0 0 rg /F7 9.96  Tf( Argumento := Argumento + 10;) TjET0.949 0.949 0.949 rg 81.24 216 432.24 11.4 re fBT85.08 219  TD0 0 0 rg /F8 9.96  Tf(end) Tj0 -23.64  TD /F4 9.96  Tf0.015  Tc -0.0039  Tw (Si ahora llamamos a dicha funci\363n as\355:) TjET0.949 0.949 0.949 rg 81.24 170.16 432.24 11.4 re fBT85.08 173.16  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (var) TjET0.949 0.949 0.949 rg 81.24 158.88 432.24 11.28 re fBT85.08 161.88  TD0 0 0 rg ( number) Tj42 0  TD /F7 9.96  Tf( Parametro = 5;) TjET0.949 0.949 0.949 rg 81.24 147.6 432.24 11.28 re fBT85.08 150.6  TD0 0 0 rg /F8 9.96  Tf(begin) TjET0.949 0.949 0.949 rg 81.24 136.2 432.24 11.4 re fBT85.08 138.96  TD0 0 0 rg /F7 9.96  Tf( SumaUnNumero\(Parametro\);) TjET0.949 0.949 0.949 rg 81.24 124.92 432.24 11.28 re fBT85.08 127.92  TD0 0 0 rg /F8 9.96  Tf(end) Tj0 -24.12  TD /F4 9.96  Tf0  Tc 3.5304  Tw (El valor de) Tj0  Tc -0.0089  Tw ( ) Tj60.36 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (Argumento) Tj54 0  TD /F4 9.96  Tf0.006  Tc 3.5251  Tw ( dentro de) Tj0  Tc -0.0089  Tw ( ) Tj58.2 0  TD /F7 9.96  Tf0.034  Tc 0  Tw (SumaUnNumero) Tj72.12 0  TD /F4 9.96  Tf0.009  Tc 3.5821  Tw ( es de 15 y al regresar el valor de) Tj-244.68 -12.36  TD /F7 9.96  Tf0.024  Tc 0  Tw (Parametro) Tj54 0  TD /F4 9.96  Tf0.0175  Tc 4.4136  Tw ( es tambi\351n 15.) Tj-0.1158  Tc 5.267  Tw ( \277Por) Tj0.0156  Tc 4.5655  Tw ( qu\351?. Muy sencillo, porque indicamos a la funci\363n) Tj-54 -12.48  TD /F7 9.96  Tf0.024  Tc 0  Tw (SumaUnNumero) Tj72 0  TD /F4 9.96  Tf0.0195  Tc 2.0416  Tw ( que la variable que toma el valor de) Tj0  Tc -0.0089  Tw ( ) Tj182.52 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (Parametro) Tj54 0  TD /F4 9.96  Tf0.007  Tc 2.2041  Tw (, esto es) Tj0  Tc 0.1111  Tw ( ) Tj47.04 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (Argumento) Tj54 0  TD /F4 9.96  Tf0.0541  Tc 2.097  Tw (, lo) TjETendstream
+endobj
+70 0 obj
+7102
+endobj
+67 0 obj
+<<
+/Type /Page
+/Parent 68 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F7 28 0 R 
+/F8 40 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 69 0 R
+>>
+endobj
+72 0 obj
+<<
+/Length 73 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (239) Tj-410.16 -36  TD /F4 9.96  Tf0.0227  Tc 0.0884  Tw (hiciera por referencia \() Tj100.32 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (ref) Tj18 0  TD /F4 9.96  Tf0.0232  Tc 0.1861  Tw (\), de tal forma que cualquier cambio que se realizar\341 en ) Tj252.72 0  TD /F7 9.96  Tf0.0373  Tc 0  Tw (Argumento) Tj-371.04 -12.36  TD /F4 9.96  Tf0.0128  Tc 0.3144  Tw (se viera tambi\351n reflejado en ) Tj133.08 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (Parametro) Tj54 0  TD /F4 9.96  Tf0.0261  Tc 0.325  Tw (. N\363tese que si ) Tj71.4 0  TD /F7 9.96  Tf0.0373  Tc 0  Tw (Parametro) Tj54.12 0  TD /F4 9.96  Tf0.0066  Tc 0.5245  Tw ( fuera constante en lugar) Tj-312.6 -12  TD 0.0133  Tc 0.0178  Tw (de variable habr\355a un error a la hora de compilar.) Tj0 -23.88  TD /F1 11.04  Tf-0.06  Tc 0  Tw (C.) Tj11.04 0  TD -0.0311  Tc 0.034  Tw (2.5.7. El tipo de una funci\363n.) Tj-11.04 -23.28  TD /F4 9.96  Tf0.0192  Tc 0.5419  Tw (Todas las funciones tienen un tipo asociado. El tener un tipo indica que dicha funcion debe de) Tj0 -11.4  TD 0.0207  Tc 0.1915  Tw (devolver, o no, un valor acorde a dicho tipo. El tipo de una funci\363n se pone siempre antes de la) Tj0 -12  TD 0.0183  Tc 0.0329  Tw (palabra cable ) Tj62.76 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (function) Tj48 0  TD /F4 9.96  Tf-0.0089  Tc (.) Tj-110.76 -23.4  TD 0.0158  Tc -0.0047  Tw (Los posibles tipos de una funci\363n ser\341n:) Tj0 -23.4  TD /F0 9.96  Tf0.0433  Tc 0  Tw (-) Tj3.24 0  TD /F4 9.96  Tf0  Tc -0.0089  Tw ( ) Tj14.76 0  TD 0.0083  Tc 1.5428  Tw (El tipo) Tj0  Tc -0.0089  Tw ( ) Tj33.6 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (void) Tj24 0  TD /F4 9.96  Tf0.0133  Tc 1.6738  Tw (. Cuando la funci\363n tiene el tipo vac\355o o nulo y no tiene que retornar valor) Tj-57.6 -12  TD -0.0041  Tc 0  Tw (alguno.) Tj-18 -11.88  TD /F0 9.96  Tf0.0433  Tc (-) Tj3.24 0  TD /F4 9.96  Tf0  Tc -0.0089  Tw ( ) Tj14.76 0  TD 0.0083  Tc -0.0172  Tw (El tipo ) Tj30.48 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (number) Tj36 0  TD /F4 9.96  Tf0.0159  Tc 0.0286  Tw (. Cuando la funci\363n debe de retornar un valor num\351rico.) Tj-84.48 -12.36  TD /F0 9.96  Tf0.0433  Tc 0  Tw (-) Tj3.24 0  TD /F4 9.96  Tf0  Tc -0.0089  Tw ( ) Tj14.76 0  TD 0.0083  Tc -0.0172  Tw (El tipo ) Tj30.48 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (string) Tj36 0  TD /F4 9.96  Tf0.0232  Tc -0.0081  Tw (. Cuando la funci\363n debe de devolver una cadena de caracteres.) Tj-84.48 -12.48  TD /F0 9.96  Tf0.0433  Tc 0  Tw (-) Tj3.24 0  TD /F4 9.96  Tf0  Tc -0.0089  Tw ( ) Tj14.76 0  TD 0.0083  Tc -0.0172  Tw (El tipo ) Tj30.48 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (entity) Tj36 0  TD /F4 9.96  Tf0.0228  Tc -0.0017  Tw (. Cuando la funci\363n debe de devolver una entidad.) Tj-84.48 -23.88  TD 0.0104  Tc 0.3707  Tw (Cuando la funci\363n tiene un tipo distinto a ) Tj186.6 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (void) Tj24 0  TD /F4 9.96  Tf0.0061  Tc 0.555  Tw ( se puede utilizar \351sta dentro de una expresi\363n,) Tj-210.6 -11.88  TD 0.0228  Tc 1.6826  Tw (es decir, como si fuera una variable o una constate. Por ejemplo, supongamos la siguiente) Tj0 -11.52  TD 0.0184  Tc 0.0027  Tw (funci\363n que, dado un n\372mero recibido, lo multiplica por 10 y lo retorna:) TjET0.949 0.949 0.949 rg 81.24 498.72 432.24 11.28 re fBT85.08 501.72  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (number) Tj36 0  TD /F7 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD /F8 9.96  Tf0.024  Tc 0  Tw (function) Tj48 0  TD /F7 9.96  Tf( MultiplicaPorDiez\() Tj114 0  TD /F8 9.96  Tf(number) Tj36 0  TD /F7 9.96  Tf( Value\)) TjET0.949 0.949 0.949 rg 81.24 487.32 432.24 11.4 re fBT85.08 490.32  TD0 0 0 rg /F8 9.96  Tf(begin) TjET0.949 0.949 0.949 rg 81.24 476.04 432.24 11.28 re fBT85.08 478.8  TD0 0 0 rg /F7 9.96  Tf( // Multiplica por 10 y retorna) TjET0.949 0.949 0.949 rg 81.24 464.64 432.24 11.4 re fBT85.08 467.64  TD0 0 0 rg 0  Tc 0.024  Tw ( ) Tj6 0  TD /F8 9.96  Tf0.024  Tc 0  Tw (return) Tj36 0  TD /F7 9.96  Tf( \(10 * Value\);) TjET0.949 0.949 0.949 rg 81.24 453.36 432.24 11.28 re fBT85.08 456.36  TD0 0 0 rg /F8 9.96  Tf(end) Tj0 -23.76  TD /F4 9.96  Tf0.0257  Tc -0.0345  Tw (Con esta funci\363n podremos hacer cosas como:) TjET0.949 0.949 0.949 rg 81.24 407.52 432.24 11.28 re fBT85.08 410.52  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (var) TjET0.949 0.949 0.949 rg 81.24 396.24 432.24 11.28 re fBT85.08 399.24  TD0 0 0 rg /F7 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD /F8 9.96  Tf0.024  Tc 0  Tw (number) Tj36 0  TD /F7 9.96  Tf( Result;) TjET0.949 0.949 0.949 rg 81.24 384.84 432.24 11.4 re fBT85.08 387.84  TD0 0 0 rg 0  Tc 0.024  Tw ( ) Tj6 0  TD /F8 9.96  Tf0.024  Tc 0  Tw (string) Tj36 0  TD /F7 9.96  Tf( StrResult;) TjET0.949 0.949 0.949 rg 81.24 373.56 432.24 11.28 re fBT85.08 376.56  TD0 0 0 rg /F8 9.96  Tf(begin) TjET0.949 0.949 0.949 rg 81.24 362.16 432.24 11.4 re fBT85.08 364.92  TD0 0 0 rg /F7 9.96  Tf( Result := MultiplicaPorDiez\(5\) / 10;) TjET0.949 0.949 0.949 rg 81.24 350.88 432.24 11.28 re fBT85.08 353.64  TD0 0 0 rg ( StrResult := \2235 * 10 = \224 + Result * MultiplicaPorDiez\(1\);) TjET0.949 0.949 0.949 rg 81.24 339.6 432.24 11.28 re fBT85.08 342.6  TD0 0 0 rg /F8 9.96  Tf(end) Tj0 -24.72  TD /F1 11.04  Tf-0.06  Tc (C.) Tj11.04 0  TD -0.0274  Tc 0.0782  Tw (2.5.8. Estructuras de control.) Tj-11.04 -23.16  TD /F5 9.96  Tf0.0213  Tc 0  Tw (CrisolScript) Tj48.84 0  TD /F4 9.96  Tf0.0197  Tc 1.1114  Tw ( incorpora una serie de estructuras de control inspiradas en diversos lenguajes de) Tj-48.84 -11.52  TD 0.0174  Tc 0.2937  Tw (programaci\363n si bien, ) Tj99.84 0  TD /F5 9.96  Tf0.0213  Tc 0  Tw (CrisolScript) Tj48.84 0  TD /F4 9.96  Tf0.0209  Tc 0.4612  Tw ( har\341 uso de una m\355nima parte de las posibles estructuras de) Tj-148.68 -12  TD 0.0167  Tc 1.5744  Tw (control que podr\355a utilizar. Por ejemplo, no tiene la estructura) Tj0  Tc 0.1111  Tw ( ) Tj288.72 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (for) Tj18 0  TD /F4 9.96  Tf0.0305  Tc 1.6407  Tw ( ya que con la) Tj0  Tc -0.0089  Tw ( ) Tj73.44 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (while) Tj30 0  TD /F4 9.96  Tf0.0811  Tc 1.59  Tw ( se) Tj-410.16 -12.36  TD 0.018  Tc 1.3913  Tw (puede realizar el mismo trabajo. Del mismo modo, tampoco existir\341 la estructura) Tj0  Tc -0.0089  Tw ( ) Tj375.72 0  TD /F7 9.96  Tf0.024  Tc 1.44  Tw (switch ) Tj1.464  Tc 0  Tw (\226) Tj-375.72 -12.36  TD 0.024  Tc (case) Tj24 0  TD /F4 9.96  Tf-0.0105  Tc 1.2916  Tw ( ya que con los) Tj0  Tc 0.1111  Tw ( ) Tj75.96 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (if) Tj12 0  TD /F4 9.96  Tf0.0193  Tc 1.2809  Tw (\222s anidados tambi\351n se podr\341 suplir esa capacidad. El motivo de no) Tj-111.96 -12  TD 0.0078  Tc 1.2713  Tw (usar estas estructuras es el de mantener un lenguaje peque\361o y, sobre todo, f\341cil de utilizar) Tj0 -11.52  TD 0.0179  Tc 0.0212  Tw (para personas que nunca hayan programado.) Tj0 -23.04  TD 0.0172  Tc 0.7883  Tw (Antes de proceder a enumerar las estructuras de control, conviene tener en cuenta que \351stas) Tj0 -11.4  TD 0.0213  Tc 0.4241  Tw (siempre se ejecutar\341n en funci\363n de c\363mo se eval\372e una expresi\363n l\363gica. Dicha expresi\363n se) Tj0 -11.52  TD 0.0124  Tc 0.0166  Tw (considerar\341 verdadera si su valor es mayor o igual a 1 y falsa si su valor es inferior a 1.) Tj0 -24  TD /F1 11.04  Tf-0.06  Tc 0  Tw (C.) Tj11.04 0  TD -0.0188  Tc 0.0097  Tw (2.5.8.1. Sentencia if / then / else.) Tj-11.04 -23.64  TD /F4 9.96  Tf0.015  Tc 0.5361  Tw (Escoger\341 la ejecuci\363n del c\363digo detr\341s del) Tj0  Tc -0.0089  Tw ( ) Tj199.32 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (then) Tj24 0  TD /F4 9.96  Tf0.0177  Tc 0.6134  Tw ( o detr\341s del) Tj0  Tc 0.1111  Tw ( ) Tj60.24 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (else) Tj24 0  TD /F4 9.96  Tf0.0393  Tc 0.5519  Tw ( dependiendo de c\363mo se) Tj-307.56 -11.88  TD 0.017  Tc 0.0041  Tw (evalue la expresi\363n entre par\351ntesis. Las dos formas sint\341ticas de la expresi\363n ser\341n:) TjET0.949 0.949 0.949 rg 81.24 92.52 432.24 11.28 re fBT85.08 95.52  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (if) Tj12 0  TD /F7 9.96  Tf( \(expresi\363n verdadera\) ) Tj138 0  TD /F8 9.96  Tf(then) TjET0.949 0.949 0.949 rg 81.24 81.12 432.24 11.4 re fBT85.08 83.88  TD0 0 0 rg /F7 9.96  Tf( // C\363digo) TjETendstream
+endobj
+73 0 obj
+8490
+endobj
+71 0 obj
+<<
+/Type /Page
+/Parent 68 0 R
+/Resources <<
+/Font 74 0 R
+/ProcSet 2 0 R
+>>
+/Contents 72 0 R
+>>
+endobj
+74 0 obj
+<<
+/F0 6 0 R
+/F1 8 0 R
+/F4 20 0 R
+/F5 22 0 R
+/F7 28 0 R
+/F8 40 0 R
+>>
+endobj
+76 0 obj
+<<
+/Length 77 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (240) Tj-410.16 -46.92  TD /F4 9.96  Tf(y) TjET0.949 0.949 0.949 rg 81.24 725.76 432.24 11.28 re fBT85.08 728.76  TD0 0 0 rg /F8 9.96  Tf0.024  Tc (if) Tj12 0  TD /F7 9.96  Tf( \(expresi\363n verdadera\) ) Tj138 0  TD /F8 9.96  Tf(then) TjET0.949 0.949 0.949 rg 81.24 714.36 432.24 11.4 re fBT85.08 717.12  TD0 0 0 rg /F7 9.96  Tf( // C\363digo) TjET0.949 0.949 0.949 rg 81.24 703.08 432.24 11.28 re fBT85.08 706.08  TD0 0 0 rg /F8 9.96  Tf(else) TjET0.949 0.949 0.949 rg 81.24 691.68 432.24 11.4 re fBT85.08 694.44  TD0 0 0 rg /F7 9.96  Tf( // C\363digo) Tj0 -23.4  TD /F4 9.96  Tf0.0121  Tc 0.1411  Tw (N\363tese que en donde se indica que va el c\363digo s\363lo se podr\341 poner una l\355nea, a no ser que se) Tj0 -11.88  TD 0.0031  Tc 0.528  Tw (utilice un bloque) Tj0  Tc -0.0089  Tw ( ) Tj76.44 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (begin) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc 0.24  Tw ( ... ) Tj14.76 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (end) Tj18 0  TD /F4 9.96  Tf0.0219  Tc 0.56  Tw ( en cuyo caso, el hecho de que se entre en el mismo supondr\341) Tj-139.2 -12.48  TD 0.0162  Tc 0.0199  Tw (la ejecuci\363n de todas las l\355neas encerradas entre ) Tj220.08 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (begin) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc ( ... ) Tj13.8 0  TD /F7 9.96  Tf0.024  Tc (end) Tj18 0  TD /F4 9.96  Tf-0.0089  Tc (.) Tj-281.88 -24.36  TD /F1 11.04  Tf-0.06  Tc (C.) Tj11.04 0  TD -0.0193  Tc 0.0102  Tw (2.5.8.2. Sentencia while / do.) Tj-11.04 -23.28  TD /F4 9.96  Tf0.0155  Tc 0.1417  Tw (Realizar\341 una operaci\363n iterativa mientras la expresi\363n que eval\372a en cada iteraci\363n sea cierta.) Tj0 -11.4  TD 0.0166  Tc -0.0255  Tw (La \372nica forma sint\341ctica ser\341:) TjET0.949 0.949 0.949 rg 81.24 562.44 432.24 11.4 re fBT85.08 565.44  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (while) Tj30 0  TD /F7 9.96  Tf( \(expresi\363n verdadera\) ) Tj138 0  TD /F8 9.96  Tf(do) TjET0.949 0.949 0.949 rg 81.24 551.16 432.24 11.28 re fBT85.08 553.92  TD0 0 0 rg /F7 9.96  Tf(  // C\363digo) Tj0 -23.88  TD /F4 9.96  Tf0.0166  Tc 0.9645  Tw (Al igual que en la anterior sentencia, si no se usa un bloque) Tj0  Tc 0.1111  Tw ( ) Tj279.84 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (begin) Tj30 0  TD /F4 9.96  Tf-0.0089  Tc 0.96  Tw ( ...) Tj0  Tc -0.0089  Tw ( ) Tj15.72 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (end) Tj18 0  TD /F4 9.96  Tf0.038  Tc 0.9931  Tw ( s\363lo se ejecutar\341) Tj-343.56 -12.36  TD 0.0154  Tc -0.0043  Tw (una l\355nea de c\363digo despu\351s del ) Tj146.64 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (do) Tj12 0  TD /F4 9.96  Tf-0.0089  Tc (.) Tj-158.64 -24.36  TD /F1 11.04  Tf-0.06  Tc (C.) Tj11.04 0  TD -0.0262  Tc 0.0771  Tw (2.5.9. El \341mbito.) Tj-11.04 -24.48  TD /F4 9.96  Tf0.015  Tc 0.4219  Tw (Por \341mbito se entender\341 la validez que tendr\341n las variables, constantes y funciones que sean) Tj0 -11.52  TD 0.0223  Tc 1.0008  Tw (declarados en un determinado punto de un script. A continuaci\363n se hablar\341 de cada uno de) Tj0 -11.4  TD 0.0274  Tc -0.0363  Tw (los casos.) Tj0 -25.08  TD /F1 11.04  Tf-0.06  Tc 0  Tw (C.) Tj11.04 0  TD -0.0311  Tc 0.082  Tw (2.5.9.1. El \341mbito en variables y constantes.) Tj-11.04 -23.28  TD /F4 9.96  Tf0.016  Tc 0.2631  Tw (Las variables y constantes podr\341n ser declaradas como locales a un script o bien como locales) Tj0 -11.52  TD 0.0178  Tc 0.4833  Tw (a una funcion. En el primer caso, las variables y constantes s\363lo podr\341n ser usadas dentro del) Tj0 -11.4  TD 0.0159  Tc 1.0402  Tw (cuerpo del script o bien dentro del cuerpo de las funciones locales al script \(en las funciones) Tj0 -11.52  TD 0.0102  Tc 1.5169  Tw (globales no se podr\341 usar estas variables y constantes\). En el caso de hablar de funciones) TjT* 0.0167  Tc 0.6784  Tw (locales a una funci\363n, las variables y constantes s\363lo podr\341n ser usadas dentro del cuerpo de) TjT* 0.0175  Tc 0.9337  Tw (la funci\363n a la que son locales. Como no hay conflictos, se podr\341n usar los mismos nombres) TjT* 0.0202  Tc -0.0051  Tw (para variables o constantes en funciones distintas, as\355 como en scripts.) Tj0 -22.92  TD 0.0129  Tc 0.8257  Tw (En el caso de las constantes y variables de car\341cter global \(se ver\341n m\341s adelante\) se podr\341) Tj0 -11.52  TD 0.0155  Tc 0.378  Tw (acceder a las mismas desde cualquier punto de un script o funci\363n sin importar si \351sta es local) TjT* 0.0181  Tc 0.0859  Tw (o global. Sin embargo, se deber\341 de tener en cuenta que si se declara una constante o variable) TjT* 0.022  Tc 0.0366  Tw (local a un script o funci\363n con el mismo nombre que una variable o constante global, estaremos) TjT* 0.0152  Tc 0.6788  Tw (haciendo algo v\341lido solo que a la hora de utilizar ese identificador, estaremos trabajando con) TjT* 0.0206  Tc 0.7225  Tw (el \341mbito m\341s inmediato, en este caso, mandar\355a m\341s un identificador en una funci\363n o script) Tj0 -11.4  TD -0.0037  Tc 0.1149  Tw (que uno global.) Tj0 -23.4  TD 0.0229  Tc -0.0318  Tw (Por ejemplo, supongamos que ) Tj138.36 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (X) Tj6 0  TD /F4 9.96  Tf0.0192  Tc -0.0148  Tw ( es una variable global. Si tenemos una funci\363n as\355:) TjET0.949 0.949 0.949 rg 81.24 187.56 432.24 11.4 re fBT85.08 190.56  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (void function) Tj78 0  TD /F7 9.96  Tf( Prueba\() Tj48 0  TD /F8 9.96  Tf(void) Tj24 0  TD /F7 9.96  Tf(\)) TjET0.949 0.949 0.949 rg 81.24 176.28 432.24 11.28 re fBT85.08 179.28  TD0 0 0 rg /F8 9.96  Tf(const) TjET0.949 0.949 0.949 rg 81.24 165 432.24 11.28 re fBT85.08 168  TD0 0 0 rg /F7 9.96  Tf( number X ) Tj60 0  TD /F8 9.96  Tf(:=) Tj12 0  TD /F7 9.96  Tf( 10;) TjET0.949 0.949 0.949 rg 81.24 153.6 432.24 11.4 re fBT85.08 156.6  TD0 0 0 rg /F8 9.96  Tf(begin) TjET0.949 0.949 0.949 rg 81.24 142.32 432.24 11.28 re fBT85.08 145.08  TD0 0 0 rg /F7 9.96  Tf( // C\363digo) TjET0.949 0.949 0.949 rg 81.24 130.92 432.24 11.4 re fBT85.08 133.92  TD0 0 0 rg /F8 9.96  Tf(End) Tj0 -24.12  TD /F4 9.96  Tf0.0297  Tc 0.2014  Tw (Todas las veces que usemos ) Tj133.8 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (X) Tj6 0  TD /F4 9.96  Tf0.0046  Tc 0.2265  Tw ( entre el ) Tj39.84 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (begin) Tj30 0  TD /F4 9.96  Tf-0.043  Tc 0.3541  Tw ( y el ) Tj22.2 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (end) Tj18 0  TD /F4 9.96  Tf0.0169  Tc 0.2999  Tw ( de la funci\363n, se referir\341 al ) Tj125.88 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (X) Tj6 0  TD /F4 9.96  Tf0.0095  Tc 0.3817  Tw ( local a la) Tj-381.72 -11.88  TD 0.0315  Tc 0  Tw (misma.) Tj0 -24  TD /F1 11.04  Tf-0.06  Tc (C.) Tj11.04 0  TD -0.0316  Tc 0.0716  Tw (2.5.9.2. El \341mbito en las llamadas a funciones locales a un script.) TjETendstream
+endobj
+77 0 obj
+6940
+endobj
+75 0 obj
+<<
+/Type /Page
+/Parent 68 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F7 28 0 R 
+/F8 40 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 76 0 R
+>>
+endobj
+79 0 obj
+<<
+/Length 80 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (241) Tj-410.16 -47.04  TD /F4 9.96  Tf0.0185  Tc 0.7902  Tw (Aquellas funciones que sean locales a un script, las que se definen antes del cuerpo de \351ste,) Tj0 -11.52  TD 0.0139  Tc 1.3852  Tw (podr\341n ser llamadas \372nicamente desde el cuerpo del script o bien desde el cuerpo de otras) TjT* 0.0207  Tc 1.1704  Tw (funciones que sean locales al script. Nunca podr\341n ser llamadas desde funciones globales ) Tj1.1822  Tc 0  Tw (o) TjT* 0.0207  Tc 2.9864  Tw (desde el cuerpo de otro script o funciones locales a otros scripts diferentes al que son) Tj0 -11.4  TD 0.026  Tc 0.602  Tw (declaradas \(por esto mismo, dos scripts distintos podr\341n tener funciones locales con el mismo) Tj0 -11.52  TD 0.0288  Tc 0  Tw (nombre\).) Tj0 -23.88  TD /F1 11.04  Tf-0.06  Tc (C.) Tj11.04 0  TD -0.0304  Tc 0.0641  Tw (2.5.10. Uso de funciones globales en un script.) Tj-11.04 -23.28  TD /F4 9.96  Tf0.0225  Tc 1.4429  Tw (Resulta de una gran importancia poder definir funciones en archivos distintos a un script de) Tj0 -11.52  TD 0.0184  Tc 0.4699  Tw (cara a poder utilizarlas en distintos scripts. Por ejemplo, podemos pensar en crear un conjunto) TjT* 0.0181  Tc 0.4616  Tw (de funciones que sean necesarias para distintos tipos de script. Si no pudieramos definirlas en) TjT* 0.0185  Tc 1.249  Tw (archivos independientes, para cada script que crearamos y que las necesitasen, deber\355amos) Tj0 -11.4  TD 0.0168  Tc 0.7018  Tw (de volver a tener que escribirlas como locales a los mismos. Esto, adem\341s de una p\351rdida de) Tj0 -11.52  TD 0.0197  Tc -0.0286  Tw (tiempo, ser\341 ca\363tico para trabajar a corto plazo.) Tj0 -22.92  TD 0.0204  Tc 1.2507  Tw (Para solucionar este problema,) Tj0  Tc -0.0089  Tw ( ) Tj146.28 0  TD /F5 9.96  Tf0.0113  Tc 0  Tw (CrisolScript) Tj48.72 0  TD /F4 9.96  Tf0.016  Tc 1.3401  Tw ( permite que el dise\361ador cree archivos en donde) Tj-195 -11.64  TD 0.0183  Tc 0.5128  Tw (existan funciones. Estas funciones ser\341n iguales, en su formato, que las vistas como locales ) Tj0.7022  Tc 0  Tw (a) Tj0 -11.52  TD 0.0152  Tc 0.0087  Tw (un script. Por ejemplo, un archivo de funciones globales podr\355a ser as\355:) TjET0.949 0.949 0.949 rg 81.24 517.2 432.24 11.28 re fBT85.08 519.96  TD0 0 0 rg /F7 9.96  Tf0.024  Tc 0  Tw (// Este es el archivo FuncionesGlobales.cst) TjET0.949 0.949 0.949 rg 81.24 505.68 432.24 11.52 re f81.24 494.4 432.24 11.28 re fBT85.08 497.4  TD0 0 0 rg /F8 9.96  Tf(void ) Tj30 0  TD (function) Tj48 0  TD /F7 9.96  Tf( FuncionGlobal_1\(Par\341metros\)) TjET0.949 0.949 0.949 rg 81.24 483 432.24 11.4 re fBT85.08 486  TD0 0 0 rg /F8 9.96  Tf(const) TjET0.949 0.949 0.949 rg 81.24 471.72 432.24 11.28 re fBT85.08 474.48  TD0 0 0 rg /F7 9.96  Tf( // Constantes locales a la funci\363n) TjET0.949 0.949 0.949 rg 81.24 460.32 432.24 11.4 re fBT85.08 463.32  TD0 0 0 rg /F8 9.96  Tf(var) TjET0.949 0.949 0.949 rg 81.24 449.04 432.24 11.28 re fBT85.08 451.8  TD0 0 0 rg /F7 9.96  Tf( // Variables locales a la funci\363n) TjET0.949 0.949 0.949 rg 81.24 437.76 432.24 11.28 re fBT85.08 440.76  TD0 0 0 rg /F8 9.96  Tf(begin) TjET0.949 0.949 0.949 rg 81.24 426.36 432.24 11.4 re fBT85.08 429.12  TD0 0 0 rg /F7 9.96  Tf( // Cuerpo de la funci\363n local al script) TjET0.949 0.949 0.949 rg 81.24 415.08 432.24 11.28 re fBT85.08 418.08  TD0 0 0 rg /F8 9.96  Tf(end) TjET0.949 0.949 0.949 rg 81.24 403.68 432.24 11.4 re f81.24 392.4 432.24 11.28 re fBT85.08 395.4  TD0 0 0 rg (void ) Tj30 0  TD (function) Tj48 0  TD /F7 9.96  Tf( FuncionGlobal_2\(Par\341metros\)) TjET0.949 0.949 0.949 rg 81.24 381.12 432.24 11.28 re fBT85.08 384.12  TD0 0 0 rg /F8 9.96  Tf(const) TjET0.949 0.949 0.949 rg 81.24 369.72 432.24 11.4 re fBT85.08 372.48  TD0 0 0 rg /F7 9.96  Tf( // Constantes locales a la funci\363n) TjET0.949 0.949 0.949 rg 81.24 358.44 432.24 11.28 re fBT85.08 361.44  TD0 0 0 rg /F8 9.96  Tf(var) TjET0.949 0.949 0.949 rg 81.24 347.04 432.24 11.4 re fBT85.08 349.8  TD0 0 0 rg /F7 9.96  Tf( // Variables locales a la funci\363n) TjET0.949 0.949 0.949 rg 81.24 335.76 432.24 11.28 re fBT85.08 338.76  TD0 0 0 rg /F8 9.96  Tf(begin) TjET0.949 0.949 0.949 rg 81.24 324.48 432.24 11.28 re fBT85.08 327.24  TD0 0 0 rg /F7 9.96  Tf( // Cuerpo de la funci\363n local al script) TjET0.949 0.949 0.949 rg 81.24 313.08 432.24 11.4 re fBT85.08 316.08  TD0 0 0 rg /F8 9.96  Tf(end) TjET0.949 0.949 0.949 rg 81.24 301.8 432.24 11.28 re f81.24 290.4 432.24 11.4 re fBT85.08 293.16  TD0 0 0 rg /F7 9.96  Tf(// ...) TjET0.949 0.949 0.949 rg 81.24 279.12 432.24 11.28 re f81.24 267.84 432.24 11.28 re fBT85.08 270.84  TD0 0 0 rg /F8 9.96  Tf(void ) Tj30 0  TD (function) Tj48 0  TD /F7 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD 0.024  Tc 0  Tw (FuncionGlobal_N\(Par\341metros\)) TjET0.949 0.949 0.949 rg 81.24 256.44 432.24 11.4 re fBT85.08 259.44  TD0 0 0 rg /F8 9.96  Tf(const) TjET0.949 0.949 0.949 rg 81.24 245.16 432.24 11.28 re fBT85.08 247.92  TD0 0 0 rg /F7 9.96  Tf( // Constantes locales a la funci\363n) TjET0.949 0.949 0.949 rg 81.24 233.76 432.24 11.4 re fBT85.08 236.76  TD0 0 0 rg /F8 9.96  Tf(var) TjET0.949 0.949 0.949 rg 81.24 222.48 432.24 11.28 re fBT85.08 225.24  TD0 0 0 rg /F7 9.96  Tf( // Variables locales a la funci\363n) TjET0.949 0.949 0.949 rg 81.24 211.2 432.24 11.28 re fBT85.08 214.2  TD0 0 0 rg /F8 9.96  Tf(begin) TjET0.949 0.949 0.949 rg 81.24 199.8 432.24 11.4 re fBT85.08 202.56  TD0 0 0 rg /F7 9.96  Tf( // Cuerpo de la funci\363n local al script) TjET0.949 0.949 0.949 rg 81.24 188.52 432.24 11.28 re fBT85.08 191.52  TD0 0 0 rg /F8 9.96  Tf(end) Tj0 -24.12  TD /F4 9.96  Tf0.0163  Tc 1.9948  Tw (Estas funciones definidas en el archivo ) Tj2.0833  Tc 0  Tw (\223) Tj190.92 0  TD /F7 9.96  Tf0.024  Tc (FuncionesGlobales.cst) Tj126 0  TD /F4 9.96  Tf0.0325  Tc 1.9986  Tw (\223 podr\341 ser usadas, en) Tj-316.92 -12  TD 0.0182  Tc 1.6769  Tw (cualquier script a partir de ahora. Lo \372nico que tendr\355amos que hacer ser\355a usar la palabra) Tj0 -11.88  TD 0.0131  Tc -0.022  Tw (reservada ) Tj47.52 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (import) Tj36 0  TD /F4 9.96  Tf0.0199  Tc 0.3741  Tw ( en la parte que va justo despu\351s de definir los par\341metros de un script.) Tj322.8 0  TD 0.0341  Tc 0.437  Tw ( Por) Tj-406.32 -12  TD 0.0225  Tc 2.8923  Tw (ejemplo, si queremos usar el archivo con las funciones globales definidas anteriormente,) Tj0 -11.52  TD 0.0274  Tc -0.0363  Tw (podr\355amos escribir cosas como \351stas:) TjET0.949 0.949 0.949 rg 81.24 94.92 432.24 11.28 re fBT85.08 97.92  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (script) Tj36 0  TD /F7 9.96  Tf( NombreScript\(Parametros\)) TjET0.949 0.949 0.949 rg 81.24 83.64 432.24 11.28 re f81.24 72.24 432.24 11.4 re fBT85.08 75  TD0 0 0 rg (// Aqu\355 importamos las funciones globales) TjETendstream
+endobj
+80 0 obj
+7085
+endobj
+78 0 obj
+<<
+/Type /Page
+/Parent 68 0 R
+/Resources <<
+/Font 81 0 R
+/ProcSet 2 0 R
+>>
+/Contents 79 0 R
+>>
+endobj
+81 0 obj
+<<
+/F0 6 0 R
+/F1 8 0 R
+/F4 20 0 R
+/F5 22 0 R
+/F7 28 0 R
+/F8 40 0 R
+>>
+endobj
+83 0 obj
+<<
+/Length 84 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (242) TjET0.949 0.949 0.949 rg 81.24 759.84 432.24 11.4 re fBT85.08 762.84  TD0 0 0 rg /F8 9.96  Tf0.024  Tc (import) Tj36 0  TD /F7 9.96  Tf( \223FuncionesGlobales.cst\224) TjET0.949 0.949 0.949 rg 81.24 748.56 432.24 11.28 re f81.24 737.16 432.24 11.4 re fBT85.08 740.16  TD0 0 0 rg /F8 9.96  Tf(const) TjET0.949 0.949 0.949 rg 81.24 725.88 432.24 11.28 re fBT85.08 728.64  TD0 0 0 rg /F7 9.96  Tf( // Constantes locales) TjET0.949 0.949 0.949 rg 81.24 714.6 432.24 11.28 re fBT85.08 717.6  TD0 0 0 rg /F8 9.96  Tf(var) TjET0.949 0.949 0.949 rg 81.24 703.2 432.24 11.4 re fBT85.08 705.96  TD0 0 0 rg /F7 9.96  Tf( // Vbles locales) TjET0.949 0.949 0.949 rg 81.24 691.92 432.24 11.28 re f81.24 680.52 432.24 11.4 re fBT85.08 683.52  TD0 0 0 rg /F8 9.96  Tf(func) TjET0.949 0.949 0.949 rg 81.24 669.24 432.24 11.28 re fBT85.08 672  TD0 0 0 rg /F7 9.96  Tf( // Funciones locales) TjET0.949 0.949 0.949 rg 81.24 657.96 432.24 11.28 re fBT85.08 660.96  TD0 0 0 rg /F8 9.96  Tf(void function) Tj78 0  TD /F7 9.96  Tf( Funci\363nLocal\(Parametros\)) TjET0.949 0.949 0.949 rg 81.24 646.56 432.24 11.4 re fBT85.08 649.56  TD0 0 0 rg /F8 9.96  Tf(const) TjET0.949 0.949 0.949 rg 81.24 635.28 432.24 11.28 re fBT85.08 638.04  TD0 0 0 rg /F7 9.96  Tf( // Constantes locales) TjET0.949 0.949 0.949 rg 81.24 623.88 432.24 11.4 re fBT85.08 626.88  TD0 0 0 rg /F8 9.96  Tf(var) TjET0.949 0.949 0.949 rg 81.24 612.6 432.24 11.28 re fBT85.08 615.36  TD0 0 0 rg /F7 9.96  Tf( // Vbles locales) TjET0.949 0.949 0.949 rg 81.24 601.32 432.24 11.28 re fBT85.08 604.32  TD0 0 0 rg /F8 9.96  Tf(begin) TjET0.949 0.949 0.949 rg 81.24 589.92 432.24 11.4 re fBT85.08 592.68  TD0 0 0 rg /F7 9.96  Tf( // C\363digo) TjET0.949 0.949 0.949 rg 81.24 578.64 432.24 11.28 re fBT85.08 581.64  TD0 0 0 rg /F8 9.96  Tf(end) TjET0.949 0.949 0.949 rg 81.24 567.24 432.24 11.4 re f81.24 555.96 432.24 11.28 re fBT85.08 558.96  TD0 0 0 rg (begin) TjET0.949 0.949 0.949 rg 81.24 544.68 432.24 11.28 re fBT85.08 547.44  TD0 0 0 rg /F7 9.96  Tf( // Ahora desde el script podremos llamar a funciones definidas en) TjET0.949 0.949 0.949 rg 81.24 533.28 432.24 11.4 re fBT85.08 536.04  TD0 0 0 rg ( // FuncionesGlobales.cst adem\341s de a Funci\363nLocal) TjET0.949 0.949 0.949 rg 81.24 522 432.24 11.28 re fBT85.08 524.76  TD0 0 0 rg ( Funci\363nLocal\(Par\341metros\);) TjET0.949 0.949 0.949 rg 81.24 510.6 432.24 11.4 re fBT85.08 513.36  TD0 0 0 rg ( Funci\363nGlobal2\(Par\341metros\);) TjET0.949 0.949 0.949 rg 81.24 499.32 432.24 11.28 re fBT85.08 502.32  TD0 0 0 rg /F8 9.96  Tf(end) Tj0 -23.76  TD /F4 9.96  Tf0.0177  Tc 2.4288  Tw (Recordemos que las funciones locales a un script podr\341n llamar a las funciones globales) Tj0 -11.52  TD 0.0167  Tc 2.9644  Tw (importadas al mismo, pero las funciones globales importadas s\363lo podr\341n llamar a otras) Tj0 -11.4  TD 0.0154  Tc 0.3785  Tw (funciones globales que se hallen definidas en el mismo archivo en donde est\351n definidas ellas.) Tj0 -11.52  TD 0.0165  Tc 2.2203  Tw (De igual forma, las funciones locales a un script podr\341n acceder a variables y constantes) TjT* 0.0164  Tc 1.1448  Tw (definidas en el espacio global, en el script y como locales a ellas mismas pero las funciones) TjT* 0.0168  Tc 0.039  Tw (globales importadas s\363lo podr\341n actuar sobre las variables y constantes definidas en el espacio) TjT* 0.0122  Tc 2.139  Tw (global y las definidas en su propio cuerpo \(nunca podr\341n acceder a las del script que las) Tj0 -11.4  TD 0.0209  Tc 0  Tw (importa\).) Tj0 -24  TD /F1 11.04  Tf-0.06  Tc (C.) Tj11.04 0  TD -0.031  Tc 0.0819  Tw (2.5.11. Objetos y m\351todos.) Tj-11.04 -23.16  TD /F5 9.96  Tf0.0213  Tc 0  Tw (CrisolScript) Tj48.84 0  TD /F4 9.96  Tf0.0171  Tc 0.994  Tw ( incorpora una noci\363n muy elemental de programaci\363n orientada a objetos. Por un) Tj-48.84 -12  TD 0.0104  Tc 0.0807  Tw (lado existir\341n dos objetos globales y por otro las variables de tipo ) Tj292.44 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (entity) Tj36 0  TD /F4 9.96  Tf0.0238  Tc 0.1174  Tw (. En ambos casos, en) Tj-328.44 -12  TD 0.0172  Tc 0.874  Tw (este documento, estaremos hablando de objetos \(aunque s\363lo sea un maquillaje para facilitar) Tj0 -11.4  TD 0.0187  Tc -0.0275  Tw (el trabajo al programador de ) Tj128.28 0  TD /F5 9.96  Tf0.0313  Tc 0  Tw (CrisolScript) Tj48.96 0  TD /F4 9.96  Tf0.0172  Tc (\).) Tj-177.24 -23.52  TD 0.0157  Tc 0.7195  Tw (Existir\341n dos objetos globales. Uno ser\341) Tj0  Tc -0.0089  Tw ( ) Tj185.4 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (Game) Tj24 0  TD /F4 9.96  Tf0.019  Tc 0.8292  Tw (, que representar\341 el engine como aplicaci\363n, ) Tj0.9  Tc 0  Tw (y) Tj-209.4 -12.36  TD 0.0118  Tc 2.3793  Tw (el otro ser\341) Tj0  Tc -0.0089  Tw ( ) Tj59.88 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (World) Tj30 0  TD /F4 9.96  Tf0.0079  Tc 2.4632  Tw (, que representar\341 el universo de juego. A parte de estos dos objetos) Tj-89.88 -12.36  TD 0.0204  Tc 2.1307  Tw (globales, las variables de tipo) Tj0  Tc 0.1111  Tw ( ) Tj144.72 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (entity) Tj36 0  TD /F4 9.96  Tf0.0215  Tc 2.2346  Tw ( representar\341n las entidades del juego, esto es, las) Tj-180.72 -12  TD 0.0125  Tc 3.6986  Tw (paredes, \355tems, criaturas \(jugador y npc\222s\) y objetos de escenario \(tanto los que sean) Tj0 -11.52  TD 0.0228  Tc 0.8598  Tw (contenedores como los que no\). Estas variables no ser\341n m\341s que objetos que tendr\341n, para) TjT* 0.0158  Tc 2.0073  Tw (cada tipo de entidad, una serie de m\351todos particulares si bien, a parte existir\341 un amplio) TjT* 0.0226  Tc -0.0115  Tw (n\372mero de m\351todos comunes a todas ellas.) Tj0 -22.92  TD 0.0234  Tc 0.3277  Tw (Un objeto se deber\341 de entender como una variable o constante que tiene asociada funciones.) Tj0 -11.88  TD 0.0175  Tc 1.0536  Tw (As\355, para poder utilizar el objeto) Tj0  Tc -0.0089  Tw ( ) Tj149.76 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (Game) Tj24 0  TD /F4 9.96  Tf0.0212  Tc 1.1566  Tw (, s\363lo nos hace falta conocer las funciones que posee.) Tj-173.76 -12  TD 0.0169  Tc 1.6382  Tw (Una vez sabido esto,  podremos usarlas. Por ejemplo, si queremos enviar un mensaje a la) Tj0 -11.88  TD 0.0153  Tc 0.0059  Tw (consola de juego, tendremos que usar el objeto ) Tj213.36 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (Game) Tj24 0  TD /F4 9.96  Tf0.0361  Tc -0.005  Tw ( de esta forma:) TjET0.949 0.949 0.949 rg 81.24 136.44 432.24 11.4 re fBT85.08 139.2  TD0 0 0 rg /F7 9.96  Tf0.024  Tc 0  Tw (Game.WriteToConsole\(\223Hola\224\)) Tj0 -23.4  TD /F4 9.96  Tf0.0123  Tc 0.0917  Tw (En este ejemplo, podemos ver que entre el objeto y la funci\363n que utilizamos existe un punto \221.\222.) Tj0 -11.52  TD 0.0058  Tc 1.1553  Tw (El punto servir\341 para que) Tj0  Tc -0.0089  Tw ( ) Tj120.12 0  TD /F5 9.96  Tf0.0213  Tc 0  Tw (CrisolScript) Tj48.84 0  TD /F4 9.96  Tf0.0144  Tc 1.2095  Tw ( sepa distinguir entre objeto y funci\363n. El objeto ir\341 a la) Tj-168.96 -11.52  TD 0.0152  Tc 0.5759  Tw (izquierda y la funci\363n a la derecha del punto respectivamente. Las funciones de los objetos se) Tj0 -11.52  TD 0.02  Tc 0.8991  Tw (denominar\341n m\351todos a partir de ahora con el fin de facilitar su distinci\363n entre las funciones) TjETendstream
+endobj
+84 0 obj
+7520
+endobj
+82 0 obj
+<<
+/Type /Page
+/Parent 68 0 R
+/Resources <<
+/Font 85 0 R
+/ProcSet 2 0 R
+>>
+/Contents 83 0 R
+>>
+endobj
+85 0 obj
+<<
+/F0 6 0 R
+/F1 8 0 R
+/F4 20 0 R
+/F5 22 0 R
+/F7 28 0 R
+/F8 40 0 R
+>>
+endobj
+87 0 obj
+<<
+/Length 88 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (243) Tj-410.16 -35.52  TD /F4 9.96  Tf0.0219  Tc 0.4953  Tw (que el dise\361ador pueda definir \(y otras que veremos m\341s adelante denominadas funciones del) Tj0 -11.4  TD /F0 9.96  Tf0.0115  Tc 0  Tw (API) Tj16.08 0  TD /F4 9.96  Tf0.0172  Tc (\).) Tj-16.08 -23.52  TD 0.0178  Tc 2.1573  Tw (Todos los m\351todos de los objetos) Tj0  Tc 0.1111  Tw ( ) Tj164.64 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (World) Tj30 0  TD /F4 9.96  Tf-0.18  Tc 2.5711  Tw ( y) Tj0  Tc -0.1289  Tw ( ) Tj14.88 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (Game) Tj24 0  TD /F4 9.96  Tf0.0184  Tc 2.2013  Tw (, as\355 como los de las entidades, estar\341n) Tj-233.52 -12  TD 0.0112  Tc 1.0899  Tw (creados en el interior de) Tj0  Tc -0.0089  Tw ( ) Tj115.44 0  TD /F5 9.96  Tf0.0283  Tc 0  Tw (Crisol) Tj24.96 0  TD /F4 9.96  Tf0.0251  Tc 1.1261  Tw (, por lo que el programador de) Tj0  Tc -0.0089  Tw ( ) Tj145.44 0  TD /F5 9.96  Tf0.0313  Tc 0  Tw (CrisolScript) Tj48.96 0  TD /F4 9.96  Tf0.0139  Tc 1.2073  Tw ( tan s\363lo deber\341 de) Tj-334.8 -11.52  TD 0.0171  Tc 0  Tw (utilizar la documentaci\363n de referencia para poder usarlos \(consultar ap\351ndices\).) Tj0 -23.4  TD 0.01  Tc 2.1892  Tw (En el caso de los objetos) Tj0  Tc 0.1111  Tw ( ) Tj126.84 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (World) Tj30 0  TD /F4 9.96  Tf-0.18  Tc 2.5711  Tw ( y) Tj0  Tc -0.1289  Tw ( ) Tj14.88 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (Game) Tj24 0  TD /F4 9.96  Tf-0.0089  Tc (, ) Tj7.68 0  TD /F5 9.96  Tf0.0313  Tc (CrisolScript) Tj48.96 0  TD /F4 9.96  Tf0.0213  Tc 2.1898  Tw ( podr\341 adivinar f\341cilmente si se est\341) Tj-252.36 -12  TD 0.018  Tc 2.1502  Tw (llamando a un m\351todo correcto o incorrecto sin embargo, con las entidades no ocurrir\341 lo) Tj0 -11.52  TD 0.01  Tc 0.3861  Tw (mismo ya que podemos usar una variable de tipo entidad y llamar a cualquiera de los m\351todos) Tj0 -11.4  TD 0.0112  Tc 0.1428  Tw (existentes para las criaturas, \355tems, objetos de escenario y paredes y, en este caso, ) Tj376.2 0  TD /F5 9.96  Tf0.0313  Tc 0  Tw (CrisolScript) Tj-376.2 -11.64  TD /F4 9.96  Tf0.0196  Tc 4.6146  Tw (no podr\341 hacer nada en tiempo de compilaci\363n \(mientras lee el c\363digo fuente para) Tj0 -11.52  TD 0.0205  Tc 0.7306  Tw (transformarlo a c\363digo intermedio\). S\363lo podr\341 detectarse el problema en tiempo de ejecuci\363n) TjT* 0.0154  Tc 0.0157  Tw (\(cuando el script comience a ser ejecutado en el motor\).) Tj0 -22.92  TD 0.019  Tc 0.2946  Tw (Siempre que exista alg\372n tipo de error en tiempo de ejecuci\363n el script se interrumpir\341. El error) Tj0 -11.52  TD 0.0226  Tc 1.5285  Tw (podr\341 ser consecuencia de un problema de contexto \(lanzar el m\351todo desde un estado de) TjT* 0.0145  Tc 1.1206  Tw (juego no v\341lido\), de ejecutar un m\351todo asociado a una entidad nula, de que los par\341metros) TjT* 0.0199  Tc -0.0288  Tw (sean incorrectos, etc.) Tj0 -23.88  TD /F1 11.04  Tf-0.06  Tc 0  Tw (C.) Tj11.04 0  TD -0.0286  Tc 0.0795  Tw (2.5.11.1. El objeto Game.) Tj-11.04 -23.64  TD /F4 9.96  Tf-0.0132  Tc 0.7243  Tw (El objeto) Tj0  Tc -0.0089  Tw ( ) Tj42.72 0  TD /F7 9.96  Tf0.054  Tc 0  Tw (Game) Tj24.12 0  TD /F4 9.96  Tf0.0185  Tc 0.5966  Tw ( se encargara de representar a) Tj0  Tc -0.0089  Tw ( ) Tj143.64 0  TD /F5 9.96  Tf0.0483  Tc 0  Tw (Crisol) Tj25.08 0  TD /F4 9.96  Tf0.0176  Tc 0.625  Tw ( en calidad de apliaci\363n. Esto quiere decir) Tj-235.56 -12  TD 0.0177  Tc 0.0184  Tw (que trabajar\341 principalmente con cuadros de di\341logo e interfaces.) Tj0 -23.04  TD 0.0207  Tc 4.7335  Tw (La relaci\363n de m\351todos pertenecientes a este objeto se pueden hallar en el anexo) Tj0 -11.4  TD 0.0136  Tc 0  Tw (correspondiente.) Tj0 -25.08  TD /F1 11.04  Tf-0.06  Tc (C.) Tj11.04 0  TD -0.0272  Tc 0.0781  Tw (2.5.11.2. El objeto World.) Tj-11.04 -23.64  TD /F4 9.96  Tf-0.0132  Tc 0.0643  Tw (El objeto ) Tj41.52 0  TD /F7 9.96  Tf0.048  Tc 0  Tw (World) Tj30.12 0  TD /F4 9.96  Tf0.0184  Tc 0.0374  Tw ( se encargar\341 de representar el universo de juego, las distintas \341reas, el control) Tj-71.64 -12  TD 0.0192  Tc -0.0081  Tw (global de las entidades de juego, etc.) Tj0 -23.04  TD 0.0207  Tc 4.7335  Tw (La relaci\363n de m\351todos pertenecientes a este objeto se pueden hallar en el anexo) Tj0 -11.52  TD 0.0136  Tc 0  Tw (correspondiente.) Tj0 -23.88  TD /F1 11.04  Tf-0.06  Tc (C.) Tj11.04 0  TD -0.0449  Tc 0.0958  Tw (2.5.11.3. Los objetos entity.) Tj-11.04 -23.64  TD /F4 9.96  Tf0.013  Tc 0.1981  Tw (El control de las entidades de juego se llevar\341 a cabo a trav\351s de las variables de tipo ) Tj386.4 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (entity) Tj36 0  TD /F4 9.96  Tf-0.0089  Tc (,) Tj-422.4 -12  TD 0.0179  Tc 0.0301  Tw (que podr\341n referenciar a una criatura, jugador o no, a un \355tem, a un objeto de escenario o a una) Tj0 -11.52  TD 0.0173  Tc 3.3447  Tw (pared. Independientemente del tipo de entidad que represente una variable o constante) Tj0 -11.88  TD /F7 9.96  Tf0.024  Tc 0  Tw (entity) Tj36 0  TD /F4 9.96  Tf0.0189  Tc 1.0842  Tw (, existir\341 un n\372mero de m\351todos que ser\341n comunes a todas ellas. Si bien, por cada) Tj-36 -12  TD 0.0174  Tc 0.9852  Tw (tipo concreto habr\341 una serie de m\351todos que s\363lo ser\341n v\341lidos para dichos tipos concretos) Tj0 -11.4  TD 0.0166  Tc 0.0645  Tw (\(es decir, las entidades de tipo criatura podr\341n tener m\351todos que no se hallen en las entidades) Tj0 -11.52  TD 0.0211  Tc 0.1275  Tw (de tipo pared pero, a su vez, ambos tipos de entidades podr\341n tener m\351todos comunes, que se) TjT* 0.0195  Tc -0.0284  Tw (hallen disponibles para las dos\).) Tj0 -23.4  TD 0.0188  Tc 0.9495  Tw (Siempre que se utilice una variable de tipo) Tj0  Tc -0.0089  Tw ( ) Tj198.84 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (entity) Tj36 0  TD /F4 9.96  Tf0.018  Tc 0.9571  Tw ( para ejecutar un m\351todo asociado,) Tj0  Tc -0.0089  Tw ( ) Tj165.24 0  TD /F5 9.96  Tf0.0483  Tc 0  Tw (Crisol) Tj-400.08 -12.36  TD /F4 9.96  Tf0.022  Tc 1.3722  Tw (deber\341 de comprobar que se cumplan dos condiciones, por un lado que la variable) Tj0  Tc -0.0089  Tw ( ) Tj389.16 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (entity) Tj-389.16 -12  TD /F4 9.96  Tf0.0173  Tc 1.082  Tw (apunte a una entidad v\341lida en el universo de juego y, por otro, que el m\351todo utilizado est\351) Tj0 -11.52  TD 0.0125  Tc 0.1414  Tw (disponible para ese tipo de entidad. Cuando esto no ocurra, el script donde estuviera localizado) Tj0 -11.88  TD 0.0012  Tc 0.0379  Tw (el uso de la variable ) Tj91.56 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (entity) Tj36 0  TD /F4 9.96  Tf0.023  Tc -0.0319  Tw ( ser\341 interrumpido.) Tj-127.56 -23.52  TD 0.0262  Tc 2.1434  Tw (La relaci\363n de m\351todos pertenecientes comunes a todos los tipos de entidades, as\355 como) Tj0 -11.52  TD 0.0229  Tc -0.0318  Tw (aquellos particulares de cada tipo, se podr\341n consultar en el anexo correspondiente.) Tj0 -23.88  TD /F1 11.04  Tf-0.06  Tc 0  Tw (C.) Tj11.04 0  TD -0.0329  Tc 0.1238  Tw (2.5.12. Funciones del API.) TjETendstream
+endobj
+88 0 obj
+7196
+endobj
+86 0 obj
+<<
+/Type /Page
+/Parent 68 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F4 20 0 R 
+/F5 22 0 R 
+/F7 28 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 87 0 R
+>>
+endobj
+91 0 obj
+<<
+/Length 92 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (244) Tj-410.16 -35.52  TD /F4 9.96  Tf0.0179  Tc 2.1332  Tw (Las funciones del) Tj0  Tc -0.0089  Tw ( ) Tj87.24 0  TD /F0 9.96  Tf0.0115  Tc 0  Tw (API) Tj16.08 0  TD /F4 9.96  Tf0.022  Tc 2.2731  Tw ( ser\341n funciones que podr\341n usarse en cualquier momento y desde) Tj-103.32 -11.52  TD 0.0144  Tc 0.7207  Tw (cualquier punto. Su objetivo ser\341 el de servir de punto de apoyo para facilitar la programaci\363n) Tj0 -11.52  TD 0.02  Tc 1.5761  Tw (con el motor. En algunos casos, como en el de las funciones destinadas a trabajar con los) TjT* 0.0192  Tc -0.0281  Tw (colores RGB, su uso ser\341 necesario.) Tj0 -22.92  TD 0.0198  Tc -0.0287  Tw (Todas las funciones del ) Tj107.88 0  TD /F0 9.96  Tf0.0115  Tc 0  Tw (API) Tj16.08 0  TD /F4 9.96  Tf0.0195  Tc -0.0284  Tw ( comenzar\341n siempre por ) Tj116.04 0  TD /F0 9.96  Tf0.0115  Tc 0  Tw (API) Tj16.08 0  TD /F4 9.96  Tf0.026  Tc 0.068  Tw ( y a continuaci\363n le seguir\341 el nombre) Tj-256.08 -11.64  TD 0.0248  Tc -0.0337  Tw (de la funci\363n propiamente dicho.) Tj0 -22.92  TD 0.0179  Tc -0.0268  Tw (Las funciones del ) Tj80.64 0  TD /F0 9.96  Tf0.0115  Tc 0  Tw (API) Tj16.08 0  TD /F4 9.96  Tf0.0195  Tc 0.006  Tw ( existentes podr\341n consultarse en el anexo correspondiente.) Tj-96.72 -24  TD /F1 11.04  Tf-0.06  Tc 0  Tw (C.) Tj11.04 0  TD -0.0317  Tc 0.0826  Tw (2.5.13. El archivo de definiciones globales y de scripts a compilar.) Tj-11.04 -23.28  TD /F4 9.96  Tf0.0123  Tc 1.4531  Tw (Este archivo jugar\341 un papel fundamental pues en \351l se definir\341n las variables y constantes) Tj0 -11.52  TD 0.019  Tc 0.4613  Tw (globales, as\355 como los archivos script \(nunca archivos de funciones globales\) que se desear\341n) Tj0 -11.4  TD 0.0153  Tc 0.5659  Tw (compilar. Las constantes y variables globales ser\341n aquellas que podr\341n ser accesibles desde) Tj0 -11.52  TD 0.0147  Tc 2.2842  Tw (cualquier script y funci\363n, tanto locales como globales. Los archivos script a compilar ir\341n) TjT* 0.0139  Tc 0.0543  Tw (despu\351s de indicar las posibles constantes o variables globales y s\363lo podr\341n ser utilizandos en) Tj0 -11.4  TD /F5 9.96  Tf0.0283  Tc 0  Tw (Crisol) Tj24.96 0  TD /F4 9.96  Tf0.0188  Tc 1.2752  Tw ( aquellos que sean especificados aqu\355 para ser compilados. El formato vendr\341 a ser el) Tj-24.96 -11.64  TD 0.0091  Tc 0  Tw (siguiente:) TjET0.949 0.949 0.949 rg 81.24 528.6 432.24 11.28 re fBT85.08 531.6  TD0 0 0 rg /F8 9.96  Tf0.024  Tc (global) TjET0.949 0.949 0.949 rg 81.24 517.2 432.24 11.4 re fBT85.08 520.2  TD0 0 0 rg ( const) TjET0.949 0.949 0.949 rg 81.24 505.92 432.24 11.28 re fBT85.08 508.68  TD0 0 0 rg /F7 9.96  Tf(  // Declaraci\363n de constantes globales) TjET0.949 0.949 0.949 rg 81.24 494.52 432.24 11.4 re fBT85.08 497.52  TD0 0 0 rg /F8 9.96  Tf( var) TjET0.949 0.949 0.949 rg 81.24 483.24 432.24 11.28 re fBT85.08 486  TD0 0 0 rg /F7 9.96  Tf(  // Declaraci\363n de variables globales) TjET0.949 0.949 0.949 rg 81.24 471.96 432.24 11.28 re f81.24 460.56 432.24 11.4 re fBT85.08 463.32  TD0 0 0 rg (  // Nombres de los archivos script a compilar entre comillas) TjET0.949 0.949 0.949 rg 81.24 449.28 432.24 11.28 re fBT85.08 452.04  TD0 0 0 rg (  // y con extensi\363n) TjET0.949 0.949 0.949 rg 81.24 437.88 432.24 11.4 re fBT85.08 440.88  TD0 0 0 rg 0  Tc 0.024  Tw ( ) Tj6 0  TD /F8 9.96  Tf0.024  Tc 0  Tw (compile) Tj42 0  TD /F7 9.96  Tf( \223NombreArchivoScript1.cst\224;) TjET0.949 0.949 0.949 rg 81.24 426.6 432.24 11.28 re fBT85.08 429.36  TD0 0 0 rg (  // ...) TjET0.949 0.949 0.949 rg 81.24 415.32 432.24 11.28 re fBT85.08 418.32  TD0 0 0 rg 0  Tc 0.024  Tw ( ) Tj6 0  TD /F8 9.96  Tf0.024  Tc 0  Tw (compile) Tj42 0  TD /F7 9.96  Tf( \223NombreArchivoScriptN.cst\224;) Tj-48 -23.64  TD /F4 9.96  Tf0.0232  Tc 3.5079  Tw (Gracias a este fichero, el compilador ser\341 capaz de generar un archivo con el c\363digo) Tj0 -11.4  TD 0.0158  Tc 1.2593  Tw (intermedio y los datos suficientes para que el \355nterprete embebido en) Tj0  Tc -0.0089  Tw ( ) Tj322.8 0  TD /F5 9.96  Tf0.0283  Tc 0  Tw (Crisol) Tj24.96 0  TD /F4 9.96  Tf0.0279  Tc 1.3233  Tw ( sepa ejecutar el) Tj-347.76 -11.64  TD 0.0144  Tc 0.0168  Tw (c\363digo de los distintos scripts o saber si existe un archivo asociado a un determinado evento.) TjETendstream
+endobj
+92 0 obj
+4470
+endobj
+89 0 obj
+<<
+/Type /Page
+/Parent 90 0 R
+/Resources <<
+/Font 93 0 R
+/ProcSet 2 0 R
+>>
+/Contents 91 0 R
+>>
+endobj
+93 0 obj
+<<
+/F0 6 0 R
+/F1 8 0 R
+/F4 20 0 R
+/F5 22 0 R
+/F7 28 0 R
+/F8 40 0 R
+>>
+endobj
+95 0 obj
+<<
+/Length 96 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (245) TjETendstream
+endobj
+96 0 obj
+71
+endobj
+94 0 obj
+<<
+/Type /Page
+/Parent 90 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 95 0 R
+>>
+endobj
+98 0 obj
+<<
+/Length 99 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (246) Tj-410.16 -37.32  TD /F1 12  Tf-0.0044  Tc 0.0284  Tw (C.3. El compilador CSCompiler.) Tj0 -23.52  TD /F4 9.96  Tf0.0189  Tc 1.7379  Tw (Para que el motor pueda utilizar el c\363digo fuente programado, se deber\341 de compilar \351ste,) Tj0 -11.4  TD 0.0166  Tc 0.5025  Tw (antes utilizando el compilador en l\355nea) Tj0  Tc -0.0089  Tw ( ) Tj175.92 0  TD /F5 9.96  Tf0.0188  Tc 0  Tw (CSCompiler) Tj49.44 0  TD /F4 9.96  Tf0.0128  Tc 0.6183  Tw (. Dicho compilador tendr\341 dos objetivos. Por) Tj-225.36 -12  TD 0.0204  Tc 0.0907  Tw (un lado el de generar un archivo de salida denominado \223) Tj251.04 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (CrisolGameScripts.csb) Tj126 0  TD /F4 9.96  Tf0.0588  Tc 0.0523  Tw (\224, que ser\341) Tj-377.04 -12  TD -0  Tc -0.0084  Tw (el que ) Tj30 0  TD /F5 9.96  Tf0.0283  Tc 0  Tw (Crisol) Tj24.96 0  TD /F4 9.96  Tf0.0168  Tc 0.0943  Tw ( ir\341 a buscar para localizar los distintos scripts \(en caso de no hallarlo se entender\341) Tj-54.96 -11.52  TD 0.0101  Tc 1.1104  Tw (que el dise\361ador no ha programado ning\372n script\) y por otro el de avisar al dise\361ador de los) Tj0 -11.52  TD 0.0147  Tc 0.0365  Tw (posibles errores que haya cometido al programar.) Tj0 -23.04  TD 0.022  Tc 0.0245  Tw (El compilador siempre intentar\341 ofrecer la mejor y m\341s completa ayuda cuando localice errores,) Tj0 -11.52  TD 0.0146  Tc 0.525  Tw (indicando el archivo y la l\355nea en donde encontrarlos. Gracias a esta informaci\363n, el dise\361ador) TjT* 0.0127  Tc 0.4664  Tw (podr\341 repasar lo que ha escrito y corregir los fallos que el compilador haya localizado. Cuando) Tj0 -11.88  TD 0.0112  Tc 0.0313  Tw (existan errores no se generar\341 el archivo \223) Tj187.8 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (CrisolGameScripts.csb) Tj126 0  TD /F4 9.96  Tf0.0172  Tc (\224.) Tj-313.8 -23.4  TD 0.0181  Tc 0.0587  Tw (Para poder compilar la totalidad de los archivos script, se deber\341 de suministrar a ) Tj365.04 0  TD /F5 9.96  Tf0.0188  Tc 0  Tw (CSCompiler) Tj49.44 0  TD /F4 9.96  Tf-0.0344  Tc 0.1456  Tw ( el) Tj-414.48 -11.64  TD 0.0227  Tc 2.5808  Tw (nombre \(junto a su extensi\363n\) del archivo de definiciones globales. En \351l encontrar\341 qu\351) Tj0 -11.4  TD 0.015  Tc 0.7792  Tw (archivos scripts deber\341 de abrir para compilar. Por ejemplo, si nuestro archivo de definiciones) Tj0 -12  TD 0.0236  Tc -0.0325  Tw (globales se llamara \223) Tj92.28 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (Global.csb) Tj60 0  TD /F4 9.96  Tf0.0065  Tc 0.0446  Tw (\223 bastar\355a escribir:) TjET0.949 0.949 0.949 rg 81.24 536.28 432.24 11.4 re fBT85.08 539.28  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (CSCompiler) Tj60 0  TD /F7 9.96  Tf( Global.csb) Tj-60 -24.12  TD /F4 9.96  Tf-0  Tc 0.0513  Tw (Al ejecutar ) Tj49.92 0  TD /F5 9.96  Tf0.0188  Tc 0  Tw (CSCompiler) Tj49.44 0  TD /F4 9.96  Tf0.009  Tc 0.0421  Tw ( emitir\341 el archivo \223) Tj84.48 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (CrisolGameScripts.csb) Tj126 0  TD /F4 9.96  Tf0.013  Tc 0.0261  Tw (\223 si no hall\363 ning\372n error.) Tj-309.84 -24.36  TD /F1 11.04  Tf-0.06  Tc 0  Tw (C.) Tj11.04 0  TD -0.027  Tc 0.0779  Tw (3.1. Las opciones de CSCompiler.) Tj-11.04 -23.16  TD /F5 9.96  Tf0.0068  Tc 0  Tw (CSCompiler) Tj49.32 0  TD /F4 9.96  Tf0.0207  Tc 0.9624  Tw ( dispone de una serie de opciones para el trabajo de compilaci\363n. Todas  ellas se) Tj-49.32 -11.64  TD 0.0155  Tc 1.0356  Tw (introducir\341n siempre delante del nombre del archivo de definiciones globales y precedidas de) Tj0 -11.88  TD 0.0155  Tc 0.0956  Tw (un gui\363n. As\355, el formato ser\341 ) Tj134.04 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (\226X) Tj12 0  TD /F4 9.96  Tf0.0302  Tc 0.0809  Tw ( donde ) Tj33.84 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (X) Tj6 0  TD /F4 9.96  Tf0.0174  Tc 0.2857  Tw ( har\341 referencia a un car\341cter que indique la opci\363n a) Tj-185.88 -12  TD 0.0263  Tc 1.2608  Tw (realizar. Todas las opciones, a menos que se diga lo contrario, podr\341n ser usadas de forma) Tj0 -11.52  TD 0.0142  Tc 2.8477  Tw (simult\341nea y en cualquier orden \(siempre y cuando precedan al nombre del archivo con) TjT* 0.0172  Tc 0.0219  Tw (definiciones globales\). Las distintas opciones ser\341n:) Tj0 -22.8  TD /F0 9.96  Tf0.0433  Tc 0  Tw (-) Tj3.24 0  TD /F4 9.96  Tf0  Tc -0.0089  Tw ( ) Tj14.76 0  TD /F1 9.96  Tf0.0151  Tc 1.056  Tw (Emitir los mensajes en un fichero) Tj164.76 0  TD /F4 9.96  Tf0.0055  Tc 1.2389  Tw (. Esta opci\363n ser\341 la normalmente usada ya que por) Tj-164.76 -11.52  TD 0.013  Tc -0.0219  Tw (defecto ) Tj37.8 0  TD /F5 9.96  Tf0.0308  Tc 0  Tw (CSCompiler) Tj49.44 0  TD /F4 9.96  Tf0.0192  Tc 2.2879  Tw ( escribir\341 todos los mensajes en pantalla, resultando que si existen) Tj-87.24 -11.64  TD 0.02  Tc 2.7403  Tw (muchos errores o avisos, estos no llegar\341n a verse por completo, haciendo que sea) Tj0 -11.52  TD 0.0165  Tc 0.1962  Tw (imprescindible que el compilador env\355e toda la informaci\363n a un fichero. Usando el car\341cter) Tj0 -11.88  TD /F7 9.96  Tf0.024  Tc 0  Tw (f) Tj6 0  TD /F4 9.96  Tf0.0264  Tc -0.0353  Tw ( indicaremos al compilador que emita los mensajes a un fichero. As\355, si escribimos:) TjET0.949 0.949 0.949 rg 106.08 314.04 407.4 11.4 re fBT109.92 317.04  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (CSCompiler) Tj60 0  TD /F7 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD /F8 9.96  Tf0.024  Tc 0  Tw (\226f) Tj12 0  TD /F7 9.96  Tf( Globals.cst) Tj-84.84 -24.12  TD /F4 9.96  Tf0.0137  Tc 1.7534  Tw (se crear\341 un archivo llamado ) Tj1.8433  Tc 0  Tw (\223) Tj143.16 0  TD /F7 9.96  Tf0.024  Tc (CSResult.txt) Tj72 0  TD /F4 9.96  Tf0.0236  Tc 1.7875  Tw (\223 que contendr\341 todos los mensajes para) Tj-215.16 -11.88  TD 0.0116  Tc 0.0395  Tw (que puedan ser examinados con total tranquilidad.) Tj-18 -22.92  TD /F0 9.96  Tf0.0433  Tc 0  Tw (-) Tj3.24 0  TD /F4 9.96  Tf0  Tc -0.0089  Tw ( ) Tj14.76 0  TD /F1 9.96  Tf0.0162  Tc 0.0049  Tw (Mostrar el c\363digo intermedio generado) Tj184.92 0  TD /F4 9.96  Tf0.0207  Tc 0.0238  Tw (. Para que el compilador, en caso de no encontrar) Tj-184.92 -11.64  TD 0.0213  Tc 0.4018  Tw (ning\372n error, genere un archivo de texto con el c\363digo intermedio generado pero de cara a) Tj0 -11.88  TD 0.0169  Tc -0.0018  Tw (ser examinado por un programador. Habr\341 que utilizar el car\341cter ) Tj292.8 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (e) Tj6 0  TD /F4 9.96  Tf0.029  Tc 0.0022  Tw (. As\355, si escribimos:) TjET0.949 0.949 0.949 rg 106.08 209.04 407.4 11.28 re fBT109.92 212.04  TD0 0 0 rg /F8 9.96  Tf0.024  Tc 0  Tw (CSCompiler) Tj60 0  TD /F7 9.96  Tf0  Tc 0.024  Tw ( ) Tj6 0  TD /F8 9.96  Tf0.024  Tc 0  Tw (\226e) Tj12 0  TD /F7 9.96  Tf( Globals.cst) Tj-84.84 -24.12  TD /F4 9.96  Tf0.0149  Tc 0.0242  Tw (se crear\341 un archivo llamado \223) Tj134.52 0  TD /F7 9.96  Tf0.024  Tc 0  Tw (CSOpcodes.txt) Tj78 0  TD /F4 9.96  Tf0.0222  Tc 0.0717  Tw (\223 en donde se motrar\341 un c\363digo intermedio) Tj-212.52 -12  TD 0.0138  Tc 6.3107  Tw (\223entendible\224. Esta opci\363n interesar\341 \372nicamente a los programadores que usen) Tj0 -11.4  TD 0.0177  Tc 0.2614  Tw (directamente el c\363digo fuente de ) Tj149.52 0  TD /F5 9.96  Tf0.0483  Tc 0  Tw (Crisol) Tj25.08 0  TD /F4 9.96  Tf0.0169  Tc 0.3642  Tw ( quieran realizar sus propios ajustes, o para realizar) Tj-174.6 -11.64  TD 0.0209  Tc -0.0218  Tw (trazas por si han existido errores en el compilador no localizados en la etapa de testeo.) Tj0 -23.04  TD 0.0174  Tc -0.0113  Tw (Un ejemplo del contenido de este archivo podr\355a ser:) TjET0.949 0.949 0.949 rg 106.08 104.76 407.4 11.28 re fBT109.92 107.52  TD0 0 0 rg /F7 9.96  Tf0.024  Tc 0  Tw (.global Globals.cst) TjET0.949 0.949 0.949 rg 106.08 93.48 407.4 11.28 re fBT109.92 96.24  TD0 0 0 rg ( [    0] npush 0.000000) TjET0.949 0.949 0.949 rg 106.08 82.08 407.4 11.4 re fBT109.92 84.84  TD0 0 0 rg ( [    1] nstore address_0) TjETendstream
+endobj
+99 0 obj
+8126
+endobj
+97 0 obj
+<<
+/Type /Page
+/Parent 90 0 R
+/Resources <<
+/Font 100 0 R
+/ProcSet 2 0 R
+>>
+/Contents 98 0 R
+>>
+endobj
+100 0 obj
+<<
+/F0 6 0 R
+/F1 8 0 R
+/F4 20 0 R
+/F5 22 0 R
+/F7 28 0 R
+/F8 40 0 R
+>>
+endobj
+102 0 obj
+<<
+/Length 103 0 R
+>>
+stream
+BT495.24 797.52  TD0 0 0 rg /F0 9.96  Tf0.06  Tc 0  Tw (247) TjET0.949 0.949 0.949 rg 106.08 759.84 407.4 11.4 re fBT109.92 762.6  TD0 0 0 rg /F7 9.96  Tf0.024  Tc ( [    2] npush 0.000000) TjET0.949 0.949 0.949 rg 106.08 748.56 407.4 11.28 re fBT109.92 751.32  TD0 0 0 rg ( [    3] nstore address_1) TjET0.949 0.949 0.949 rg 106.08 737.16 407.4 11.4 re fBT109.92 739.92  TD0 0 0 rg (.end_global) TjET0.949 0.949 0.949 rg 106.08 725.88 407.4 11.28 re f106.08 714.6 407.4 11.28 re fBT109.92 717.36  TD0 0 0 rg (.script Script_OnClickHourPanel.cst) TjET0.949 0.949 0.949 rg 106.08 703.2 407.4 11.4 re fBT109.92 705.96  TD0 0 0 rg (.event on_click_hour_panel \(V\)N [Index: 0]) TjET0.949 0.949 0.949 rg 106.08 691.92 407.4 11.28 re fBT109.92 694.68  TD0 0 0 rg (.vars 1) TjET0.949 0.949 0.949 rg 106.08 680.52 407.4 11.4 re fBT109.92 683.28  TD0 0 0 rg (.first_offset 2) TjET0.949 0.949 0.949 rg 106.08 669.24 407.4 11.28 re fBT109.92 672  TD0 0 0 rg (.max_stack_size 2) TjET0.949 0.949 0.949 rg 106.08 657.96 407.4 11.28 re fBT109.92 660.72  TD0 0 0 rg ( [    0] npush 1213.000000) TjET0.949 0.949 0.949 rg 106.08 646.56 407.4 11.4 re fBT109.92 649.32  TD0 0 0 rg ( [    1] nstore address_2) TjET0.949 0.949 0.949 rg 106.08 635.28 407.4 11.28 re fBT109.92 638.04  TD0 0 0 rg ( [    2] spush "Son las ") TjET0.949 0.949 0.949 rg 106.08 623.88 407.4 11.4 re fBT109.92 626.64  TD0 0 0 rg ( [    3] world.get_hour) TjET0.949 0.949 0.949 rg 106.08 612.6 407.4 11.28 re fBT109.92 615.36  TD0 0 0 rg ( [    4] nscast) TjET0.949 0.949 0.949 rg 106.08 601.32 407.4 11.28 re fBT109.92 604.08  TD0 0 0 rg ( [    5] sadd) TjET0.949 0.949 0.949 rg 106.08 589.92 407.4 11.4 re fBT109.92 592.68  TD0 0 0 rg ( [    6] spush " y ") TjET0.949 0.949 0.949 rg 106.08 578.64 407.4 11.28 re fBT109.92 581.4  TD0 0 0 rg ( [    7] sadd) TjET0.949 0.949 0.949 rg 106.08 567.24 407.4 11.4 re fBT109.92 570  TD0 0 0 rg ( [    8] world.get_minute) TjET0.949 0.949 0.949 rg 106.08 555.96 407.4 11.28 re fBT109.92 558.72  TD0 0 0 rg ( [    9] nscast) TjET0.949 0.949 0.949 rg 106.08 544.68 407.4 11.28 re fBT109.92 547.44  TD0 0 0 rg ( [   10] sadd) TjET0.949 0.949 0.949 rg 106.08 533.28 407.4 11.4 re fBT109.92 536.04  TD0 0 0 rg ( [   11] game.write_to_console) TjET0.949 0.949 0.949 rg 106.08 522 407.4 11.28 re fBT109.92 524.76  TD0 0 0 rg ( [   12] npush 1.000000) TjET0.949 0.949 0.949 rg 106.08 510.6 407.4 11.4 re fBT109.92 513.36  TD0 0 0 rg ( [   13] nreturn) TjET0.949 0.949 0.949 rg 106.08 499.32 407.4 11.28 re f106.08 488.04 407.4 11.28 re fBT109.92 490.8  TD0 0 0 rg (.import_functions) TjET0.949 0.949 0.949 rg 106.08 476.64 407.4 11.4 re fBT109.92 479.4  TD0 0 0 rg (.end_import_functions) TjET0.949 0.949 0.949 rg 106.08 465.36 407.4 11.28 re f106.08 453.96 407.4 11.4 re fBT109.92 456.72  TD0 0 0 rg (.local_functions) TjET0.949 0.949 0.949 rg 106.08 442.68 407.4 11.28 re fBT109.92 445.44  TD0 0 0 rg (.end_locals_functions) TjET0.949 0.949 0.949 rg 106.08 431.4 407.4 11.28 re f106.08 420 407.4 11.4 re fBT109.92 422.76  TD0 0 0 rg (.end_script) TjETendstream
+endobj
+103 0 obj
+3240
+endobj
+101 0 obj
+<<
+/Type /Page
+/Parent 90 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F7 28 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 102 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F0
+/BaseFont /TimesNewRoman
+/FirstChar 31
+/LastChar 255
+/Widths [ 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 
+278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 
+444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 
+722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 
+500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 
+500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 
+778 500 778 333 500 444 1000 500 500 333 1000 556 333 889 778 778 
+778 778 333 333 444 444 350 500 1000 333 980 389 333 722 778 778 
+722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 
+500 400 549 300 300 333 576 453 250 333 300 310 500 750 750 750 
+444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 
+333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 
+500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 
+278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 
+500 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 7 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /FontDescriptor
+/FontName /TimesNewRoman
+/Flags 34
+/FontBBox [ -250 -241 1200 892 ]
+/MissingWidth 783
+/StemV 73
+/StemH 73
+/ItalicAngle 0
+/CapHeight 892
+/XHeight 624
+/Ascent 892
+/Descent -241
+/Leading 181
+/MaxWidth 1000
+/AvgWidth 398
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F1
+/BaseFont /Arial,Bold
+/FirstChar 31
+/LastChar 255
+/Widths [ 750 278 333 474 556 556 889 722 238 333 333 389 584 278 333 278 
+278 556 556 556 556 556 556 556 556 556 556 333 333 584 584 584 
+611 975 722 722 722 722 667 611 778 722 278 556 722 611 833 722 
+778 667 778 722 667 611 722 667 944 667 667 611 333 278 333 584 
+556 333 556 611 556 611 556 333 611 611 278 278 556 278 889 611 
+611 611 611 389 556 333 611 556 778 556 556 500 389 280 389 584 
+750 556 750 278 556 500 1000 556 556 333 1000 667 333 1000 750 750 
+750 750 278 278 500 500 350 556 1000 333 1000 556 333 944 750 750 
+667 278 333 556 556 556 556 280 556 333 737 370 556 584 333 737 
+552 400 549 333 333 333 576 556 278 333 333 365 556 834 834 834 
+611 722 722 722 722 722 722 1000 722 667 667 667 667 278 278 278 
+278 722 722 778 778 778 778 778 584 778 722 722 722 722 667 667 
+611 556 556 556 556 556 556 889 556 556 556 556 556 278 278 278 
+278 611 611 611 611 611 611 611 549 611 611 611 611 611 556 611 
+556 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 9 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Arial,Bold
+/Flags 16416
+/FontBBox [ -250 -220 1236 930 ]
+/MissingWidth 750
+/StemV 153
+/StemH 153
+/ItalicAngle 0
+/CapHeight 930
+/XHeight 651
+/Ascent 930
+/Descent -220
+/Leading 180
+/MaxWidth 1030
+/AvgWidth 480
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F2
+/BaseFont /Verdana,Bold
+/FirstChar 31
+/LastChar 255
+/Widths [ 1000 342 402 587 867 711 1272 862 332 543 543 711 867 361 480 361 
+689 711 711 711 711 711 711 711 711 711 711 402 402 867 867 867 
+617 964 776 762 724 830 683 650 811 837 546 555 771 637 948 847 
+850 733 850 782 710 682 812 764 1128 764 737 692 543 689 543 867 
+711 711 668 699 588 699 664 422 699 712 342 403 671 342 1058 712 
+687 699 699 497 593 456 712 650 979 669 651 597 711 543 711 867 
+1000 711 1000 332 711 587 1049 711 711 711 1777 710 543 1135 1000 1000 
+1000 1000 332 332 587 587 711 711 1000 711 964 593 543 1068 1000 1000 
+737 342 402 711 711 711 711 543 711 711 964 598 850 867 480 964 
+711 587 867 598 598 711 721 711 361 711 598 598 850 1182 1182 1182 
+617 776 776 776 776 776 776 1094 724 683 683 683 683 546 546 546 
+546 830 847 850 850 850 850 850 867 850 812 812 812 812 737 735 
+713 668 668 668 668 668 668 1018 588 664 664 664 664 342 342 342 
+342 679 712 687 687 687 687 687 867 687 712 712 712 712 651 699 
+651 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 11 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Verdana,Bold
+/Flags 16416
+/FontBBox [ -250 -205 2140 1000 ]
+/MissingWidth 1000
+/StemV 181
+/StemH 181
+/ItalicAngle 0
+/CapHeight 1000
+/XHeight 700
+/Ascent 1000
+/Descent -205
+/Leading 205
+/MaxWidth 1783
+/AvgWidth 566
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F3
+/BaseFont /Verdana
+/FirstChar 31
+/LastChar 255
+/Widths [ 1000 352 394 459 818 636 1076 727 269 454 454 636 818 364 454 364 
+454 636 636 636 636 636 636 636 636 636 636 454 454 818 818 818 
+545 1000 684 686 698 771 632 575 775 751 421 455 693 557 843 748 
+787 603 787 695 684 616 732 684 989 685 615 685 454 454 454 818 
+636 636 601 623 521 623 596 352 623 633 274 344 592 274 973 633 
+607 623 623 427 521 394 633 592 818 592 592 525 635 454 635 818 
+1000 636 1000 269 636 459 818 636 636 636 1521 684 454 1070 1000 1000 
+1000 1000 269 269 459 459 545 636 1000 636 977 521 454 981 1000 1000 
+615 352 394 636 636 636 636 454 636 636 1000 545 645 818 454 1000 
+636 542 818 542 542 636 642 636 364 636 542 545 645 1000 1000 1000 
+545 684 684 684 684 684 684 984 698 632 632 632 632 421 421 421 
+421 775 748 787 787 787 787 787 818 787 732 732 732 732 615 605 
+620 601 601 601 601 601 601 955 521 596 596 596 596 274 274 274 
+274 612 633 607 607 607 607 607 818 607 633 633 633 633 592 623 
+592 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 13 0 R
+>>
+endobj
+13 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Verdana
+/Flags 32
+/FontBBox [ -250 -200 1824 1013 ]
+/MissingWidth 1000
+/StemV 92
+/StemH 92
+/ItalicAngle 0
+/CapHeight 1013
+/XHeight 709
+/Ascent 1013
+/Descent -200
+/Leading 213
+/MaxWidth 1520
+/AvgWidth 507
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F4
+/BaseFont /Arial
+/FirstChar 31
+/LastChar 255
+/Widths [ 750 278 278 355 556 556 889 667 191 333 333 389 584 278 333 278 
+278 556 556 556 556 556 556 556 556 556 556 278 278 584 584 584 
+556 1015 667 667 722 722 667 611 778 722 278 500 667 556 833 722 
+778 667 778 722 667 611 722 667 944 667 667 611 278 278 278 469 
+556 333 556 556 500 556 556 278 556 556 222 222 500 222 833 556 
+556 556 556 333 500 278 556 500 722 500 500 500 334 260 334 584 
+750 556 750 222 556 333 1000 556 556 333 1000 667 333 1000 750 750 
+750 750 222 222 333 333 350 556 1000 333 1000 500 333 944 750 750 
+667 278 333 556 556 556 556 260 556 333 737 370 556 584 333 737 
+552 400 549 333 333 333 576 537 278 333 333 365 556 834 834 834 
+611 667 667 667 667 667 667 1000 722 667 667 667 667 278 278 278 
+278 722 722 778 778 778 778 778 584 778 722 722 722 722 667 667 
+611 556 556 556 556 556 556 889 500 556 556 556 556 278 278 278 
+278 556 556 556 556 556 556 556 549 611 556 556 556 556 500 556 
+500 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 21 0 R
+>>
+endobj
+21 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Arial
+/Flags 32
+/FontBBox [ -250 -217 1214 892 ]
+/MissingWidth 747
+/StemV 81
+/StemH 81
+/ItalicAngle 0
+/CapHeight 892
+/XHeight 624
+/Ascent 892
+/Descent -217
+/Leading 144
+/MaxWidth 1012
+/AvgWidth 446
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F5
+/BaseFont /TimesNewRoman,Italic
+/FirstChar 31
+/LastChar 255
+/Widths [ 778 250 333 420 500 500 833 778 214 333 333 500 675 250 333 250 
+278 500 500 500 500 500 500 500 500 500 500 333 333 675 675 675 
+500 920 611 611 667 722 611 611 722 722 333 444 667 556 833 667 
+722 611 722 611 500 556 722 611 833 611 556 556 389 278 389 422 
+500 333 500 500 444 500 444 278 500 500 278 278 444 278 722 500 
+500 500 500 389 389 278 500 444 667 444 444 389 400 275 400 541 
+778 500 778 333 500 556 889 500 500 333 1000 500 333 944 778 778 
+778 778 333 333 556 556 350 500 889 333 980 389 333 667 778 778 
+556 250 389 500 500 500 500 275 500 333 760 276 500 675 333 760 
+500 400 549 300 300 333 576 523 250 333 300 310 500 750 750 750 
+500 611 611 611 611 611 611 889 667 611 611 611 611 333 333 333 
+333 722 667 722 722 722 722 722 675 722 722 722 722 722 556 611 
+500 500 500 500 500 500 500 667 444 444 444 444 444 278 278 278 
+278 500 500 500 500 500 500 500 549 500 500 500 500 500 444 500 
+444 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 23 0 R
+>>
+endobj
+23 0 obj
+<<
+/Type /FontDescriptor
+/FontName /TimesNewRoman,Italic
+/Flags 98
+/FontBBox [ -250 -241 1171 892 ]
+/MissingWidth 783
+/StemV 73
+/StemH 73
+/ItalicAngle -11
+/CapHeight 892
+/XHeight 624
+/Ascent 892
+/Descent -241
+/Leading 181
+/MaxWidth 976
+/AvgWidth 398
+>>
+endobj
+24 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F6
+/BaseFont /Arial,Italic
+/FirstChar 31
+/LastChar 255
+/Widths [ 750 278 278 355 556 556 889 667 191 333 333 389 584 278 333 278 
+278 556 556 556 556 556 556 556 556 556 556 278 278 584 584 584 
+556 1015 667 667 722 722 667 611 778 722 278 500 667 556 833 722 
+778 667 778 722 667 611 722 667 944 667 667 611 278 278 278 469 
+556 333 556 556 500 556 556 278 556 556 222 222 500 222 833 556 
+556 556 556 333 500 278 556 500 722 500 500 500 334 260 334 584 
+750 556 750 222 556 333 1000 556 556 333 1000 667 333 1000 750 750 
+750 750 222 222 333 333 350 556 1000 333 1000 500 333 944 750 750 
+667 278 333 556 556 556 556 260 556 333 737 370 556 584 333 737 
+552 400 549 333 333 333 576 537 278 333 333 365 556 834 834 834 
+611 667 667 667 667 667 667 1000 722 667 667 667 667 278 278 278 
+278 722 722 778 778 778 778 778 584 778 722 722 722 722 667 667 
+611 556 556 556 556 556 556 889 500 556 556 556 556 278 278 278 
+278 556 556 556 556 556 556 556 549 611 556 556 556 556 500 556 
+500 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 25 0 R
+>>
+endobj
+25 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Arial,Italic
+/Flags 96
+/FontBBox [ -250 -229 1214 892 ]
+/MissingWidth 747
+/StemV 81
+/StemH 81
+/ItalicAngle -11
+/CapHeight 892
+/XHeight 624
+/Ascent 892
+/Descent -229
+/Leading 156
+/MaxWidth 1012
+/AvgWidth 446
+>>
+endobj
+28 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F7
+/BaseFont /CourierNew
+/FirstChar 31
+/LastChar 255
+/Widths [ 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 29 0 R
+>>
+endobj
+29 0 obj
+<<
+/Type /FontDescriptor
+/FontName /CourierNew
+/Flags 35
+/FontBBox [ -250 -277 722 783 ]
+/MissingWidth 602
+/StemV 110
+/StemH 110
+/ItalicAngle 0
+/CapHeight 783
+/XHeight 548
+/Ascent 783
+/Descent -277
+/Leading 60
+/MaxWidth 602
+/AvgWidth 602
+>>
+endobj
+40 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F8
+/BaseFont /CourierNew,Bold
+/FirstChar 31
+/LastChar 255
+/Widths [ 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 41 0 R
+>>
+endobj
+41 0 obj
+<<
+/Type /FontDescriptor
+/FontName /CourierNew,Bold
+/Flags 16419
+/FontBBox [ -250 -301 722 807 ]
+/MissingWidth 602
+/StemV 192
+/StemH 192
+/ItalicAngle 0
+/CapHeight 807
+/XHeight 564
+/Ascent 807
+/Descent -301
+/Leading 108
+/MaxWidth 602
+/AvgWidth 602
+>>
+endobj
+2 0 obj
+[ /PDF /Text  ]
+endobj
+5 0 obj
+<<
+/Kids [4 0 R 16 0 R 19 0 R 31 0 R 34 0 R 37 0 R ]
+/Count 6
+/Type /Pages
+/Parent 104 0 R
+>>
+endobj
+44 0 obj
+<<
+/Kids [43 0 R 48 0 R 52 0 R 55 0 R 59 0 R 63 0 R ]
+/Count 6
+/Type /Pages
+/Parent 104 0 R
+>>
+endobj
+68 0 obj
+<<
+/Kids [67 0 R 71 0 R 75 0 R 78 0 R 82 0 R 86 0 R ]
+/Count 6
+/Type /Pages
+/Parent 104 0 R
+>>
+endobj
+90 0 obj
+<<
+/Kids [89 0 R 94 0 R 97 0 R 101 0 R ]
+/Count 4
+/Type /Pages
+/Parent 104 0 R
+>>
+endobj
+104 0 obj
+<<
+/Kids [5 0 R 44 0 R 68 0 R 90 0 R ]
+/Count 22
+/Type /Pages
+/MediaBox [ 0 0 595 842 ]
+>>
+endobj
+1 0 obj
+<<
+/Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020>
+/CreationDate (D:20020929113748)
+/Title <FEFF0043007200690073006F006C0045006E00670069006E0065005F0044006F00630075006D0065006E0074006100630069006F006E005F0041006E00650078006F005F0043005F0043007200690073006F006C00730063007200690070>
+/Author <FEFF004600650072006E0061006E0064006F00200052006F0064007200ED006700750065007A>
+/Producer (Acrobat PDFWriter 4.0 for Windows)
+>>
+endobj
+3 0 obj
+<<
+/Pages 104 0 R
+/Type /Catalog
+/DefaultGray 105 0 R
+/DefaultRGB  106 0 R
+>>
+endobj
+105 0 obj
+[/CalGray
+<<
+/WhitePoint [0.953 1 1.4127 ]
+/Gamma 0.9475 
+>>
+]
+endobj
+106 0 obj
+[/CalRGB
+<<
+/WhitePoint [0.953 1 1.4127 ]
+/Gamma [0.9475 0.9475 0.9475 ]
+/Matrix [0.3886 0.2089 0.0126 0.323 0.6783 0.0832 0.2527 0.1128 0.7291 ]
+>>
+]
+endobj
+xref
+0 107
+0000000000 65535 f
+0000159672 00000 n
+0000159061 00000 n
+0000160142 00000 n
+0000004476 00000 n
+0000159095 00000 n
+0000146414 00000 n
+0000147534 00000 n
+0000147813 00000 n
+0000148933 00000 n
+0000149214 00000 n
+0000150354 00000 n
+0000150642 00000 n
+0000151774 00000 n
+0000000021 00000 n
+0000004452 00000 n
+0000004800 00000 n
+0000004646 00000 n
+0000004778 00000 n
+0000012688 00000 n
+0000152052 00000 n
+0000153170 00000 n
+0000153442 00000 n
+0000154569 00000 n
+0000154857 00000 n
+0000155982 00000 n
+0000004933 00000 n
+0000012664 00000 n
+0000156263 00000 n
+0000157379 00000 n
+0000012809 00000 n
+0000018475 00000 n
+0000012905 00000 n
+0000018451 00000 n
+0000027315 00000 n
+0000018659 00000 n
+0000027291 00000 n
+0000035229 00000 n
+0000027499 00000 n
+0000035205 00000 n
+0000157655 00000 n
+0000158776 00000 n
+0000035350 00000 n
+0000042884 00000 n
+0000159212 00000 n
+0000035458 00000 n
+0000042860 00000 n
+0000043006 00000 n
+0000050618 00000 n
+0000043102 00000 n
+0000050594 00000 n
+0000050740 00000 n
+0000060384 00000 n
+0000050848 00000 n
+0000060360 00000 n
+0000067855 00000 n
+0000060569 00000 n
+0000067831 00000 n
+0000067977 00000 n
+0000075472 00000 n
+0000068073 00000 n
+0000075448 00000 n
+0000075594 00000 n
+0000083175 00000 n
+0000075690 00000 n
+0000083151 00000 n
+0000083297 00000 n
+0000090580 00000 n
+0000159331 00000 n
+0000083393 00000 n
+0000090556 00000 n
+0000099340 00000 n
+0000090765 00000 n
+0000099316 00000 n
+0000099462 00000 n
+0000106583 00000 n
+0000099558 00000 n
+0000106559 00000 n
+0000113938 00000 n
+0000106768 00000 n
+0000113914 00000 n
+0000114060 00000 n
+0000121761 00000 n
+0000114156 00000 n
+0000121737 00000 n
+0000121883 00000 n
+0000129260 00000 n
+0000121979 00000 n
+0000129236 00000 n
+0000134000 00000 n
+0000159450 00000 n
+0000129445 00000 n
+0000133976 00000 n
+0000134122 00000 n
+0000134372 00000 n
+0000134218 00000 n
+0000134350 00000 n
+0000142717 00000 n
+0000134506 00000 n
+0000142693 00000 n
+0000142840 00000 n
+0000146265 00000 n
+0000142937 00000 n
+0000146240 00000 n
+0000159556 00000 n
+0000160243 00000 n
+0000160331 00000 n
+trailer
+<<
+/Size 107
+/Root 3 0 R
+/Info 1 0 R
+/ID [<a061f1285f193bd40c820f5f22f0f833><a061f1285f193bd40c820f5f22f0f833>]
+>>
+startxref
+160508
+%%EOF

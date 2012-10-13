@@ -1,0 +1,139 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CRISOLEngine - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP31F6.TMP" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "_NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_CRISOLENGINE" /D "_SYSASSERT" /D "ENGINE_TRACE" /Fp"Release/CRISOLEngine.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Trabajo\Proyecto Fin Carrera\src\CRISOLEngine\CIsoEngine.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP31F6.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3200.TMP" with contents
+[
+winmm.lib dxguid.lib dinput.lib ddraw.lib dsound.lib dx7wrapper.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/CRISOLEngine.pdb" /machine:I386 /out:"Release/CRISOLEngine.exe" 
+".\Release\CAlarmManager.obj"
+".\Release\CAnimCmd.obj"
+".\Release\CAnimTemplate.obj"
+".\Release\CAnimTemplateData.obj"
+".\Release\CArea.obj"
+".\Release\CAudioSystem.obj"
+".\Release\CBitmap.obj"
+".\Release\CCBTEngineParser.obj"
+".\Release\CCBTParser.obj"
+".\Release\CCharFont.obj"
+".\Release\CCinemaCurtain.obj"
+".\Release\CCinemaCurtainCmd.obj"
+".\Release\CCloseCinemaCurtainCmd.obj"
+".\Release\CCombatSystem.obj"
+".\Release\CCommand.obj"
+".\Release\CCommandManager.obj"
+".\Release\CCPAKFile.obj"
+".\Release\CCriature.obj"
+".\Release\CCRISOLEngine.obj"
+".\Release\CCyclicFadeCmd.obj"
+".\Release\CEntity.obj"
+".\Release\CEntitySelector.obj"
+".\Release\CEquipmentSlots.obj"
+".\Release\CFadeCmd.obj"
+".\Release\CFileParser.obj"
+".\Release\CFileSystem.obj"
+".\Release\CFloor.obj"
+".\Release\CFont.obj"
+".\Release\CFontSystem.obj"
+".\Release\CFXBack.obj"
+".\Release\CGameDataBase.obj"
+".\Release\CGameState.obj"
+".\Release\CGFX.obj"
+".\Release\CGFXManager.obj"
+".\Release\CGraphicLoader.obj"
+".\Release\CGraphicSystem.obj"
+".\Release\CGUICAnimBitmap.obj"
+".\Release\CGUICBitmap.obj"
+".\Release\CGUICBlockText.obj"
+".\Release\CGUICButton.obj"
+".\Release\CGUICInput.obj"
+".\Release\CGUICJustifyText.obj"
+".\Release\CGUICLineText.obj"
+".\Release\CGUIComponent.obj"
+".\Release\CGUICPercentageBar.obj"
+".\Release\CGUICSingleText.obj"
+".\Release\CGUICSpriteSelector.obj"
+".\Release\CGUIManager.obj"
+".\Release\CGUIWBaseItemSelector.obj"
+".\Release\CGUIWBaseTextSelector.obj"
+".\Release\CGUIWBaseWindowContainer.obj"
+".\Release\CGUIWCharacterCreator.obj"
+".\Release\CGUIWCombat.obj"
+".\Release\CGUIWConversator.obj"
+".\Release\CGUIWDialog.obj"
+".\Release\CGUIWEntityInteract.obj"
+".\Release\CGUIWGameLoading.obj"
+".\Release\CGUIWGameMenu.obj"
+".\Release\CGUIWindow.obj"
+".\Release\CGUIWItemSelectToUse.obj"
+".\Release\CGUIWMainInterfaz.obj"
+".\Release\CGUIWMainMenu.obj"
+".\Release\CGUIWPlayerProfile.obj"
+".\Release\CGUIWPresentation.obj"
+".\Release\CGUIWSavedFileManager.obj"
+".\Release\CGUIWTextOptionsSelector.obj"
+".\Release\CGUIWTextReader.obj"
+".\Release\CGUIWTrade.obj"
+".\Release\CImage.obj"
+".\Release\CInputManager.obj"
+".\Release\CIsoEngine.obj"
+".\Release\CIsoTravellingCmd.obj"
+".\Release\CItem.obj"
+".\Release\CItemContainer.obj"
+".\Release\CItemContainerIt.obj"
+".\Release\CLinearInterpolation.obj"
+".\Release\CLogger.obj"
+".\Release\CMathUtil.obj"
+".\Release\CMemoryPool.obj"
+".\Release\CMoveCmd.obj"
+".\Release\CMovIsoEngineCmd.obj"
+".\Release\COpenCinemaCurtainCmd.obj"
+".\Release\CPath.obj"
+".\Release\CPlayer.obj"
+".\Release\CPriorityQueue.obj"
+".\Release\CQuadForm.obj"
+".\Release\CRecycleNodePool.obj"
+".\Release\CResourceManager.obj"
+".\Release\CRISOLEngine.obj"
+".\Release\CRoof.obj"
+".\Release\CRulesDataBase.obj"
+".\Release\CSceneObj.obj"
+".\Release\CScript.obj"
+".\Release\CScriptInstructions.obj"
+".\Release\CScriptStackValue.obj"
+".\Release\CShadow.obj"
+".\Release\CSprite.obj"
+".\Release\CTimer.obj"
+".\Release\CVirtualMachine.obj"
+".\Release\CWall.obj"
+".\Release\CWorld.obj"
+".\Release\CWorldEntity.obj"
+".\Release\StdAfx.obj"
+".\Release\SYSAssert.obj"
+".\Release\ScriptDefs.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP3200.TMP"
+<h3>Output Window</h3>
+Compiling...
+CIsoEngine.cpp
+Spawn Time 0:18.0
+Linking...
+Spawn Time 0:30.4
+
+
+
+<h3>Results</h3>
+CRISOLEngine.exe - 0 error(s), 0 warning(s)
+Build Time 0:50.2
+</pre>
+</body>
+</html>

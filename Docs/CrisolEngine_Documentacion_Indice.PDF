@@ -1,0 +1,370 @@
+%PDF-1.2 
+%‚„œ”
+ 
+14 0 obj
+<<
+/Length 15 0 R
+>>
+stream
+BT507.72 798.36  TD0 0 0 rg /F0 9  Tf0.018  Tc 0  Tw (i) Tj-422.64 -38.16  TD /F1 12  Tf0.0206  Tc (\315ndice.) Tj0 -26.76  TD /F2 9.96  Tf0.0131  Tc 0.0366  Tw (0. Anotaciones a la versi\363n actual.) Tj0 -21.36  TD 0.0243  Tc 0.0094  Tw (1. \277Qu\351 es CrisolEngine?.) Tj0 -11.16  TD /F3 9  Tf0.0111  Tc -0.0457  Tw (   1.1. Introducci\363n a los motores de juegos.) Tj0 -10.92  TD 0.0136  Tc -0.0445  Tw (   1.2. Descripci\363n general de ) Tj136.8 0  TD 0.0063  Tc -0.0543  Tw (Crisolengine como motor de juegos.) Tj-136.8 -21.6  TD /F2 9.96  Tf0.0229  Tc -0.0692  Tw (2. Tecnolog\355as empleadas.) Tj0 -11.16  TD /F3 9  Tf0.0114  Tc -0.0494  Tw (   2.1. Uso del lenguaje de programaci\363n C++ y entorno ) Tj259.44 0  TD 0.0143  Tc 0  Tw (VisualStudio.) Tj-259.44 -11.04  TD 0.0104  Tc -0.0491  Tw (   2.2. Uso de la biblioteca est\341ndar STL de C++ \(Standard ) Tj271.32 0  TD 0.0229  Tc 0.0491  Tw (Template ) Tj45.36 0  TD 0.001  Tc 0  Tw (Library\).) Tj-316.68 -10.92  TD 0.016  Tc -0.064  Tw (   2.3. Uso de las librer\355as DirectX de Microsoft.) Tj0 -10.92  TD 0.0073  Tc -0.0403  Tw (   2.4. Representaci\363n gr\341fica usando dispositivos 3D.) TjT* 0.0147  Tc -0.0427  Tw (   2.5. Patrones de dise\361o.) Tj0 -9.96  TD /F3 8.04  Tf-0.0275  Tc 0.0175  Tw (      2.5.1. Patr\363n ) Tj72.72 0  TD -0.0299  Tc 0  Tw (Singleton.) Tj-72.72 -9.72  TD -0.0275  Tc 0.0175  Tw (      2.5.2. Patr\363n ) Tj72.6 0  TD -0.0176  Tc 0  Tw (Facade.) Tj-72.6 -9.72  TD -0.0283  Tc 0.0333  Tw (      2.5.3. Patr\363n Bridge.) Tj0 -9.72  TD -0.0275  Tc 0.0175  Tw (      2.5.4. Patr\363n ) Tj72.72 0  TD -0.0068  Tc 0  Tw (Observer.) Tj-72.72 -9.72  TD -0.0275  Tc 0.0175  Tw (      2.5.5. Patr\363n ) Tj72.72 0  TD -0.0094  Tc 0  Tw (Command.) Tj-72.72 -9.72  TD -0.0275  Tc 0.0175  Tw (      2.5.6. Patr\363n ) Tj72.6 0  TD 0.007  Tc 0  Tw (Iterator.) Tj-72.6 -10.68  TD /F3 9  Tf0.0134  Tc -0.0414  Tw (   2.6. Procesadores de lenguaje.) Tj0 -21.72  TD /F2 9.96  Tf0.0056  Tc 0.068  Tw (3. An\341lisis.) Tj0 -11.16  TD /F3 9  Tf0.0058  Tc -0.0367  Tw (   3.1. Planteamiento general del problema.) Tj0 -10.92  TD 0.0095  Tc -0.0404  Tw (   3.2. An\341lisis de los requisitos.) Tj0 -9.96  TD /F3 8.04  Tf-0.0245  Tc 0.0264  Tw (      3.2.1. Requisitos para las entidades.) Tj0 -9.72  TD -0.0282  Tc 0.0353  Tw (         3.2.1.1. Las entidades de tipo criatura.) TjT* -0.0321  Tc 0.0391  Tw (         3.2.1.2. Las entidades de tipo \355tem.) TjT* -0.0287  Tc 0.0411  Tw (         3.2.1.3. Las entidades de tipo objeto de escenario.) TjT* -0.0251  Tc 0.0322  Tw (         3.2.1.4. Las entidades de tipo pared.) TjT* -0.021  Tc 0.0155  Tw (      3.2.2. Requisitos para la especificaci\363n de las reglas.) TjT* -0.0234  Tc 0.0219  Tw (         3.2.2.1. Reglas asociadas a los ) Tj153 0  TD -0.0141  Tc 0.0041  Tw (tiles del suelo.) Tj-153 -9.72  TD -0.0249  Tc 0.0254  Tw (         3.2.2.2. Reglas asociadas a las entidades de tipo criatura.) Tj0 -9.72  TD -0.0272  Tc 0.0277  Tw (         3.2.2.3. Reglas asociadas a las entidades de tipo \355tem.) TjT* -0.0258  Tc 0.0315  Tw (         3.2.2.4. Reglas asociadas a las entidades de tipo objeto de escenario.) TjT* -0.0227  Tc 0.0232  Tw (         3.2.2.5. Reglas asociadas a las entidades de tipo pared.) TjT* -0.0225  Tc 0.017  Tw (         3.2.2.6. Reglas asociadas al combate.) TjT* -0.0245  Tc 0.023  Tw (         3.2.2.7. Reglas asociadas a las distancias.) TjT* -0.0214  Tc 0.0153  Tw (         3.2.2.8. Reglas asociadas al controlador de juego.) TjT* -0.025  Tc 0.0406  Tw (      3.2.3. Requisitos sobre la representaci\363n del universo de juego.) TjT* -0.0241  Tc 0.0186  Tw (         3.2.3.1. C\341mara y actor principal.) TjT* -0.016  Tc -0.0026  Tw (         3.2.3.2. Dibujado de celdas y ) Tj146.88 0  TD -0.0268  Tc 0  Tw (tiles.) Tj-146.88 -9.72  TD -0.0246  Tc 0.0346  Tw (      3.2.4. Requisitos sobre la accesibilidad y posicionamiento de las entidades.) Tj0 -9.72  TD -0.0226  Tc 0.0125  Tw (      3.2.5. Requisitos sobre el sistema de combate.) TjT* -0.0286  Tc 0.0285  Tw (         3.2.5.1. Alineaci\363n de combate.) TjT* -0.0234  Tc 0.0179  Tw (         3.2.5.2. Inicializaci\363n de los combates.) TjT* -0.0276  Tc 0.0346  Tw (         3.2.5.3. Establecimiento de turnos de combate.) TjT* -0.0178  Tc -0.0023  Tw (         3.2.5.4. Finalizaci\363n del combate.) TjT* -0.0237  Tc 0.0136  Tw (         3.2.5.5. Acciones posibles durante el combate.) TjT* -0.0232  Tc 0.0217  Tw (      3.2.6. Requisitos sobre el sistema de iluminaci\363n y sombras.) TjT* -0.028  Tc 0.041  Tw (      3.2.7. Requisitos sobre la creaci\363n de escenas autom\341ticas.) TjT* -0.0263  Tc 0.0362  Tw (      3.2.8. Requisitos sobre el sistema para la creaci\363n de presentaciones.) TjT* -0.0251  Tc 0.0288  Tw (      3.2.9. Requisitos para la creaci\363n de efectos especiales.) TjT* -0.0277  Tc 0.0519  Tw (      3.2.10. Requisitos sobre la interfaz de control en juego.) Tj0 -9.84  TD -0.024  Tc 0.0278  Tw (         3.2.10.1. Control del  jugador.) Tj0 -9.72  TD -0.025  Tc 0.0149  Tw (         3.2.10.2. Ventanas y componentes.) TjT* -0.0134  Tc -0.0105  Tw (         3.2.10.3. Interfaz principal de juego.) TjT* -0.0244  Tc 0.0229  Tw (         3.2.10.4. Trabajo con las entidades contenedoras.) TjT* -0.0121  Tc -0.0151  Tw (         3.2.10.5. Inventario y ficha del jugador.) TjT* -0.0204  Tc 0.0063  Tw (         3.2.10.6. Interfaz asociado al sistema de conversaci\363n.) TjT* -0.0204  Tc 0.0139  Tw (         3.2.10.7. Interfaz de uso de un \355tem sobre entidad.) TjT* -0.0178  Tc 0.0077  Tw (         3.2.10.8. Cuadros de di\341logo.) TjT* -0.0279  Tc 0.0496  Tw (      3.2.11. Requisitos del lenguaje script para la implementar la l\363gica de juego.) TjT* -0.0235  Tc 0.0335  Tw (      3.2.12. Requisitos del lenguaje sentencial para la configuraci\363n y dise\361o.) TjT* -0.0277  Tc 0.0326  Tw (      3.2.13. Requisitos sobre el uso de un sistema de ficheros empaquetados.) TjT* -0.0237  Tc 0.0222  Tw (      3.2.14. Requisitos sobre los estados de Crisol como aplicaci\363n.) Tj0 -21.36  TD /F2 9.96  Tf0.0178  Tc -0.0641  Tw (4. Dise\361o.) TjETendstream
+endobj
+15 0 obj
+6202
+endobj
+4 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F2 10 0 R 
+/F3 12 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 14 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 18 0 R
+>>
+stream
+BT505.2 798.36  TD0 0 0 rg /F0 9  Tf0.018  Tc 0  Tw (ii) Tj-420.12 -36.36  TD /F3 9  Tf0.0106  Tc -0.0586  Tw (   4.1. La librer\355a DX7Wrapper para el trabajo con las DirectX.) Tj0 -9.96  TD /F3 8.04  Tf-0.0181  Tc 0.0147  Tw (      4.1.1. La clase ) Tj78.72 0  TD -0.0012  Tc 0  Tw (DXWrapper.) Tj-78.72 -9.72  TD -0.0227  Tc 0.0126  Tw (      4.1.2. Clases para el trabajo con ) Tj151.44 0  TD -0.0173  Tc 0  Tw (DirectDraw.) Tj-151.44 -9.72  TD -0.0317  Tc 0.027  Tw (        4.1.2.1. La clase ) Tj92.28 0  TD 0.0124  Tc 0  Tw (DXDraw.) Tj-92.28 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.1.2.2. La clase ) Tj95.16 0  TD -0.0279  Tc 0  Tw (DXDDSurface.) Tj-95.16 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.1.2.3. La clase ) Tj95.16 0  TD -0.0227  Tc 0  Tw (DXDDSurfaceScreen.) Tj-95.16 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.1.2.4. La clase ) Tj95.16 0  TD -0.0194  Tc 0  Tw (DXDDSurfaceBack.) Tj-95.16 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.1.2.5. La clase ) Tj95.16 0  TD -0.0253  Tc 0  Tw (DXDDSurfaceTexture.) Tj-95.16 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.1.2.6. La clase ) Tj95.16 0  TD -0.0076  Tc 0  Tw (DXDDClipper.) Tj-95.16 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.1.2.7. La clase ) Tj95.16 0  TD -0.0294  Tc 0  Tw (DXDDPalette.) Tj-95.16 -9.72  TD -0.0189  Tc 0.0088  Tw (      4.1.3. Clases para el trabajo con Direct3D.) Tj0 -9.72  TD -0.0104  Tc -0.0097  Tw (         4.1.3.1. La clase DXD3D.) TjT* -0.0176  Tc -0.0025  Tw (         4.1.3.2. La clase DXD3Dddevice.) TjT* -0.0143  Tc -0.0058  Tw (         4.1.3.3. La clase DXD3DQuad.) TjT* -0.0227  Tc 0.0126  Tw (      4.1.4. Clases para el trabajo con ) Tj151.44 0  TD -0.0231  Tc 0  Tw (DirectSound.) Tj-151.44 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.1.4.1. La clase ) Tj95.16 0  TD 0  Tc 0  Tw (DXSound.) Tj-95.16 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.1.4.2. La clase ) Tj95.16 0  TD -0.0122  Tc 0  Tw (DXDSWAVBuffer.) Tj-95.16 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.1.4.3. La clase ) Tj95.16 0  TD -0.013  Tc 0  Tw (DXDSWAVSound.) Tj-95.16 -9.72  TD -0.0227  Tc 0.0126  Tw (      4.1.5. Clases para el trabajo con ) Tj151.44 0  TD -0.0331  Tc 0  Tw (DirectMusic.) Tj-151.44 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.1.5.1. La clase ) Tj95.16 0  TD -0.0179  Tc 0  Tw (DXDMManager.) Tj-95.16 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.1.5.2. La clase ) Tj95.16 0  TD -0.0251  Tc 0  Tw (DXDMSegment.) Tj-95.16 -9.72  TD -0.0227  Tc 0.0126  Tw (      4.1.6. Clases para el trabajo con ) Tj151.44 0  TD -0.0342  Tc 0  Tw (DirectInput.) Tj-151.44 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.1.6.1. La clase ) Tj95.16 0  TD -0.0316  Tc 0  Tw (DXInput.) Tj-95.16 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.1.6.2. La clase ) Tj95.16 0  TD -0.0264  Tc 0  Tw (DXDIMouse.) Tj-95.16 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.1.6.3. La clase ) Tj95.16 0  TD -0.0172  Tc 0  Tw (DXDIKeyboard.) Tj-95.16 -10.68  TD /F3 9  Tf0.0143  Tc -0.0623  Tw (   4.2. Dise\361o de las clases y m\363dulos de prop\363sito general.) Tj0 -9.96  TD /F3 8.04  Tf-0.024  Tc 0.0259  Tw (      4.2.1. Especificaciones de definiciones generales.) Tj0 -9.72  TD -0.0215  Tc 0.0114  Tw (      4.2.2. M\363dulo para el control de asertos.) TjT* -0.0243  Tc 0.0292  Tw (      4.2.3. Clase ) Tj68.04 0  TD -0.018  Tc 0  Tw (CMemoryPool.) Tj-68.04 -9.72  TD -0.0243  Tc 0.0292  Tw (      4.2.4. Clase ) Tj68.04 0  TD -0.021  Tc 0  Tw (CCPAKFile.) Tj-68.04 -9.72  TD -0.0196  Tc 0.0162  Tw (      4.2.5. Clases para \223) Tj96.72 0  TD -0.026  Tc 0.0459  Tw (parsear\224 los archivos de datos.) Tj-96.72 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.2.5.1. La clase ) Tj95.16 0  TD -0.0105  Tc 0  Tw (CFileParser.) Tj-95.16 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.2.5.2. La clase ) Tj95.16 0  TD -0.0096  Tc 0  Tw (CCBTParser.) Tj-95.16 -9.72  TD -0.0266  Tc 0.0165  Tw (         4.2.5.3. Las clases ) Tj103.56 0  TD -0.025  Tc -0.0451  Tw (CCBTToolParser y ) Tj74.16 0  TD -0.0147  Tc 0  Tw (CCBTEngineParser.) Tj-177.72 -9.72  TD -0.0181  Tc 0.0147  Tw (      4.2.6. La clase ) Tj78.72 0  TD -0.0202  Tc 0.0102  Tw (CRulesDataBase para el mantenimiento de las reglas del juego.) Tj-78.72 -10.8  TD /F3 9  Tf0.0131  Tc -0.0611  Tw (   4.3. Dise\361o de CrisolEngine.) Tj0 -9.96  TD /F3 8.04  Tf-0.0257  Tc 0.0295  Tw (      4.3.1. Las clases y funciones de apoyo p\372blicas.) Tj0 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.3.1.1. La clase ) Tj95.16 0  TD -0.0241  Tc -0.0459  Tw (CLogger como ) Tj60.36 0  TD -0.0171  Tc -0.0529  Tw (logger del sistema.) Tj-155.52 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.3.1.2. La clase ) Tj95.16 0  TD -0.0266  Tc 0.0465  Tw (CTimer como temporizador del sistema.) Tj-95.16 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.3.1.3. La clase ) Tj95.16 0  TD -0.0296  Tc 0.0795  Tw (CMathUtil para el trabajo con utilidades matem\341ticas.) Tj-95.16 -9.72  TD -0.0296  Tc 0.0435  Tw (      4.3.2. El subsistema de ficheros.) Tj0 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.3.2.1. La clase ) Tj95.16 0  TD -0.0225  Tc 0  Tw (CFileSystem.) Tj-95.16 -9.72  TD -0.0227  Tc 0.0227  Tw (      4.3.3. La base de datos del juego.) Tj0 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.3.3.1. La clase ) Tj95.16 0  TD -0.0268  Tc 0  Tw (CGameDataBase.) Tj-95.16 -9.72  TD -0.032  Tc 0.046  Tw (      4.3.4. El manager de comandos.) Tj0 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.3.4.1. La clase ) Tj95.16 0  TD -0.0157  Tc 0  Tw (CCommandManager.) Tj-95.16 -9.72  TD -0.0288  Tc 0.0087  Tw (         4.3.4.2. La interfaz ) Tj105.48 0  TD -0.0298  Tc 0  Tw (iCCommandClient.) Tj-105.48 -9.72  TD -0.025  Tc 0.0269  Tw (      4.3.5. El cargador de gr\341ficos.) Tj0 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.3.5.1. La clase ) Tj95.16 0  TD -0.0153  Tc 0  Tw (CGraphicLoader.) Tj-95.16 -9.72  TD -0.0191  Tc 0.009  Tw (      4.3.6. El gestor de recursos.) Tj0 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.3.6.1. La clase ) Tj95.16 0  TD -0.0127  Tc 0  Tw (CResourceManager.) Tj-95.16 -9.72  TD -0.0338  Tc 0.0477  Tw (      4.3.7. El manager de alarmas.) Tj0 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.3.7.1. La clase ) Tj95.16 0  TD -0.0181  Tc 0  Tw (CAlarmManager.) Tj-95.16 -9.72  TD -0.0288  Tc 0.0087  Tw (         4.3.7.2. La interfaz ) Tj105.48 0  TD -0.0256  Tc 0  Tw (iCAlarmClient.) Tj-105.48 -9.72  TD -0.0242  Tc 0.0341  Tw (      4.3.8. El subsistema gr\341fico.) Tj0 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.3.8.1. La clase ) Tj95.16 0  TD -0.0183  Tc 0  Tw (CGraphicSystem.) Tj-95.16 -9.72  TD -0.019  Tc -0.0142  Tw (         4.3.8.2. Objetos dibujables en ) Tj150.36 0  TD -0.0263  Tc 0  Tw (CGraphicSystem.) Tj-150.36 -9.72  TD -0.0279  Tc 0.0139  Tw (            4.3.8.2.1. La clase ) Tj111.6 0  TD -0.0215  Tc 0  Tw (CDrawable.) Tj-111.6 -9.72  TD -0.0279  Tc 0.0139  Tw (            4.3.8.2.2. La clase ) Tj111.6 0  TD -0.0265  Tc 0  Tw (CCharFont.) Tj-111.6 -9.72  TD -0.0279  Tc 0.0139  Tw (            4.3.8.2.3. La clase ) Tj111.6 0  TD -0.0256  Tc 0  Tw (CImage.) Tj-111.6 -9.72  TD -0.0279  Tc 0.0139  Tw (            4.3.8.2.4. La clase ) Tj111.6 0  TD -0.0011  Tc 0  Tw (CBitmap.) Tj-111.6 -9.72  TD -0.0279  Tc 0.0139  Tw (            4.3.8.3.5. La clase ) Tj111.6 0  TD -0.0276  Tc 0.0375  Tw (CSprite y el control de la animaci\363n.) Tj-111.6 -9.72  TD -0.0279  Tc 0.0139  Tw (            4.3.8.2.6. La clase ) Tj111.6 0  TD -0.0276  Tc 0  Tw (CQuadForm.) Tj-111.6 -9.72  TD -0.0279  Tc 0.0139  Tw (            4.3.8.2.7. La clase ) Tj111.6 0  TD -0.0131  Tc 0  Tw (CShadow.) Tj-111.6 -9.72  TD -0.0279  Tc 0.0139  Tw (            4.3.8.2.8. La clase ) Tj111.6 0  TD -0.0056  Tc 0  Tw (CFXBack.) Tj-111.6 -9.72  TD -0.0327  Tc 0.0466  Tw (      4.3.9. El manager de entrada.) Tj0 -9.72  TD -0.0157  Tc 0.0056  Tw (         4.3.9.1. La clase ) Tj95.16 0  TD -0.0174  Tc 0  Tw (CInputManager.) Tj-95.16 -9.72  TD -0.0288  Tc 0.0087  Tw (         4.3.9.2. La interfaz ) Tj105.48 0  TD -0.0249  Tc 0  Tw (iCInputClient.) Tj-105.48 -9.72  TD -0.0254  Tc 0.0292  Tw (      4.3.10. El subsistema para la gesti\363n de fuentes.) Tj0 -9.72  TD -0.0268  Tc 0.0267  Tw (         4.3.10.1. La clase ) Tj100.2 0  TD -0.0208  Tc 0  Tw (CFontSystem.) Tj-100.2 -9.72  TD -0.0268  Tc 0.0267  Tw (         4.3.10.2. La clase ) Tj100.2 0  TD -0.0231  Tc 0  Tw (CFont.) TjETendstream
+endobj
+18 0 obj
+8446
+endobj
+16 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F3 12 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 17 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 21 0 R
+>>
+stream
+BT502.68 798.36  TD0 0 0 rg /F0 9  Tf0.018  Tc 0  Tw (iii) Tj-417.6 -35.28  TD /F3 8.04  Tf-0.0238  Tc 0.0275  Tw (      4.3.11. El subsistema para la gesti\363n del audio.) Tj0 -9.72  TD -0.0268  Tc 0.0267  Tw (         4.3.11.1. La clase ) Tj100.2 0  TD -0.0192  Tc 0  Tw (CAudioSystem.) Tj-100.2 -9.72  TD -0.0214  Tc 0.0113  Tw (      4.3.12. El gestor de scripts.) Tj0 -9.84  TD -0.0268  Tc 0.0267  Tw (         4.3.12.1. La clase ) Tj100.2 0  TD -0.0236  Tc 0  Tw (CVirtualMachine.) Tj-100.2 -9.72  TD -0.0268  Tc 0.0267  Tw (         4.3.12.2. La clase ) Tj100.2 0  TD -0.0149  Tc 0  Tw (CScript.) Tj-100.2 -9.72  TD -0.0248  Tc 0.0148  Tw (         4.3.12.3. La interfaz ) Tj110.52 0  TD -0.019  Tc 0  Tw (CScriptStackValue.) Tj-110.52 -9.72  TD -0.0248  Tc 0.0148  Tw (         4.3.12.4. La interfaz ) Tj110.64 0  TD -0.0286  Tc 0  Tw (iCScriptClient.) Tj-110.64 -9.72  TD -0.0246  Tc 0.0317  Tw (         4.3.12.5. Las instrucciones de c\363digo intermedio.) Tj0 -9.72  TD -0.0238  Tc 0.0257  Tw (      4.3.13. El subsistema para la gesti\363n del universo de juego.) TjT* -0.0268  Tc 0.0267  Tw (         4.3.13.1. La clase ) Tj100.2 0  TD 0.0035  Tc 0  Tw (CWorld.) Tj-100.2 -9.72  TD -0.0173  Tc 0.0018  Tw (         4.3.13.2. Las entidades.) Tj0 -9.72  TD -0.0305  Tc 0.0324  Tw (            4.3.13.2.1. La clase ) Tj116.64 0  TD -0.0109  Tc 0  Tw (CEntity.) Tj-116.64 -9.72  TD -0.0305  Tc 0.0324  Tw (            4.3.13.2.2. La clase ) Tj116.64 0  TD -0.0126  Tc 0  Tw (CWorldEntity.) Tj-116.64 -9.72  TD -0.0305  Tc 0.0324  Tw (            4.3.13.2.3. La clase ) Tj116.64 0  TD 0  Tc 0  Tw (CFloor.) Tj-116.64 -9.72  TD -0.0305  Tc 0.0324  Tw (            4.3.13.2.4. La clase ) Tj116.64 0  TD 0.0072  Tc 0  Tw (CRoof.) Tj-116.64 -9.72  TD -0.0305  Tc 0.0324  Tw (            4.3.13.2.5. La clase ) Tj116.64 0  TD -0.028  Tc 0  Tw (CWall.) Tj-116.64 -9.72  TD -0.0305  Tc 0.0324  Tw (            4.3.13.2.6. La clase ) Tj116.64 0  TD -0.0176  Tc 0  Tw (CItem.) Tj-116.64 -9.72  TD -0.0305  Tc 0.0324  Tw (            4.3.13.2.7. La clase ) Tj116.64 0  TD -0.0202  Tc 0  Tw (CSceneObj.) Tj-116.64 -9.72  TD -0.0305  Tc 0.0324  Tw (            4.3.13.2.8. La clase ) Tj116.64 0  TD -0.018  Tc 0  Tw (CCriature.) Tj-116.64 -9.72  TD -0.0305  Tc 0.0324  Tw (            4.3.13.2.9. La clase ) Tj116.64 0  TD 0.0092  Tc 0  Tw (CPlayer.) Tj-116.64 -9.72  TD -0.0268  Tc 0.0267  Tw (         4.3.13.3. La clase ) Tj100.2 0  TD -0.0158  Tc 0  Tw (CArea.) Tj-100.2 -9.72  TD -0.0233  Tc 0.0232  Tw (         4.3.13.4. El motor isom\351trico.) Tj0 -9.72  TD -0.0305  Tc 0.0324  Tw (            4.3.13.4.1. La clase ) Tj116.64 0  TD -0.014  Tc 0  Tw (CisoEngine.) Tj-116.64 -9.72  TD -0.0305  Tc 0.0324  Tw (            4.3.13.4.2. La clase ) Tj116.64 0  TD -0.0021  Tc 0  Tw (CPathFinder.) Tj-116.64 -9.72  TD -0.0305  Tc 0.0324  Tw (            4.3.13.4.3. La clase ) Tj116.64 0  TD -0.0326  Tc 0  Tw (CPath.) Tj-116.64 -9.72  TD -0.0147  Tc 0.0046  Tw (         4.3.13.5. Clases de apoyo.) Tj0 -9.72  TD -0.0203  Tc 0.0142  Tw (            4.3.13.5.1. Las clases ) Tj125.16 0  TD -0.025  Tc 0.015  Tw (CitemContainer y ) Tj72.72 0  TD -0.0304  Tc 0  Tw (CItemContainerIt.) Tj-197.88 -9.72  TD -0.022  Tc 0.0159  Tw (            4.3.13.5.2. Las clase ) Tj120.96 0  TD -0.0315  Tc 0  Tw (CEquipmentSlot.) Tj-120.96 -9.72  TD -0.0305  Tc 0.0324  Tw (            4.3.13.5.3. La clase ) Tj116.64 0  TD -0.0056  Tc 0  Tw (CCellIterator.) Tj-116.64 -9.72  TD -0.0282  Tc 0.0276  Tw (            4.3.13.5.4. Iteraci\363n entre las entidades de un \341rea.) Tj0 -9.72  TD -0.0246  Tc 0.0265  Tw (      4.3.14. El manager de interfaz.) TjT* -0.0268  Tc 0.0267  Tw (         4.3.14.1. La clase ) Tj100.2 0  TD -0.0104  Tc 0  Tw (CGUIManager.) Tj-100.2 -9.72  TD -0.0299  Tc 0.0337  Tw (         4.3.14.2. Los componentes de interfaz.) Tj0 -9.72  TD -0.0305  Tc 0.0324  Tw (            4.3.14.2.1. La clase ) Tj116.64 0  TD -0.0216  Tc 0  Tw (CGUIComponent.) Tj-116.64 -9.72  TD -0.0266  Tc 0.0299  Tw (            4.3.14.2.2. Trabajo con las im\341genes de fondo.) Tj0 -9.72  TD -0.0274  Tc 0.024  Tw (               4.3.14.2.2.1. La clase ) Tj133.2 0  TD -0.0201  Tc 0  Tw (CGUICBitmap.) Tj-133.2 -9.72  TD -0.0274  Tc 0.024  Tw (               4.3.14.2.2.2. La clase ) Tj133.2 0  TD -0.021  Tc 0  Tw (CGUICAnimBitmap.) Tj-133.2 -9.72  TD -0.0305  Tc 0.0324  Tw (            4.3.14.2.3. La clase ) Tj116.64 0  TD -0.0234  Tc 0  Tw (CGUICButton.) Tj-116.64 -9.72  TD -0.0305  Tc 0.0324  Tw (            4.3.14.2.4. La clase ) Tj116.64 0  TD -0.0096  Tc 0  Tw (CGUICSpriteSelector.) Tj-116.64 -9.72  TD -0.0305  Tc 0.0324  Tw (            4.3.14.2.5. La clase ) Tj116.64 0  TD -0.0138  Tc 0  Tw (CGUICInput.) Tj-116.64 -9.72  TD -0.0305  Tc 0.0324  Tw (            4.3.14.2.6. La clase ) Tj116.64 0  TD -0.0204  Tc 0  Tw (CGUICLineText.) Tj-116.64 -9.72  TD -0.0221  Tc 0.0195  Tw (            4.3.14.2.7. Trabajo con texto complejo.) Tj0 -9.72  TD -0.0274  Tc 0.024  Tw (               4.3.14.2.7.1. La clase ) Tj133.2 0  TD -0.0294  Tc 0  Tw (CGUICJustifyText.) Tj-133.2 -9.72  TD -0.0274  Tc 0.024  Tw (               4.3.14.2.7.2. La clase ) Tj133.2 0  TD -0.0314  Tc 0  Tw (CGUICBlockText.) Tj-133.2 -9.72  TD -0.0274  Tc 0.0173  Tw (               4.3.14.2.7.3. La clase ) Tj133.2 0  TD -0.0299  Tc 0  Tw (CGUICSingleText.) Tj-133.2 -9.72  TD -0.0238  Tc 0.0184  Tw (         4.3.14.3. Las ventanas de interfaz.) Tj0 -9.72  TD -0.0271  Tc 0.021  Tw (            4.3.14.3.1. Clases base utilizadas.) TjT* -0.0274  Tc 0.024  Tw (               4.3.14.3.1.1. La clase ) Tj133.2 0  TD -0.0172  Tc 0  Tw (CGUIWindow.) Tj-133.2 -9.84  TD -0.0241  Tc -0.001  Tw (               4.3.14.3.1.2. ) Tj98.16 0  TD -0.0165  Tc 0  Tw (CGUIWBaseItemSelector.) Tj-98.16 -9.72  TD -0.0241  Tc -0.001  Tw (               4.3.14.3.1.3. ) Tj98.16 0  TD -0.0227  Tc 0  Tw (CGUIWBaseWindowContainer.) Tj-98.16 -9.72  TD -0.0241  Tc -0.001  Tw (               4.3.14.3.1.4. ) Tj98.16 0  TD -0.0194  Tc 0  Tw (CGUIWBaseTextSelector.) Tj-98.16 -9.72  TD -0.0297  Tc 0.0346  Tw (            4.3.14.3.2. Ventanas de interfaces principal.) Tj0 -9.72  TD -0.0274  Tc 0.024  Tw (               4.3.14.3.2.1. La clase ) Tj133.2 0  TD -0.0372  Tc 0  Tw (CGUIWMainMenu.) Tj-133.2 -9.72  TD -0.0274  Tc 0.024  Tw (               4.3.14.3.2.2. La clase ) Tj133.2 0  TD -0.0219  Tc 0  Tw (CGUIWCharacterCreator.) Tj-133.2 -9.72  TD -0.0274  Tc 0.024  Tw (               4.3.14.3.2.3. La clase ) Tj133.2 0  TD -0.0241  Tc 0  Tw (CGUIWGameLoading.) Tj-133.2 -9.72  TD -0.0274  Tc 0.024  Tw (               4.3.14.3.2.4. La clase ) Tj133.2 0  TD -0.0355  Tc 0  Tw (CGUIWGameMenu.) Tj-133.2 -9.72  TD -0.0274  Tc 0.024  Tw (               4.3.14.3.2.5. La clase ) Tj133.2 0  TD -0.0246  Tc 0  Tw (CGUIWMainInterfaz.) Tj-133.2 -9.72  TD -0.0274  Tc 0.024  Tw (               4.3.14.3.2.6. La clase ) Tj133.2 0  TD -0.0258  Tc 0  Tw (CGUIWEntityInteract.) Tj-133.2 -9.72  TD -0.0274  Tc 0.0173  Tw (               4.3.14.3.2.7. La clase ) Tj133.2 0  TD -0.0257  Tc 0  Tw (CGUIWItemSelectToUse.) Tj-133.2 -9.72  TD -0.0274  Tc 0.024  Tw (               4.3.14.3.2.8. La clase ) Tj133.2 0  TD -0.0236  Tc 0  Tw (CGUIWPlayerProfile.) Tj-133.2 -9.72  TD -0.0274  Tc 0.024  Tw (               4.3.14.3.2.9. La clase ) Tj133.2 0  TD -0.0176  Tc 0  Tw (CGUIWConversator.) Tj-133.2 -9.72  TD -0.0296  Tc 0.0195  Tw (               4.3.14.3.2.10. La clase ) Tj138.24 0  TD -0.0262  Tc 0  Tw (CGUIWCombat.) Tj-138.24 -9.72  TD -0.0256  Tc 0.021  Tw (               4.3.14.3.2.11. El intercambio de \355tems entre dos contenedores.) Tj0 -9.72  TD -0.027  Tc 0.0141  Tw (                  4.3.14.3.2.11.1. La clase ) Tj154.68 0  TD -0.02  Tc 0  Tw (CGUIWPlayerToEntity.) Tj-154.68 -9.72  TD -0.027  Tc 0.0141  Tw (                  4.3.14.3.2.11.2. La clase ) Tj154.68 0  TD -0.014  Tc 0  Tw (CGUIWEntityToPlayer.) Tj-154.68 -9.72  TD -0.0203  Tc 0.0017  Tw (               4.3.14.3.2.12. Interfaces para guardar y cargar partidas.) Tj0 -9.72  TD -0.027  Tc 0.0141  Tw (                  4.3.14.3.2.12.1. La clase ) Tj154.68 0  TD -0.0203  Tc 0  Tw (CGUIWBaseSaveFileManager.) Tj-154.68 -9.72  TD -0.027  Tc 0.0141  Tw (                  4.3.14.3.2.12.2. La clase ) Tj154.68 0  TD -0.019  Tc 0  Tw (CGUIWLoaderSavedFileManager.) Tj-154.68 -9.72  TD -0.027  Tc 0.0141  Tw (                  4.3.14.3.2.12.3. La clase ) Tj154.68 0  TD -0.0187  Tc 0  Tw (CGUIWSaverSavedFileManager.) Tj-154.68 -9.72  TD -0.0296  Tc 0.0195  Tw (               4.3.14.3.2.13. La clase ) Tj138.24 0  TD -0.0286  Tc 0  Tw (CGUIWPresentation.) Tj-138.24 -9.72  TD -0.0192  Tc 0  Tw (            4.3.14.3.3. Interfaces secundarios.) Tj0 -9.72  TD -0.0274  Tc 0.024  Tw (               4.3.14.3.3.1. La clase ) Tj133.2 0  TD -0.0218  Tc 0  Tw (CGUIWTextReader.) TjETendstream
+endobj
+21 0 obj
+8922
+endobj
+19 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F3 12 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 20 0 R
+>>
+endobj
+23 0 obj
+<<
+/Length 24 0 R
+>>
+stream
+BT503.28 798.36  TD0 0 0 rg /F0 9  Tf0.039  Tc 0  Tw (iv) Tj-418.2 -35.28  TD /F3 8.04  Tf-0.0274  Tc 0.024  Tw (               4.3.14.3.3.2. La clase ) Tj133.2 0  TD -0.0178  Tc 0  Tw (CGUIWTextOptionsSelector.) Tj-133.2 -9.72  TD -0.0223  Tc 0.0122  Tw (               4.3.14.3.3.3. Cuadros de di\341logos.) Tj0 -9.72  TD -0.0249  Tc 0.0177  Tw (                  4.3.14.3.3.3.1. La clase ) Tj149.64 0  TD -0.0164  Tc 0  Tw (CGUIWDialog.) Tj-149.64 -9.84  TD -0.0249  Tc 0.0177  Tw (                  4.3.14.3.3.3.2. La clase ) Tj149.64 0  TD -0.0205  Tc 0  Tw (CGUIWAdviceDialog.) Tj-149.64 -9.72  TD -0.0249  Tc 0.0177  Tw (                  4.3.14.3.3.3.3. La clase ) Tj149.64 0  TD -0.0207  Tc 0  Tw (CGUIWQuestionDialog.) Tj-149.64 -9.72  TD -0.0269  Tc 0.0288  Tw (      4.3.15. El subsistema de combate.) Tj0 -9.72  TD -0.0268  Tc 0.0267  Tw (         4.3.15.1. La clase ) Tj100.2 0  TD -0.0193  Tc 0  Tw (CcombatSystem.) Tj-100.2 -9.72  TD -0.028  Tc 0.0299  Tw (      4.3.16. El manager de GFX.) Tj0 -9.72  TD -0.0268  Tc 0.0267  Tw (         4.3.16.1. La clase ) Tj100.2 0  TD -0.0121  Tc 0  Tw (CGFXManager.) Tj-100.2 -9.72  TD -0.0232  Tc 0.0132  Tw (         4.3.16.2. La clase CGFX.) Tj0 -10.68  TD /F3 9  Tf0.016  Tc -0.064  Tw (   4.4. Dise\361o de CSCompiler.) Tj0 -9.96  TD /F3 8.04  Tf-0.0212  Tc 0.0231  Tw (      4.4.1. Los m\363dulos de CSCompiler.) Tj0 -9.72  TD -0.0173  Tc 0.0026  Tw (         4.4.1.1. Analizador l\351xico y sint\341ctico.) TjT* -0.0197  Tc 0.0056  Tw (         4.4.1.2. Preparaci\363n del AST; etapa de \223) Tj189 0  TD -0.0069  Tc 0  Tw (Weeding\224.) Tj-189 -9.72  TD -0.0221  Tc 0.0121  Tw (         4.4.1.3. M\363dulo para la construcci\363n de la tabla de s\355mbolos.) Tj0 -9.72  TD -0.0262  Tc 0.0281  Tw (         4.4.1.4. M\363dulo para el chequeo de tipos.) TjT* -0.026  Tc 0.0265  Tw (         4.4.1.5. M\363dulo para el c\341lculo de recursos y etiquetas.) TjT* -0.0213  Tc 0.0152  Tw (         4.4.1.6. M\363dulo de generaci\363n de c\363digo intermedio.) TjT* -0.0233  Tc 0.0238  Tw (         4.4.1.7. M\363dulo de emisi\363n y ensamblaje de c\363digo intermedio.) TjT* -0.019  Tc 0.0023  Tw (      4.4.2. Gram\341tica de CrisolScript.) Tj0 -10.68  TD /F3 9  Tf0.0119  Tc -0.0599  Tw (   4.5. Dise\361o de CrisolBuilder.) Tj0 -9.96  TD /F3 8.04  Tf-0.0181  Tc 0.0147  Tw (      4.5.1. La clase ) Tj78.72 0  TD -0.0095  Tc 0  Tw (CCrisolBuilder.) Tj-78.72 -10.68  TD /F3 9  Tf0.0199  Tc -0.0679  Tw (   4.6. Dise\361o de CPAKTool.) Tj0 -9.96  TD /F3 8.04  Tf-0.0181  Tc 0.0147  Tw (      4.6.1. La clase ) Tj78.72 0  TD -0.0186  Tc 0  Tw (CCPAKTool.) Tj-78.72 -21.48  TD /F2 9.96  Tf0.0281  Tc -0.0744  Tw (5. Organizaci\363n de la implementaci\363n.) Tj0 -11.16  TD /F3 9  Tf0.0046  Tc -0.0376  Tw (   5.1. Notaciones de programaci\363n generales utilizadas.) Tj0 -9.96  TD /F3 8.04  Tf-0.026  Tc 0.039  Tw (      5.1.1. Uso de una notaci\363n unificada para programar.) Tj0 -10.68  TD /F3 9  Tf0.0138  Tc -0.0618  Tw (   5.2. Organizaci\363n de los proyectos.) Tj0 -9.96  TD /F3 8.04  Tf-0.0178  Tc 0.0144  Tw (      5.2.1. El proyecto DX7Wrapper.) Tj0 -9.72  TD -0.0247  Tc 0.0079  Tw (      5.2.2. El proyecto ) Tj91.56 0  TD -0.0277  Tc 0  Tw (CRISOLEngine.) Tj-91.56 -9.72  TD -0.0247  Tc 0.0079  Tw (      5.2.3. El proyecto ) Tj91.56 0  TD -0.0144  Tc 0  Tw (CrisolScriptCompiler.) Tj-91.56 -9.72  TD -0.0189  Tc 0.0155  Tw (      5.2.4. El proyecto CrisolBuilder.) Tj0 -9.72  TD -0.0244  Tc 0.0209  Tw (      5.2.5. El proyecto CPAKTool.) Tj0 -10.68  TD /F3 9  Tf0.0033  Tc -0.017  Tw (   5.3. Requerimientos hardware y software.) Tj0 -21.72  TD /F2 9.96  Tf0.0164  Tc -0.0627  Tw (6. Bibliograf\355a.) Tj0 -24.24  TD 0.009  Tc 0  Tw (8.Anexos.) Tj0 -11.16  TD /F3 9  Tf0.0109  Tc -0.0589  Tw (   A. T\351rminos m\341s com\372nmente utilizados.) Tj0 -10.92  TD 0.0066  Tc -0.0246  Tw (   B. Manual de uso de CrisolBuilder.) Tj0 -11.04  TD 0.0108  Tc -0.0468  Tw (   C. Manual de uso de CrisolScript y CSCompiler.) Tj0 -10.92  TD 0.0109  Tc -0.0589  Tw (   D. Relaci\363n de los eventos existentes en CrisolScript.) TjT* 0.0105  Tc -0.0476  Tw (   E. Relaci\363n de las constantes globales internas en CrisolScript.) TjT* 0.0159  Tc -0.0639  Tw (   F. Relaci\363n de m\351todos y funciones de CrisolScript.) TjT* 0.0191  Tc -0.0671  Tw (   G. Manual de uso de CPAKTool.) TjT* 0.012  Tc -0.0508  Tw (   H. Manual de uso de Crisol en la ejecuci\363n de juegos.) TjT* 0.0087  Tc -0.0417  Tw (   I. Formato de los archivos binarios.) TjETendstream
+endobj
+24 0 obj
+4579
+endobj
+22 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F2 10 0 R 
+/F3 12 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 23 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F0
+/BaseFont /TimesNewRoman
+/FirstChar 31
+/LastChar 255
+/Widths [ 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 
+278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 
+444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 
+722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 
+500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 
+500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 
+778 500 778 333 500 444 1000 500 500 333 1000 556 333 889 778 778 
+778 778 333 333 444 444 350 500 1000 333 980 389 333 722 778 778 
+722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 
+500 400 549 300 300 333 576 453 250 333 300 310 500 750 750 750 
+444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 
+333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 
+500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 
+278 500 500 500 500 500 500 500 549 500 500 500 500 500 500 500 
+500 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 7 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /FontDescriptor
+/FontName /TimesNewRoman
+/Flags 34
+/FontBBox [ -250 -240 1200 893 ]
+/MissingWidth 773
+/StemV 73
+/StemH 73
+/ItalicAngle 0
+/CapHeight 893
+/XHeight 625
+/Ascent 893
+/Descent -240
+/Leading 173
+/MaxWidth 1000
+/AvgWidth 400
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F1
+/BaseFont /Arial,Bold
+/FirstChar 31
+/LastChar 255
+/Widths [ 750 278 333 474 556 556 889 722 238 333 333 389 584 278 333 278 
+278 556 556 556 556 556 556 556 556 556 556 333 333 584 584 584 
+611 975 722 722 722 722 667 611 778 722 278 556 722 611 833 722 
+778 667 778 722 667 611 722 667 944 667 667 611 333 278 333 584 
+556 333 556 611 556 611 556 333 611 611 278 278 556 278 889 611 
+611 611 611 389 556 333 611 556 778 556 556 500 389 280 389 584 
+750 556 750 278 556 500 1000 556 556 333 1000 667 333 667 611 611 
+611 750 278 278 500 500 350 556 1000 333 1000 556 333 556 479 500 
+500 278 333 333 611 556 722 280 556 333 737 667 556 584 333 737 
+611 400 549 333 278 333 576 556 278 333 556 556 556 611 333 385 
+500 722 722 722 722 722 611 722 722 722 667 667 667 667 278 278 
+722 722 722 722 778 778 778 778 584 722 722 722 722 722 667 611 
+611 389 556 556 556 556 278 556 556 556 556 556 556 556 278 278 
+719 611 611 611 611 611 611 611 549 389 611 611 611 611 556 333 
+333 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 9 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Arial,Bold
+/Flags 16416
+/FontBBox [ -250 -220 1236 930 ]
+/MissingWidth 750
+/StemV 153
+/StemH 153
+/ItalicAngle 0
+/CapHeight 930
+/XHeight 651
+/Ascent 930
+/Descent -220
+/Leading 180
+/MaxWidth 1030
+/AvgWidth 480
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F2
+/BaseFont /Verdana,Bold
+/FirstChar 31
+/LastChar 255
+/Widths [ 1000 342 402 587 867 711 1272 862 332 543 543 711 867 361 480 361 
+689 711 711 711 711 711 711 711 711 711 711 402 402 867 867 867 
+617 964 776 762 724 830 683 650 811 837 546 555 771 637 948 847 
+850 733 850 782 710 682 812 764 1128 764 737 692 543 689 543 867 
+711 711 668 699 588 699 664 422 699 712 342 403 671 342 1058 712 
+687 699 699 497 593 456 712 650 979 669 651 597 711 543 711 867 
+1000 711 1000 332 711 587 1049 711 711 711 1777 710 543 710 682 692 
+692 1000 332 332 587 587 711 711 1000 711 964 593 543 593 465 597 
+597 342 711 711 642 711 776 543 711 711 964 710 850 867 480 964 
+692 587 867 711 352 711 721 711 361 711 668 593 850 637 711 522 
+597 782 776 776 776 776 637 724 724 724 683 683 683 683 546 546 
+830 830 847 847 850 850 850 850 867 782 812 812 812 812 737 682 
+713 497 668 668 668 668 342 588 588 588 664 664 664 664 342 342 
+880 699 712 712 687 687 687 687 867 497 712 712 712 712 651 456 
+711 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 11 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Verdana,Bold
+/Flags 16416
+/FontBBox [ -250 -205 2140 1000 ]
+/MissingWidth 1000
+/StemV 181
+/StemH 181
+/ItalicAngle 0
+/CapHeight 1000
+/XHeight 700
+/Ascent 1000
+/Descent -205
+/Leading 205
+/MaxWidth 1783
+/AvgWidth 566
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F3
+/BaseFont /Verdana
+/FirstChar 31
+/LastChar 255
+/Widths [ 1000 352 394 459 818 636 1076 727 269 454 454 636 818 364 454 364 
+454 636 636 636 636 636 636 636 636 636 636 454 454 818 818 818 
+545 1000 684 686 698 771 632 575 775 751 421 455 693 557 843 748 
+787 603 787 695 684 616 732 684 989 685 615 685 454 454 454 818 
+636 636 601 623 521 623 596 352 623 633 274 344 592 274 973 633 
+607 623 623 427 521 394 633 592 818 592 592 525 635 454 635 818 
+1000 636 1000 269 636 459 818 636 636 636 1521 684 454 684 616 685 
+685 1000 269 269 459 459 545 636 1000 636 977 521 454 521 394 525 
+525 352 636 636 562 636 684 454 636 636 1000 684 645 818 454 1000 
+685 542 818 636 284 636 642 636 364 636 601 521 645 557 636 296 
+525 695 684 684 684 684 557 698 698 698 632 632 632 632 421 421 
+771 775 748 748 787 787 787 787 818 695 732 732 732 732 615 616 
+620 427 601 601 601 601 274 521 521 521 596 596 596 596 274 274 
+647 623 633 633 607 607 607 607 818 427 633 633 633 633 592 394 
+636 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 13 0 R
+>>
+endobj
+13 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Verdana
+/Flags 32
+/FontBBox [ -250 -200 1824 1013 ]
+/MissingWidth 1000
+/StemV 92
+/StemH 92
+/ItalicAngle 0
+/CapHeight 1013
+/XHeight 709
+/Ascent 1013
+/Descent -200
+/Leading 213
+/MaxWidth 1520
+/AvgWidth 507
+>>
+endobj
+2 0 obj
+[ /PDF /Text  ]
+endobj
+5 0 obj
+<<
+/Kids [4 0 R 16 0 R 19 0 R 22 0 R ]
+/Count 4
+/Type /Pages
+/MediaBox [ 0 0 595 842 ]
+>>
+endobj
+1 0 obj
+<<
+/Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020>
+/CreationDate (D:20020929114002)
+/Title <FEFF0043007200690073006F006C0045006E00670069006E0065005F0044006F00630075006D0065006E0074006100630069006F006E005F0049006E0064006900630065002E005000440046>
+/Author <FEFF004600650072006E0061006E0064006F00200052006F0064007200ED006700750065007A>
+/Producer (Acrobat PDFWriter 4.0 for Windows)
+>>
+endobj
+3 0 obj
+<<
+/Pages 5 0 R
+/Type /Catalog
+/DefaultGray 25 0 R
+/DefaultRGB  26 0 R
+>>
+endobj
+25 0 obj
+[/CalGray
+<<
+/WhitePoint [0.953 1 1.4127 ]
+/Gamma 0.9475 
+>>
+]
+endobj
+26 0 obj
+[/CalRGB
+<<
+/WhitePoint [0.953 1 1.4127 ]
+/Gamma [0.9475 0.9475 0.9475 ]
+/Matrix [0.3886 0.2089 0.0126 0.323 0.6783 0.0832 0.2527 0.1128 0.7291 ]
+>>
+]
+endobj
+xref
+0 27
+0000000000 65535 f
+0000034893 00000 n
+0000034746 00000 n
+0000035327 00000 n
+0000006308 00000 n
+0000034780 00000 n
+0000029131 00000 n
+0000030251 00000 n
+0000030530 00000 n
+0000031648 00000 n
+0000031929 00000 n
+0000033057 00000 n
+0000033345 00000 n
+0000034468 00000 n
+0000000021 00000 n
+0000006284 00000 n
+0000015009 00000 n
+0000006478 00000 n
+0000014985 00000 n
+0000024162 00000 n
+0000015155 00000 n
+0000024138 00000 n
+0000028972 00000 n
+0000024308 00000 n
+0000028948 00000 n
+0000035424 00000 n
+0000035511 00000 n
+trailer
+<<
+/Size 27
+/Root 3 0 R
+/Info 1 0 R
+/ID [<6c0a8d923ab8625f322fc520b62499db><6c0a8d923ab8625f322fc520b62499db>]
+>>
+startxref
+35687
+%%EOF
